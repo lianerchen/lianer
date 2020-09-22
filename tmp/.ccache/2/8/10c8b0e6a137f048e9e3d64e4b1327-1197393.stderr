@@ -1,0 +1,14 @@
+device/hisilicon/bigfish/external/dhcp/client/clparse.c: In function 'parse_reject_statement':
+device/hisilicon/bigfish/external/dhcp/client/clparse.c:2230:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i=0 ; i < match.mask.len ; i++) {
+                ^
+device/hisilicon/bigfish/external/dhcp/client/clparse.c:2236:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (i == match.mask.len) {
+         ^
+device/hisilicon/bigfish/external/dhcp/client/clparse.c: In function 'parse_allow_deny':
+device/hisilicon/bigfish/external/dhcp/client/clparse.c:2267:24: warning: unused parameter 'oc' [-Wunused-parameter]
+  struct option_cache **oc;
+                        ^
+device/hisilicon/bigfish/external/dhcp/client/clparse.c:2269:6: warning: unused parameter 'flag' [-Wunused-parameter]
+  int flag;
+      ^

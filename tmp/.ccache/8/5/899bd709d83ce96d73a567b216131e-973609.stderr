@@ -1,0 +1,3 @@
+platform/android/frameworks/av/drm/drmserver/DrmManager.cpp:370:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t DrmManager::getAllSupportInfo(
+          ^

@@ -1,0 +1,52 @@
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:37:1: warning: unused parameter 'env' [-Wunused-parameter]
+ android_media_MediaProfiles_native_init(JNIEnv *env)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:48:1: warning: unused parameter 'env' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_num_file_formats(JNIEnv *env, jobject thiz)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:48:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:55:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_file_format(JNIEnv *env, jobject thiz, jint index)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:68:1: warning: unused parameter 'env' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_num_video_encoders(JNIEnv *env, jobject thiz)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:68:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:75:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_video_encoder_cap(JNIEnv *env, jobject thiz, jint index)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:119:1: warning: unused parameter 'env' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_num_audio_encoders(JNIEnv *env, jobject thiz)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:119:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:126:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_audio_encoder_cap(JNIEnv *env, jobject thiz, jint index)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:175:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_camcorder_profile(JNIEnv *env, jobject thiz, jint id, jint quality)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:224:1: warning: unused parameter 'env' [-Wunused-parameter]
+ android_media_MediaProfiles_native_has_camcorder_profile(JNIEnv *env, jobject thiz, jint id, jint quality)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:224:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:236:1: warning: unused parameter 'env' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_num_video_decoders(JNIEnv *env, jobject thiz)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:236:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:243:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_video_decoder_type(JNIEnv *env, jobject thiz, jint index)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:257:1: warning: unused parameter 'env' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_num_audio_decoders(JNIEnv *env, jobject thiz)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:257:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:264:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_audio_decoder_type(JNIEnv *env, jobject thiz, jint index)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:278:1: warning: unused parameter 'env' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_num_image_encoding_quality_levels(JNIEnv *env, jobject thiz, jint cameraId)
+ ^
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:278:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+platform/android/frameworks/base/media/jni/android_media_MediaProfiles.cpp:285:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ android_media_MediaProfiles_native_get_image_encoding_quality_level(JNIEnv *env, jobject thiz, jint cameraId, jint index)
+ ^

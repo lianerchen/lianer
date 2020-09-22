@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/hdcpkey/sample_encryptHdcpKey.c: In function 'CopyFromBufferToFile':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/hdcpkey/sample_encryptHdcpKey.c:87:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if( u32Length != s32Ret)
+                   ^

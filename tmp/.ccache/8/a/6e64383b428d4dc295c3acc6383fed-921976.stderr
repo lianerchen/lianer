@@ -1,0 +1,84 @@
+platform/android/external/svox/pico/lib/picopr.c: In function 'tok_tokenDigitStrToInt':
+platform/android/external/svox/pico/lib/picopr.c:621:69: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_int32 tok_tokenDigitStrToInt (picodata_ProcessingUnit this, pr_subobj_t * pr, picoos_uchar stokenStr[])
+                                                                     ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_initItem':
+platform/android/external/svox/pico/lib/picopr.c:1004:49: warning: unused parameter 'this' [-Wunused-parameter]
+ static void pr_initItem(picodata_ProcessingUnit this, pr_ioItem * item)
+                                                 ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_copyItemContent':
+platform/android/external/svox/pico/lib/picopr.c:1047:57: warning: unused parameter 'this' [-Wunused-parameter]
+ static void pr_copyItemContent (picodata_ProcessingUnit this, pr_ioItem * inItem, pr_ioItem * outItem)
+                                                         ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_appendItem':
+platform/android/external/svox/pico/lib/picopr.c:1087:52: warning: unused parameter 'this' [-Wunused-parameter]
+ static void pr_appendItem (picodata_ProcessingUnit this, pr_ioItemPtr * firstItem, pr_ioItemPtr * lastItem, pr_ioItemPtr item)
+                                                    ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_getNextToken':
+platform/android/external/svox/pico/lib/picopr.c:2262:61: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_bool pr_getNextToken (picodata_ProcessingUnit this, pr_subobj_t * pr)
+                                                             ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_getAltToken':
+platform/android/external/svox/pico/lib/picopr.c:2287:60: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_bool pr_getAltToken (picodata_ProcessingUnit this, pr_subobj_t * pr)
+                                                            ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_findProduction':
+platform/android/external/svox/pico/lib/picopr.c:2326:63: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_bool pr_findProduction (picodata_ProcessingUnit this, pr_subobj_t * pr,
+                                                               ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_getProdContToken':
+platform/android/external/svox/pico/lib/picopr.c:2404:65: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_bool pr_getProdContToken (picodata_ProcessingUnit this, pr_subobj_t * pr)
+                                                                 ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_getTopLevelToken':
+platform/android/external/svox/pico/lib/picopr.c:2429:65: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_bool pr_getTopLevelToken (picodata_ProcessingUnit this, pr_subobj_t * pr, picoos_bool firstprod)
+                                                                 ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_getToken':
+platform/android/external/svox/pico/lib/picopr.c:2457:57: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_bool pr_getToken (picodata_ProcessingUnit this, pr_subobj_t * pr)
+                                                         ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_getNextMultiToken':
+platform/android/external/svox/pico/lib/picopr.c:2480:66: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_bool pr_getNextMultiToken (picodata_ProcessingUnit this, pr_subobj_t * pr)
+                                                                  ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_matchMultiToken':
+platform/android/external/svox/pico/lib/picopr.c:2503:66: warning: unused parameter 'this' [-Wunused-parameter]
+ static pr_MatchState pr_matchMultiToken (picodata_ProcessingUnit this, pr_subobj_t * pr,
+                                                                  ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_matchTokensSpace':
+platform/android/external/svox/pico/lib/picopr.c:2523:67: warning: unused parameter 'this' [-Wunused-parameter]
+ static pr_MatchState pr_matchTokensSpace (picodata_ProcessingUnit this, pr_subobj_t * pr, picoos_int32 cmpres,
+                                                                   ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_matchTokensDigit':
+platform/android/external/svox/pico/lib/picopr.c:2570:67: warning: unused parameter 'this' [-Wunused-parameter]
+ static pr_MatchState pr_matchTokensDigit (picodata_ProcessingUnit this, pr_subobj_t * pr, picoos_int32 cmpres,
+                                                                   ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_matchTokensSeq':
+platform/android/external/svox/pico/lib/picopr.c:2619:65: warning: unused parameter 'this' [-Wunused-parameter]
+ static pr_MatchState pr_matchTokensSeq (picodata_ProcessingUnit this, pr_subobj_t * pr, picoos_int32 cmpres,
+                                                                 ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_matchTokensChar':
+platform/android/external/svox/pico/lib/picopr.c:2662:66: warning: unused parameter 'this' [-Wunused-parameter]
+ static pr_MatchState pr_matchTokensChar (picodata_ProcessingUnit this, pr_subobj_t * pr, picoos_int32 cmpres,
+                                                                  ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_matchTokensLetter':
+platform/android/external/svox/pico/lib/picopr.c:2682:68: warning: unused parameter 'this' [-Wunused-parameter]
+ static pr_MatchState pr_matchTokensLetter (picodata_ProcessingUnit this, pr_subobj_t * pr, picoos_int32 cmpres,
+                                                                    ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_matchTokensBegin':
+platform/android/external/svox/pico/lib/picopr.c:2764:67: warning: unused parameter 'this' [-Wunused-parameter]
+ static pr_MatchState pr_matchTokensBegin (picodata_ProcessingUnit this, pr_subobj_t * pr,
+                                                                   ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_matchTokensEnd':
+platform/android/external/svox/pico/lib/picopr.c:2778:65: warning: unused parameter 'this' [-Wunused-parameter]
+ static pr_MatchState pr_matchTokensEnd (picodata_ProcessingUnit this, pr_subobj_t * pr,
+                                                                 ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'pr_prepareItem':
+platform/android/external/svox/pico/lib/picopr.c:3038:53: warning: unused parameter 'this' [-Wunused-parameter]
+ static void pr_prepareItem (picodata_ProcessingUnit this, pr_subobj_t * pr, pr_ioItemPtr item)
+                                                     ^
+platform/android/external/svox/pico/lib/picopr.c: In function 'prTerminate':
+platform/android/external/svox/pico/lib/picopr.c:3258:60: warning: unused parameter 'this' [-Wunused-parameter]
+ pico_status_t prTerminate(register picodata_ProcessingUnit this)
+                                                            ^

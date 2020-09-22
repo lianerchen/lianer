@@ -1,0 +1,7 @@
+platform/android/external/ipsec-tools/src/racoon/isakmp_newg.c: In function 'isakmp_newgroup_r':
+platform/android/external/ipsec-tools/src/racoon/isakmp_newg.c:70:20: warning: unused parameter 'iph1' [-Wunused-parameter]
+  struct ph1handle *iph1;
+                    ^
+platform/android/external/ipsec-tools/src/racoon/isakmp_newg.c:71:11: warning: unused parameter 'msg' [-Wunused-parameter]
+  vchar_t *msg;
+           ^

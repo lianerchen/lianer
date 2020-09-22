@@ -1,0 +1,30 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_debug.h:22:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_core.c:29:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_core.c:38:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_assembly.h:585:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long Word64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_core.c: In function 'ADECInitInBuf':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_core.c:174:91: warning: unused parameter 'u32AdecChID' [-Wunused-parameter]
+ static HI_S32 ADECInitInBuf(ADEC_STREAM_BUFFER_S* pstInBuf, HI_U32 u32PaddingSize, HI_U32 u32AdecChID)
+                                                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_core.c: In function 'ADEC_GetDelayMs':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_core.c:2261:44: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         s32AvgStreamBps = (((unsigned long long)pstAdecChan->u32TotalAdecInByte) * 1000) / (u32TotalAdecTime); //unit is Bps
+                                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_core.c: In function 'ADEC_GetAnalysisPcmData':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_core.c:3343:37: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (WaveFormPcmTaltalSample >= ((pFrameInfo->u32PcmSamplesPerFrame * WAVEFORM_CALC_DIFFTIME) / 1000))
+                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_core.c:3363:62: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 samples = (pFrameInfo->u32PcmSamplesPerFrame <= (2048 - WaveFormPcmDelayLineSmps))
+                                                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec_core.c:3364:63: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+                           ? pFrameInfo->u32PcmSamplesPerFrame : (2048 - WaveFormPcmDelayLineSmps);
+                                                               ^

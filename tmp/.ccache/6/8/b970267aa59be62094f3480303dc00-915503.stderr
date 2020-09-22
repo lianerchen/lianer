@@ -1,0 +1,15 @@
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-sea.cc:201:1: warning: unused parameter 'plan' [-Wunused-parameter]
+ initial_reordering_consonant_syllable (const hb_ot_shape_plan_t *plan,
+ ^
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-sea.cc:201:1: warning: unused parameter 'face' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-sea.cc: In function 'void insert_dotted_circles(const hb_ot_shape_plan_t*, hb_font_t*, hb_buffer_t*)':
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-sea.cc:297:36: warning: missing initializer for member 'hb_glyph_info_t::mask' [-Wmissing-field-initializers]
+   hb_glyph_info_t dottedcircle = {0};
+                                    ^
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-sea.cc:297:36: warning: missing initializer for member 'hb_glyph_info_t::cluster' [-Wmissing-field-initializers]
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-sea.cc:297:36: warning: missing initializer for member 'hb_glyph_info_t::var1' [-Wmissing-field-initializers]
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-sea.cc:297:36: warning: missing initializer for member 'hb_glyph_info_t::var2' [-Wmissing-field-initializers]
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-sea.cc: At global scope:
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-sea.cc:350:1: warning: unused parameter 'plan' [-Wunused-parameter]
+ final_reordering (const hb_ot_shape_plan_t *plan,
+ ^

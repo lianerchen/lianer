@@ -1,0 +1,208 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'msg_event_create':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:418:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("event id [%d] error", *p_event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:428:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("event id [%d] error", *p_event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:441:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("event id [%d] error", *p_event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:459:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("event id [%d] error", *p_event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'msg_event_destroy':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:476:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("event id is error [%d] ", event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:484:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("event id [%d] error", event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:491:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("event id [%d] error", event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:498:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("event id [%d] error", event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:507:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("destroy event [%d] cond failed", event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'msg_event_wait':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:530:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_CHK_PRINTF((SUCCESS != s32Ret), "event id [%d] error. ", event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:547:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_CHK_PRINTF((SUCCESS != s32Ret), "event id [%d] error", event_id);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:563:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_PRINTF((SUCCESS != s32Ret), "event id [%d] error", event_id);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:582:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_PRINTF((SUCCESS != s32Ret), "event id [%d] error", event_id);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'msg_event_set':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:597:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_PRINTF((SUCCESS != s32Ret), "event id [%d] error", event_id);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:601:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_PRINTF((SUCCESS != s32Ret), "event id [%d] error", event_id);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:604:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_PRINTF((SUCCESS != s32Ret), "event id [%d] error", event_id);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'msg_event_reset':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:618:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_PRINTF((SUCCESS != s32Ret), "event id [%d] error", event_id);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:622:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_PRINTF((SUCCESS != s32Ret), "event id [%d] error", event_id);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'fe_init_ts':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1533:13: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+             HAL_ERROR("call HI_UNF_TUNER_SetTSOUT Tuner %d failed,s32Ret = 0x%x.\n", u32TunerID, s32Ret);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1549:9: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+         HAL_ERROR("call HI_UNF_DMX_GetTSPortAttr port %d failed,s32Ret = 0x%x.\n", pstFeCfgInfo->u32TsPortId, s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1559:9: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+         HAL_ERROR("call HI_UNF_DMX_SetTSPortAttr port %d failed,s32Ret = 0x%x.\n", pstFeCfgInfo->u32TsPortId, s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'fe_init':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1578:9: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+         HAL_ERROR("HI_UNF_TUNER_Open Tuner %d failed,s32Ret = 0x%x \n ", u32TunerID, s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1588:9: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+         HAL_ERROR("HI_UNF_TUNER_SetAttr Tuner %d failed,s32Ret = 0x%x \n ", u32TunerID, s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1601:13: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+             HAL_ERROR("HI_UNF_TUNER_SetTerAttr Tuner %d failed,s32Ret=0x%x\n ", u32TunerID, s32Ret);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1613:13: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+             HAL_ERROR("HI_UNF_TUNER_SetSatAttr Tuner %d failed,s32Ret=0x%x\n", u32TunerID, s32Ret);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'fe_check_scan_param':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1865:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR((FRONTEND_FE_SATELLITE1 != pstDevInfo->enSignalType) && (FRONTEND_FE_SATELLITE2 != pstDevInfo->enSignalType), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1866:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR((!((SAT_C_MIN_KHZ <= pstScanParam->unScanInfo.stSatInfo.u32Freq) && (SAT_C_MAX_KHZ >= pstScanParam->unScanInfo.stSatInfo.u32Freq))
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1868:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR((SAT_SYMBOLRATE_MAX < pstScanParam->unScanInfo.stSatInfo.u32Sym), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1869:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR((FRONTEND_PLR_BUTT <= pstScanParam->unScanInfo.stSatInfo.enPolar), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1878:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR(((FRONTEND_FE_CABLE1 != pstDevInfo->enSignalType) && (FRONTEND_FE_CABLE2 != pstDevInfo->enSignalType)), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1879:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR(((pstScanParam->unScanInfo.stCabInfo.u32Freq < CAB_RF_MIN) || (pstScanParam->unScanInfo.stCabInfo.u32Freq > CAB_RF_MAX)), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1880:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR(((pstScanParam->unScanInfo.stCabInfo.u32Sym < CAB_SYMBOLRATE_MIN) || (pstScanParam->unScanInfo.stCabInfo.u32Sym > CAB_SYMBOLRATE_MAX)), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1881:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR((!((pstScanParam->unScanInfo.stCabInfo.enModulation == FRONTEND_MOD_QAM16)
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1897:17: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+                 FRONTEND_CHECK_RETURN_ERR((FRONTEND_FE_TERRESTRIAL1 != pstScanParam->enFrontendType), ERROR_INVALID_PARAM);
+                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1901:17: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+                 FRONTEND_CHECK_RETURN_ERR((FRONTEND_FE_TERRESTRIAL2 != pstScanParam->enFrontendType), ERROR_INVALID_PARAM);
+                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1905:17: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+                 FRONTEND_CHECK_RETURN_ERR(((FRONTEND_FE_TERRESTRIAL_ALL) != pstDevInfo->enSignalType), ERROR_INVALID_PARAM);
+                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1908:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR(((pstScanParam->unScanInfo.stTerInfo.u32Freq < TER_RF_MIN) || (pstScanParam->unScanInfo.stTerInfo.u32Freq > TER_RF_MAX)), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1909:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR((pstScanParam->unScanInfo.stTerInfo.enBandWidth >= FRONTEND_BANDWIDTH_BUTT), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1918:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR((FRONTEND_FE_DTMB1 != pstDevInfo->enSignalType), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1919:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR(((pstScanParam->unScanInfo.stDtmbInfo.u32Freq < TER_RF_MIN) || (pstScanParam->unScanInfo.stDtmbInfo.u32Freq > TER_RF_MAX)), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1920:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR((pstScanParam->unScanInfo.stDtmbInfo.enBandWidth >= FRONTEND_BANDWIDTH_BUTT), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1928:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR((FRONTEND_FE_ISDBT1 != pstDevInfo->enSignalType), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1929:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR(((pstScanParam->unScanInfo.stTerInfo.u32Freq < ISDBT_RF_MIN) || (pstScanParam->unScanInfo.stTerInfo.u32Freq > ISDBT_RF_MAX)), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:1930:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR((pstScanParam->unScanInfo.stTerInfo.enBandWidth >= FRONTEND_BANDWIDTH_BUTT), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'fe_sat_set_switch':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2130:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+         FRONTEND_CHECK_DOFUNC(fe_sat_switch4port(pstDevInfo, pstConnParam, pstExAntennaParam, enAntennaSetType));
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2135:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+         FRONTEND_CHECK_DOFUNC(fe_sat_switch16port(pstDevInfo, pstExAntennaParam, enAntennaSetType));
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2139:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+             FRONTEND_CHECK_DOFUNC(fe_sat_switch4port(pstDevInfo, pstConnParam, pstExAntennaParam, enAntennaSetType));
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'fe_sat_config_motor':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2310:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+             FRONTEND_CHECK_RETURN_ERR(((stCoordinate->u16MyLatitude > 1800) || (stCoordinate->u16MyLongitude > 3600)), ERROR_INVALID_PARAM);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'fe_sat_set_antenna':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2496:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+             FRONTEND_CHECK_DOFUNC(HI_UNF_TUNER_Switch012V(u32TunerID, (HI_UNF_TUNER_SWITCH_0_12V_E)pstExAntennaParam->enSwitch12V));
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2500:5: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+     FRONTEND_CHECK_DOFUNC(fe_sat_set_switch(pstDevInfo, pstConnParam, pstExAntennaParam, enAntennaSetType));
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2505:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+         FRONTEND_CHECK_DOFUNC(fe_sat_set_motor(pstDevInfo, pstExAntennaParam, enAntennaSetType));
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2515:13: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+             FRONTEND_CHECK_DOFUNC(HI_UNF_TUNER_Switch22K(u32TunerID, (HI_UNF_TUNER_SWITCH_22K_E)(pstExAntennaParam->enSwitch22K)));
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'fe_sat_blindscan':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2562:9: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("HI_UNF_TUNER_BlindScanStart error ret 0x%x", s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'fe_sat_lock':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2580:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+         FRONTEND_CHECK_DOFUNC(fe_sat_set_antenna(pstDevInfo, pstConnParam, &(pstDevInfo->stCurExAntennaInfo), FRONTEND_ANTENNA_SET_RELOCK));
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2585:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+         FRONTEND_CHECK_DOFUNC(fe_sat_set_antenna(pstDevInfo, pstConnParam, pstDevInfo->stScanInfo.unScanInfo.stSatInfo.pstExAntenna, FRONTEND_ANTENNA_SET_FIRST));
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2592:5: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+     HAL_DEBUG(" freq %d  s32Ret %d time used %d bRelock %d \n", pstConnParam->unConnectPara.stSat.u32Freq, s32Ret, s_u32TimeUsed, bRelock);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'fe_ter_lock':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2618:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     HAL_DEBUG(" freq %d  s32Ret 0x%x time used %d \n", pstConnParam->unConnectPara.stTer.u32Freq, s32Ret, s_u32TimeUsed);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'frontend_init':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2870:13: warning: format '%x' expects argument of type 'unsigned int', but argument 6 has type 'S32' [-Wformat=]
+             HAL_ERROR("%s,%d error!! ret(0x%08x)", __func__, __LINE__, s32Ret);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2912:21: warning: format '%d' expects argument of type 'int', but argument 5 has type 'S32' [-Wformat=]
+                     FRONTEND_CHECK_DOFUNC(fe_init(pstDevInfo, &s_pstFeCfgInfo[i], FRONTEND_INIT_FIRST_TIME));
+                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'frontend_open_device':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:2936:5: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+     FRONTEND_CHECK_RETURN_ERR((pOpenParams->u32FrontendIndex >= s_u32FeNum), ERROR_INVALID_PARAM);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'frontend_get_handle':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:3014:5: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+     FRONTEND_CHECK_RETURN_ERR((u32FrontendIndex >= s_u32FeNum), ERROR_INVALID_PARAM);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'frontend_start_scan':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:3383:17: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+                 HAL_DEBUG("Lock fail UNf ret 0x%x", s32Ret);
+                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c: In function 'frontend_abort':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/frontend/tvos_hal_frontend.c:3418:13: warning: format '%d' expects argument of type 'int', but argument 4 has type 'S32' [-Wformat=]
+             HAL_ERROR("stop blindscan error %d", s32Ret);
+             ^

@@ -1,0 +1,12 @@
+platform/android/external/neven/Embedded/common/src/b_ImageEm/HistoEq.c: In function 'bim_createHisto':
+platform/android/external/neven/Embedded/common/src/b_ImageEm/HistoEq.c:37:43: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bim_createHisto( struct bbs_Context* cpA,
+                                           ^
+platform/android/external/neven/Embedded/common/src/b_ImageEm/HistoEq.c: In function 'bim_createHistoOfSection':
+platform/android/external/neven/Embedded/common/src/b_ImageEm/HistoEq.c:64:52: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bim_createHistoOfSection( struct bbs_Context* cpA,
+                                                    ^
+platform/android/external/neven/Embedded/common/src/b_ImageEm/HistoEq.c: In function 'bim_equalize':
+platform/android/external/neven/Embedded/common/src/b_ImageEm/HistoEq.c:114:40: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bim_equalize( struct bbs_Context* cpA,
+                                        ^

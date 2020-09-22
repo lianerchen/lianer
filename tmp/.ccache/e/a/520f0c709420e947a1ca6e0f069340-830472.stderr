@@ -1,0 +1,7 @@
+In file included from platform/android/external/aac/libSBRdec/src/psdec_hybrid.cpp:87:0:
+platform/android/external/aac/libFDK/include/fft.h:152:25: warning: always_inline function might not be inlinable [-Wattributes]
+ static void FORCEINLINE fft_8(FIXP_DBL *x)
+                         ^
+platform/android/external/aac/libFDK/include/fft.h:124:25: warning: always_inline function might not be inlinable [-Wattributes]
+ static void FORCEINLINE fft_4(FIXP_DBL *x)
+                         ^

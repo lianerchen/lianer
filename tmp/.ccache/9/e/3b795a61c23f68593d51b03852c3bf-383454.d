@@ -1,0 +1,10 @@
+out/host/linux-x86/obj32/STATIC_LIBRARIES/libexpat_intermediates/lib/xmlrole.o: \
+ platform/android/external/expat/lib/xmlrole.c \
+ platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/include/stddef.h \
+ platform/android/external/expat/expat_config.h \
+ platform/android/external/expat/lib/expat_external.h \
+ platform/android/external/expat/lib/internal.h \
+ platform/android/external/expat/lib/xmlrole.h \
+ platform/android/external/expat/lib/xmltok.h \
+ platform/android/external/expat/lib/ascii.h

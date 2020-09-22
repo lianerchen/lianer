@@ -1,0 +1,86 @@
+component/dtv/service/src/mid/scan/mid_scan_internal.c:13:0: warning: "LOG_NDEBUG" redefined [enabled by default]
+ #define LOG_NDEBUG 0
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from component/dtv/service/src/drv/include/chdrv_platform.h:36,
+                 from component/dtv/service/src/drv/include/chdrv_include.h:10,
+                 from component/dtv/service/src/mid/scan/mid_scan_internal.c:1:
+platform/android/system/core/include/log/log.h:55:0: note: this is the location of the previous definition
+ #define LOG_NDEBUG 1
+ ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c:14:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "mid_scan_internal.c"
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from component/dtv/service/src/drv/include/chdrv_platform.h:36,
+                 from component/dtv/service/src/drv/include/chdrv_include.h:10,
+                 from component/dtv/service/src/mid/scan/mid_scan_internal.c:1:
+platform/android/system/core/include/log/log.h:67:0: note: this is the location of the previous definition
+ #define LOG_TAG NULL
+ ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c: In function 'CHMID_SCAN_TaskForBandScan':
+component/dtv/service/src/mid/scan/mid_scan_internal.c:704:111: warning: unknown escape sequence: '\p' [enabled by default]
+       CHMID_DEBUG_PRINTF("list search abort : receive or parse pat\pmt\sdt fail:0x%x,0x%x",us_TsID,us_OriNetID);
+                                                                                                               ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c:704:111: warning: unknown escape sequence: '\s' [enabled by default]
+component/dtv/service/src/mid/scan/mid_scan_internal.c:619:39: warning: unused parameter 'rp_TaskParam' [-Wunused-parameter]
+ void CHMID_SCAN_TaskForBandScan(void *rp_TaskParam)
+                                       ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c: In function 'CHMID_SCAN_TaskForNitScan':
+component/dtv/service/src/mid/scan/mid_scan_internal.c:966:101: warning: unknown escape sequence: '\p' [enabled by default]
+       CHMID_DEBUG_PRINTF("nit search abort : receive pat\pmt\sdt fail:0x%x,0x%x",us_TsID,us_OriNetID);
+                                                                                                     ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c:966:101: warning: unknown escape sequence: '\s' [enabled by default]
+component/dtv/service/src/mid/scan/mid_scan_internal.c:873:38: warning: unused parameter 'rp_TaskParam' [-Wunused-parameter]
+ void CHMID_SCAN_TaskForNitScan(void *rp_TaskParam)
+                                      ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c: In function 'CHMID_SCAN_TaskForAutoScan':
+component/dtv/service/src/mid/scan/mid_scan_internal.c:1202:39: warning: unused parameter 'rp_TaskParam' [-Wunused-parameter]
+ void CHMID_SCAN_TaskForAutoScan(void *rp_TaskParam)
+                                       ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c: In function 'CHMID_SCAN_TaskForManualScan':
+component/dtv/service/src/mid/scan/mid_scan_internal.c:1535:104: warning: unknown escape sequence: '\p' [enabled by default]
+       CHMID_DEBUG_PRINTF("manual search abort : receive pat\pmt\sdt fail:0x%x,0x%x",us_TsID,us_OriNetID);
+                                                                                                        ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c:1535:104: warning: unknown escape sequence: '\s' [enabled by default]
+component/dtv/service/src/mid/scan/mid_scan_internal.c:1448:41: warning: unused parameter 'rp_TaskParam' [-Wunused-parameter]
+ void CHMID_SCAN_TaskForManualScan(void *rp_TaskParam)
+                                         ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c: In function 'CHMID_SCAN_GetScanResult':
+component/dtv/service/src/mid/scan/mid_scan_internal.c:1957:155: warning: unused parameter 'renm_laguageId' [-Wunused-parameter]
+ CHMID_SCAN_RESULT_e CHMID_SCAN_GetScanResult(S32 ri_DemuxID, S16 rus_TimeOut, CHMID_DB_NVOD_t *rstru_NvodData, U16 *rpus_NvodCount, CHMID_SCAN_LANGUAGE_e renm_laguageId, U16 rus_ChannelNumMax, CHMID_DB_CHANNEL_DATA_t *rpstru_ChannelData, U16 *rpus_ChannelDataCount, U16* rpus_TVCount, U16* rpus_RadioCount, U16 *rpus_TsID, U16 *rpus_OriNetID)
+                                                                                                                                                           ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c: In function 'CHMID_SCAN_GetElementStreamsFromPmt':
+component/dtv/service/src/mid/scan/mid_scan_internal.c:2689:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      if(i < sizeof(stru_CaData) / sizeof(stru_CaData[0]))
+           ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c:2763:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      if(i < sizeof(rpstru_ChannelData->stru_Stream[i_ElemNum].stru_CaData) / sizeof(rpstru_ChannelData->stru_Stream[i_ElemNum].stru_CaData[0]))
+           ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c: In function 'CHMID_SCAN_GetServiceDescriptionAndNvodServicesFromSdt':
+component/dtv/service/src/mid/scan/mid_scan_internal.c:2928:96: warning: unused parameter 'ri_Timeout' [-Wunused-parameter]
+ CHMID_SCAN_RESULT_e CHMID_SCAN_GetServiceDescriptionAndNvodServicesFromSdt(S32 ri_DemuxID, S32 ri_Timeout, CHMID_SCAN_SERVICE_LIST_ELEM_t *rpstru_ServiceList, U16 rus_ElemNum, CHMID_SCAN_SERVICE_DESCRIPTION_t *rpstru_ServiceDescription, CHMID_DB_NVOD_t *rstru_NvodData, U16 *rpus_NvodCount, U8 *rpuc_Result, U16 *rpus_TsID, U16 *rpus_OriNetID)
+                                                                                                ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c: In function 'CHMID_SCAN_GetServicesFromPat':
+component/dtv/service/src/mid/scan/mid_scan_internal.c:3022:86: warning: unused parameter 'ri_Timeout' [-Wunused-parameter]
+ CHMID_SCAN_RESULT_e CHMID_SCAN_GetServicesFromPat(S32 ri_DemuxID, S32 ri_MaxNum, S32 ri_Timeout, U16 *rpus_OrgNetId, U16 *rpus_TsId, S32 *rpi_ProgNum, CHMID_SCAN_SERVICE_LIST_ELEM_t *rpstru_ServiceList)
+                                                                                      ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c: In function 'CHMID_SCAN_AddLogicNo':
+component/dtv/service/src/mid/scan/mid_scan_internal.c:3792:3: warning: comparison is always true due to limited range of data type [-Wtype-limits]
+   if(LogicNo>=0)
+   ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c: In function 'CHMID_SCAN_F18':
+component/dtv/service/src/mid/scan/mid_scan_internal.c:4053:46: warning: unused parameter 'uc_SatID' [-Wunused-parameter]
+ static CHMID_SCAN_RESULT_e CHMID_SCAN_F18(U8 uc_SatID, U32 rui_FrequencyKHz, U32 rui_SymbolRateKb, U8 uc_Pol, U16 *rpus_TpID)
+                                              ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c:4053:60: warning: unused parameter 'rui_FrequencyKHz' [-Wunused-parameter]
+ static CHMID_SCAN_RESULT_e CHMID_SCAN_F18(U8 uc_SatID, U32 rui_FrequencyKHz, U32 rui_SymbolRateKb, U8 uc_Pol, U16 *rpus_TpID)
+                                                            ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c:4053:82: warning: unused parameter 'rui_SymbolRateKb' [-Wunused-parameter]
+ static CHMID_SCAN_RESULT_e CHMID_SCAN_F18(U8 uc_SatID, U32 rui_FrequencyKHz, U32 rui_SymbolRateKb, U8 uc_Pol, U16 *rpus_TpID)
+                                                                                  ^
+component/dtv/service/src/mid/scan/mid_scan_internal.c:4053:103: warning: unused parameter 'uc_Pol' [-Wunused-parameter]
+ static CHMID_SCAN_RESULT_e CHMID_SCAN_F18(U8 uc_SatID, U32 rui_FrequencyKHz, U32 rui_SymbolRateKb, U8 uc_Pol, U16 *rpus_TpID)
+                                                                                                       ^

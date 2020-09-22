@@ -1,0 +1,11 @@
+component/dcas/client/DCASAL.cpp:106:5: warning: unused parameter 'vendorId' [-Wunused-parameter]
+ int DCASAL_LoadCW(int vendorId, int schemeId, unsigned char *key2, int key2Len, unsigned char *key1, int key1Len, unsigned char *cw, int cwLen, int parity)
+     ^
+component/dcas/client/DCASAL.cpp:106:5: warning: unused parameter 'schemeId' [-Wunused-parameter]
+component/dcas/client/DCASAL.cpp:106:5: warning: unused parameter 'key2' [-Wunused-parameter]
+component/dcas/client/DCASAL.cpp:106:5: warning: unused parameter 'key2Len' [-Wunused-parameter]
+component/dcas/client/DCASAL.cpp:106:5: warning: unused parameter 'key1' [-Wunused-parameter]
+component/dcas/client/DCASAL.cpp:106:5: warning: unused parameter 'key1Len' [-Wunused-parameter]
+component/dcas/client/DCASAL.cpp:106:5: warning: unused parameter 'cw' [-Wunused-parameter]
+component/dcas/client/DCASAL.cpp:106:5: warning: unused parameter 'cwLen' [-Wunused-parameter]
+component/dcas/client/DCASAL.cpp:106:5: warning: unused parameter 'parity' [-Wunused-parameter]

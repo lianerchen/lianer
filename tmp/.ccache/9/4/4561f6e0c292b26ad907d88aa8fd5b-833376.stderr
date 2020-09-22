@@ -1,0 +1,67 @@
+In file included from component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/sdk_ffs.c:2:0:
+component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:4:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable:4996 4819 4244 4267 4311 4312 4133)
+ ^
+In file included from component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/sdk_ffs.h:7:0,
+                 from component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/sdk_ffs.c:29:
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'sdk_ffs_list_sys':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:14:34: warning: unused parameter 'which' [-Wunused-parameter]
+ SDK_API int sdk_ffs_list_sys(int which, char** *filenames, int* nfiles)
+                                  ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:14:49: warning: unused parameter 'filenames' [-Wunused-parameter]
+ SDK_API int sdk_ffs_list_sys(int which, char** *filenames, int* nfiles)
+                                                 ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:14:65: warning: unused parameter 'nfiles' [-Wunused-parameter]
+ SDK_API int sdk_ffs_list_sys(int which, char** *filenames, int* nfiles)
+                                                                 ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'sdk_ffs_check_sys':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:21:35: warning: unused parameter 'which' [-Wunused-parameter]
+ SDK_API int sdk_ffs_check_sys(int which)
+                                   ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'ffs_list_sys':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:28:30: warning: unused parameter 'which' [-Wunused-parameter]
+ SDK_API int ffs_list_sys(int which, char** *filenames, int* nfiles)
+                              ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:28:45: warning: unused parameter 'filenames' [-Wunused-parameter]
+ SDK_API int ffs_list_sys(int which, char** *filenames, int* nfiles)
+                                             ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:28:61: warning: unused parameter 'nfiles' [-Wunused-parameter]
+ SDK_API int ffs_list_sys(int which, char** *filenames, int* nfiles)
+                                                             ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'sdk_ffs_free_space':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:52:36: warning: unused parameter 'which' [-Wunused-parameter]
+ SDK_API int sdk_ffs_free_space(int which)
+                                    ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'sdk_ffs_total_space':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:65:37: warning: unused parameter 'which' [-Wunused-parameter]
+ SDK_API int sdk_ffs_total_space(int which)
+                                     ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'sdk_ffs_file_get_crc32':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:242:57: warning: unused parameter 'mode' [-Wunused-parameter]
+ SDK_API unsigned int sdk_ffs_file_get_crc32(int fd, int mode)
+                                                         ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'sdk_ffs_file_set_crc32':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:251:66: warning: unused parameter 'crc32' [-Wunused-parameter]
+ SDK_API unsigned int sdk_ffs_file_set_crc32(int fd, unsigned int crc32)
+                                                                  ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'sdk_ffs_file_delete':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:269:59: warning: unused parameter 'which' [-Wunused-parameter]
+ SDK_API int sdk_ffs_file_delete(const char* filename, int which)
+                                                           ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'sdk_ffs_file_exists':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:287:59: warning: unused parameter 'which' [-Wunused-parameter]
+ SDK_API int sdk_ffs_file_exists(const char* filename, int which)
+                                                           ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'sdk_ffs_file_move':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:306:78: warning: unused parameter 'which' [-Wunused-parameter]
+ SDK_API int sdk_ffs_file_move(const char* filename, const char* newname, int which)
+                                                                              ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'sdk_ffs_dir_open':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:320:63: warning: unused parameter 'opt' [-Wunused-parameter]
+ SDK_API int sdk_ffs_dir_open(const char* dirname, const char* opt)
+                                                               ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c: In function 'FlashBlock_GetFFs_File_Num':
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:444:5: warning: missing braces around initializer [-Wmissing-braces]
+     DirEntry entry[1] = {0};
+     ^
+component/appman/downloadmanager/downloader/oc/libsdk/workspace/src/../inc/../../lib_ffs/custom_ffs.c:444:5: warning: (near initialization for 'entry[0]') [-Wmissing-braces]

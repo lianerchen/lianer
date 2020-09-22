@@ -1,0 +1,2 @@
+platform/android/external/bsdiff/bsdiff.c: In function 'main':
+platform/android/external/bsdiff/bsdiff.c:196:5: warning: 'pos' may be used uninitialized in this function [-Wmaybe-uninitialized]

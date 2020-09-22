@@ -1,0 +1,5 @@
+platform/android/frameworks/base/libs/storage/IObbActionListener.cpp:33:18: warning: unused parameter 'filename' [-Wunused-parameter]
+     virtual void onObbResult(const String16& filename, const int32_t nonce, const int32_t state) { }
+                  ^
+platform/android/frameworks/base/libs/storage/IObbActionListener.cpp:33:18: warning: unused parameter 'nonce' [-Wunused-parameter]
+platform/android/frameworks/base/libs/storage/IObbActionListener.cpp:33:18: warning: unused parameter 'state' [-Wunused-parameter]

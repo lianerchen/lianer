@@ -1,0 +1,158 @@
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:1:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:4:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable:4996 4819 4244 4267 4311 4312 4133)
+ ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:0:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:3:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable: 4996 4819 4311 4312)
+ ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:23:1: warning: missing braces around initializer [-Wmissing-braces]
+ static PortingManager               portmgr =  { 0 };
+ ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:23:1: warning: (near initialization for 'portmgr.datapath') [-Wmissing-braces]
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:23:1: warning: missing initializer for field 'flag_logout' of 'PortingManager' [-Wmissing-field-initializers]
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:12:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting_local.h:12:33: note: 'flag_logout' declared here
+     ui32                        flag_logout : 1;
+                                 ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp: In function 'ipanel_plugin_initialize':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:45:68: warning: pointer type mismatch in conditional expression [enabled by default]
+         port_dprintf = portface.func_logout ? portface.func_logout : porting_dprintf;
+                                                                    ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:47:22: warning: assignment from incompatible pointer type [enabled by default]
+         port_dprintf = porting_dprintf;
+                      ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp: In function 'ipanel_plugin_finalize':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:83:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'ui32' [-Wformat=]
+         sprintf(name, "Thread_%d", portmgr.thread_count);
+         ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp: In function 'ipanel_plugin_start':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:114:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'ui32' [-Wformat=]
+         sprintf(name, "Thread_%d", portmgr.thread_count);
+         ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp: In function 'ipanel_plugin_stop':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:133:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'ui32' [-Wformat=]
+         sprintf(name, "Thread_%d", portmgr.thread_count);
+         ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp: In function 'porting_dprintf':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:145:41: warning: unused parameter 'format' [-Wunused-parameter]
+ static si32 porting_dprintf(const char* format, ...)
+                                         ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp: In function 'porting_ui32_to_hex':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:155:5: warning: format '%d' expects argument of type 'int', but argument 3 has type 'ui32' [-Wformat=]
+     sprintf(buffer, "%d", decval);
+     ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp: In function 'porting_dtvfilterdata':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:305:2: warning: pointer targets in passing argument 2 of 'filter->pdata' differ in signedness [-Wpointer-sign]
+  filter->pdata(data, section_data, section_length);
+  ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:305:2: note: expected 'BYTE_T *' but argument is of type 'char *'
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:302:44: warning: unused parameter 'filter_id' [-Wunused-parameter]
+ void porting_dtvfilterdata(void* data, int filter_id, char* section_data, int section_length)
+                                            ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp: In function 'porting_filter_create':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:321:10: warning: assignment makes pointer from integer without a cast [enabled by default]
+  hfilter = DTVAPI_requestFilter();
+          ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:323:14: warning: comparison between pointer and integer [enabled by default]
+  if (hfilter != -1){
+              ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:324:3: warning: passing argument 1 of 'DTVAPI_attachStream' makes integer from pointer without a cast [enabled by default]
+   DTVAPI_attachStream(hfilter,0,-1,NULL,NULL);
+   ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:13:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/includeExport/porting/porting_dtv_api.h:15:5: note: expected 'int' but argument is of type 'HANDLE_T'
+ int DTVAPI_attachStream(int filter_id, int tuner_id, int transport_stream_id, DTVAL_reportFilterForceDisconnected cb, void* data);
+     ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:326:14: warning: comparison between pointer and integer [enabled by default]
+  if (hfilter != -1){
+              ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:327:3: warning: passing argument 1 of 'DTVAPI_startFiltering' makes integer from pointer without a cast [enabled by default]
+   if (!DTVAPI_startFiltering(hfilter,filter->pid,filter->coef[0],0,filter->coef,filter->mask,filter->depth,NULL,NULL,0,porting_dtvfilterdata,filter)){
+   ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:13:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/includeExport/porting/porting_dtv_api.h:19:5: note: expected 'int' but argument is of type 'HANDLE_T'
+ int DTVAPI_startFiltering(int filter_id, int pid, int table_id, int offset, char* pos_filter_def, char* pos_filter_mask, int pos_length, char* neg_filter_def, char* neg_filter_mask, int neg_length, DTVAL_reportFilteredSection cb, void* data);
+     ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:327:3: warning: pointer targets in passing argument 5 of 'DTVAPI_startFiltering' differ in signedness [-Wpointer-sign]
+   if (!DTVAPI_startFiltering(hfilter,filter->pid,filter->coef[0],0,filter->coef,filter->mask,filter->depth,NULL,NULL,0,porting_dtvfilterdata,filter)){
+   ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:13:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/includeExport/porting/porting_dtv_api.h:19:5: note: expected 'char *' but argument is of type 'BYTE_T *'
+ int DTVAPI_startFiltering(int filter_id, int pid, int table_id, int offset, char* pos_filter_def, char* pos_filter_mask, int pos_length, char* neg_filter_def, char* neg_filter_mask, int neg_length, DTVAL_reportFilteredSection cb, void* data);
+     ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:327:3: warning: pointer targets in passing argument 6 of 'DTVAPI_startFiltering' differ in signedness [-Wpointer-sign]
+   if (!DTVAPI_startFiltering(hfilter,filter->pid,filter->coef[0],0,filter->coef,filter->mask,filter->depth,NULL,NULL,0,porting_dtvfilterdata,filter)){
+   ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:13:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/includeExport/porting/porting_dtv_api.h:19:5: note: expected 'char *' but argument is of type 'BYTE_T *'
+ int DTVAPI_startFiltering(int filter_id, int pid, int table_id, int offset, char* pos_filter_def, char* pos_filter_mask, int pos_length, char* neg_filter_def, char* neg_filter_mask, int neg_length, DTVAL_reportFilteredSection cb, void* data);
+     ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:6:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp: In function 'porting_filter_destroy':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:336:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (hfilter != -1){
+              ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp: In function 'porting_send_message':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:361:31: warning: unused parameter 'type' [-Wunused-parameter]
+ int porting_send_message(ui32 type, ui32 p1, ui32 p2)
+                               ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:361:42: warning: unused parameter 'p1' [-Wunused-parameter]
+ int porting_send_message(ui32 type, ui32 p1, ui32 p2)
+                                          ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting.cpp:361:51: warning: unused parameter 'p2' [-Wunused-parameter]
+ int porting_send_message(ui32 type, ui32 p1, ui32 p2)
+                                                   ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:7:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting_dsmcc.c: In function 'ipanel_plugin_create_carousel':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting_dsmcc.c:15:2: warning: missing braces around initializer [-Wmissing-braces]
+  CarouselParams carousel[1] = {0};
+  ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting_dsmcc.c:15:2: warning: (near initialization for 'carousel[0]') [-Wmissing-braces]
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:7:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting_dsmcc.c: In function 'ipanel_plugin_total_size':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting_dsmcc.c:59:50: warning: unused parameter 'url' [-Wunused-parameter]
+ PORTAPI INT32_T ipanel_plugin_total_size(CHAR_T* url)
+                                                  ^
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting_dsmcc.c: In function 'ipanel_plugin_download_size':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/porting_dsmcc.c:64:53: warning: unused parameter 'url' [-Wunused-parameter]
+ PORTAPI INT32_T ipanel_plugin_download_size(CHAR_T* url)
+                                                     ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:8:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/misc.c: In function 'DvbSiManager_addFilter':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/misc.c:5:34: warning: unused parameter 'handle' [-Wunused-parameter]
+ int DvbSiManager_addFilter(void* handle, FilterInfo* info)
+                                  ^
+In file included from component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/porting_inc.h:8:0,
+                 from component/appman/downloadmanager/downloader/oc/porting/workspace/src/porting_0.c:2:
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/misc.c: In function 'DvbSiManager_removeFilter':
+component/appman/downloadmanager/downloader/oc/porting/workspace/src/../inc/../../src/misc.c:34:37: warning: unused parameter 'handle' [-Wunused-parameter]
+ int DvbSiManager_removeFilter(void* handle, int index)
+                                     ^

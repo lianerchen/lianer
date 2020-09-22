@@ -1,0 +1,48 @@
+In file included from platform/android/external/skia/include/core/SkDevice.h:13:0,
+                 from platform/android/frameworks/base/core/jni/android/graphics/GraphicsJNI.h:5,
+                 from platform/android/frameworks/base/native/graphics/jni/bitmap.cpp:18:
+platform/android/external/skia/include/core/SkCanvas.h:1030:18: warning: unused parameter 'data' [-Wunused-parameter]
+     virtual void drawData(const void* data, size_t length) {
+                  ^
+platform/android/external/skia/include/core/SkCanvas.h:1030:18: warning: unused parameter 'length' [-Wunused-parameter]
+platform/android/external/skia/include/core/SkCanvas.h:1038:18: warning: unused parameter 'description' [-Wunused-parameter]
+     virtual void beginCommentGroup(const char* description) {
+                  ^
+platform/android/external/skia/include/core/SkCanvas.h:1041:18: warning: unused parameter 'kywd' [-Wunused-parameter]
+     virtual void addComment(const char* kywd, const char* value) {
+                  ^
+platform/android/external/skia/include/core/SkCanvas.h:1041:18: warning: unused parameter 'value' [-Wunused-parameter]
+In file included from platform/android/frameworks/base/core/jni/android/graphics/GraphicsJNI.h:6:0,
+                 from platform/android/frameworks/base/native/graphics/jni/bitmap.cpp:18:
+platform/android/external/skia/include/core/SkPixelRef.h:244:25: warning: unused parameter 'colortype' [-Wunused-parameter]
+     virtual SkPixelRef* deepCopy(SkColorType colortype, const SkIRect* subset) {
+                         ^
+platform/android/external/skia/include/core/SkPixelRef.h:244:25: warning: unused parameter 'subset' [-Wunused-parameter]
+In file included from platform/android/external/skia/include/core/SkShader.h:17:0,
+                 from platform/android/external/skia/include/core/SkImage.h:24,
+                 from platform/android/external/skia/include/core/SkImageDecoder.h:12,
+                 from platform/android/frameworks/base/core/jni/android/graphics/GraphicsJNI.h:10,
+                 from platform/android/frameworks/base/native/graphics/jni/bitmap.cpp:18:
+platform/android/external/skia/include/core/../gpu/GrColor.h:69:20: warning: unused parameter 'c' [-Wunused-parameter]
+ static inline void GrColorIsPMAssert(GrColor c) {
+                    ^
+In file included from platform/android/external/skia/include/core/SkImage.h:24:0,
+                 from platform/android/external/skia/include/core/SkImageDecoder.h:12,
+                 from platform/android/frameworks/base/core/jni/android/graphics/GraphicsJNI.h:10,
+                 from platform/android/frameworks/base/native/graphics/jni/bitmap.cpp:18:
+platform/android/external/skia/include/core/SkShader.h:376:18: warning: unused parameter 'rec' [-Wunused-parameter]
+     virtual bool asACompose(ComposeRec* rec) const { return false; }
+                  ^
+platform/android/external/skia/include/core/SkShader.h:397:18: warning: unused parameter 'customData' [-Wunused-parameter]
+     virtual bool asACustomShader(void** customData) const { return false; }
+                  ^
+In file included from platform/android/frameworks/base/core/jni/android/graphics/GraphicsJNI.h:10:0,
+                 from platform/android/frameworks/base/native/graphics/jni/bitmap.cpp:18:
+platform/android/external/skia/include/core/SkImageDecoder.h:397:18: warning: unused parameter 'width' [-Wunused-parameter]
+     virtual bool onBuildTileIndex(SkStreamRewindable*, int *width, int *height) {
+                  ^
+platform/android/external/skia/include/core/SkImageDecoder.h:397:18: warning: unused parameter 'height' [-Wunused-parameter]
+platform/android/external/skia/include/core/SkImageDecoder.h:403:18: warning: unused parameter 'bitmap' [-Wunused-parameter]
+     virtual bool onDecodeSubset(SkBitmap* bitmap, const SkIRect& rect) {
+                  ^
+platform/android/external/skia/include/core/SkImageDecoder.h:403:18: warning: unused parameter 'rect' [-Wunused-parameter]

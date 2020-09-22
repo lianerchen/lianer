@@ -1,0 +1,119 @@
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'isNever':
+component/OAM/agent/expat/xmltok/xmltok.c:74:29: warning: unused parameter 'enc' [-Wunused-parameter]
+ int isNever(const ENCODING *enc, const char *p)
+                             ^
+component/OAM/agent/expat/xmltok/xmltok.c:74:46: warning: unused parameter 'p' [-Wunused-parameter]
+ int isNever(const ENCODING *enc, const char *p)
+                                              ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'utf8_isName2':
+component/OAM/agent/expat/xmltok/xmltok.c:80:34: warning: unused parameter 'enc' [-Wunused-parameter]
+ int utf8_isName2(const ENCODING *enc, const char *p)
+                                  ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'utf8_isName3':
+component/OAM/agent/expat/xmltok/xmltok.c:86:34: warning: unused parameter 'enc' [-Wunused-parameter]
+ int utf8_isName3(const ENCODING *enc, const char *p)
+                                  ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'utf8_isNmstrt2':
+component/OAM/agent/expat/xmltok/xmltok.c:94:36: warning: unused parameter 'enc' [-Wunused-parameter]
+ int utf8_isNmstrt2(const ENCODING *enc, const char *p)
+                                    ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'utf8_isNmstrt3':
+component/OAM/agent/expat/xmltok/xmltok.c:100:36: warning: unused parameter 'enc' [-Wunused-parameter]
+ int utf8_isNmstrt3(const ENCODING *enc, const char *p)
+                                    ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'utf8_isInvalid3':
+component/OAM/agent/expat/xmltok/xmltok.c:110:37: warning: unused parameter 'enc' [-Wunused-parameter]
+ int utf8_isInvalid3(const ENCODING *enc, const char *p)
+                                     ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'utf8_isInvalid4':
+component/OAM/agent/expat/xmltok/xmltok.c:116:37: warning: unused parameter 'enc' [-Wunused-parameter]
+ int utf8_isInvalid4(const ENCODING *enc, const char *p)
+                                     ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'sb_byteToAscii':
+component/OAM/agent/expat/xmltok/xmltok.c:204:36: warning: unused parameter 'enc' [-Wunused-parameter]
+ int sb_byteToAscii(const ENCODING *enc, const char *p)
+                                    ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'sb_charMatches':
+component/OAM/agent/expat/xmltok/xmltok.c:233:36: warning: unused parameter 'enc' [-Wunused-parameter]
+ int sb_charMatches(const ENCODING *enc, const char *p, int c)
+                                    ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'utf8_toUtf8':
+component/OAM/agent/expat/xmltok/xmltok.c:263:34: warning: unused parameter 'enc' [-Wunused-parameter]
+ void utf8_toUtf8(const ENCODING *enc,
+                                  ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'latin1_toUtf8':
+component/OAM/agent/expat/xmltok/xmltok.c:367:36: warning: unused parameter 'enc' [-Wunused-parameter]
+ void latin1_toUtf8(const ENCODING *enc,
+                                    ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'latin1_toUtf16':
+component/OAM/agent/expat/xmltok/xmltok.c:392:37: warning: unused parameter 'enc' [-Wunused-parameter]
+ void latin1_toUtf16(const ENCODING *enc,
+                                     ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'ascii_toUtf8':
+component/OAM/agent/expat/xmltok/xmltok.c:425:35: warning: unused parameter 'enc' [-Wunused-parameter]
+ void ascii_toUtf8(const ENCODING *enc,
+                                   ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'little2_toUtf8':
+component/OAM/agent/expat/xmltok/xmltok.c:477:34: warning: unused parameter 'enc' [-Wunused-parameter]
+ void E ## toUtf8(const ENCODING *enc, \
+                                  ^
+component/OAM/agent/expat/xmltok/xmltok.c:557:1: note: in expansion of macro 'DEFINE_UTF16_TO_UTF8'
+ DEFINE_UTF16_TO_UTF8(little2_)
+ ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'little2_toUtf16':
+component/OAM/agent/expat/xmltok/xmltok.c:540:35: warning: unused parameter 'enc' [-Wunused-parameter]
+ void E ## toUtf16(const ENCODING *enc, \
+                                   ^
+component/OAM/agent/expat/xmltok/xmltok.c:558:1: note: in expansion of macro 'DEFINE_UTF16_TO_UTF16'
+ DEFINE_UTF16_TO_UTF16(little2_)
+ ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'big2_toUtf8':
+component/OAM/agent/expat/xmltok/xmltok.c:477:34: warning: unused parameter 'enc' [-Wunused-parameter]
+ void E ## toUtf8(const ENCODING *enc, \
+                                  ^
+component/OAM/agent/expat/xmltok/xmltok.c:569:1: note: in expansion of macro 'DEFINE_UTF16_TO_UTF8'
+ DEFINE_UTF16_TO_UTF8(big2_)
+ ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'big2_toUtf16':
+component/OAM/agent/expat/xmltok/xmltok.c:540:35: warning: unused parameter 'enc' [-Wunused-parameter]
+ void E ## toUtf16(const ENCODING *enc, \
+                                   ^
+component/OAM/agent/expat/xmltok/xmltok.c:570:1: note: in expansion of macro 'DEFINE_UTF16_TO_UTF16'
+ DEFINE_UTF16_TO_UTF16(big2_)
+ ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'little2_byteToAscii':
+component/OAM/agent/expat/xmltok/xmltok.c:596:41: warning: unused parameter 'enc' [-Wunused-parameter]
+ int little2_byteToAscii(const ENCODING *enc, const char *p)
+                                         ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'little2_charMatches':
+component/OAM/agent/expat/xmltok/xmltok.c:602:41: warning: unused parameter 'enc' [-Wunused-parameter]
+ int little2_charMatches(const ENCODING *enc, const char *p, int c)
+                                         ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'little2_isNameMin':
+component/OAM/agent/expat/xmltok/xmltok.c:608:39: warning: unused parameter 'enc' [-Wunused-parameter]
+ int little2_isNameMin(const ENCODING *enc, const char *p)
+                                       ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'little2_isNmstrtMin':
+component/OAM/agent/expat/xmltok/xmltok.c:614:41: warning: unused parameter 'enc' [-Wunused-parameter]
+ int little2_isNmstrtMin(const ENCODING *enc, const char *p)
+                                         ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'big2_byteToAscii':
+component/OAM/agent/expat/xmltok/xmltok.c:735:38: warning: unused parameter 'enc' [-Wunused-parameter]
+ int big2_byteToAscii(const ENCODING *enc, const char *p)
+                                      ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'big2_charMatches':
+component/OAM/agent/expat/xmltok/xmltok.c:741:38: warning: unused parameter 'enc' [-Wunused-parameter]
+ int big2_charMatches(const ENCODING *enc, const char *p, int c)
+                                      ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'big2_isNameMin':
+component/OAM/agent/expat/xmltok/xmltok.c:747:36: warning: unused parameter 'enc' [-Wunused-parameter]
+ int big2_isNameMin(const ENCODING *enc, const char *p)
+                                    ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'big2_isNmstrtMin':
+component/OAM/agent/expat/xmltok/xmltok.c:753:38: warning: unused parameter 'enc' [-Wunused-parameter]
+ int big2_isNmstrtMin(const ENCODING *enc, const char *p)
+                                      ^
+component/OAM/agent/expat/xmltok/xmltok.c: In function 'initUpdatePosition':
+component/OAM/agent/expat/xmltok/xmltok.c:874:41: warning: unused parameter 'enc' [-Wunused-parameter]
+ void initUpdatePosition(const ENCODING *enc, const char *ptr,
+                                         ^

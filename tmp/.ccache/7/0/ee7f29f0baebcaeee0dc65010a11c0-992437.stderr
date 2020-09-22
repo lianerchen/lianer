@@ -1,0 +1,9 @@
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_ps.cpp: In member function 'void CFX_PSRenderer::SetGraphState(const CFX_GraphStateData*)':
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_ps.cpp:242:29: warning: passing 'CFX_GraphStateData::LineCap' chooses 'int' over 'FX_DWORD {aka unsigned int}' [-Wsign-promo]
+         buf << pGraphState->m_LineCap << FX_BSTRC(" J\n");
+                             ^
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_ps.cpp:242:29: warning:   in call to 'CFX_ByteTextBuf& CFX_ByteTextBuf::operator<<(int)' [-Wsign-promo]
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_ps.cpp:253:29: warning: passing 'CFX_GraphStateData::LineJoin' chooses 'int' over 'FX_DWORD {aka unsigned int}' [-Wsign-promo]
+         buf << pGraphState->m_LineJoin << FX_BSTRC(" j\n");
+                             ^
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_ps.cpp:253:29: warning:   in call to 'CFX_ByteTextBuf& CFX_ByteTextBuf::operator<<(int)' [-Wsign-promo]

@@ -1,0 +1,105 @@
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'find_class':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:853:41: warning: unused parameter 'c' [-Wunused-parameter]
+ isc_result_t find_class (struct class **c,
+                                         ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:854:15: warning: unused parameter 's' [-Wunused-parameter]
+   const char *s, const char *file, int line)
+               ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:854:30: warning: unused parameter 'file' [-Wunused-parameter]
+   const char *s, const char *file, int line)
+                              ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:854:40: warning: unused parameter 'line' [-Wunused-parameter]
+   const char *s, const char *file, int line)
+                                        ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'check_collection':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:860:17: warning: unused parameter 'packet' [-Wunused-parameter]
+  struct packet *packet;
+                 ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:861:16: warning: unused parameter 'lease' [-Wunused-parameter]
+  struct lease *lease;
+                ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:862:21: warning: unused parameter 'collection' [-Wunused-parameter]
+  struct collection *collection;
+                     ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'classify':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:868:17: warning: unused parameter 'packet' [-Wunused-parameter]
+  struct packet *packet;
+                 ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:869:16: warning: unused parameter 'class' [-Wunused-parameter]
+  struct class *class;
+                ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'unbill_class':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:874:16: warning: unused parameter 'lease' [-Wunused-parameter]
+  struct lease *lease;
+                ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'find_subnet':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:878:34: warning: unused parameter 'sp' [-Wunused-parameter]
+ int find_subnet (struct subnet **sp,
+                                  ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:879:17: warning: unused parameter 'addr' [-Wunused-parameter]
+    struct iaddr addr, const char *file, int line)
+                 ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:879:35: warning: unused parameter 'file' [-Wunused-parameter]
+    struct iaddr addr, const char *file, int line)
+                                   ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:879:45: warning: unused parameter 'line' [-Wunused-parameter]
+    struct iaddr addr, const char *file, int line)
+                                             ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'write_lease':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:1379:16: warning: unused parameter 'lease' [-Wunused-parameter]
+  struct lease *lease;
+                ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'write_host':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:1385:20: warning: unused parameter 'host' [-Wunused-parameter]
+  struct host_decl *host;
+                    ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'db_startup':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:1391:6: warning: unused parameter 'testp' [-Wunused-parameter]
+  int testp;
+      ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'form_duid':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:2906:49: warning: unused parameter 'file' [-Wunused-parameter]
+ form_duid(struct data_string *duid, const char *file, int line)
+                                                 ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:2906:59: warning: unused parameter 'line' [-Wunused-parameter]
+ form_duid(struct data_string *duid, const char *file, int line)
+                                                           ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'client_option_envadd':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:3311:24: warning: unused parameter 'u' [-Wunused-parameter]
+       struct universe *u, void *stuff)
+                        ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'dhcp_option_ev_name':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:3618:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (j + 1 == buflen)
+              ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:3628:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (j + 1 == buflen)
+              ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'parse_agent_information_option':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:3908:17: warning: unused parameter 'packet' [-Wunused-parameter]
+  struct packet *packet;
+                 ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:3909:6: warning: unused parameter 'len' [-Wunused-parameter]
+  int len;
+      ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:3910:12: warning: unused parameter 'data' [-Wunused-parameter]
+  u_int8_t *data;
+            ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'cons_agent_information_options':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:3919:23: warning: unused parameter 'cfg_options' [-Wunused-parameter]
+  struct option_state *cfg_options;
+                       ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:3920:22: warning: unused parameter 'outpacket' [-Wunused-parameter]
+  struct dhcp_packet *outpacket;
+                      ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:3921:11: warning: unused parameter 'agentix' [-Wunused-parameter]
+  unsigned agentix;
+           ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'shutdown_exit':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:3927:34: warning: unused parameter 'foo' [-Wunused-parameter]
+ static void shutdown_exit (void *foo)
+                                  ^
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c: In function 'dhcp_set_control_state':
+device/hisilicon/bigfish/external/dhcp/client/dhclient.c:4004:61: warning: unused parameter 'oldstate' [-Wunused-parameter]
+ isc_result_t dhcp_set_control_state (control_object_state_t oldstate,
+                                                             ^

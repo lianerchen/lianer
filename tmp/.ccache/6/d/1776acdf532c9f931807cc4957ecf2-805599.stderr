@@ -1,0 +1,7 @@
+platform/android/external/jhead/jpgfile.c: In function 'WriteJpegFile':
+platform/android/external/jhead/jpgfile.c:825:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         writeOk = (nWrite == Sections[a].Size);
+                           ^
+platform/android/external/jhead/jpgfile.c:835:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  writeOk = (nWrite == Sections[a].Size);
+                    ^

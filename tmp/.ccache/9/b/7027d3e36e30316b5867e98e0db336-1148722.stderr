@@ -1,0 +1,11 @@
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_render/fpdf_render_loadimage.cpp: In member function 'void CPDF_DIBSource::TranslateScanline24bpp(FX_LPBYTE, FX_LPCBYTE) const':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_render/fpdf_render_loadimage.cpp:993:56: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (m_nComponents == m_pColorSpace->CountComponents())
+                                                        ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_render/fpdf_render_loadimage.cpp: In member function 'virtual void CPDF_DIBSource::DownSampleScanline(int, FX_LPBYTE, int, int, FX_BOOL, int, int) const':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_render/fpdf_render_loadimage.cpp:1353:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             if (src_x == last_src_x) {
+                          ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_render/fpdf_render_loadimage.cpp:1403:47: warning: 'last_argb' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 *pDestPixel++ = FXARGB_B(argb);
+                                               ^

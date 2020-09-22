@@ -1,0 +1,7 @@
+cc1: warning: command line option '-Wno-non-virtual-dtor' is valid for C++/ObjC++ but not for C [enabled by default]
+In file included from platform/android/external/pdfium/core/src/fxge/fx_freetype/src/../fxft2.5.01/src/psaux/fxft_psaux.c:33:0,
+                 from platform/android/external/pdfium/core/src/fxge/fx_freetype/src/fxft_psaux.c:7:
+platform/android/external/pdfium/core/src/fxge/fx_freetype/src/../fxft2.5.01/src/psaux/psconv.c: In function 'PS_Conv_ToFixed':
+platform/android/external/pdfium/core/src/fxge/fx_freetype/src/../fxft2.5.01/src/psaux/psconv.c:308:20: warning: 'integral' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if ( !integral && !decimal )
+                    ^

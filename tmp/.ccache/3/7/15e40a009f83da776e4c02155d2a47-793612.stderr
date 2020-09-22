@@ -1,0 +1,2 @@
+platform/android/external/openssl/ssl/s3_srvr.c: In function 'ssl3_send_server_key_exchange':
+platform/android/external/openssl/ssl/s3_srvr.c:1998:11: warning: 'psk_identity_hint_len' may be used uninitialized in this function [-Wmaybe-uninitialized]

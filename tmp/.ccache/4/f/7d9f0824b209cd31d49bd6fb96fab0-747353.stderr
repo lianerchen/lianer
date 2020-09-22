@@ -1,0 +1,9 @@
+component/OAM/midinterface/getDf.c:24:21: warning: no previous prototype for 'build_mount_info' [-Wmissing-prototypes]
+ struct mount_info * build_mount_info(const char * tabfile)
+                     ^
+component/OAM/midinterface/getDf.c:79:6: warning: no previous prototype for 'free_mount_info' [-Wmissing-prototypes]
+ void free_mount_info(struct mount_info * head)
+      ^
+component/OAM/midinterface/getDf.c:91:5: warning: no previous prototype for 'GetStorageUseRate' [-Wmissing-prototypes]
+ int GetStorageUseRate()
+     ^

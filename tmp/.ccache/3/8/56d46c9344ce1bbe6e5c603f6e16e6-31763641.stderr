@@ -1,0 +1,10 @@
+platform/android/external/compiler-rt/lib/builtins/int_util.c:57:40: warning: unused parameter 'file' [-Wunused-parameter]
+void compilerrt_abort_impl(const char *file, int line, const char *function) {
+                                       ^
+platform/android/external/compiler-rt/lib/builtins/int_util.c:57:50: warning: unused parameter 'line' [-Wunused-parameter]
+void compilerrt_abort_impl(const char *file, int line, const char *function) {
+                                                 ^
+platform/android/external/compiler-rt/lib/builtins/int_util.c:57:68: warning: unused parameter 'function' [-Wunused-parameter]
+void compilerrt_abort_impl(const char *file, int line, const char *function) {
+                                                                   ^
+3 warnings generated.

@@ -1,0 +1,4 @@
+platform/android/frameworks/av/services/audiopolicy/AudioPolicyManager.cpp:297:6: warning: unused parameter 'stream' [-Wunused-parameter]
+ void AudioPolicyManager::hidptcheckAndSetVolume(audio_stream_type_t stream, int index)
+      ^
+platform/android/frameworks/av/services/audiopolicy/AudioPolicyManager.cpp:297:6: warning: unused parameter 'index' [-Wunused-parameter]

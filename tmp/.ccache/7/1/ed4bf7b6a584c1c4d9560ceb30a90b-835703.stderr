@@ -1,0 +1,4 @@
+platform/android/external/iputils/ping.c: In function 'pr_echo_reply':
+platform/android/external/iputils/ping.c:776:36: warning: unused parameter 'len' [-Wunused-parameter]
+ void pr_echo_reply(__u8 *_icp, int len)
+                                    ^

@@ -1,0 +1,36 @@
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:312:1: warning: unused parameter 'env' [-Wunused-parameter]
+ com_android_tts_compat_SynthProxy_setLowShelf(JNIEnv *env, jobject thiz, jboolean applyFilter,
+ ^
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:312:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:335:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ com_android_tts_compat_SynthProxy_native_setup(JNIEnv *env, jobject thiz,
+ ^
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:386:1: warning: unused parameter 'env' [-Wunused-parameter]
+ com_android_tts_compat_SynthProxy_native_finalize(JNIEnv *env, jobject thiz, jlong jniData)
+ ^
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:386:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:405:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ com_android_tts_compat_SynthProxy_isLanguageAvailable(JNIEnv *env, jobject thiz, jlong jniData,
+ ^
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:433:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ com_android_tts_compat_SynthProxy_setLanguage(JNIEnv *env, jobject thiz, jlong jniData,
+ ^
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:464:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ com_android_tts_compat_SynthProxy_loadLanguage(JNIEnv *env, jobject thiz, jlong jniData,
+ ^
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:492:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ com_android_tts_compat_SynthProxy_setProperty(JNIEnv *env, jobject thiz, jlong jniData,
+ ^
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:520:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ com_android_tts_compat_SynthProxy_speak(JNIEnv *env, jobject thiz, jlong jniData,
+ ^
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:554:1: warning: unused parameter 'env' [-Wunused-parameter]
+ com_android_tts_compat_SynthProxy_stop(JNIEnv *env, jobject thiz, jlong jniData)
+ ^
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:554:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:588:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ com_android_tts_compat_SynthProxy_getLanguage(JNIEnv *env, jobject thiz, jlong jniData)
+ ^
+platform/android/external/svox/pico/compat/jni/com_android_tts_compat_SynthProxy.cpp:670:6: warning: unused parameter 'reserved' [-Wunused-parameter]
+ jint JNI_OnLoad(JavaVM* vm, void* reserved)
+      ^

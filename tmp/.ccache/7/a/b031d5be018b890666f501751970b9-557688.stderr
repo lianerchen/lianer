@@ -1,0 +1,6 @@
+platform/android/external/checkpolicy/checkpolicy.c: In function 'display_bools':
+platform/android/external/checkpolicy/checkpolicy.c:296:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/checkpolicy/checkpolicy.c: In function 'check_level':
+platform/android/external/checkpolicy/checkpolicy.c:364:72: warning: unused parameter 'arg' [-Wunused-parameter]
+platform/android/external/checkpolicy/checkpolicy.c: In function 'main':
+platform/android/external/checkpolicy/checkpolicy.c:472:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

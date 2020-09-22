@@ -1,0 +1,3 @@
+platform/android/external/e2fsprogs/e2fsck/sigcatcher.c: In function 'die_signal_handler':
+platform/android/external/e2fsprogs/e2fsck/sigcatcher.c:337:12: warning: unused variable 'frames' [-Wunused-variable]
+platform/android/external/e2fsprogs/e2fsck/sigcatcher.c:336:14: warning: unused variable 'stack_syms' [-Wunused-variable]

@@ -1,0 +1,4 @@
+platform/android/external/harfbuzz_ng/src/hb-shape-plan.cc: In function 'hb_shape_plan_t* hb_shape_plan_get_empty()':
+platform/android/external/harfbuzz_ng/src/hb-shape-plan.cc:167:3: warning: missing initializer for member 'hb_prealloced_array_t<hb_user_data_array_t::hb_user_data_item_t, 2u>::static_array' [-Wmissing-field-initializers]
+   };
+   ^

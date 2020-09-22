@@ -1,0 +1,11 @@
+framework/ngb-j/jni/org_ngb_dcas_services_TEEManager.cpp:47:17: warning: unused parameter 'env' [-Wunused-parameter]
+     static jint native_TEEC_IniContext(JNIEnv *env, jclass cls)
+                 ^
+framework/ngb-j/jni/org_ngb_dcas_services_TEEManager.cpp:47:17: warning: unused parameter 'cls' [-Wunused-parameter]
+framework/ngb-j/jni/org_ngb_dcas_services_TEEManager.cpp:68:17: warning: unused parameter 'env' [-Wunused-parameter]
+     static void native_TEEC_CloseContext(JNIEnv *env, jclass cls)
+                 ^
+framework/ngb-j/jni/org_ngb_dcas_services_TEEManager.cpp:68:17: warning: unused parameter 'cls' [-Wunused-parameter]
+framework/ngb-j/jni/org_ngb_dcas_services_TEEManager.cpp:77:23: warning: unused parameter 'cls' [-Wunused-parameter]
+     static jbyteArray native_send_DataToTEE(JNIEnv *env, jclass cls,  jbyteArray teeAppUUID, jint commandId,  jbyteArray DataSrc)
+                       ^

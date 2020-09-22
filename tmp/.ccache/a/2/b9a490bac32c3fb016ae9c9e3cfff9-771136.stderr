@@ -1,0 +1,4 @@
+platform/android/hardware/ril/rild/radiooptions.c: In function 'main':
+platform/android/hardware/ril/rild/radiooptions.c:140:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (ret != len * sizeof(char)) {
+                 ^

@@ -1,0 +1,24 @@
+out/target/product/Hi3798MV200/obj/STATIC_LIBRARIES/libstagefright_aacenc_intermediates/src/stat_bits.o: \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/src/stat_bits.c \
+ platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/stat_bits.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/psy_const.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/config.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/interface.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/psy_data.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/block_switch.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/basic_op/typedef.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/basic_op/typedefs.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/tns.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/basic_op/typedefs.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/bitenc.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/qc_data.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/dyn_bits.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/bit_cnt.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/bitbuffer.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/basic_op/basic_op.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/basic_op/typedef.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/adj_thr_data.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/line_pe.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/channel_map.h \
+ platform/android/frameworks/av/media/libstagefright/codecs/aacenc/inc/tns.h

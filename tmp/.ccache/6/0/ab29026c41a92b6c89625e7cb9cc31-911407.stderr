@@ -1,0 +1,6 @@
+cc1: warning: command line option '-Wno-non-virtual-dtor' is valid for C++/ObjC++ but not for C [enabled by default]
+In file included from platform/android/external/pdfium/core/src/fxcodec/lcms2/src/fx_cmsio0.c:7:0:
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmsio0.c: In function '_cmsReadHeader':
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmsio0.c:705:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         if (!_cmsReadUInt32Number(io, (cmsUInt32Number *) &Tag.sig)) return FALSE;
+         ^

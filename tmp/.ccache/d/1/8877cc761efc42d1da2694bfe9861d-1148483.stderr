@@ -1,0 +1,4 @@
+platform/android/external/ipsec-tools/src/racoon/ipsec_doi.c: In function 'get_proppair':
+platform/android/external/ipsec-tools/src/racoon/ipsec_doi.c:1321:24: warning: argument to 'sizeof' in 'memset' call is the same expression as the destination; did you mean to dereference it? [-Wsizeof-pointer-memaccess]
+  memset(pair, 0, sizeof(pair));
+                        ^

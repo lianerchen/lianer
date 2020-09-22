@@ -1,0 +1,20 @@
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/share/userdict.cpp:252:6: warning: unused parameter 'end_id' [-Wunused-parameter]
+ bool UserDict::load_dict(const char *file_name, LemmaIdType start_id,
+      ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/share/userdict.cpp:342:6: warning: unused parameter 'from_step' [-Wunused-parameter]
+ void UserDict::reset_milestones(uint16 from_step, MileStoneHandle from_handle) {
+      ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/share/userdict.cpp:342:6: warning: unused parameter 'from_handle' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/share/userdict.cpp:346:17: warning: unused parameter 'from_handle' [-Wunused-parameter]
+ MileStoneHandle UserDict::extend_dict(MileStoneHandle from_handle,
+                 ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/share/userdict.cpp:627:8: warning: unused parameter 'arg_valid' [-Wunused-parameter]
+ uint16 UserDict::get_lemma_splids(LemmaIdType id_lemma, uint16 *splids,
+        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/share/userdict.cpp:640:8: warning: unused parameter 'b4_used' [-Wunused-parameter]
+ size_t UserDict::predict(const char16 last_hzs[], uint16 hzs_len,
+        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/share/userdict.cpp: In member function 'int ime_pinyin::UserDict::put_lemmas_no_sync_from_utf16le_string(ime_pinyin::char16*, int)':
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/share/userdict.cpp:1761:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (kMaxLemmaSize < splid_len) {
+                         ^

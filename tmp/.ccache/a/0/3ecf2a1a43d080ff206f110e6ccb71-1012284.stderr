@@ -1,0 +1,7 @@
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-indic.cc: In function 'void insert_dotted_circles(const hb_ot_shape_plan_t*, hb_font_t*, hb_buffer_t*)':
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-indic.cc:1267:36: warning: missing initializer for member 'hb_glyph_info_t::mask' [-Wmissing-field-initializers]
+   hb_glyph_info_t dottedcircle = {0};
+                                    ^
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-indic.cc:1267:36: warning: missing initializer for member 'hb_glyph_info_t::cluster' [-Wmissing-field-initializers]
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-indic.cc:1267:36: warning: missing initializer for member 'hb_glyph_info_t::var1' [-Wmissing-field-initializers]
+platform/android/external/harfbuzz_ng/src/hb-ot-shape-complex-indic.cc:1267:36: warning: missing initializer for member 'hb_glyph_info_t::var2' [-Wmissing-field-initializers]

@@ -1,0 +1,7 @@
+platform/android/external/iputils/traceroute6.c: In function 'print':
+platform/android/external/iputils/traceroute6.c:899:27: warning: unused parameter 'buf' [-Wunused-parameter]
+ void print(unsigned char *buf, int cc, struct sockaddr_in6 *from)
+                           ^
+platform/android/external/iputils/traceroute6.c:899:36: warning: unused parameter 'cc' [-Wunused-parameter]
+ void print(unsigned char *buf, int cc, struct sockaddr_in6 *from)
+                                    ^

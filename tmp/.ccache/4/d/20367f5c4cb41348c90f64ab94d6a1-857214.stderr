@@ -1,0 +1,87 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/include/hi_mpi_mem.h:20:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:18:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c: In function 'HI_MPI_ADEC_RegisterDeoderLib':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:114:77: warning: unused parameter 'u32Length' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_RegisterDeoderLib(const HI_CHAR* pszCodecDllName, HI_U32 u32Length)
+                                                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c: In function 'HI_MPI_ADEC_Init':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:129:40: warning: unused parameter 'pszCodecNameTable' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_Init(const HI_CHAR* pszCodecNameTable[])
+                                        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c: In function 'HI_MPI_ADEC_SetADMixAttr':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:416:43: warning: unused parameter 'hAdec' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_SetADMixAttr(HI_HANDLE hAdec, HI_BOOL bAdEnable, HI_BOOL bAdToSomePort)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:416:58: warning: unused parameter 'bAdEnable' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_SetADMixAttr(HI_HANDLE hAdec, HI_BOOL bAdEnable, HI_BOOL bAdToSomePort)
+                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:416:77: warning: unused parameter 'bAdToSomePort' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_SetADMixAttr(HI_HANDLE hAdec, HI_BOOL bAdEnable, HI_BOOL bAdToSomePort)
+                                                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c: In function 'HI_MPI_ADEC_GetADMixAttr':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:421:43: warning: unused parameter 'hAdec' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_GetADMixAttr(HI_HANDLE hAdec, HI_BOOL* pbAdEnable, HI_BOOL* pbAdToSomePort)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:421:59: warning: unused parameter 'pbAdEnable' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_GetADMixAttr(HI_HANDLE hAdec, HI_BOOL* pbAdEnable, HI_BOOL* pbAdToSomePort)
+                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:421:80: warning: unused parameter 'pbAdToSomePort' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_GetADMixAttr(HI_HANDLE hAdec, HI_BOOL* pbAdEnable, HI_BOOL* pbAdToSomePort)
+                                                                                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c: In function 'HI_MPI_ADEC_SetADBalance':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:432:43: warning: unused parameter 'hAdec' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_SetADBalance(HI_HANDLE hAdec, HI_S16 s16ADBalance)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:432:57: warning: unused parameter 's16ADBalance' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_SetADBalance(HI_HANDLE hAdec, HI_S16 s16ADBalance)
+                                                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c: In function 'HI_MPI_ADEC_GetADBalance':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:437:43: warning: unused parameter 'hAdec' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_GetADBalance(HI_HANDLE hAdec, HI_S16* ps16ADBalance)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:437:58: warning: unused parameter 'ps16ADBalance' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_GetADBalance(HI_HANDLE hAdec, HI_S16* ps16ADBalance)
+                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c: In function 'HI_MPI_ADEC_SendADStream':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:442:43: warning: unused parameter 'hAdec' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_SendADStream(HI_HANDLE hAdec, const HI_UNF_STREAM_BUF_S* pstStream, HI_U32 u32PtsMs)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:442:77: warning: unused parameter 'pstStream' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_SendADStream(HI_HANDLE hAdec, const HI_UNF_STREAM_BUF_S* pstStream, HI_U32 u32PtsMs)
+                                                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:442:95: warning: unused parameter 'u32PtsMs' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_SendADStream(HI_HANDLE hAdec, const HI_UNF_STREAM_BUF_S* pstStream, HI_U32 u32PtsMs)
+                                                                                               ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c: In function 'HI_MPI_ADEC_GetADBuffer':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:447:42: warning: unused parameter 'hAdec' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_GetADBuffer(HI_HANDLE hAdec, HI_U32 u32RequestSize, HI_UNF_STREAM_BUF_S* pstStream)
+                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:447:56: warning: unused parameter 'u32RequestSize' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_GetADBuffer(HI_HANDLE hAdec, HI_U32 u32RequestSize, HI_UNF_STREAM_BUF_S* pstStream)
+                                                        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:447:93: warning: unused parameter 'pstStream' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_GetADBuffer(HI_HANDLE hAdec, HI_U32 u32RequestSize, HI_UNF_STREAM_BUF_S* pstStream)
+                                                                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c: In function 'HI_MPI_ADEC_PutADBuffer':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:452:42: warning: unused parameter 'hAdec' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_PutADBuffer(HI_HANDLE hAdec, const HI_UNF_STREAM_BUF_S* pstStream, HI_U32 u32PtsMs)
+                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:452:76: warning: unused parameter 'pstStream' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_PutADBuffer(HI_HANDLE hAdec, const HI_UNF_STREAM_BUF_S* pstStream, HI_U32 u32PtsMs)
+                                                                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:452:94: warning: unused parameter 'u32PtsMs' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_PutADBuffer(HI_HANDLE hAdec, const HI_UNF_STREAM_BUF_S* pstStream, HI_U32 u32PtsMs)
+                                                                                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c: In function 'HI_MPI_ADEC_GetADDelayMs':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:457:43: warning: unused parameter 'hAdec' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_GetADDelayMs(HI_HANDLE hAdec, HI_U32* pDelay)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/adec/mpi_adec.c:457:58: warning: unused parameter 'pDelay' [-Wunused-parameter]
+ HI_S32 HI_MPI_ADEC_GetADDelayMs(HI_HANDLE hAdec, HI_U32* pDelay)
+                                                          ^

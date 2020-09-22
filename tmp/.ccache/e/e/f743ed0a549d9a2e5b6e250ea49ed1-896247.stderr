@@ -1,0 +1,51 @@
+In file included from platform/android/external/iptables/libiptc/../include/linux/netfilter_ipv6/ip6_tables.h:22:0,
+                 from platform/android/external/iptables/libiptc/../include/libiptc/libip6tc.h:12,
+                 from platform/android/external/iptables/libiptc/libip6tc.c:30:
+platform/android/external/iptables/libiptc/libiptc.c: In function 'iptcb_entry2index':
+platform/android/external/iptables/libiptc/../include/linux/netfilter_ipv6/ip6_tables.h:57:26: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+  XT_ENTRY_ITERATE(struct ip6t_entry, entries, size, fn, ## args)
+                          ^
+platform/android/external/iptables/libiptc/../include/linux/netfilter/x_tables.h:150:2: note: in definition of macro 'XT_ENTRY_ITERATE_CONTINUE'
+  type *__entry;      \
+  ^
+platform/android/external/iptables/libiptc/../include/linux/netfilter_ipv6/ip6_tables.h:57:2: note: in expansion of macro 'XT_ENTRY_ITERATE'
+  XT_ENTRY_ITERATE(struct ip6t_entry, entries, size, fn, ## args)
+  ^
+platform/android/external/iptables/libiptc/libip6tc.c:48:24: note: in expansion of macro 'IP6T_ENTRY_ITERATE'
+ #define ENTRY_ITERATE  IP6T_ENTRY_ITERATE
+                        ^
+platform/android/external/iptables/libiptc/libiptc.c:246:6: note: in expansion of macro 'ENTRY_ITERATE'
+  if (ENTRY_ITERATE(h->entries->entrytable, h->entries->size,
+      ^
+platform/android/external/iptables/libiptc/libiptc.c: In function 'parse_table':
+platform/android/external/iptables/libiptc/../include/linux/netfilter_ipv6/ip6_tables.h:57:26: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+  XT_ENTRY_ITERATE(struct ip6t_entry, entries, size, fn, ## args)
+                          ^
+platform/android/external/iptables/libiptc/../include/linux/netfilter/x_tables.h:150:2: note: in definition of macro 'XT_ENTRY_ITERATE_CONTINUE'
+  type *__entry;      \
+  ^
+platform/android/external/iptables/libiptc/../include/linux/netfilter_ipv6/ip6_tables.h:57:2: note: in expansion of macro 'XT_ENTRY_ITERATE'
+  XT_ENTRY_ITERATE(struct ip6t_entry, entries, size, fn, ## args)
+  ^
+platform/android/external/iptables/libiptc/libip6tc.c:48:24: note: in expansion of macro 'IP6T_ENTRY_ITERATE'
+ #define ENTRY_ITERATE  IP6T_ENTRY_ITERATE
+                        ^
+platform/android/external/iptables/libiptc/libiptc.c:1058:2: note: in expansion of macro 'ENTRY_ITERATE'
+  ENTRY_ITERATE(h->entries->entrytable, h->entries->size,
+  ^
+platform/android/external/iptables/libiptc/libiptc.c: In function 'dump_entries6':
+platform/android/external/iptables/libiptc/../include/linux/netfilter_ipv6/ip6_tables.h:57:26: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+  XT_ENTRY_ITERATE(struct ip6t_entry, entries, size, fn, ## args)
+                          ^
+platform/android/external/iptables/libiptc/../include/linux/netfilter/x_tables.h:150:2: note: in definition of macro 'XT_ENTRY_ITERATE_CONTINUE'
+  type *__entry;      \
+  ^
+platform/android/external/iptables/libiptc/../include/linux/netfilter_ipv6/ip6_tables.h:57:2: note: in expansion of macro 'XT_ENTRY_ITERATE'
+  XT_ENTRY_ITERATE(struct ip6t_entry, entries, size, fn, ## args)
+  ^
+platform/android/external/iptables/libiptc/libip6tc.c:48:24: note: in expansion of macro 'IP6T_ENTRY_ITERATE'
+ #define ENTRY_ITERATE  IP6T_ENTRY_ITERATE
+                        ^
+platform/android/external/iptables/libiptc/libiptc.c:1443:2: note: in expansion of macro 'ENTRY_ITERATE'
+  ENTRY_ITERATE(handle->entries->entrytable, handle->entries->size,
+  ^

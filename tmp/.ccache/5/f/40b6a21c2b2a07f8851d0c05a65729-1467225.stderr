@@ -1,0 +1,21 @@
+device/hisilicon/bigfish/frameworks/hinetshare/jni/smbtree.cpp:71:28: warning: unused parameter 'args' [-Wunused-parameter]
+         inline static void handler(int args)
+                            ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/smbtree.cpp: In static member function 'static int smbtree::replaceChar(std::string&, bool, char, char)':
+device/hisilicon/bigfish/frameworks/hinetshare/jni/smbtree.cpp:164:42: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+                             retSharePath += ':|';
+                                          ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/smbtree.cpp:183:45: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+                                 retServerPc += ':|';
+                                             ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/smbtree.cpp: In static member function 'static std::string smbtree::getIp(const char*)':
+device/hisilicon/bigfish/frameworks/hinetshare/jni/smbtree.cpp:283:89: warning: null argument where non-null required (argument 2) [-Wnonnull]
+             strcpy(ip_prefix, strstr(buf, "on") != NULL ? (strstr(buf, "on") + 3) : NULL);
+                                                                                         ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/smbtree.cpp: At global scope:
+device/hisilicon/bigfish/frameworks/hinetshare/jni/smbtree.cpp:709:31: warning: unused parameter 'jobj' [-Wunused-parameter]
+     JNIEXPORT jstring JNICALL Java_com_hisilicon_android_SambaTreeNative_getWorkgroups
+                               ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/smbtree.cpp:724:31: warning: unused parameter 'jobj' [-Wunused-parameter]
+     JNIEXPORT jstring JNICALL Java_com_hisilicon_android_SambaTreeNative_getDetailsBy
+                               ^

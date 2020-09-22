@@ -1,0 +1,39 @@
+component/OAM/agent/libneon/ne_openssl.c:549:5: warning: no previous prototype for 'verify_callback' [-Wmissing-prototypes]
+ int verify_callback(int ok, X509_STORE_CTX *ctx)
+     ^
+component/OAM/agent/libneon/ne_openssl.c:643:5: warning: no previous prototype for 'ne_ssl_session_cmp' [-Wmissing-prototypes]
+ int ne_ssl_session_cmp(SSL_SESSION *a,SSL_SESSION *b)
+     ^
+component/OAM/agent/libneon/ne_openssl.c: In function 'ne_ssl_cert_import':
+component/OAM/agent/libneon/ne_openssl.c:988:5: warning: passing argument 2 of 'd2i_X509' from incompatible pointer type [enabled by default]
+     x5 = d2i_X509(NULL, &p, len); /* p is incremented */
+     ^
+In file included from component/OAM/agent/libneon/../libopenssl/openssl_android/openssl/objects.h:960:0,
+                 from component/OAM/agent/libneon/../libopenssl/openssl_android/openssl/evp.h:94,
+                 from component/OAM/agent/libneon/../libopenssl/openssl_android/openssl/x509.h:73,
+                 from component/OAM/agent/libneon/../libopenssl/openssl_android/openssl/ssl.h:156,
+                 from component/OAM/agent/libneon/ne_openssl.c:34:
+component/OAM/agent/libneon/../libopenssl/openssl_android/openssl/asn1.h:317:8: note: expected 'const unsigned char **' but argument is of type 'unsigned char **'
+  type *d2i_##name(type **a, const unsigned char **in, long len); \
+        ^
+component/OAM/agent/libneon/../libopenssl/openssl_android/openssl/asn1.h:310:2: note: in expansion of macro 'DECLARE_ASN1_ENCODE_FUNCTIONS'
+  DECLARE_ASN1_ENCODE_FUNCTIONS(type, name, name)
+  ^
+component/OAM/agent/libneon/../libopenssl/openssl_android/openssl/asn1.h:303:38: note: in expansion of macro 'DECLARE_ASN1_FUNCTIONS_name'
+ #define DECLARE_ASN1_FUNCTIONS(type) DECLARE_ASN1_FUNCTIONS_name(type, type)
+                                      ^
+component/OAM/agent/libneon/../libopenssl/openssl_android/openssl/x509.h:834:1: note: in expansion of macro 'DECLARE_ASN1_FUNCTIONS'
+ DECLARE_ASN1_FUNCTIONS(X509)
+ ^
+In file included from platform/android/bionic/libc/include/signal.h:35:0,
+                 from platform/android/bionic/libc/include/sys/select.h:35,
+                 from platform/android/bionic/libc/include/unistd.h:34,
+                 from component/OAM/agent/libneon/config.h:405,
+                 from component/OAM/agent/libneon/ne_openssl.c:24:
+In function 'strncat',
+    inlined from 'verify_err' at component/OAM/agent/libneon/ne_openssl.c:182:13,
+    inlined from 'check_certificate' at component/OAM/agent/libneon/ne_openssl.c:440:13,
+    inlined from 'ne__negotiate_ssl' at component/OAM/agent/libneon/ne_openssl.c:728:24:
+platform/android/bionic/libc/include/string.h:173:5: warning: call to __builtin___strncat_chk might overflow destination buffer [enabled by default]
+     return __builtin___strncat_chk(dest, src, n, __bos(dest));
+     ^

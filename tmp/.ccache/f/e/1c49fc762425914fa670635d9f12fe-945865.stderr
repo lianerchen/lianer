@@ -1,0 +1,30 @@
+platform/android/external/fio/server.c: In function 'fio_sendv_data':
+platform/android/external/fio/server.c:110:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (ret >= iov->iov_len) {
+             ^
+platform/android/external/fio/server.c:115:19: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+     iov->iov_base += ret;
+                   ^
+platform/android/external/fio/server.c: In function 'fio_recv_data':
+platform/android/external/fio/server.c:154:6: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+    p += ret;
+      ^
+platform/android/external/fio/server.c: In function 'fio_net_recv_cmd':
+platform/android/external/fio/server.c:261:34: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   pdu = (void *) cmdret->payload + pdu_offset;
+                                  ^
+platform/android/external/fio/server.c: In function 'fio_net_send_cmd':
+platform/android/external/fio/server.c:381:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (this_len < size)
+                ^
+platform/android/external/fio/server.c:388:7: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   buf += this_len;
+       ^
+platform/android/external/fio/server.c: In function 'handle_jobline_cmd':
+platform/android/external/fio/server.c:610:14: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   cslp = pdu + offset;
+              ^
+platform/android/external/fio/server.c: In function 'fio_send_iolog':
+platform/android/external/fio/server.c:1232:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < log->nr_samples; i++) {
+                ^

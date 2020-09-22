@@ -1,0 +1,22 @@
+component/dtv/service/src/dtv/db/dtv_db.c:12:0: warning: "LOG_NDEBUG" redefined [enabled by default]
+ #define LOG_NDEBUG 0
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from component/dtv/service/src/drv/include/chdrv_platform.h:36,
+                 from component/dtv/service/src/drv/include/chdrv_include.h:10,
+                 from component/dtv/service/src/dtv/db/dtv_db.c:5:
+platform/android/system/core/include/log/log.h:55:0: note: this is the location of the previous definition
+ #define LOG_NDEBUG 1
+ ^
+component/dtv/service/src/dtv/db/dtv_db.c:13:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "dtv_db.c"
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from component/dtv/service/src/drv/include/chdrv_platform.h:36,
+                 from component/dtv/service/src/drv/include/chdrv_include.h:10,
+                 from component/dtv/service/src/dtv/db/dtv_db.c:5:
+platform/android/system/core/include/log/log.h:67:0: note: this is the location of the previous definition
+ #define LOG_TAG NULL
+ ^

@@ -1,0 +1,10 @@
+In file included from component/dtv/client/CHDTVClient.cpp:12:0:
+component/dtv/client/../com/chdtvdata.h:1030:15: warning: unused parameter 'outData' [-Wunused-parameter]
+  virtual void writeToParcel(Parcel* outData){};
+               ^
+component/dtv/client/../com/chdtvdata.h:1031:15: warning: unused parameter 'inData' [-Wunused-parameter]
+  virtual void readFromParcel(const Parcel* inData){};
+               ^
+component/dtv/client/CHDTVClient.cpp:267:6: warning: unused parameter 'who' [-Wunused-parameter]
+ void CHDTVClient::DeathNotifier::binderDied(const wp<IBinder>& who) 
+      ^

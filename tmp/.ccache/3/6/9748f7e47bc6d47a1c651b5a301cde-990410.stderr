@@ -1,0 +1,34 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c: In function 'Hdmi_ParseArg':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c:572:9: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+         if (u8DeepColorIndex >= HI_UNF_HDMI_DEEP_COLOR_BUTT)
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c:938:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(argc < (cmdlength + 4))
+                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c: In function 'hdmi_cts_test':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c:1592:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(HI_FAILURE == RetError)
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c:1606:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(HI_FAILURE == RetError)
+                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c:1615:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(HI_FAILURE == RetError)
+                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c:1623:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(HI_FAILURE == RetError)
+                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c:1637:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(HI_FAILURE == RetError)
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c: In function 'hdmi_a_downsample':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c:2511:40: warning: unused parameter 'factor' [-Wunused-parameter]
+ static HI_U32 hdmi_a_downsample(HI_U32 factor, HI_U32 AOfreq)
+                                        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c:2511:55: warning: unused parameter 'AOfreq' [-Wunused-parameter]
+ static HI_U32 hdmi_a_downsample(HI_U32 factor, HI_U32 AOfreq)
+                                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c: In function 'hdmi_a_channel8':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/hdmi_tsplay/hdmi_test_cmd.c:2581:38: warning: unused parameter 'channel8flag' [-Wunused-parameter]
+ static HI_U32 hdmi_a_channel8(HI_U32 channel8flag)
+                                      ^

@@ -1,0 +1,15 @@
+device/hisilicon/bigfish/external/dhcp/omapip/auth.c: In function 'omapi_auth_key_destroy':
+device/hisilicon/bigfish/external/dhcp/omapip/auth.c:50:22: warning: unused parameter 'file' [-Wunused-parameter]
+          const char *file, int line)
+                      ^
+device/hisilicon/bigfish/external/dhcp/omapip/auth.c:50:32: warning: unused parameter 'line' [-Wunused-parameter]
+          const char *file, int line)
+                                ^
+device/hisilicon/bigfish/external/dhcp/omapip/auth.c: In function 'omapi_auth_key_stuff_values':
+device/hisilicon/bigfish/external/dhcp/omapip/auth.c:193:24: warning: unused parameter 'id' [-Wunused-parameter]
+        omapi_object_t *id,
+                        ^
+device/hisilicon/bigfish/external/dhcp/omapip/auth.c: In function 'omapi_auth_key_get_value':
+device/hisilicon/bigfish/external/dhcp/omapip/auth.c:225:28: warning: unused parameter 'id' [-Wunused-parameter]
+            omapi_object_t *id,
+                            ^

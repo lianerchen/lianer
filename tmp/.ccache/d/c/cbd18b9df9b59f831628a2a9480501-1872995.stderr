@@ -1,0 +1,62 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.h:49:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp:18:
+platform/android/frameworks/native/include/ui/FramebufferNativeWindow.h:20:2: warning: #warning "FramebufferNativeWindow is deprecated" [-Wcpp]
+ #warning "FramebufferNativeWindow is deprecated"
+  ^
+In file included from platform/android/external/skia/include/core/SkShader.h:17:0,
+                 from platform/android/external/skia/include/core/SkImage.h:24,
+                 from platform/android/external/skia/include/core/SkImageDecoder.h:12,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.h:59,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp:18:
+platform/android/external/skia/include/core/../gpu/GrColor.h:69:20: warning: unused parameter 'c' [-Wunused-parameter]
+ static inline void GrColorIsPMAssert(GrColor c) {
+                    ^
+In file included from platform/android/external/skia/include/core/SkImage.h:24:0,
+                 from platform/android/external/skia/include/core/SkImageDecoder.h:12,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.h:59,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp:18:
+platform/android/external/skia/include/core/SkShader.h:376:18: warning: unused parameter 'rec' [-Wunused-parameter]
+     virtual bool asACompose(ComposeRec* rec) const { return false; }
+                  ^
+platform/android/external/skia/include/core/SkShader.h:397:18: warning: unused parameter 'customData' [-Wunused-parameter]
+     virtual bool asACustomShader(void** customData) const { return false; }
+                  ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.h:59:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp:18:
+platform/android/external/skia/include/core/SkImageDecoder.h:397:18: warning: unused parameter 'width' [-Wunused-parameter]
+     virtual bool onBuildTileIndex(SkStreamRewindable*, int *width, int *height) {
+                  ^
+platform/android/external/skia/include/core/SkImageDecoder.h:397:18: warning: unused parameter 'height' [-Wunused-parameter]
+platform/android/external/skia/include/core/SkImageDecoder.h:403:18: warning: unused parameter 'bitmap' [-Wunused-parameter]
+     virtual bool onDecodeSubset(SkBitmap* bitmap, const SkIRect& rect) {
+                  ^
+platform/android/external/skia/include/core/SkImageDecoder.h:403:18: warning: unused parameter 'rect' [-Wunused-parameter]
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.h:62:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp:18:
+platform/android/external/skia/include/core/SkCanvas.h:1030:18: warning: unused parameter 'data' [-Wunused-parameter]
+     virtual void drawData(const void* data, size_t length) {
+                  ^
+platform/android/external/skia/include/core/SkCanvas.h:1030:18: warning: unused parameter 'length' [-Wunused-parameter]
+platform/android/external/skia/include/core/SkCanvas.h:1038:18: warning: unused parameter 'description' [-Wunused-parameter]
+     virtual void beginCommentGroup(const char* description) {
+                  ^
+platform/android/external/skia/include/core/SkCanvas.h:1041:18: warning: unused parameter 'kywd' [-Wunused-parameter]
+     virtual void addComment(const char* kywd, const char* value) {
+                  ^
+platform/android/external/skia/include/core/SkCanvas.h:1041:18: warning: unused parameter 'value' [-Wunused-parameter]
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp: In function 'HI_S32 android::pushBlankBuffersToNativeWindow(const android::sp<ANativeWindow>&)':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp:113:11: warning: 'int native_window_set_buffers_geometry(ANativeWindow*, int, int, int)' is deprecated (declared at platform/android/system/core/include/system/window.h:734) [-Wdeprecated-declarations]
+     Ret = native_window_set_buffers_geometry(mNativeWindow.get(), 1, 1,
+           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp:114:39: warning: 'int native_window_set_buffers_geometry(ANativeWindow*, int, int, int)' is deprecated (declared at platform/android/system/core/include/system/window.h:734) [-Wdeprecated-declarations]
+             HAL_PIXEL_FORMAT_RGBA_8888);
+                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp: At global scope:
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp:760:8: warning: unused parameter 'pImageMem' [-Wunused-parameter]
+ HI_S32 OsdManager::DecodeImage(HI_HANDLE hSurface, const HI_VOID *pImageMem, HI_U32 MemSize, HI_RECT_S *pstRect)
+        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp:760:8: warning: unused parameter 'MemSize' [-Wunused-parameter]
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp: In function 'HI_S32 android::JPEG_EncToFile(HI_CHAR*, android::JPGE_INPUT_S*)':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/OsdManager.cpp:953:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(s32NeedSize > pstInputInfo->u32OutSize){
+                                    ^

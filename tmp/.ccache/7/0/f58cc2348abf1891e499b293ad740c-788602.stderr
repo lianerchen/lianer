@@ -1,0 +1,67 @@
+In file included from platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:13:0:
+platform/android/external/libvpx/armv7a-neon/./vpx_config.h:13:0: warning: "ARCH_ARM" redefined [enabled by default]
+ #define ARCH_ARM 1
+ ^
+In file included from <command-line>:0:0:
+./platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h:241:0: note: this is the location of the previous definition
+ #define ARCH_ARM
+ ^
+In file included from platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:15:0:
+platform/android/external/libvpx/libvpx/vp9/common/vp9_common.h: In function 'clip_pixel':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_common.h:52:46: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   return (val > 255) ? 255u : (val < 0) ? 0u : val;
+                                              ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c: In function 'vp9_convolve8_horiz_c':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:154:43: warning: unused parameter 'filter_y' [-Wunused-parameter]
+                            const int16_t *filter_y, int y_step_q4,
+                                           ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:154:57: warning: unused parameter 'y_step_q4' [-Wunused-parameter]
+                            const int16_t *filter_y, int y_step_q4,
+                                                         ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c: In function 'vp9_convolve8_avg_horiz_c':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:166:47: warning: unused parameter 'filter_y' [-Wunused-parameter]
+                                const int16_t *filter_y, int y_step_q4,
+                                               ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:166:61: warning: unused parameter 'y_step_q4' [-Wunused-parameter]
+                                const int16_t *filter_y, int y_step_q4,
+                                                             ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c: In function 'vp9_convolve8_vert_c':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:177:42: warning: unused parameter 'filter_x' [-Wunused-parameter]
+                           const int16_t *filter_x, int x_step_q4,
+                                          ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:177:56: warning: unused parameter 'x_step_q4' [-Wunused-parameter]
+                           const int16_t *filter_x, int x_step_q4,
+                                                        ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c: In function 'vp9_convolve8_avg_vert_c':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:188:46: warning: unused parameter 'filter_x' [-Wunused-parameter]
+                               const int16_t *filter_x, int x_step_q4,
+                                              ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:188:60: warning: unused parameter 'x_step_q4' [-Wunused-parameter]
+                               const int16_t *filter_x, int x_step_q4,
+                                                            ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c: In function 'vp9_convolve_copy_c':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:230:41: warning: unused parameter 'filter_x' [-Wunused-parameter]
+                          const int16_t *filter_x, int filter_x_stride,
+                                         ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:230:55: warning: unused parameter 'filter_x_stride' [-Wunused-parameter]
+                          const int16_t *filter_x, int filter_x_stride,
+                                                       ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:231:41: warning: unused parameter 'filter_y' [-Wunused-parameter]
+                          const int16_t *filter_y, int filter_y_stride,
+                                         ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:231:55: warning: unused parameter 'filter_y_stride' [-Wunused-parameter]
+                          const int16_t *filter_y, int filter_y_stride,
+                                                       ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c: In function 'vp9_convolve_avg_c':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:244:40: warning: unused parameter 'filter_x' [-Wunused-parameter]
+                         const int16_t *filter_x, int filter_x_stride,
+                                        ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:244:54: warning: unused parameter 'filter_x_stride' [-Wunused-parameter]
+                         const int16_t *filter_x, int filter_x_stride,
+                                                      ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:245:40: warning: unused parameter 'filter_y' [-Wunused-parameter]
+                         const int16_t *filter_y, int filter_y_stride,
+                                        ^
+platform/android/external/libvpx/libvpx/vp9/common/vp9_convolve.c:245:54: warning: unused parameter 'filter_y_stride' [-Wunused-parameter]
+                         const int16_t *filter_y, int filter_y_stride,
+                                                      ^

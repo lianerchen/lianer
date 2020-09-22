@@ -1,0 +1,46 @@
+platform/android/external/iputils/ping6.c:285:2: warning: missing initializer for field 'name' of 'struct niquery_option' [-Wmissing-field-initializers]
+  {},
+  ^
+platform/android/external/iputils/ping6.c:244:8: note: 'name' declared here
+  char *name;
+        ^
+platform/android/external/iputils/ping6.c: In function 'niquery_option_name_handler':
+platform/android/external/iputils/ping6.c:394:44: warning: unused parameter 'index' [-Wunused-parameter]
+ static int niquery_option_name_handler(int index, const char *arg)
+                                            ^
+platform/android/external/iputils/ping6.c:394:63: warning: unused parameter 'arg' [-Wunused-parameter]
+ static int niquery_option_name_handler(int index, const char *arg)
+                                                               ^
+platform/android/external/iputils/ping6.c: In function 'niquery_option_ipv6_handler':
+platform/android/external/iputils/ping6.c:401:44: warning: unused parameter 'index' [-Wunused-parameter]
+ static int niquery_option_ipv6_handler(int index, const char *arg)
+                                            ^
+platform/android/external/iputils/ping6.c:401:63: warning: unused parameter 'arg' [-Wunused-parameter]
+ static int niquery_option_ipv6_handler(int index, const char *arg)
+                                                               ^
+platform/android/external/iputils/ping6.c: In function 'niquery_option_ipv6_flag_handler':
+platform/android/external/iputils/ping6.c:408:68: warning: unused parameter 'arg' [-Wunused-parameter]
+ static int niquery_option_ipv6_flag_handler(int index, const char *arg)
+                                                                    ^
+platform/android/external/iputils/ping6.c: In function 'niquery_option_ipv4_handler':
+platform/android/external/iputils/ping6.c:416:44: warning: unused parameter 'index' [-Wunused-parameter]
+ static int niquery_option_ipv4_handler(int index, const char *arg)
+                                            ^
+platform/android/external/iputils/ping6.c:416:63: warning: unused parameter 'arg' [-Wunused-parameter]
+ static int niquery_option_ipv4_handler(int index, const char *arg)
+                                                               ^
+platform/android/external/iputils/ping6.c: In function 'niquery_option_ipv4_flag_handler':
+platform/android/external/iputils/ping6.c:423:68: warning: unused parameter 'arg' [-Wunused-parameter]
+ static int niquery_option_ipv4_flag_handler(int index, const char *arg)
+                                                                    ^
+platform/android/external/iputils/ping6.c: In function 'niquery_option_help_handler':
+platform/android/external/iputils/ping6.c:632:37: warning: unused parameter 'index' [-Wunused-parameter]
+ int niquery_option_help_handler(int index, const char *arg)
+                                     ^
+platform/android/external/iputils/ping6.c:632:56: warning: unused parameter 'arg' [-Wunused-parameter]
+ int niquery_option_help_handler(int index, const char *arg)
+                                                        ^
+platform/android/external/iputils/ping6.c: In function 'pr_echo_reply':
+platform/android/external/iputils/ping6.c:1440:38: warning: unused parameter 'cc' [-Wunused-parameter]
+ void pr_echo_reply(__u8 *_icmph, int cc)
+                                      ^

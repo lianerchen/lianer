@@ -1,0 +1,62 @@
+platform/android/external/ppp/pppd/eap.c:91:7: warning: missing initializer for field 'flags' of 'option_t' [-Wmissing-field-initializers]
+       "Set retransmit timeout for EAP Requests (server)" },
+       ^
+In file included from platform/android/external/ppp/pppd/eap.c:63:0:
+platform/android/external/ppp/pppd/pppd.h:111:15: note: 'flags' declared here
+  unsigned int flags;
+               ^
+platform/android/external/ppp/pppd/eap.c:93:7: warning: missing initializer for field 'flags' of 'option_t' [-Wmissing-field-initializers]
+       "Set max number of EAP Requests sent (server)" },
+       ^
+In file included from platform/android/external/ppp/pppd/eap.c:63:0:
+platform/android/external/ppp/pppd/pppd.h:111:15: note: 'flags' declared here
+  unsigned int flags;
+               ^
+platform/android/external/ppp/pppd/eap.c:95:7: warning: missing initializer for field 'flags' of 'option_t' [-Wmissing-field-initializers]
+       "Set time limit for peer EAP authentication" },
+       ^
+In file included from platform/android/external/ppp/pppd/eap.c:63:0:
+platform/android/external/ppp/pppd/pppd.h:111:15: note: 'flags' declared here
+  unsigned int flags;
+               ^
+platform/android/external/ppp/pppd/eap.c:97:7: warning: missing initializer for field 'flags' of 'option_t' [-Wmissing-field-initializers]
+       "Set max number of EAP Requests allows (client)" },
+       ^
+In file included from platform/android/external/ppp/pppd/eap.c:63:0:
+platform/android/external/ppp/pppd/pppd.h:111:15: note: 'flags' declared here
+  unsigned int flags;
+               ^
+platform/android/external/ppp/pppd/eap.c:99:7: warning: missing initializer for field 'flags' of 'option_t' [-Wmissing-field-initializers]
+       "Set interval for EAP rechallenge" },
+       ^
+In file included from platform/android/external/ppp/pppd/eap.c:63:0:
+platform/android/external/ppp/pppd/pppd.h:111:15: note: 'flags' declared here
+  unsigned int flags;
+               ^
+platform/android/external/ppp/pppd/eap.c: In function 'eap_success':
+platform/android/external/ppp/pppd/eap.c:2018:5: warning: unused parameter 'id' [-Wunused-parameter]
+ int id;
+     ^
+platform/android/external/ppp/pppd/eap.c: In function 'eap_failure':
+platform/android/external/ppp/pppd/eap.c:2048:5: warning: unused parameter 'id' [-Wunused-parameter]
+ int id;
+     ^
+platform/android/external/ppp/pppd/eap.c: In function 'eap_printpkt':
+platform/android/external/ppp/pppd/eap.c:2163:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (code >= 1 && code <= sizeof(eap_codenames) / sizeof(char *))
+                        ^
+platform/android/external/ppp/pppd/eap.c:2178:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       rtype <= sizeof (eap_typenames) / sizeof (char *))
+             ^
+platform/android/external/ppp/pppd/eap.c:2273:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (len < sizeof (u_int32_t))
+             ^
+platform/android/external/ppp/pppd/eap.c:2313:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       rtype <= sizeof (eap_typenames) / sizeof (char *))
+             ^
+platform/android/external/ppp/pppd/eap.c:2337:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+        rtype < sizeof (eap_typenames) / sizeof (char *))
+              ^
+platform/android/external/ppp/pppd/eap.c:2379:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (len < sizeof (u_int32_t))
+             ^

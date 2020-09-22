@@ -1,0 +1,14 @@
+device/hisilicon/bigfish/external/dhcp/omapip/dispatch.c: In function 'omapi_iscsock_cb':
+device/hisilicon/bigfish/external/dhcp/omapip/dispatch.c:120:32: warning: unused parameter 'task' [-Wunused-parameter]
+ omapi_iscsock_cb(isc_task_t   *task,
+                                ^
+device/hisilicon/bigfish/external/dhcp/omapip/dispatch.c:121:18: warning: unused parameter 'socket' [-Wunused-parameter]
+    isc_socket_t *socket,
+                  ^
+device/hisilicon/bigfish/external/dhcp/omapip/dispatch.c: In function 'omapi_io_destroy':
+device/hisilicon/bigfish/external/dhcp/omapip/dispatch.c:806:63: warning: unused parameter 'file' [-Wunused-parameter]
+ isc_result_t omapi_io_destroy (omapi_object_t *h, const char *file, int line)
+                                                               ^
+device/hisilicon/bigfish/external/dhcp/omapip/dispatch.c:806:73: warning: unused parameter 'line' [-Wunused-parameter]
+ isc_result_t omapi_io_destroy (omapi_object_t *h, const char *file, int line)
+                                                                         ^

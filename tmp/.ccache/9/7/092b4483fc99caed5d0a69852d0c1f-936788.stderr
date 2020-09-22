@@ -1,0 +1,17 @@
+platform/android/frameworks/base/media/jni/android_media_AmrInputStream.cpp:52:14: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static jlong android_media_AmrInputStream_GsmAmrEncoderNew
+              ^
+platform/android/frameworks/base/media/jni/android_media_AmrInputStream.cpp:61:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static void android_media_AmrInputStream_GsmAmrEncoderInitialize
+             ^
+platform/android/frameworks/base/media/jni/android_media_AmrInputStream.cpp:71:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static jint android_media_AmrInputStream_GsmAmrEncoderEncode
+             ^
+platform/android/frameworks/base/media/jni/android_media_AmrInputStream.cpp:107:13: warning: unused parameter 'env' [-Wunused-parameter]
+ static void android_media_AmrInputStream_GsmAmrEncoderCleanup
+             ^
+platform/android/frameworks/base/media/jni/android_media_AmrInputStream.cpp:107:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+platform/android/frameworks/base/media/jni/android_media_AmrInputStream.cpp:115:13: warning: unused parameter 'env' [-Wunused-parameter]
+ static void android_media_AmrInputStream_GsmAmrEncoderDelete
+             ^
+platform/android/frameworks/base/media/jni/android_media_AmrInputStream.cpp:115:13: warning: unused parameter 'clazz' [-Wunused-parameter]

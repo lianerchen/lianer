@@ -1,0 +1,8 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/aenc/sample_aenc.c: In function 'AencAcquireFrameThread':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/aenc/sample_aenc.c:66:49: warning: unused parameter 'arg' [-Wunused-parameter]
+ static HI_VOID* AencAcquireFrameThread(HI_VOID* arg)
+                                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/aenc/sample_aenc.c: In function 'AencSendFrameThread':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/aenc/sample_aenc.c:104:46: warning: unused parameter 'arg' [-Wunused-parameter]
+ static HI_VOID* AencSendFrameThread(HI_VOID* arg)
+                                              ^

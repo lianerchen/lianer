@@ -1,0 +1,20 @@
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imelody.c: In function 'IMY_Time':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imelody.c:299:41: warning: unused parameter 'pEASData' [-Wunused-parameter]
+ static EAS_RESULT IMY_Time (S_EAS_DATA *pEASData, EAS_VOID_PTR pInstData, EAS_U32 *pTime)
+                                         ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imelody.c: In function 'IMY_State':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imelody.c:582:42: warning: unused parameter 'pEASData' [-Wunused-parameter]
+ static EAS_RESULT IMY_State (S_EAS_DATA *pEASData, EAS_VOID_PTR pInstData, EAS_I32 *pState)
+                                          ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imelody.c: In function 'IMY_Resume':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imelody.c:763:43: warning: unused parameter 'pEASData' [-Wunused-parameter]
+ static EAS_RESULT IMY_Resume (S_EAS_DATA *pEASData, EAS_VOID_PTR pInstData)
+                                           ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imelody.c: In function 'IMY_SetData':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imelody.c:800:44: warning: unused parameter 'pEASData' [-Wunused-parameter]
+ static EAS_RESULT IMY_SetData (S_EAS_DATA *pEASData, EAS_VOID_PTR pInstData, EAS_I32 param, EAS_I32 value)
+                                            ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imelody.c: In function 'IMY_GetData':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imelody.c:838:44: warning: unused parameter 'pEASData' [-Wunused-parameter]
+ static EAS_RESULT IMY_GetData (S_EAS_DATA *pEASData, EAS_VOID_PTR pInstData, EAS_I32 param, EAS_I32 *pValue)
+                                            ^

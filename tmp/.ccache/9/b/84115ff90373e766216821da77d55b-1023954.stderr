@@ -1,0 +1,6 @@
+In file included from device/hisilicon/bigfish/hardware/camera/camera_common/../capability_manager/CapabilityManager.h:22:0,
+                 from device/hisilicon/bigfish/hardware/camera/camera_common/JpegEncoderExif.cpp:20:
+device/hisilicon/bigfish/hardware/camera/camera_common/../capability_manager/CapabilityInterface.h:46:17: warning: unused parameter 'who' [-Wunused-parameter]
+     virtual int onValueChanged(CapabilityInterface* who, CameraParameters& p) {return 0;};
+                 ^
+device/hisilicon/bigfish/hardware/camera/camera_common/../capability_manager/CapabilityInterface.h:46:17: warning: unused parameter 'p' [-Wunused-parameter]

@@ -1,0 +1,4 @@
+platform/android/external/libexif/libexif/pentax/exif-mnote-data-pentax.c:401:50: warning: unused parameter 'ed' [-Wunused-parameter]
+exif_mnote_data_pentax_identify (const ExifData *ed, const ExifEntry *e)
+                                                 ^
+1 warning generated.

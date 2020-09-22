@@ -1,0 +1,101 @@
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c: In function 'trace_connection_input_input':
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:75:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (lp -> index == ntohl (connect_index)) {
+                   ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:61:57: warning: unused parameter 'ttype' [-Wunused-parameter]
+ static void trace_connection_input_input (trace_type_t *ttype,
+                                                         ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c: In function 'trace_connection_input_stop':
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:116:56: warning: unused parameter 'ttype' [-Wunused-parameter]
+ static void trace_connection_input_stop (trace_type_t *ttype) { }
+                                                        ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c: In function 'trace_connection_output_input':
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:118:58: warning: unused parameter 'ttype' [-Wunused-parameter]
+ static void trace_connection_output_input (trace_type_t *ttype,
+                                                          ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:119:17: warning: unused parameter 'length' [-Wunused-parameter]
+        unsigned length, char *buf)
+                 ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:119:31: warning: unused parameter 'buf' [-Wunused-parameter]
+        unsigned length, char *buf)
+                               ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c: In function 'trace_connection_output_stop':
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:125:57: warning: unused parameter 'ttype' [-Wunused-parameter]
+ static void trace_connection_output_stop (trace_type_t *ttype) { }
+                                                         ^
+In file included from device/hisilicon/bigfish/external/dhcp/includes/omapip/omapip_p.h:168:0,
+                 from device/hisilicon/bigfish/external/dhcp/includes/dhcpd.h:101,
+                 from device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:30:
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c: In function 'omapi_connection_reader_trace':
+device/hisilicon/bigfish/external/dhcp/includes/omapip/buffer.h:60:4: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    : (x) -> head - (x) -> tail)
+    ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:165:8: note: in expansion of macro 'BUFFER_BYTES_FREE'
+   if (!BUFFER_BYTES_FREE (buffer)) {
+        ^
+device/hisilicon/bigfish/external/dhcp/includes/omapip/buffer.h:60:4: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    : (x) -> head - (x) -> tail)
+    ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:178:18: note: in expansion of macro 'BUFFER_BYTES_FREE'
+  bytes_to_read = BUFFER_BYTES_FREE (buffer);
+                  ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:253:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (read_status < read_len)
+                   ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c: In function 'omapi_connection_copyin':
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:299:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  while (bytes_copied < len) {
+                      ^
+In file included from device/hisilicon/bigfish/external/dhcp/includes/omapip/omapip_p.h:168:0,
+                 from device/hisilicon/bigfish/external/dhcp/includes/dhcpd.h:101,
+                 from device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:30:
+device/hisilicon/bigfish/external/dhcp/includes/omapip/buffer.h:60:4: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    : (x) -> head - (x) -> tail)
+    ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:302:8: note: in expansion of macro 'BUFFER_BYTES_FREE'
+   if (!BUFFER_BYTES_FREE (buffer)) {
+        ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c: In function 'omapi_connection_copyout':
+device/hisilicon/bigfish/external/dhcp/includes/omapip/buffer.h:65:3: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   : sizeof ((x) -> buf) - ((x) -> head - (x) -> tail) - 1)
+   ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:386:7: note: in expansion of macro 'BYTES_IN_BUFFER'
+   if (BYTES_IN_BUFFER (buffer)) {
+       ^
+device/hisilicon/bigfish/external/dhcp/includes/omapip/buffer.h:65:3: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   : sizeof ((x) -> buf) - ((x) -> head - (x) -> tail) - 1)
+   ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:426:8: note: in expansion of macro 'BYTES_IN_BUFFER'
+   if (!BYTES_IN_BUFFER (buffer))
+        ^
+device/hisilicon/bigfish/external/dhcp/includes/omapip/buffer.h:65:3: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   : sizeof ((x) -> buf) - ((x) -> head - (x) -> tail) - 1)
+   ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:433:10: note: in expansion of macro 'BYTES_IN_BUFFER'
+         !BYTES_IN_BUFFER (c -> inbufs)) {
+          ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c: In function 'omapi_connection_writer':
+device/hisilicon/bigfish/external/dhcp/includes/omapip/buffer.h:65:3: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   : sizeof ((x) -> buf) - ((x) -> head - (x) -> tail) - 1)
+   ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:470:7: note: in expansion of macro 'BYTES_IN_BUFFER'
+   if (BYTES_IN_BUFFER (buffer)) {
+       ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:546:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (bytes_written != bytes_this_write)
+                      ^
+In file included from device/hisilicon/bigfish/external/dhcp/includes/omapip/omapip_p.h:168:0,
+                 from device/hisilicon/bigfish/external/dhcp/includes/dhcpd.h:101,
+                 from device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:30:
+device/hisilicon/bigfish/external/dhcp/includes/omapip/buffer.h:65:3: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   : sizeof ((x) -> buf) - ((x) -> head - (x) -> tail) - 1)
+   ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:550:8: note: in expansion of macro 'BYTES_IN_BUFFER'
+   if (!BYTES_IN_BUFFER (buffer))
+        ^
+device/hisilicon/bigfish/external/dhcp/includes/omapip/buffer.h:65:3: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   : sizeof ((x) -> buf) - ((x) -> head - (x) -> tail) - 1)
+   ^
+device/hisilicon/bigfish/external/dhcp/omapip/buffer.c:557:10: note: in expansion of macro 'BYTES_IN_BUFFER'
+         !BYTES_IN_BUFFER (c -> outbufs)) {
+          ^

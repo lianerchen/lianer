@@ -1,0 +1,4 @@
+platform/android/external/ltrace/sysdeps/linux-gnu/events.c: In function 'next_event':
+platform/android/external/ltrace/sysdeps/linux-gnu/events.c:318:37: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   = event.proc->instruction_pointer - DECR_PC_AFTER_BREAK;
+                                     ^

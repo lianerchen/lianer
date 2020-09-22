@@ -1,0 +1,12 @@
+platform/android/external/icu/icu4c/source/common/uarrsort.c: In function 'uprv_uint16Comparator_53':
+platform/android/external/icu/icu4c/source/common/uarrsort.c:38:35: warning: unused parameter 'context' [-Wunused-parameter]
+ uprv_uint16Comparator(const void *context, const void *left, const void *right) {
+                                   ^
+platform/android/external/icu/icu4c/source/common/uarrsort.c: In function 'uprv_int32Comparator_53':
+platform/android/external/icu/icu4c/source/common/uarrsort.c:43:34: warning: unused parameter 'context' [-Wunused-parameter]
+ uprv_int32Comparator(const void *context, const void *left, const void *right) {
+                                  ^
+platform/android/external/icu/icu4c/source/common/uarrsort.c: In function 'uprv_uint32Comparator_53':
+platform/android/external/icu/icu4c/source/common/uarrsort.c:48:35: warning: unused parameter 'context' [-Wunused-parameter]
+ uprv_uint32Comparator(const void *context, const void *left, const void *right) {
+                                   ^

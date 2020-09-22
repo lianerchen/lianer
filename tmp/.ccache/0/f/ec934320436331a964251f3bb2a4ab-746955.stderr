@@ -1,0 +1,19 @@
+In file included from platform/android/packages/apps/Gallery2/jni/filters/wbalance.c:17:0:
+platform/android/packages/apps/Gallery2/jni/filters/wbalance.c: In function 'Java_com_android_gallery3d_filtershow_filters_ImageFilterWBalance_nativeApplyFilter':
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:126: warning: unused parameter 'obj' [-Wunused-parameter]
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                                                                                                              ^
+platform/android/packages/apps/Gallery2/jni/filters/wbalance.c:131:6: note: in expansion of macro 'JNIFUNCF'
+ void JNIFUNCF(ImageFilterWBalance, nativeApplyFilter, jobject bitmap, jint width, jint height, int locX,int locY)
+      ^
+platform/android/packages/apps/Gallery2/jni/filters/wbalance.c: In function 'estmateWhiteBox':
+platform/android/packages/apps/Gallery2/jni/filters/wbalance.c:128:12: warning: 'sum' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     *wb = b/sum;
+            ^
+platform/android/packages/apps/Gallery2/jni/filters/wbalance.c:128:12: warning: 'b' may be used uninitialized in this function [-Wmaybe-uninitialized]
+platform/android/packages/apps/Gallery2/jni/filters/wbalance.c:127:12: warning: 'g' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     *wg = g/sum;
+            ^
+platform/android/packages/apps/Gallery2/jni/filters/wbalance.c:126:12: warning: 'r' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     *wr = r/sum;
+            ^

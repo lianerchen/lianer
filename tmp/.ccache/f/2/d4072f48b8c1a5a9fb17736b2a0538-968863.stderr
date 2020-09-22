@@ -1,0 +1,14 @@
+component/OAM/agent/tr069_cut/stunclient/stunclient.c:123:5: warning: no previous prototype for 'STUNClient_Init' [-Wmissing-prototypes]
+ int STUNClient_Init(void)
+     ^
+component/OAM/agent/tr069_cut/stunclient/stunclient.c:162:5: warning: no previous prototype for 'STUNClient_UdpWaitProcess' [-Wmissing-prototypes]
+ int STUNClient_UdpWaitProcess(int hevt , void * arg)
+     ^
+component/OAM/agent/tr069_cut/stunclient/stunclient.c: In function 'STUNClient_start':
+component/OAM/agent/tr069_cut/stunclient/stunclient.c:659:3: warning: '0' flag used with '%p' gnu_printf format [-Wformat=]
+   DebugOutString(TR069_DEBUG_OUT,"STUNClient_Timeout=%08p\n", STUNClient_Timeout);
+   ^
+component/OAM/agent/tr069_cut/stunclient/stunclient.c: In function 'validateUDP':
+component/OAM/agent/tr069_cut/stunclient/stunclient.c:2020:21: warning: too many arguments for format [-Wformat-extra-args]
+                     DebugOutString(TR069_DEBUG_OUT, "invalid stun password! \n", sig);
+                     ^

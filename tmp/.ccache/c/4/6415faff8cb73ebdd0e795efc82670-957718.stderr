@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/network/hi_api_eth.c: In function 'HI_ETH_DNSSet':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/network/hi_api_eth.c:775:49: warning: unused parameter 'enable' [-Wunused-parameter]
+ HI_S32 HI_ETH_DNSSet (Eth_Port_E ePort, HI_BOOL enable, HI_CHAR *dns)
+                                                 ^

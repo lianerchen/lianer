@@ -1,0 +1,10 @@
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-entry.c: In function 'exif_entry_get_value':
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-entry.c:1199:2: warning: case value '0' not in enumerated type 'ExifTag' [-Wswitch]
+  case EXIF_TAG_GPS_VERSION_ID:
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-entry.c:1226:2: warning: case value '5' not in enumerated type 'ExifTag' [-Wswitch]
+  case EXIF_TAG_GPS_ALTITUDE_REF:
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-entry.c:1239:2: warning: case value '7' not in enumerated type 'ExifTag' [-Wswitch]
+  case EXIF_TAG_GPS_TIME_STAMP:
+  ^

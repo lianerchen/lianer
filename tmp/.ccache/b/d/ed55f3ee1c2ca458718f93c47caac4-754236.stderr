@@ -1,0 +1,26 @@
+platform/android/external/neven/Embedded/common/src/b_ImageEm/Functions.c: In function 'bim_filterWarpInterpolation':
+platform/android/external/neven/Embedded/common/src/b_ImageEm/Functions.c:211:39: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    xMinL = ( int32 )w0L < xMinL ? w0L : xMinL;
+                                       ^
+platform/android/external/neven/Embedded/common/src/b_ImageEm/Functions.c:212:39: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    yMinL = ( int32 )h0L < yMinL ? h0L : yMinL;
+                                       ^
+platform/android/external/neven/Embedded/common/src/b_ImageEm/Functions.c:215:39: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    xMaxL = ( int32 )w0L < xMaxL ? w0L : xMaxL;
+                                       ^
+platform/android/external/neven/Embedded/common/src/b_ImageEm/Functions.c:216:39: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    yMaxL = ( int32 )h0L < yMaxL ? h0L : yMaxL;
+                                       ^
+platform/android/external/neven/Embedded/common/src/b_ImageEm/Functions.c: In function 'bim_filterWarpPixelReplication':
+platform/android/external/neven/Embedded/common/src/b_ImageEm/Functions.c:543:39: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    xMinL = ( int32 )w0L < xMinL ? w0L : xMinL;
+                                       ^
+platform/android/external/neven/Embedded/common/src/b_ImageEm/Functions.c:544:39: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    yMinL = ( int32 )h0L < yMinL ? h0L : yMinL;
+                                       ^
+platform/android/external/neven/Embedded/common/src/b_ImageEm/Functions.c:547:39: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    xMaxL = ( int32 )w0L < xMaxL ? w0L : xMaxL;
+                                       ^
+platform/android/external/neven/Embedded/common/src/b_ImageEm/Functions.c:548:39: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    yMaxL = ( int32 )h0L < yMaxL ? h0L : yMaxL;
+                                       ^

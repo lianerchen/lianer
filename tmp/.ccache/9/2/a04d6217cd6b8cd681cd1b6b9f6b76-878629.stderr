@@ -1,0 +1,15 @@
+component/OAM/agent/tr069_cut/session/upload.c: In function 'UploadFile':
+component/OAM/agent/tr069_cut/session/upload.c:488:3: warning: format '%d' expects argument of type 'int', but argument 6 has type 'long long int' [-Wformat=]
+   DebugOutString(TR069_DEBUG_OUT, "StartTime:%s,StatisticInterval:%d,fd = %d, FileLocation:%s, len:%d\n",
+   ^
+component/OAM/agent/tr069_cut/session/upload.c:574:11: warning: implicit declaration of function 'MCSP_Pref_GetString' [-Wimplicit-function-declaration]
+           MCSP_Pref_GetString("sqmcfg", "FileName", acFile, "");
+           ^
+component/OAM/agent/tr069_cut/session/upload.c:574:11: warning: nested extern declaration of 'MCSP_Pref_GetString' [-Wnested-externs]
+component/OAM/agent/tr069_cut/session/upload.c:576:5: warning: format '%d' expects argument of type 'int', but argument 3 has type 'char *' [-Wformat=]
+     DebugOutString(TR069_DEBUG_OUT,"[%s]acFile=%d, strFileName=%s \n", __func__, acFile,strFileName);
+     ^
+component/OAM/agent/tr069_cut/session/upload.c:590:5: warning: implicit declaration of function 'ne_set_server_auth' [-Wimplicit-function-declaration]
+     ne_set_server_auth(pSess->pSession, upload_auth, NULL);
+     ^
+component/OAM/agent/tr069_cut/session/upload.c:590:5: warning: nested extern declaration of 'ne_set_server_auth' [-Wnested-externs]

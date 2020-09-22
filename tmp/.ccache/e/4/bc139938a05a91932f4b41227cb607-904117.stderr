@@ -1,0 +1,5 @@
+In file included from platform/android/external/pdfium/core/src/fxcrt/fx_arabic.cpp:8:0:
+platform/android/external/pdfium/core/src/fxcrt/fx_arabic.h: In member function 'virtual void CFX_BidiChar::Release()':
+platform/android/external/pdfium/core/src/fxcrt/fx_arabic.h:15:16: warning: deleting object of polymorphic class type 'CFX_BidiChar' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+         delete this;
+                ^

@@ -1,0 +1,110 @@
+platform/android/external/giflib/dgif_lib.c: In function 'DGifOpenFileHandle':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:117:9: note: in expansion of macro 'READ'
+     if (READ(GifFile, (unsigned char *)Buf, GIF_STAMP_LEN) != GIF_STAMP_LEN) {
+         ^
+platform/android/external/giflib/dgif_lib.c: In function 'DGifOpen':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:192:9: note: in expansion of macro 'READ'
+     if (READ(GifFile, (unsigned char *)Buf, GIF_STAMP_LEN) != GIF_STAMP_LEN) {
+         ^
+platform/android/external/giflib/dgif_lib.c: In function 'DGifGetScreenDesc':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:247:9: note: in expansion of macro 'READ'
+     if (READ(GifFile, Buf, 3) != 3) {
+         ^
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:270:17: note: in expansion of macro 'READ'
+             if (READ(GifFile, Buf, 3) != 3) {
+                 ^
+platform/android/external/giflib/dgif_lib.c: In function 'DGifGetRecordType':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:302:9: note: in expansion of macro 'READ'
+     if (READ(GifFile, &Buf, 1) != 1) {
+         ^
+platform/android/external/giflib/dgif_lib.c: In function 'DGifGetImageDesc':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:349:9: note: in expansion of macro 'READ'
+     if (READ(GifFile, Buf, 1) != 1) {
+         ^
+platform/android/external/giflib/dgif_lib.c:374:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (i = 0; i < GifFile->Image.ColorMap->ColorCount; i++) {
+                       ^
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:375:17: note: in expansion of macro 'READ'
+             if (READ(GifFile, Buf, 3) != 3) {
+                 ^
+platform/android/external/giflib/dgif_lib.c: In function 'DGifGetExtension':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:524:9: note: in expansion of macro 'READ'
+     if (READ(GifFile, &Buf, 1) != 1) {
+         ^
+platform/android/external/giflib/dgif_lib.c: In function 'DGifGetExtensionNext':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:544:9: note: in expansion of macro 'READ'
+     if (READ(GifFile, &Buf, 1) != 1) {
+         ^
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:552:13: note: in expansion of macro 'READ'
+         if (READ(GifFile, &((*Extension)[1]), Buf) != Buf) {
+             ^
+platform/android/external/giflib/dgif_lib.c: In function 'DGifGetWord':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:673:9: note: in expansion of macro 'READ'
+     if (READ(GifFile, c, 2) != 2) {
+         ^
+platform/android/external/giflib/dgif_lib.c: In function 'DGifGetCodeNext':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:717:9: note: in expansion of macro 'READ'
+     if (READ(GifFile, &Buf, 1) != 1) {
+         ^
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:727:13: note: in expansion of macro 'READ'
+         if (READ(GifFile, &((*CodeBlock)[1]), Buf) != Buf) {
+             ^
+platform/android/external/giflib/dgif_lib.c: In function 'DGifSetupDecompress':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:751:5: note: in expansion of macro 'READ'
+     READ(GifFile, &CodeSize, 1);    /* Read Code size from file. */
+     ^
+platform/android/external/giflib/dgif_lib.c: In function 'DGifBufferedInput':
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:1021:13: note: in expansion of macro 'READ'
+         if (READ(GifFile, Buf, 1) != 1) {
+             ^
+platform/android/external/giflib/dgif_lib.c:32:64: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     ((GifFilePrivateType*)_gif->Private)->Read(_gif,_buf,_len) : \
+                                                                ^
+platform/android/external/giflib/dgif_lib.c:1041:13: note: in expansion of macro 'READ'
+         if (READ(GifFile, &Buf[1], Buf[0]) != Buf[0]) {
+             ^

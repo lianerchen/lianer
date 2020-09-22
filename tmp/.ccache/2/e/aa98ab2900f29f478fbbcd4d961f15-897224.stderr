@@ -1,0 +1,6 @@
+cc1: warning: command line option '-Wno-non-virtual-dtor' is valid for C++/ObjC++ but not for C [enabled by default]
+In file included from platform/android/external/pdfium/core/src/fxcodec/lcms2/src/fx_cmscnvrt.c:7:0:
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmscnvrt.c: In function 'IsEmptyLayer':
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmscnvrt.c:351:9: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+         diff += fabs(((cmsFloat64Number*)m)[i] - ((cmsFloat64Number*)&Ident)[i]);
+         ^

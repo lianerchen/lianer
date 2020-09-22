@@ -1,0 +1,4 @@
+In file included from platform/android/external/pcslMedia/PcslMediaListener.cpp:1:0:
+platform/android/external/pcslMedia/PcslMedia.h:30:1: warning: 'typedef' was ignored in this declaration [enabled by default]
+ };
+ ^

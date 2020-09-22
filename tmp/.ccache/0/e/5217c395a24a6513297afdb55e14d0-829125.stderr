@@ -1,0 +1,8 @@
+platform/android/external/ipsec-tools/src/libipsec/pfkey.c: In function 'pfkey_send_delete_all':
+platform/android/external/ipsec-tools/src/libipsec/pfkey.c:572:16: warning: unused parameter 'mode' [-Wunused-parameter]
+  u_int satype, mode;
+                ^
+platform/android/external/ipsec-tools/src/libipsec/pfkey.c: In function 'pfkey_send_x2':
+platform/android/external/ipsec-tools/src/libipsec/pfkey.c:1491:22: warning: unused parameter 'mode' [-Wunused-parameter]
+  u_int type, satype, mode;
+                      ^

@@ -1,0 +1,3 @@
+platform/android/external/icu/icu4c/source/common/ures_cnv.c: In function 'ures_openU_53':
+platform/android/external/icu/icu4c/source/common/ures_cnv.c:44:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/icu/icu4c/source/common/ures_cnv.c:62:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

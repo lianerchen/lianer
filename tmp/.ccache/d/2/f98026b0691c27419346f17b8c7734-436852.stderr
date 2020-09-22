@@ -1,0 +1,2 @@
+platform/android/external/e2fsprogs/lib/e2p/fgetversion.c:19:0: warning: "_LARGEFILE_SOURCE" redefined [enabled by default]
+./platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h:148:0: note: this is the location of the previous definition

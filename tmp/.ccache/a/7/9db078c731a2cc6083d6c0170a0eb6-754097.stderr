@@ -1,0 +1,4 @@
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imaadpcm.c: In function 'IMADecoderInit':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_imaadpcm.c:82:51: warning: unused parameter 'pEASData' [-Wunused-parameter]
+ static EAS_RESULT IMADecoderInit (EAS_DATA_HANDLE pEASData, S_PCM_STATE *pState)
+                                                   ^

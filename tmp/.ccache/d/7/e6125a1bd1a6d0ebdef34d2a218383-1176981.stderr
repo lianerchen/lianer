@@ -1,0 +1,13 @@
+platform/android/frameworks/opt/net/voip/src/jni/rtp/AudioGroup.cpp: In member function 'virtual bool {anonymous}::AudioGroup::DeviceThread::threadLoop()':
+platform/android/frameworks/opt/net/voip/src/jni/rtp/AudioGroup.cpp:799:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (output < sampleCount * 2) {
+                                ^
+platform/android/frameworks/opt/net/voip/src/jni/rtp/AudioGroup.cpp:802:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (input < sampleCount * 2) {
+                               ^
+platform/android/frameworks/opt/net/voip/src/jni/rtp/AudioGroup.cpp:885:65: warning: 'android::status_t android::AudioTrack::obtainBuffer(android::AudioTrack::Buffer*, int32_t)' is deprecated (declared at platform/android/frameworks/av/include/media/AudioTrack.h:526) [-Wdeprecated-declarations]
+                 status_t status = track->obtainBuffer(&buffer, 1);
+                                                                 ^
+platform/android/frameworks/opt/net/voip/src/jni/rtp/AudioGroup.cpp:901:66: warning: 'android::status_t android::AudioRecord::obtainBuffer(android::AudioRecord::Buffer*, int32_t)' is deprecated (declared at platform/android/frameworks/av/include/media/AudioRecord.h:361) [-Wdeprecated-declarations]
+                 status_t status = record->obtainBuffer(&buffer, 1);
+                                                                  ^

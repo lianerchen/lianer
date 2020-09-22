@@ -1,0 +1,41 @@
+In file included from component/dcas/server/../../dtv/client/CHDTVClient.h:9:0,
+                 from component/dcas/server/./src/ICATNoticeFilterServer.h:25,
+                 from component/dcas/server/./src/ICATNoticeFilterServer.cpp:8:
+component/dcas/server/../../dtv/com/chdtvdata.h:1030:15: warning: unused parameter 'outData' [-Wunused-parameter]
+  virtual void writeToParcel(Parcel* outData){};
+               ^
+component/dcas/server/../../dtv/com/chdtvdata.h:1031:15: warning: unused parameter 'inData' [-Wunused-parameter]
+  virtual void readFromParcel(const Parcel* inData){};
+               ^
+component/dcas/server/./src/ICATNoticeFilterServer.cpp:357:22: warning: unused parameter 'pParam' [-Wunused-parameter]
+         static void *GetEcmDataThd(void *pParam)
+                      ^
+component/dcas/server/./src/ICATNoticeFilterServer.cpp:394:22: warning: unused parameter 'pParam' [-Wunused-parameter]
+         static void *GetEmmDataThd(void *pParam)
+                      ^
+component/dcas/server/./src/ICATNoticeFilterServer.cpp:423:22: warning: unused parameter 'pParam' [-Wunused-parameter]
+         static void *GetCatDataThd(void *pParam) {
+                      ^
+component/dcas/server/./src/ICATNoticeFilterServer.cpp:826:21: warning: unused parameter 'Device' [-Wunused-parameter]
+         static void EcmFilterCallback(int Device, DTV_PSI_FILTER_HANDLE  Handle, SectionContainer  *pstru_Section)
+                     ^
+component/dcas/server/./src/ICATNoticeFilterServer.cpp:892:21: warning: unused parameter 'Device' [-Wunused-parameter]
+         static void EmmFilterCallback(int Device, DTV_PSI_FILTER_HANDLE  Handle, SectionContainer  *pstru_Section)
+                     ^
+component/dcas/server/./src/ICATNoticeFilterServer.cpp: In function 'void android::CatFilterCallback(void*, int, char*, int)':
+component/dcas/server/./src/ICATNoticeFilterServer.cpp:1012:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(sectionLength + 3 > section_length) {
+                           ^
+component/dcas/server/./src/ICATNoticeFilterServer.cpp:1017:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(tempversion == g_catversion) {
+                      ^
+component/dcas/server/./src/ICATNoticeFilterServer.cpp:1029:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             while(baseIndex < sectionLength) {
+                               ^
+component/dcas/server/./src/ICATNoticeFilterServer.cpp: At global scope:
+component/dcas/server/./src/ICATNoticeFilterServer.cpp:1000:15: warning: unused parameter 'data' [-Wunused-parameter]
+   static void CatFilterCallback(void *data, int filter_id, char *sectiondataIn, int section_length)
+               ^
+component/dcas/server/./src/ICATNoticeFilterServer.cpp:1079:21: warning: unused parameter 'data' [-Wunused-parameter]
+         static void reportFilterForceDisconnected(void *data, int filter_id)
+                     ^

@@ -1,0 +1,46 @@
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:158:1: warning: unused parameter 'font_data' [-Wunused-parameter]
+ hb_ot_get_glyph_v_advance (hb_font_t *font HB_UNUSED,
+ ^
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:158:1: warning: unused parameter 'glyph' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:180:1: warning: unused parameter 'font_data' [-Wunused-parameter]
+ hb_ot_get_glyph_v_origin (hb_font_t *font HB_UNUSED,
+ ^
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:180:1: warning: unused parameter 'glyph' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:180:1: warning: unused parameter 'x' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:180:1: warning: unused parameter 'y' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:192:1: warning: unused parameter 'font' [-Wunused-parameter]
+ hb_ot_get_glyph_h_kerning (hb_font_t *font,
+ ^
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:192:1: warning: unused parameter 'font_data' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:192:1: warning: unused parameter 'left_glyph' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:192:1: warning: unused parameter 'right_glyph' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:213:1: warning: unused parameter 'font_data' [-Wunused-parameter]
+ hb_ot_get_glyph_extents (hb_font_t *font HB_UNUSED,
+ ^
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:213:1: warning: unused parameter 'glyph' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:213:1: warning: unused parameter 'extents' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:224:1: warning: unused parameter 'font_data' [-Wunused-parameter]
+ hb_ot_get_glyph_contour_point (hb_font_t *font HB_UNUSED,
+ ^
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:224:1: warning: unused parameter 'glyph' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:224:1: warning: unused parameter 'point_index' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:224:1: warning: unused parameter 'x' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:224:1: warning: unused parameter 'y' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:237:1: warning: unused parameter 'font_data' [-Wunused-parameter]
+ hb_ot_get_glyph_name (hb_font_t *font HB_UNUSED,
+ ^
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:237:1: warning: unused parameter 'glyph' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:237:1: warning: unused parameter 'name' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:237:1: warning: unused parameter 'size' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:248:1: warning: unused parameter 'font_data' [-Wunused-parameter]
+ hb_ot_get_glyph_from_name (hb_font_t *font HB_UNUSED,
+ ^
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:248:1: warning: unused parameter 'name' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:248:1: warning: unused parameter 'len' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:248:1: warning: unused parameter 'glyph' [-Wunused-parameter]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc: In function 'hb_font_funcs_t* _hb_ot_get_font_funcs()':
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:272:3: warning: missing initializer for member 'hb_prealloced_array_t<hb_user_data_array_t::hb_user_data_item_t, 2u>::static_array' [-Wmissing-field-initializers]
+   };
+   ^
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:272:3: warning: missing initializer for member 'hb_font_funcs_t::user_data' [-Wmissing-field-initializers]
+platform/android/external/harfbuzz_ng/src/hb-ot-font.cc:272:3: warning: missing initializer for member 'hb_font_funcs_t::destroy' [-Wmissing-field-initializers]

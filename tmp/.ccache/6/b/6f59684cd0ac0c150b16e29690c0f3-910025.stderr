@@ -1,0 +1,22 @@
+component/OAM/agent/tr069_cut/nm_fun/parameter_nm.c:200:9: warning: missing braces around initializer [-Wmissing-braces]
+         {Nm_Device,     handleObjDevice},
+         ^
+component/OAM/agent/tr069_cut/nm_fun/parameter_nm.c:200:9: warning: (near initialization for 'gs_tFun[0].tModelName') [-Wmissing-braces]
+component/OAM/agent/tr069_cut/nm_fun/parameter_nm.c: In function 'handleObjProcess':
+component/OAM/agent/tr069_cut/nm_fun/parameter_nm.c:2129:21: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+                     snprintf(out_data->tParam[i].strValue, MAX_MODELNAME_LEN, "%d B",user_proc_array[(j-1)].vm_size);
+                     ^
+component/OAM/agent/tr069_cut/nm_fun/parameter_nm.c:2142:17: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+                 snprintf(out_data->tParam[i].strValue, MAX_MODELNAME_LEN, "%d",user_proc_array[(j-1)].utime+user_proc_array[(j-1)].stime);
+                 ^
+component/OAM/agent/tr069_cut/nm_fun/parameter_nm.c: In function 'handleProcess_Timeout':
+component/OAM/agent/tr069_cut/nm_fun/parameter_nm.c:3387:9: warning: not enough variable arguments to fit a sentinel [-Wformat=]
+         execl("OAM", NULL);  // 重新执行netmanager进程，不会再往后面走
+         ^
+component/OAM/agent/tr069_cut/nm_fun/parameter_nm.c: In function 'ParseProcesses':
+component/OAM/agent/tr069_cut/nm_fun/parameter_nm.c:3449:30: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+         if(pbase->vm_size>=1);
+                              ^
+component/OAM/agent/tr069_cut/nm_fun/parameter_nm.c:3474:47: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+             if((pbase->utime+pbase->stime)>=1);
+                                               ^

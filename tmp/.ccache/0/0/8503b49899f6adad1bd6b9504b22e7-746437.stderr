@@ -1,0 +1,19 @@
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndapi.c: In function 'check_search_cursor':
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndapi.c:48:47: warning: unused parameter 'iwnn' [-Wunused-parameter]
+ static NJ_INT16 check_search_cursor(NJ_CLASS *iwnn, NJ_CURSOR *cursor) {
+                                               ^
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndapi.c: In function 'njd_get_word_data':
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndapi.c:372:56: warning: unused parameter 'dicset' [-Wunused-parameter]
+ NJ_INT16 njd_get_word_data(NJ_CLASS *iwnn, NJ_DIC_SET *dicset, NJ_SEARCH_LOCATION_SET *loctset, NJ_UINT16 dic_idx, NJ_WORD *word) {
+                                                        ^
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndapi.c:372:107: warning: unused parameter 'dic_idx' [-Wunused-parameter]
+ NJ_INT16 njd_get_word_data(NJ_CLASS *iwnn, NJ_DIC_SET *dicset, NJ_SEARCH_LOCATION_SET *loctset, NJ_UINT16 dic_idx, NJ_WORD *word) {
+                                                                                                           ^
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndapi.c: In function 'set_operation_id':
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndapi.c:413:68: warning: unused parameter 'reverse' [-Wunused-parameter]
+ static void set_operation_id(NJ_SEARCH_LOCATION *dicinfo, NJ_UINT8 reverse, NJ_RESULT *result) {
+                                                                    ^
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndapi.c: In function 'njx_check_dic':
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndapi.c:839:81: warning: unused parameter 'restore' [-Wunused-parameter]
+ NJ_EXTERN NJ_INT16 njx_check_dic(NJ_CLASS *iwnn, NJ_DIC_HANDLE handle, NJ_UINT8 restore, NJ_UINT32 size) {
+                                                                                 ^

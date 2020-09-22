@@ -1,0 +1,46 @@
+In file included from platform/android/external/pdfium/core/src/fxge/dib/../../../include/fxge/fx_ge.h:10:0,
+                 from platform/android/external/pdfium/core/src/fxge/dib/fx_dib_composite.cpp:7:
+platform/android/external/pdfium/core/src/fxge/dib/fx_dib_composite.cpp: In function 'void _CompositeRow_Argb2Argb(FX_LPBYTE, FX_LPCBYTE, int, int, FX_LPCBYTE, FX_LPBYTE, FX_LPCBYTE)':
+platform/android/external/pdfium/core/src/fxge/dib/../../../include/fxge/fx_dib.h:108:107: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+ #define FXARGB_GETDIB(p) (((FX_LPBYTE)(p))[0]) | (((FX_LPBYTE)(p))[1] << 8) | (((FX_LPBYTE)(p))[2] << 16) | (((FX_LPBYTE)(p))[3] << 24)
+                                                                                                           ^
+platform/android/external/pdfium/core/src/fxge/dib/../../../include/fxge/fx_dib.h:109:64: note: in definition of macro 'FXARGB_SETDIB'
+ #define FXARGB_SETDIB(p, argb) ((FX_LPBYTE)(p))[0] = (FX_BYTE)(argb), \
+                                                                ^
+platform/android/external/pdfium/core/src/fxge/dib/fx_dib_composite.cpp:737:51: note: in expansion of macro 'FXARGB_GETDIB'
+                         FXARGB_SETDIB(dest_scan, (FXARGB_GETDIB(src_scan) & 0xffffff) | (src_alpha << 24));
+                                                   ^
+platform/android/external/pdfium/core/src/fxge/dib/../../../include/fxge/fx_dib.h:108:107: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+ #define FXARGB_GETDIB(p) (((FX_LPBYTE)(p))[0]) | (((FX_LPBYTE)(p))[1] << 8) | (((FX_LPBYTE)(p))[2] << 16) | (((FX_LPBYTE)(p))[3] << 24)
+                                                                                                           ^
+platform/android/external/pdfium/core/src/fxge/dib/../../../include/fxge/fx_dib.h:110:42: note: in definition of macro 'FXARGB_SETDIB'
+         ((FX_LPBYTE)(p))[1] = (FX_BYTE)((argb) >> 8), \
+                                          ^
+platform/android/external/pdfium/core/src/fxge/dib/fx_dib_composite.cpp:737:51: note: in expansion of macro 'FXARGB_GETDIB'
+                         FXARGB_SETDIB(dest_scan, (FXARGB_GETDIB(src_scan) & 0xffffff) | (src_alpha << 24));
+                                                   ^
+platform/android/external/pdfium/core/src/fxge/dib/../../../include/fxge/fx_dib.h:108:107: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+ #define FXARGB_GETDIB(p) (((FX_LPBYTE)(p))[0]) | (((FX_LPBYTE)(p))[1] << 8) | (((FX_LPBYTE)(p))[2] << 16) | (((FX_LPBYTE)(p))[3] << 24)
+                                                                                                           ^
+platform/android/external/pdfium/core/src/fxge/dib/../../../include/fxge/fx_dib.h:111:64: note: in definition of macro 'FXARGB_SETDIB'
+                               ((FX_LPBYTE)(p))[2] = (FX_BYTE)((argb) >> 16), \
+                                                                ^
+platform/android/external/pdfium/core/src/fxge/dib/fx_dib_composite.cpp:737:51: note: in expansion of macro 'FXARGB_GETDIB'
+                         FXARGB_SETDIB(dest_scan, (FXARGB_GETDIB(src_scan) & 0xffffff) | (src_alpha << 24));
+                                                   ^
+platform/android/external/pdfium/core/src/fxge/dib/../../../include/fxge/fx_dib.h:108:107: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+ #define FXARGB_GETDIB(p) (((FX_LPBYTE)(p))[0]) | (((FX_LPBYTE)(p))[1] << 8) | (((FX_LPBYTE)(p))[2] << 16) | (((FX_LPBYTE)(p))[3] << 24)
+                                                                                                           ^
+platform/android/external/pdfium/core/src/fxge/dib/../../../include/fxge/fx_dib.h:112:72: note: in definition of macro 'FXARGB_SETDIB'
+                                       ((FX_LPBYTE)(p))[3] = (FX_BYTE)((argb) >> 24)
+                                                                        ^
+platform/android/external/pdfium/core/src/fxge/dib/fx_dib_composite.cpp:737:51: note: in expansion of macro 'FXARGB_GETDIB'
+                         FXARGB_SETDIB(dest_scan, (FXARGB_GETDIB(src_scan) & 0xffffff) | (src_alpha << 24));
+                                                   ^
+platform/android/external/pdfium/core/src/fxge/dib/fx_dib_composite.cpp: In member function 'FX_BOOL CFX_DIBitmap::CompositeBitmap(int, int, int, int, const CFX_DIBSource*, int, int, int, const CFX_ClipRgn*, FX_BOOL, void*)':
+platform/android/external/pdfium/core/src/fxge/dib/fx_dib_composite.cpp:4169:64: warning: 'clip_box.FX_RECT::top' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             clip_scan = pClipMask->m_pBuffer + (dest_top + row - clip_box.top) * pClipMask->m_Pitch + (dest_left - clip_box.left);
+                                                                ^
+platform/android/external/pdfium/core/src/fxge/dib/fx_dib_composite.cpp:4169:114: warning: 'clip_box.FX_RECT::left' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             clip_scan = pClipMask->m_pBuffer + (dest_top + row - clip_box.top) * pClipMask->m_Pitch + (dest_left - clip_box.left);
+                                                                                                                  ^

@@ -1,0 +1,9 @@
+In file included from platform/android/external/netperf/netperf.c:73:0:
+platform/android/external/netperf/netlib.h:608:0: warning: "bcopy" redefined [enabled by default]
+ #define bcopy(s,d,h) memcpy((d),(s),(h))
+ ^
+In file included from platform/android/bionic/libc/include/stdlib.h:36:0,
+                 from platform/android/external/netperf/netperf.c:52:
+platform/android/bionic/libc/include/strings.h:47:0: note: this is the location of the previous definition
+ #define bcopy(b1, b2, len) \
+ ^

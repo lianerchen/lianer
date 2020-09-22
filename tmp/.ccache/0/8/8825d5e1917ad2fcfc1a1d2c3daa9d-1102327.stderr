@@ -1,0 +1,7 @@
+platform/android/frameworks/base/media/jni/audioeffect/android_media_Visualizer.cpp:489:1: warning: unused parameter 'thiz' [-Wunused-parameter]
+ android_media_visualizer_native_getCaptureSizeRange(JNIEnv *env, jobject thiz)
+ ^
+platform/android/frameworks/base/media/jni/audioeffect/android_media_Visualizer.cpp:501:1: warning: unused parameter 'env' [-Wunused-parameter]
+ android_media_visualizer_native_getMaxCaptureRate(JNIEnv *env, jobject thiz)
+ ^
+platform/android/frameworks/base/media/jni/audioeffect/android_media_Visualizer.cpp:501:1: warning: unused parameter 'thiz' [-Wunused-parameter]

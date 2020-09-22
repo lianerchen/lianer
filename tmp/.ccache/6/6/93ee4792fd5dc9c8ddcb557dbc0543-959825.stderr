@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/external/alsa-lib/src/control/control.c: In function 'snd_ctl_elem_info_is_indirect':
+device/hisilicon/bigfish/external/alsa-lib/src/control/control.c:1869:62: warning: unused parameter 'obj' [-Wunused-parameter]
+ int snd_ctl_elem_info_is_indirect(const snd_ctl_elem_info_t *obj)
+                                                              ^

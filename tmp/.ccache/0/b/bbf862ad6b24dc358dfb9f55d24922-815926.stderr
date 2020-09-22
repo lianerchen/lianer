@@ -1,0 +1,7 @@
+platform/android/external/ltrace/sysdeps/linux-gnu/arm/fetch.c: In function 'arch_fetch_arg_next':
+platform/android/external/ltrace/sysdeps/linux-gnu/arm/fetch.c:242:14: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+    ctx->nsaa += rest;
+              ^
+platform/android/external/ltrace/sysdeps/linux-gnu/arm/fetch.c:259:12: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+  ctx->nsaa += sz;
+            ^

@@ -1,0 +1,12 @@
+platform/android/external/ltrace/sysdeps/linux-gnu/proc.c:24:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+ #define _GNU_SOURCE /* For getline.  */
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+platform/android/external/ltrace/sysdeps/linux-gnu/proc.c: In function 'fetch_dyn64':
+platform/android/external/ltrace/sysdeps/linux-gnu/proc.c:296:8: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+  *addr += sizeof(*ret);
+        ^
+platform/android/external/ltrace/sysdeps/linux-gnu/proc.c: In function 'fetch_dyn32':
+platform/android/external/ltrace/sysdeps/linux-gnu/proc.c:307:8: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+  *addr += sizeof(dyn);
+        ^

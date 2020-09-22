@@ -1,0 +1,5 @@
+In file included from platform/android/external/freetype/src/cff/cff.c:34:0:
+platform/android/external/freetype/src/cff/cf2font.c: In function 'cf2_getGlyphOutline':
+platform/android/external/freetype/src/cff/cf2font.c:474:31: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+                               (CF2_OutlineCallbacks)&font->outline,
+                               ^

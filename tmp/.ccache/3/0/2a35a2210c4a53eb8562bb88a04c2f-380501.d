@@ -1,0 +1,30 @@
+out/host/linux-x86/obj32/SHARED_LIBRARIES/libicui18n-host_intermediates/dtrule.o: \
+ platform/android/external/icu/icu4c/source/i18n/dtrule.cpp \
+ platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h \
+ platform/android/external/icu/icu4c/source/i18n/../common/utypeinfo.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/../../../../x86_64-linux/include/c++/4.6/typeinfo \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/../../../../x86_64-linux/include/c++/4.6/exception \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/../../../../x86_64-linux/include/c++/4.6/x86_64-linux/32/bits/c++config.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/../../../../x86_64-linux/include/c++/4.6/x86_64-linux/32/bits/os_defines.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/features.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/predefs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/sys/cdefs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/wordsize.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/gnu/stubs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/gnu/stubs-32.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/../../../../x86_64-linux/include/c++/4.6/x86_64-linux/32/bits/cpu_defines.h \
+ platform/android/external/icu/icu4c/source/i18n/../common/unicode/utypes.h \
+ platform/android/external/icu/icu4c/source/i18n/../common/unicode/umachine.h \
+ platform/android/external/icu/icu4c/source/i18n/../common/unicode/ptypes.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/include/stddef.h \
+ platform/android/external/icu/icu4c/source/i18n/../common/unicode/platform.h \
+ platform/android/external/icu/icu4c/source/i18n/../common/unicode/uconfig.h \
+ platform/android/external/icu/icu4c/source/i18n/../common/unicode/uvernum.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/include/stdint.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/stdint.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/wchar.h \
+ platform/android/external/icu/icu4c/source/i18n/../common/unicode/urename.h \
+ platform/android/external/icu/icu4c/source/i18n/../common/unicode/uversion.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/include/float.h \
+ platform/android/external/icu/icu4c/source/i18n/unicode/dtrule.h \
+ platform/android/external/icu/icu4c/source/i18n/../common/unicode/uobject.h

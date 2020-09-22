@@ -1,0 +1,3 @@
+platform/android/external/e2fsprogs/e2fsck/pass3.c: In function 'find_new_blocks_proc':
+platform/android/external/e2fsprogs/e2fsck/pass3.c:770:45: warning: unused parameter 'fs' [-Wunused-parameter]
+platform/android/external/e2fsprogs/e2fsck/pass3.c:772:17: warning: unused parameter 'blockcnt' [-Wunused-parameter]

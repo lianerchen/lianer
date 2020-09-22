@@ -1,0 +1,13 @@
+In file included from device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_route.c:31:0:
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_local.h: In function 'gettimestamp':
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_local.h:952:63: warning: unused parameter 'monotonic' [-Wunused-parameter]
+ static inline void gettimestamp(snd_htimestamp_t *tstamp, int monotonic)
+                                                               ^
+In file included from device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_route.c:355:0:
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_route.c: In function 'snd_pcm_route_convert1_many':
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/plugin_ops.h:55:23: warning: 'src' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define as_s32c(ptr) (*(const int32_t*)(ptr))
+                       ^
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_route.c:350:16: note: 'src' was declared here
+    const char *src = srcs[srcidx];
+                ^

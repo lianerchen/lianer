@@ -1,0 +1,36 @@
+In file included from platform/android/external/libxml2/libxml.h:38:0,
+                 from platform/android/external/libxml2/encoding.c:24:
+platform/android/external/libxml2/include/libxml/xmlversion.h:151:0: warning: "LIBXML_PATTERN_ENABLED" redefined [enabled by default]
+ #define LIBXML_PATTERN_ENABLED
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from platform/android/external/libxml2/libxml.h:38:0,
+                 from platform/android/external/libxml2/encoding.c:24:
+platform/android/external/libxml2/include/libxml/xmlversion.h:196:0: warning: "LIBXML_VALID_ENABLED" redefined [enabled by default]
+ #define LIBXML_VALID_ENABLED
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from platform/android/external/libxml2/libxml.h:38:0,
+                 from platform/android/external/libxml2/encoding.c:24:
+platform/android/external/libxml2/include/libxml/xmlversion.h:331:0: warning: "LIBXML_UNICODE_ENABLED" redefined [enabled by default]
+ #define LIBXML_UNICODE_ENABLED
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from platform/android/external/libxml2/libxml.h:38:0,
+                 from platform/android/external/libxml2/encoding.c:24:
+platform/android/external/libxml2/include/libxml/xmlversion.h:340:0: warning: "LIBXML_REGEXP_ENABLED" redefined [enabled by default]
+ #define LIBXML_REGEXP_ENABLED
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from platform/android/external/libxml2/libxml.h:38:0,
+                 from platform/android/external/libxml2/encoding.c:24:
+platform/android/external/libxml2/include/libxml/xmlversion.h:349:0: warning: "LIBXML_AUTOMATA_ENABLED" redefined [enabled by default]
+ #define LIBXML_AUTOMATA_ENABLED
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from platform/android/external/libxml2/libxml.h:38:0,
+                 from platform/android/external/libxml2/encoding.c:24:
+platform/android/external/libxml2/include/libxml/xmlversion.h:367:0: warning: "LIBXML_SCHEMAS_ENABLED" redefined [enabled by default]
+ #define LIBXML_SCHEMAS_ENABLED
+ ^
+<command-line>:0:0: note: this is the location of the previous definition

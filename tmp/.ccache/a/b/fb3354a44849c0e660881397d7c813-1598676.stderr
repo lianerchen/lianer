@@ -1,0 +1,12 @@
+platform/android/external/skia/src/images/SkImageDecoder_libjpeg.cpp: In function 'int jpeg_hw_get(SkBitmap*)':
+platform/android/external/skia/src/images/SkImageDecoder_libjpeg.cpp:1189:50: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if((int)bm == (unsigned int)flag_map[i][0])
+                                                  ^
+platform/android/external/skia/src/images/SkImageDecoder_libjpeg.cpp: In function 'streambuffer get_newstreambuffer(SkStream*)':
+platform/android/external/skia/src/images/SkImageDecoder_libjpeg.cpp:1292:68: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+             sumlength = sumlength + oldstream->read((void*)(buffer+sumlength), buf_len-sumlength);
+                                                                    ^
+platform/android/external/skia/src/images/SkImageDecoder_libjpeg.cpp: In function 'SkImageDecoder::Result SkJPEGImageDecoder_onDecode(void*, size_t, SkStream*, SkBitmap*, SkImageDecoder::Mode, SkJPEGImageDecoderEx*, char**)':
+platform/android/external/skia/src/images/SkImageDecoder_libjpeg.cpp:789:15: warning: variable 'stream1' might be clobbered by 'longjmp' or 'vfork' [-Wclobbered]
+     SkStream *stream1 = NULL;
+               ^

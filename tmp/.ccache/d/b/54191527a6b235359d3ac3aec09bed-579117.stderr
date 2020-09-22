@@ -1,0 +1,4 @@
+platform/android/external/e2fsprogs/lib/ext2fs/unix_io.c:18:0: warning: "_LARGEFILE_SOURCE" redefined [enabled by default]
+./platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h:148:0: note: this is the location of the previous definition
+platform/android/external/e2fsprogs/lib/ext2fs/unix_io.c:137:1: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/e2fsprogs/lib/ext2fs/unix_io.c:137:1: warning: (near initialization for 'struct_unix_manager.reserved') [-Wmissing-field-initializers]

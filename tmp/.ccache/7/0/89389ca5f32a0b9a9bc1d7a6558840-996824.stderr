@@ -1,0 +1,23 @@
+In file included from platform/android/frameworks/av/include/media/stagefright/FileSource.h:23:0,
+                 from platform/android/frameworks/av/media/libstagefright/webm/WebmFrameThread.h:23,
+                 from platform/android/frameworks/av/media/libstagefright/webm/WebmWriter.h:21,
+                 from platform/android/frameworks/av/media/libstagefright/webm/WebmWriter.cpp:21:
+platform/android/frameworks/av/include/media/stagefright/DataSource.h:76:22: warning: unused parameter 'offset' [-Wunused-parameter]
+     virtual status_t reconnectAtOffset(off64_t offset) {
+                      ^
+platform/android/frameworks/av/include/media/stagefright/DataSource.h:96:31: warning: unused parameter 'mime' [-Wunused-parameter]
+     virtual sp<DecryptHandle> DrmInitialization(const char *mime = NULL) {
+                               ^
+platform/android/frameworks/av/include/media/stagefright/DataSource.h:99:18: warning: unused parameter 'handle' [-Wunused-parameter]
+     virtual void getDrmInfo(sp<DecryptHandle> &handle, DrmManagerClient **client) {};
+                  ^
+platform/android/frameworks/av/include/media/stagefright/DataSource.h:99:18: warning: unused parameter 'client' [-Wunused-parameter]
+In file included from platform/android/frameworks/av/media/libstagefright/webm/WebmWriter.h:25:0,
+                 from platform/android/frameworks/av/media/libstagefright/webm/WebmWriter.cpp:21:
+platform/android/frameworks/av/include/media/stagefright/MediaWriter.h:47:22: warning: unused parameter 'fd' [-Wunused-parameter]
+     virtual status_t dump(int fd, const Vector<String16>& args) {
+                      ^
+platform/android/frameworks/av/include/media/stagefright/MediaWriter.h:47:22: warning: unused parameter 'args' [-Wunused-parameter]
+platform/android/frameworks/av/include/media/stagefright/MediaWriter.h:51:18: warning: unused parameter 'ms' [-Wunused-parameter]
+     virtual void setStartTimeOffsetMs(int ms) {}
+                  ^

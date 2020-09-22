@@ -1,0 +1,12 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/include/hi_video_codec.h:28:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vdec/vdec_v2.0/hi_codec.c:26:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vdec/vdec_v2.0/hi_codec.c:36:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vdec/vdec_v2.0/list.h:41:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long HPT_UPTR;
+                       ^

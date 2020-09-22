@@ -1,0 +1,22 @@
+In file included from platform/android/external/aac/libAACdec/src/aacdec_hcr.h:98:0,
+                 from platform/android/external/aac/libAACdec/src/aacdec_hcr_bit.h:96,
+                 from platform/android/external/aac/libAACdec/src/aacdec_hcr_bit.cpp:91:
+platform/android/external/aac/libAACdec/src/channelinfo.h: In function 'UCHAR GetScaleMaxFactorBandsTransmitted(const CIcsInfo*, const CIcsInfo*)':
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+   return fMax(pIcsInfo0->MaxSfBands, pIcsInfo1->MaxSfBands);
+                                                           ^
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]

@@ -1,0 +1,15 @@
+platform/android/external/netperf/netcpu_none.c: In function 'get_cpu_idle':
+platform/android/external/netperf/netcpu_none.c:40:24: warning: unused parameter 'res' [-Wunused-parameter]
+ get_cpu_idle(uint64_t *res)
+                        ^
+platform/android/external/netperf/netcpu_none.c: In function 'calibrate_idle_rate':
+platform/android/external/netperf/netcpu_none.c:46:25: warning: unused parameter 'iterations' [-Wunused-parameter]
+ calibrate_idle_rate(int iterations, int interval)
+                         ^
+platform/android/external/netperf/netcpu_none.c:46:41: warning: unused parameter 'interval' [-Wunused-parameter]
+ calibrate_idle_rate(int iterations, int interval)
+                                         ^
+platform/android/external/netperf/netcpu_none.c: In function 'calc_cpu_util_internal':
+platform/android/external/netperf/netcpu_none.c:52:30: warning: unused parameter 'elapsed_time' [-Wunused-parameter]
+ calc_cpu_util_internal(float elapsed_time)
+                              ^

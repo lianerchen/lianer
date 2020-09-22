@@ -1,0 +1,4 @@
+platform/android/external/icu/icu4c/source/common/unistr.cpp: In constructor 'icu_53::UnicodeString::UnicodeString(int32_t, UChar32, int32_t)':
+platform/android/external/icu/icu4c/source/common/unistr.cpp:185:40: warning: 'units[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             array[i++]=units[unitIdx++];
+                                        ^

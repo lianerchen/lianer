@@ -1,0 +1,4 @@
+platform/android/frameworks/base/cmds/bootanimation/bootanimation_main.cpp:39:5: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char** argv)
+     ^
+platform/android/frameworks/base/cmds/bootanimation/bootanimation_main.cpp:39:5: warning: unused parameter 'argv' [-Wunused-parameter]

@@ -1,0 +1,2 @@
+util/parse-events.l: In function 'parse_events_lex':
+util/parse-events.l:95:15: warning: assignment makes integer from pointer without a cast [enabled by default]

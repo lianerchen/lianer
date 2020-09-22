@@ -1,0 +1,4 @@
+platform/android/external/fio/lib/lfsr.c: In function 'prepare_spin':
+platform/android/external/fio/lib/lfsr.c:203:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 1; i <= spin; i++) {
+                ^

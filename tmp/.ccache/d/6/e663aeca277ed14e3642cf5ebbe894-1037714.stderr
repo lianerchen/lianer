@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/cgms/sample_cgms.c: In function 'main':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/cgms/sample_cgms.c:530:28: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+             if((frame_rate = atoi(argv[index+1])) < 0)
+                            ^

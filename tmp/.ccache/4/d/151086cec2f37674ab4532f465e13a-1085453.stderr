@@ -1,0 +1,28 @@
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp: In member function 'virtual android::status_t android::BnAudioPolicyService::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)':
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::id' [-Wmissing-field-initializers]
+             struct audio_port port = {};
+                                       ^
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::role' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::type' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::num_sample_rates' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::sample_rates' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::num_channel_masks' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::channel_masks' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::num_formats' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::formats' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::num_gains' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::gains' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::active_config' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1088:39: warning: missing initializer for member 'audio_port::ext' [-Wmissing-field-initializers]
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1104:44: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+             audio_patch_handle_t handle = {};
+                                            ^
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1176:40: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+             audio_session_t session = {};
+                                        ^
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1177:43: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+             audio_io_handle_t ioHandle = {};
+                                           ^
+platform/android/frameworks/av/media/libmedia/IAudioPolicyService.cpp:1178:39: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+             audio_devices_t device = {};
+                                       ^

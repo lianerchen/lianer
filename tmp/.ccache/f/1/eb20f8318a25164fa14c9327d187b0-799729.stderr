@@ -1,0 +1,8 @@
+platform/android/external/icu/icu4c/source/common/uinvchar.c: In function 'uprv_compareInvAscii_53':
+platform/android/external/icu/icu4c/source/common/uinvchar.c:449:42: warning: unused parameter 'ds' [-Wunused-parameter]
+ uprv_compareInvAscii(const UDataSwapper *ds,
+                                          ^
+platform/android/external/icu/icu4c/source/common/uinvchar.c: In function 'uprv_compareInvEbcdic_53':
+platform/android/external/icu/icu4c/source/common/uinvchar.c:494:43: warning: unused parameter 'ds' [-Wunused-parameter]
+ uprv_compareInvEbcdic(const UDataSwapper *ds,
+                                           ^

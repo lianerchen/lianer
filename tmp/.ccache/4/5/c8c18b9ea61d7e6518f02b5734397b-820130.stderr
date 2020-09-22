@@ -1,0 +1,14 @@
+platform/android/system/vold/Ubifs.cpp:47:5: warning: unused parameter 'fsPath' [-Wunused-parameter]
+ int Ubifs::check(const char *fsPath)
+     ^
+platform/android/system/vold/Ubifs.cpp:52:5: warning: unused parameter 'executable' [-Wunused-parameter]
+ int Ubifs::doMount(const char *fsPath, const char *mountPoint,
+     ^
+platform/android/system/vold/Ubifs.cpp:52:5: warning: unused parameter 'ownerUid' [-Wunused-parameter]
+platform/android/system/vold/Ubifs.cpp:52:5: warning: unused parameter 'ownerGid' [-Wunused-parameter]
+platform/android/system/vold/Ubifs.cpp:52:5: warning: unused parameter 'permMask' [-Wunused-parameter]
+platform/android/system/vold/Ubifs.cpp:52:5: warning: unused parameter 'createLost' [-Wunused-parameter]
+platform/android/system/vold/Ubifs.cpp:77:5: warning: unused parameter 'fsPath' [-Wunused-parameter]
+ int Ubifs::format(const char *fsPath, unsigned int numSectors)
+     ^
+platform/android/system/vold/Ubifs.cpp:77:5: warning: unused parameter 'numSectors' [-Wunused-parameter]

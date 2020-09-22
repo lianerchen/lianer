@@ -1,0 +1,6 @@
+platform/android/frameworks/wilhelm/src/android/util/AacAdtsExtractor.cpp:195:14: warning: unused parameter 'flags' [-Wunused-parameter]
+ sp<MetaData> AacAdtsExtractor::getTrackMetaData(size_t index, uint32_t flags) {
+              ^
+platform/android/frameworks/wilhelm/src/android/util/AacAdtsExtractor.cpp:229:10: warning: unused parameter 'params' [-Wunused-parameter]
+ status_t AacAdtsSource::start(MetaData *params) {
+          ^

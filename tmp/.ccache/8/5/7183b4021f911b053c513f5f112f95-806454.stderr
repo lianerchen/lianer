@@ -1,0 +1,8 @@
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_mdls.c:325:5: warning: missing braces around initializer [-Wmissing-braces]
+     0,              /* not modified */
+     ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_mdls.c:325:5: warning: (near initialization for 'defaultArt.values') [-Wmissing-braces]
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_mdls.c: In function 'DLSParser':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_mdls.c:568:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if ((ptblSize == 0) || (ptblSize > DLS_MAX_WAVE_COUNT * sizeof(POOLCUE) + sizeof(POOLTABLE)))
+                                      ^

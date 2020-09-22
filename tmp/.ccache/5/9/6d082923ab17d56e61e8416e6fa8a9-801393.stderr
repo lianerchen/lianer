@@ -1,0 +1,12 @@
+device/hisilicon/bigfish/hidolphin/component/drm/source/util/hi_drm_util.c: In function 'HI_DRM_UtilInit':
+device/hisilicon/bigfish/hidolphin/component/drm/source/util/hi_drm_util.c:85:2: warning: passing argument 1 of 'strncpy' from incompatible pointer type [enabled by default]
+  strncpy(&pCAStreamBuf.bufname, "emptyCpy", sizeof(pCAStreamBuf.bufname));
+  ^
+In file included from platform/android/bionic/libc/include/signal.h:35:0,
+                 from platform/android/bionic/libc/include/pthread.h:33,
+                 from platform/android/system/core/include/log/log.h:33,
+                 from platform/android/system/core/include/cutils/log.h:1,
+                 from device/hisilicon/bigfish/hidolphin/component/drm/source/util/hi_drm_util.c:4:
+platform/android/bionic/libc/include/string.h:146:7: note: expected 'char * __restrict__' but argument is of type 'HI_CHAR (*)[16]'
+ char* strncpy(char* __restrict dest, const char* __restrict src, size_t n) {
+       ^

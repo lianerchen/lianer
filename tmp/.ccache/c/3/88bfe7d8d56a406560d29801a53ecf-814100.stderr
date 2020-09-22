@@ -1,0 +1,11 @@
+platform/android/external/svox/pico/lib/picodata.c: In function 'puSimpleInitialize':
+platform/android/external/svox/pico/lib/picodata.c:577:75: warning: unused parameter 'this' [-Wunused-parameter]
+ static pico_status_t puSimpleInitialize (register picodata_ProcessingUnit this, picoos_int32 resetMode) {
+                                                                           ^
+platform/android/external/svox/pico/lib/picodata.c:577:94: warning: unused parameter 'resetMode' [-Wunused-parameter]
+ static pico_status_t puSimpleInitialize (register picodata_ProcessingUnit this, picoos_int32 resetMode) {
+                                                                                              ^
+platform/android/external/svox/pico/lib/picodata.c: In function 'puSimpleTerminate':
+platform/android/external/svox/pico/lib/picodata.c:581:74: warning: unused parameter 'this' [-Wunused-parameter]
+ static pico_status_t puSimpleTerminate (register picodata_ProcessingUnit this) {
+                                                                          ^

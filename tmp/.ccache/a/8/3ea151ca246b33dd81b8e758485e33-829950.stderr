@@ -1,0 +1,194 @@
+platform/android/external/ppp/pppd/lcp.c:90:7: warning: missing initializer for field 'flags' of 'option_t' [-Wmissing-field-initializers]
+       "Don't request/allow any LCP options" },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:111:15: note: 'flags' declared here
+  unsigned int flags;
+               ^
+platform/android/external/ppp/pppd/lcp.c:94:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_A2CLR, &lcp_allowoptions[0].neg_accompression },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:97:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_ALIAS | OPT_A2CLR, &lcp_allowoptions[0].neg_accompression },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:101:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_OR, &lcp_wantoptions[0].neg_asyncmap },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:104:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_ALIAS | OPT_OR, &lcp_wantoptions[0].neg_asyncmap },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:108:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       &lcp_allowoptions[0].neg_asyncmap },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:112:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       &lcp_allowoptions[0].neg_asyncmap },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:116:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_A2CLR, &lcp_allowoptions[0].neg_magicnumber },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:119:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_ALIAS | OPT_A2CLR, &lcp_allowoptions[0].neg_magicnumber },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:123:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_PRIO, &lcp_wantoptions[0].neg_mru },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:126:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_PRIOSUB | OPT_A2CLR, &lcp_allowoptions[0].neg_mru },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:129:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_ALIAS | OPT_PRIOSUB | OPT_A2CLR, &lcp_allowoptions[0].neg_mru },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:132:7: warning: missing initializer for field 'source' of 'option_t' [-Wmissing-field-initializers]
+       "Set our MTU", OPT_LIMITS, NULL, MAXMRU, MINMRU },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:115:14: note: 'source' declared here
+  const char *source;
+              ^
+platform/android/external/ppp/pppd/lcp.c:136:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_A2CLR, &lcp_allowoptions[0].neg_pcompression },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:139:7: warning: missing initializer for field 'upper_limit' of 'option_t' [-Wmissing-field-initializers]
+       OPT_ALIAS | OPT_A2CLR, &lcp_allowoptions[0].neg_pcompression },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:113:6: note: 'upper_limit' declared here
+  int upper_limit;
+      ^
+platform/android/external/ppp/pppd/lcp.c:142:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       "Set passive mode", 1 },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c:144:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       "Set passive mode", OPT_ALIAS | 1 },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c:147:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       "Set silent mode", 1 },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c:151:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       OPT_PRIO },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c:153:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       "Set time in seconds between LCP echo requests", OPT_PRIO },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c:155:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       "Set time in seconds between LCP retransmissions", OPT_PRIO },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c:157:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       "Set maximum number of LCP terminate-request transmissions", OPT_PRIO },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c:159:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       "Set maximum number of LCP configure-request transmissions", OPT_PRIO },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c:161:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       "Set limit on number of LCP configure-naks", OPT_PRIO },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c:164:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       "Accept all received control characters", 1 },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c:184:7: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
+       "Don't send or accept multilink endpoint discriminator", 1 },
+       ^
+In file included from platform/android/external/ppp/pppd/lcp.c:53:0:
+platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
+  void *addr2;
+        ^
+platform/android/external/ppp/pppd/lcp.c: In function 'noopt':
+platform/android/external/ppp/pppd/lcp.c:301:12: warning: unused parameter 'argv' [-Wunused-parameter]
+     char **argv;
+            ^
+platform/android/external/ppp/pppd/lcp.c: In function 'lcp_printpkt':
+platform/android/external/ppp/pppd/lcp.c:1991:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (code >= 1 && code <= sizeof(lcp_codenames) / sizeof(char *))
+                           ^
+platform/android/external/ppp/pppd/lcp.c: In function 'lcp_received_echo_reply':
+platform/android/external/ppp/pppd/lcp.c:2248:9: warning: unused parameter 'id' [-Wunused-parameter]
+     int id;
+         ^

@@ -1,0 +1,10 @@
+platform/android/external/fdlibm/e_exp.c: In function '__ieee754_exp':
+platform/android/external/fdlibm/e_exp.c:153:20: warning: 'k' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      __HI(y) += ((k+1000)<<20);/* add k to y's exponent */
+                    ^
+platform/android/external/fdlibm/e_exp.c:148:21: warning: 'lo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  else   y = one-((lo-(x*c)/(2.0-c))-hi);
+                     ^
+platform/android/external/fdlibm/e_exp.c:148:36: warning: 'hi' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  else   y = one-((lo-(x*c)/(2.0-c))-hi);
+                                    ^

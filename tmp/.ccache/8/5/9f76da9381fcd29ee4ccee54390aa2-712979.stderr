@@ -1,0 +1,4 @@
+platform/android/external/fdlibm/e_cosh.c: In function '__ieee754_cosh':
+platform/android/external/fdlibm/e_cosh.c:81:24: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+        (ix==0x408633ce)&&(lx<=(unsigned)0x8fb9f87d)) {
+                        ^

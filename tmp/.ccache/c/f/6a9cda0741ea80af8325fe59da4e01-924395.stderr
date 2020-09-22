@@ -1,0 +1,11 @@
+In file included from platform/android/frameworks/av/media/libstagefright/HTTPBase.cpp:21:0:
+platform/android/frameworks/av/media/libstagefright/include/HTTPBase.h: In constructor 'android::HTTPBase::HTTPBase()':
+platform/android/frameworks/av/media/libstagefright/include/HTTPBase.h:83:13: warning: 'android::HTTPBase::mBandWidthCollectFreqMs' will be initialized after [-Wreorder]
+     int32_t mBandWidthCollectFreqMs;
+             ^
+platform/android/frameworks/av/media/libstagefright/include/HTTPBase.h:74:12: warning:   'size_t android::HTTPBase::mMaxBandwidthHistoryItems' [-Wreorder]
+     size_t mMaxBandwidthHistoryItems;
+            ^
+platform/android/frameworks/av/media/libstagefright/HTTPBase.cpp:33:1: warning:   when initialized here [-Wreorder]
+ HTTPBase::HTTPBase()
+ ^

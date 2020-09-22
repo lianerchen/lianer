@@ -1,0 +1,32 @@
+platform/android/external/jhead/main.c: In function 'saveAttributes':
+platform/android/external/jhead/main.c:195:49: warning: unused parameter 'jobj' [-Wunused-parameter]
+ static void saveAttributes(JNIEnv *env, jobject jobj, jstring jfilename, jstring jattributes)
+                                                 ^
+platform/android/external/jhead/main.c: In function 'appendThumbnail':
+platform/android/external/jhead/main.c:395:54: warning: unused parameter 'jobj' [-Wunused-parameter]
+ static jboolean appendThumbnail(JNIEnv *env, jobject jobj, jstring jfilename, jstring jthumbnailfilename)
+                                                      ^
+platform/android/external/jhead/main.c: In function 'commitChanges':
+platform/android/external/jhead/main.c:424:48: warning: unused parameter 'jobj' [-Wunused-parameter]
+ static void commitChanges(JNIEnv *env, jobject jobj, jstring jfilename)
+                                                ^
+platform/android/external/jhead/main.c: In function 'getThumbnail':
+platform/android/external/jhead/main.c:462:9: warning: pointer targets in passing argument 5 of '(*env)->SetByteArrayRegion' differ in signedness [-Wpointer-sign]
+         (*env)->SetByteArrayRegion(env, byteArray, 0, ImageInfo.ThumbnailSize, thumbnailPointer);
+         ^
+platform/android/external/jhead/main.c:462:9: note: expected 'const jbyte *' but argument is of type 'uchar *'
+platform/android/external/jhead/main.c:437:53: warning: unused parameter 'jobj' [-Wunused-parameter]
+ static jbyteArray getThumbnail(JNIEnv *env, jobject jobj, jstring jfilename)
+                                                     ^
+platform/android/external/jhead/main.c: In function 'getThumbnailRange':
+platform/android/external/jhead/main.c:478:58: warning: unused parameter 'jobj' [-Wunused-parameter]
+ static jlongArray getThumbnailRange(JNIEnv *env, jobject jobj, jstring jfilename) {
+                                                          ^
+platform/android/external/jhead/main.c: In function 'getAttributes':
+platform/android/external/jhead/main.c:563:51: warning: unused parameter 'jobj' [-Wunused-parameter]
+ static jstring getAttributes(JNIEnv *env, jobject jobj, jstring jfilename)
+                                                   ^
+platform/android/external/jhead/main.c: In function 'JNI_OnLoad':
+platform/android/external/jhead/main.c:816:75: warning: unused parameter 'reserved' [-Wunused-parameter]
+ __attribute__ ((visibility("default"))) jint JNI_OnLoad(JavaVM* vm, void* reserved)
+                                                                           ^

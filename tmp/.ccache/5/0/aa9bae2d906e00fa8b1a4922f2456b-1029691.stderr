@@ -1,0 +1,12 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/secure/./../normal/omx_tunnel.h:16:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/secure/./../normal/omx_vdec.h:26,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/secure/./../normal/omx_drv_ctx.c:22:
+device/hisilicon/bigfish/hardware/gpu/utgard/android/gralloc/gralloc_priv.h:133:3: warning: declaration does not declare anything [enabled by default]
+  };
+   ^
+device/hisilicon/bigfish/hardware/gpu/utgard/android/gralloc/gralloc_priv.h:155:3: warning: declaration does not declare anything [enabled by default]
+  };
+   ^
+device/hisilicon/bigfish/hardware/gpu/utgard/android/gralloc/gralloc_priv.h:163:3: warning: declaration does not declare anything [enabled by default]
+  };
+   ^

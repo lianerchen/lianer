@@ -1,0 +1,4 @@
+platform/android/packages/apps/Gallery2/jni/jni_egl_fence.cpp:57:1: warning: unused parameter 'env' [-Wunused-parameter]
+ Java_com_android_gallery3d_photoeditor_FilterStack_nativeEglSetFenceAndWait(JNIEnv* env,
+ ^
+platform/android/packages/apps/Gallery2/jni/jni_egl_fence.cpp:57:1: warning: unused parameter 'thiz' [-Wunused-parameter]

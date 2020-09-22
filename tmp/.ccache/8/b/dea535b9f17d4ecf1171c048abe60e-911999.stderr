@@ -1,0 +1,10 @@
+platform/android/external/mdnsresponder/mDNSPosix/mDNSPosix.c: In function 'GetUserSpecifiedRFC1034ComputerName':
+platform/android/external/mdnsresponder/mDNSPosix/mDNSPosix.c:489:2: warning: pointer targets in passing argument 1 of 'strncpy' differ in signedness [-Wpointer-sign]
+  strncpy(&namelabel->c[1], "Android", MAX_DOMAIN_LABEL);
+  ^
+In file included from platform/android/bionic/libc/include/signal.h:35:0,
+                 from platform/android/external/mdnsresponder/mDNSPosix/mDNSPosix.h:21,
+                 from platform/android/external/mdnsresponder/mDNSPosix/mDNSPosix.c:33:
+platform/android/bionic/libc/include/string.h:146:7: note: expected 'char * __restrict__' but argument is of type 'mDNSu8 *'
+ char* strncpy(char* __restrict dest, const char* __restrict src, size_t n) {
+       ^

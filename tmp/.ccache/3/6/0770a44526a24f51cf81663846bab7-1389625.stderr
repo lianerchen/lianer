@@ -1,0 +1,7 @@
+platform/android/frameworks/av/media/libmedia/ITvosAudioSettingService.cpp: In member function 'virtual bool android::BpTvosAudioSettingService::setOutputVolume(long int)':
+platform/android/frameworks/av/media/libmedia/ITvosAudioSettingService.cpp:30:86: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long int' [-Wformat=]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosAudioSettingService.cpp:181:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosAudioSettingService::setOutputVolume(%d)", volume);
+   ^

@@ -1,0 +1,7 @@
+platform/android/system/extras/tests/schedtest/schedtest.c: In function 'main':
+platform/android/system/extras/tests/schedtest/schedtest.c:23:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv) {
+              ^
+platform/android/system/extras/tests/schedtest/schedtest.c:23:27: warning: unused parameter 'argv' [-Wunused-parameter]
+ int main(int argc, char **argv) {
+                           ^

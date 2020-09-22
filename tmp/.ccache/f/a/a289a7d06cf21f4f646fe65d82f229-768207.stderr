@@ -1,0 +1,4 @@
+platform/android/external/icu/icu4c/source/common/ulist.c: In function 'ulist_containsString_53':
+platform/android/external/icu/icu4c/source/common/ulist.c:132:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             if (length == uprv_strlen(pointer->data)) {
+                        ^

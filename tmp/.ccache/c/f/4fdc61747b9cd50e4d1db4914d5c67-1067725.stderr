@@ -1,0 +1,6 @@
+In file included from platform/android/external/pdfium/core/src/fxge/android/fx_fpf.h:13:0,
+                 from platform/android/external/pdfium/core/src/fxge/android/fx_android_imp.cpp:7:
+platform/android/external/pdfium/core/src/fxge/android/fx_android_font.h: In member function 'virtual void CFX_AndroidFontInfo::Release()':
+platform/android/external/pdfium/core/src/fxge/android/fx_android_font.h:17:16: warning: deleting object of polymorphic class type 'CFX_AndroidFontInfo' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+         delete this;
+                ^

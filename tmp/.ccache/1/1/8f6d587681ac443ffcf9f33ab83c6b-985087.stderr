@@ -1,0 +1,3 @@
+device/hisilicon/bigfish/hardware/camera/camera_hal/CameraHalImpl.cpp:736:5: warning: unused parameter 'buffer' [-Wunused-parameter]
+ int CameraHalImpl::cameraQueueBuffer(int fp, struct cameraBuffer *buffer, enum v4l2_buf_type type, int index)
+     ^

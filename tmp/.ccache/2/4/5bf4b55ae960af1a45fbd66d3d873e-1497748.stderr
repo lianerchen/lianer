@@ -1,0 +1,9 @@
+platform/android/packages/apps/Camera2/jni/jpegutil.cpp: In function 'int jpegutil::compress(const jpegutil::Plane&, const jpegutil::Plane&, const jpegutil::Plane&, unsigned char*, size_t, std::__1::function<void(unsigned int)>, int)':
+platform/android/packages/apps/Camera2/jni/jpegutil.cpp:168:40: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+   cinfo.err = (struct jpeg_error_mgr*)&err;
+                                        ^
+platform/android/packages/apps/Camera2/jni/jpegutil.cpp: At global scope:
+platform/android/packages/apps/Camera2/jni/jpegutil.cpp:223:50: warning: unused parameter 'cinfo' [-Wunused-parameter]
+   dest.term_destination = [](j_compress_ptr cinfo) {
+                                                  ^
+platform/android/packages/apps/Camera2/jni/jpegutil.cpp:223:50: warning: unused parameter 'cinfo' [-Wunused-parameter]

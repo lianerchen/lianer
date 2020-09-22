@@ -1,0 +1,64 @@
+platform/android/external/libexif/libexif/exif-tag.c:221:35: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+            "contained in this subfile.")},
+                                         ^
+platform/android/external/libexif/libexif/exif-tag.c:249:57: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+        {EXIF_TAG_FILL_ORDER, "FillOrder", N_("Fill Order"), ""},
+                                                               ^
+platform/android/external/libexif/libexif/exif-tag.c:251:66: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+        {EXIF_TAG_DOCUMENT_NAME, "DocumentName", N_("Document Name"), ""},
+                                                                        ^
+platform/android/external/libexif/libexif/exif-tag.c:360:49: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+            "to enable TIFF Trees within a TIFF file.")},
+                                                       ^
+platform/android/external/libexif/libexif/exif-tag.c:362:69: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+        {EXIF_TAG_TRANSFER_RANGE, "TransferRange", N_("Transfer Range"), ""},
+                                                                           ^
+platform/android/external/libexif/libexif/exif-tag.c:364:49: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+        {EXIF_TAG_JPEG_PROC, "JPEGProc", "JPEGProc", ""},
+                                                       ^
+platform/android/external/libexif/libexif/exif-tag.c:423:73: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+        {EXIF_TAG_XML_PACKET, "XMLPacket", N_("XML Packet"), N_("XMP Metadata")},
+                                                                               ^
+platform/android/external/libexif/libexif/exif-tag.c:426:31: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+         "RelatedImageFileFormat", ""},
+                                     ^
+platform/android/external/libexif/libexif/exif-tag.c:429:26: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+         "RelatedImageWidth", ""},
+                                ^
+platform/android/external/libexif/libexif/exif-tag.c:432:27: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+         "RelatedImageLength", ""},
+                                 ^
+platform/android/external/libexif/libexif/exif-tag.c:435:28: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+         "CFARepeatPatternDim", ""},
+                                  ^
+platform/android/external/libexif/libexif/exif-tag.c:441:50: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+            "It does not apply to all sensing methods.")},
+                                                        ^
+platform/android/external/libexif/libexif/exif-tag.c:443:66: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+        {EXIF_TAG_BATTERY_LEVEL, "BatteryLevel", N_("Battery Level"), ""},
+                                                                        ^
+platform/android/external/libexif/libexif/exif-tag.c:473:48: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+        {EXIF_TAG_IPTC_NAA, "IPTC/NAA", "IPTC/NAA", ""},
+                                                      ^
+platform/android/external/libexif/libexif/exif-tag.c:475:78: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+        {EXIF_TAG_IMAGE_RESOURCES, "ImageResources", N_("Image Resources Block"), ""},
+                                                                                    ^
+platform/android/external/libexif/libexif/exif-tag.c:484:26: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+         "InterColorProfile", ""},
+                                ^
+platform/android/external/libexif/libexif/exif-tag.c:514:59: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+         N_("Encodes time zone of camera clock relative to GMT.")},
+                                                                 ^
+platform/android/external/libexif/libexif/exif-tag.c:590:83: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+        {EXIF_TAG_TIFF_EP_STANDARD_ID, "TIFF/EPStandardID", N_("TIFF/EP Standard ID"), ""},
+                                                                                         ^
+platform/android/external/libexif/libexif/exif-tag.c:858:50: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+         N_("Indicates the value of coefficient gamma.")},
+                                                        ^
+platform/android/external/libexif/libexif/exif-tag.c:861:59: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+         N_("Related to Epson's PRINT Image Matching technology")},
+                                                                 ^
+platform/android/external/libexif/libexif/exif-tag.c:871:22: warning: missing field 'esl' initializer [-Wmissing-field-initializers]
+        {0, NULL, NULL, NULL}
+                            ^
+21 warnings generated.

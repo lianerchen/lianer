@@ -1,0 +1,66 @@
+component/dtv/client/../dtval/DTVAL.cpp:20:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "DTVAL.cpp"
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Vector.h:24,
+                 from platform/android/frameworks/native/include/binder/Parcel.h:24,
+                 from component/dtv/client/../dtval/../client/CHDTVClient.h:7,
+                 from component/dtv/client/../dtval/DTVAL.cpp:14:
+platform/android/system/core/include/log/log.h:67:0: note: this is the location of the previous definition
+ #define LOG_TAG NULL
+ ^
+In file included from component/dtv/client/../dtval/../client/CHDTVClient.h:9:0,
+                 from component/dtv/client/../dtval/DTVAL.cpp:14:
+component/dtv/client/../com/chdtvdata.h:1030:15: warning: unused parameter 'outData' [-Wunused-parameter]
+  virtual void writeToParcel(Parcel* outData){};
+               ^
+component/dtv/client/../com/chdtvdata.h:1031:15: warning: unused parameter 'inData' [-Wunused-parameter]
+  virtual void readFromParcel(const Parcel* inData){};
+               ^
+component/dtv/client/../dtval/DTVAL.cpp: In function 'int DTVAL_tuneStream(int, int, int)':
+component/dtv/client/../dtval/DTVAL.cpp:3035:11: warning: enumeration value 'INVALID_SYSTEM_TYPE' not handled in switch [-Wswitch]
+     switch(DataList[i].enm_ModeType)
+           ^
+component/dtv/client/../dtval/DTVAL.cpp: At global scope:
+component/dtv/client/../dtval/DTVAL.cpp:3687:6: warning: unused parameter 'networkID' [-Wunused-parameter]
+ void DTVAL_setCurrentService(int tunerID, unsigned short networkID, unsigned short oriNetworkID, unsigned short tsID, unsigned short serviceID)
+      ^
+component/dtv/client/../dtval/DTVAL.cpp:5158:5: warning: unused parameter 'neg_filter_def' [-Wunused-parameter]
+ int DTVAL_startFiltering(int filter_id, int pid, int table_id, int offset, char* pos_filter_def, char* pos_filter_mask, int pos_length, char* neg_filter_def, char* neg_filter_mask, int neg_length, DTVAL_reportFilteredSection cb, void* data)
+     ^
+component/dtv/client/../dtval/DTVAL.cpp:5158:5: warning: unused parameter 'neg_filter_mask' [-Wunused-parameter]
+component/dtv/client/../dtval/DTVAL.cpp:6366:5: warning: unused parameter 'tunerID' [-Wunused-parameter]
+ int DTVAL_releaseSIInfo(int tunerID, void *siInfo, int num)
+     ^
+component/dtv/client/../dtval/DTVAL.cpp:6366:5: warning: unused parameter 'num' [-Wunused-parameter]
+component/dtv/client/../dtval/DTVAL.cpp:7245:13: warning: unused parameter 'tunerid' [-Wunused-parameter]
+ static void DTVAL_DescriptorsBouquet(int tunerid, DVBDescriptor_match_t *match, void** descriptorInfo, int *num, PsiDescript *pPsi, TableContainer *pstru_Table)
+             ^
+component/dtv/client/../dtval/DTVAL.cpp:7311:13: warning: unused parameter 'tunerid' [-Wunused-parameter]
+ static void DTVAL_DescriptorsNetwork(int tunerid, DVBDescriptor_match_t *match, void** descriptorInfo, int *num, PsiDescript *pPsi, TableContainer *pstru_Table)
+             ^
+component/dtv/client/../dtval/DTVAL.cpp:7385:13: warning: unused parameter 'tunerid' [-Wunused-parameter]
+ static void DTVAL_DescriptorsTs(int tunerid, DVBDescriptor_match_t *match, void** descriptorInfo, int *num, PsiDescript *pPsi, TableContainer *pstru_Table)
+             ^
+component/dtv/client/../dtval/DTVAL.cpp:7567:13: warning: unused parameter 'tunerid' [-Wunused-parameter]
+ static void DTVAL_DescriptorsService(int tunerid, DVBDescriptor_match_t *match, void** descriptorInfo, int *num, PsiDescript *pPsi, TableContainer *pstru_Table)
+             ^
+component/dtv/client/../dtval/DTVAL.cpp:7628:13: warning: unused parameter 'tunerid' [-Wunused-parameter]
+ static void DTVAL_DescriptorsServiceFromPMT(int tunerid, DVBDescriptor_match_t *match, void** descriptorInfo, int *num, PsiDescript *pPsi, TableContainer *pstru_Table)
+             ^
+component/dtv/client/../dtval/DTVAL.cpp:7687:13: warning: unused parameter 'tunerid' [-Wunused-parameter]
+ static void DTVAL_DescriptorsEs(int tunerid, DVBDescriptor_match_t *match, void** descriptorInfo, int *num, PsiDescript *pPsi, TableContainer *pstru_Table)
+             ^
+component/dtv/client/../dtval/DTVAL.cpp:7749:13: warning: unused parameter 'tunerid' [-Wunused-parameter]
+ static void DTVAL_DescriptorsEvent(int tunerid, DVBDescriptor_match_t *match, void** descriptorInfo, int *num, PsiDescript *pPsi, TableContainer *pstru_Table)
+             ^
+component/dtv/client/../dtval/DTVAL.cpp:7808:13: warning: unused parameter 'tunerid' [-Wunused-parameter]
+ static void DTVAL_DescriptorsTime(int tunerid, DVBDescriptor_match_t *match, void** descriptorInfo, int *num, PsiDescript *pPsi, TableContainer *pstru_Table)
+             ^
+component/dtv/client/../dtval/DTVAL.cpp:8315:5: warning: unused parameter 'markId' [-Wunused-parameter]
+ int DTVAL_EPG_stop(int tunerID, int markId)
+     ^
+component/dtv/client/../dtval/DTVAL.cpp: In function 'int DTVAL_EPGManager_getPresentProgram(int, NGB_SERVICELOCATOR, JS_PROGRAMEVENT_PRIVATE*)':
+component/dtv/client/../dtval/DTVAL.cpp:8390:33: warning: argument to 'sizeof' in 'void* memset(void*, int, size_t)' call is the same expression as the destination; did you mean to dereference it? [-Wsizeof-pointer-memaccess]
+   memset(programevent, 0, sizeof(programevent));
+                                 ^

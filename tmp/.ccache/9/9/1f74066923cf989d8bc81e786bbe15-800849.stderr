@@ -1,0 +1,35 @@
+platform/android/external/libpcap/pcap-can-linux.c: In function 'can_findalldevs':
+platform/android/external/libpcap/pcap-can-linux.c:83:29: warning: unused parameter 'devlistp' [-Wunused-parameter]
+ can_findalldevs(pcap_if_t **devlistp, char *errbuf)
+                             ^
+platform/android/external/libpcap/pcap-can-linux.c:83:45: warning: unused parameter 'errbuf' [-Wunused-parameter]
+ can_findalldevs(pcap_if_t **devlistp, char *errbuf)
+                                             ^
+platform/android/external/libpcap/pcap-can-linux.c: In function 'can_read_linux':
+platform/android/external/libpcap/pcap-can-linux.c:244:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  } while ((pkth.caplen == -1) && (errno == EINTR));
+                        ^
+platform/android/external/libpcap/pcap-can-linux.c:246:10: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+  if (pkth.caplen < 0)
+          ^
+platform/android/external/libpcap/pcap-can-linux.c:220:36: warning: unused parameter 'max_packets' [-Wunused-parameter]
+ can_read_linux(pcap_t *handle, int max_packets, pcap_handler callback, u_char *user)
+                                    ^
+platform/android/external/libpcap/pcap-can-linux.c: In function 'can_inject_linux':
+platform/android/external/libpcap/pcap-can-linux.c:274:46: warning: unused parameter 'buf' [-Wunused-parameter]
+ can_inject_linux(pcap_t *handle, const void *buf, size_t size)
+                                              ^
+platform/android/external/libpcap/pcap-can-linux.c:274:58: warning: unused parameter 'size' [-Wunused-parameter]
+ can_inject_linux(pcap_t *handle, const void *buf, size_t size)
+                                                          ^
+platform/android/external/libpcap/pcap-can-linux.c: In function 'can_stats_linux':
+platform/android/external/libpcap/pcap-can-linux.c:284:25: warning: unused parameter 'handle' [-Wunused-parameter]
+ can_stats_linux(pcap_t *handle, struct pcap_stat *stats)
+                         ^
+platform/android/external/libpcap/pcap-can-linux.c: In function 'can_setfilter_linux':
+platform/android/external/libpcap/pcap-can-linux.c:295:29: warning: unused parameter 'p' [-Wunused-parameter]
+ can_setfilter_linux(pcap_t *p, struct bpf_program *fp)
+                             ^
+platform/android/external/libpcap/pcap-can-linux.c:295:52: warning: unused parameter 'fp' [-Wunused-parameter]
+ can_setfilter_linux(pcap_t *p, struct bpf_program *fp)
+                                                    ^

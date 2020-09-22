@@ -1,0 +1,24 @@
+platform/android/external/svox/pico/lib/picoacph.c: In function 'acphTerminate':
+platform/android/external/svox/pico/lib/picoacph.c:279:69: warning: unused parameter 'this' [-Wunused-parameter]
+ static pico_status_t acphTerminate(register picodata_ProcessingUnit this)
+                                                                     ^
+platform/android/external/svox/pico/lib/picoacph.c: In function 'acphGetNrSylls':
+platform/android/external/svox/pico/lib/picoacph.c:328:69: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_uint8 acphGetNrSylls(register picodata_ProcessingUnit this,
+                                                                     ^
+platform/android/external/svox/pico/lib/picoacph.c: In function 'acphPhrItemSeqGetPosLeft':
+platform/android/external/svox/pico/lib/picoacph.c:352:79: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_uint8 acphPhrItemSeqGetPosLeft(register picodata_ProcessingUnit this,
+                                                                               ^
+platform/android/external/svox/pico/lib/picoacph.c: In function 'acphAccItemSeqGetPosLeft':
+platform/android/external/svox/pico/lib/picoacph.c:617:79: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_uint8 acphAccItemSeqGetPosLeft(register picodata_ProcessingUnit this,
+                                                                               ^
+platform/android/external/svox/pico/lib/picoacph.c: In function 'acphAccNrSyllParts':
+platform/android/external/svox/pico/lib/picoacph.c:637:73: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_uint8 acphAccNrSyllParts(register picodata_ProcessingUnit this,
+                                                                         ^
+platform/android/external/svox/pico/lib/picoacph.c: In function 'acphIsWordWithoutStress':
+platform/android/external/svox/pico/lib/picoacph.c:767:78: warning: unused parameter 'this' [-Wunused-parameter]
+ static picoos_uint8 acphIsWordWithoutStress(register picodata_ProcessingUnit this,
+                                                                              ^

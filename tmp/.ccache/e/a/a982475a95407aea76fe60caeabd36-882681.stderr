@@ -1,0 +1,69 @@
+In file included from platform/android/external/libvpx/armv7a-neon/vp8_rtcd.h:396:0,
+                 from platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:14:
+platform/android/external/libvpx/armv7a-neon/vpx_config.h:13:0: warning: "ARCH_ARM" redefined [enabled by default]
+ #define ARCH_ARM 1
+ ^
+In file included from <command-line>:0:0:
+./platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h:241:0: note: this is the location of the previous definition
+ #define ARCH_ARM
+ ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: In function 'vp8_priv_sz':
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:76:83: warning: unused parameter 'flags' [-Wunused-parameter]
+ static unsigned long vp8_priv_sz(const vpx_codec_dec_cfg_t *si, vpx_codec_flags_t flags)
+                                                                                   ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: In function 'vp8_finalize_mmaps':
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:113:54: warning: unused parameter 'ctx' [-Wunused-parameter]
+ static void vp8_finalize_mmaps(vpx_codec_alg_priv_t *ctx)
+                                                      ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: In function 'vp8_set_reference':
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:728:13: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+         int ctr_id,
+             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: In function 'vp8_get_reference':
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:750:13: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+         int ctr_id,
+             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: In function 'vp8_set_postproc':
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:771:63: warning: unused parameter 'ctx' [-Wunused-parameter]
+ static vpx_codec_err_t vp8_set_postproc(vpx_codec_alg_priv_t *ctx,
+                                                               ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:772:45: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                         int ctr_id,
+                                             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:773:49: warning: unused parameter 'args' [-Wunused-parameter]
+                                         va_list args)
+                                                 ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: In function 'vp8_set_dbg_options':
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:792:66: warning: unused parameter 'ctx' [-Wunused-parameter]
+ static vpx_codec_err_t vp8_set_dbg_options(vpx_codec_alg_priv_t *ctx,
+                                                                  ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:793:45: warning: unused parameter 'ctrl_id' [-Wunused-parameter]
+                                         int ctrl_id,
+                                             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:794:49: warning: unused parameter 'args' [-Wunused-parameter]
+                                         va_list args)
+                                                 ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: In function 'vp8_get_last_ref_updates':
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:816:53: warning: unused parameter 'ctrl_id' [-Wunused-parameter]
+                                                 int ctrl_id,
+                                                     ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: In function 'vp8_get_last_ref_frame':
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:837:51: warning: unused parameter 'ctrl_id' [-Wunused-parameter]
+                                               int ctrl_id,
+                                                   ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: In function 'vp8_get_frame_corrupted':
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:858:52: warning: unused parameter 'ctrl_id' [-Wunused-parameter]
+                                                int ctrl_id,
+                                                    ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: In function 'vp8_set_decryptor':
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:877:46: warning: unused parameter 'ctrl_id' [-Wunused-parameter]
+                                          int ctrl_id,
+                                              ^
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c: At top level:
+platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:941:5: warning: missing initializer for field 'mr_get_mem_loc' of 'struct vpx_codec_enc_iface' [-Wmissing-field-initializers]
+     }
+     ^
+In file included from platform/android/external/libvpx/libvpx/vp8/vp8_dx_iface.c:17:0:
+platform/android/external/libvpx/libvpx/vpx/internal/vpx_codec_internal.h:350:40: note: 'mr_get_mem_loc' declared here
+     vpx_codec_enc_mr_get_mem_loc_fn_t  mr_get_mem_loc;   /**< \copydoc ::vpx_codec_enc_mr_get_mem_loc_fn_t */
+                                        ^

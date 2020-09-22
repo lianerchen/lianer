@@ -1,0 +1,8 @@
+platform/android/external/icu/icu4c/source/common/uhash.c: In function '_uhash_rehash':
+platform/android/external/icu/icu4c/source/common/uhash.c:401:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (++newPrimeIndex >= PRIMES_LENGTH) {
+                             ^
+platform/android/external/icu/icu4c/source/common/uhash.c: In function 'uhash_openSize_53':
+platform/android/external/icu/icu4c/source/common/uhash.c:554:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while (i<(PRIMES_LENGTH-1) && PRIMES[i]<size) {
+             ^

@@ -1,0 +1,6 @@
+component/OAM/agent/tr069_cut/alarmmanager/xmldecoder.c:1248:5: warning: no previous prototype for 'BuildxmlFiles' [-Wmissing-prototypes]
+ int BuildxmlFiles(int uiXmlFileType)
+     ^
+component/OAM/agent/tr069_cut/alarmmanager/xmldecoder.c:1359:5: warning: no previous prototype for 'GetNmCfgValue' [-Wmissing-prototypes]
+ int GetNmCfgValue(char *pMkt,char*pName,int*pValue)
+     ^

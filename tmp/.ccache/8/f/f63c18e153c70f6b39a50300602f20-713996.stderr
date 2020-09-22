@@ -1,0 +1,7 @@
+platform/android/external/fdlibm/s_log1p.c: In function 'ieee_log1p':
+platform/android/external/fdlibm/s_log1p.c:154:8: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]
+      if(f==zero) if(k==0) return zero;  
+        ^
+platform/android/external/fdlibm/s_log1p.c:164:48: warning: 'c' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    return k*ln2_hi-((hfsq-(s*(hfsq+R)+(k*ln2_lo+c)))-f);
+                                                ^

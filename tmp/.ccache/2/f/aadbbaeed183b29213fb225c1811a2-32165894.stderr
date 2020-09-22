@@ -1,0 +1,4 @@
+platform/android/frameworks/native/services/surfaceflinger/DisplayDevice.cpp:236:45: warning: unused parameter 'hwc' [-Wunused-parameter]
+void DisplayDevice::swapBuffers(HWComposer& hwc) const {
+                                            ^
+1 warning generated.

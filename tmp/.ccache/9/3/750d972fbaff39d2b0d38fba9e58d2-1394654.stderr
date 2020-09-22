@@ -1,0 +1,3 @@
+platform/android/frameworks/av/media/libstagefright/AwesomePlayer.cpp:363:10: warning: unused parameter 'source' [-Wunused-parameter]
+ status_t AwesomePlayer::setDataSource(const sp<IStreamSource> &source) {
+          ^

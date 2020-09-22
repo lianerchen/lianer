@@ -1,0 +1,8 @@
+platform/android/external/e2fsprogs/e2fsck/super.c: In function 'check_super_value':
+platform/android/external/e2fsprogs/e2fsck/super.c:34:52: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+      ((flags & LOG2_CHECK) && (value & (value - 1) != 0))) {
+                                                    ^
+platform/android/external/e2fsprogs/e2fsck/super.c: In function 'e2fsck_fix_dirhash_hint':
+platform/android/external/e2fsprogs/e2fsck/super.c:454:8: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+   if (((int) c) == -1) {
+        ^

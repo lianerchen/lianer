@@ -1,0 +1,19 @@
+platform/android/external/libnl/lib/attr.c: In function 'nla_ok':
+platform/android/external/libnl/lib/attr.c:490:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  return remaining >= sizeof(*nla) &&
+                   ^
+In file included from platform/android/external/libnl/lib/attr.c:12:0:
+platform/android/external/libnl/lib/attr.c: In function 'nla_reserve':
+platform/android/external/libnl/lib/attr.c:817:18: warning: pointer of type 'void *' used in subtraction [-Wpointer-arith]
+     (void *) nla - nlmsg_data(msg->nm_nlh),
+                  ^
+platform/android/external/libnl/include/netlink-local.h:76:45: note: in definition of macro 'NL_DBG'
+    fprintf(stderr, "DBG<" #LVL ">: " FMT, ##ARG); \
+                                             ^
+platform/android/external/libnl/lib/attr.c: In function 'nla_put':
+platform/android/external/libnl/lib/attr.c:847:36: warning: pointer of type 'void *' used in subtraction [-Wpointer-arith]
+         msg, datalen, (void *) nla - nlmsg_data(msg->nm_nlh), attrtype);
+                                    ^
+platform/android/external/libnl/include/netlink-local.h:76:45: note: in definition of macro 'NL_DBG'
+    fprintf(stderr, "DBG<" #LVL ">: " FMT, ##ARG); \
+                                             ^

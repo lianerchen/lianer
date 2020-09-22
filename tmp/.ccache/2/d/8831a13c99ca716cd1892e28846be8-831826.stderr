@@ -1,0 +1,33 @@
+component/atv/til/til_source.c: In function 'default_set_current_input_source':
+component/atv/til/til_source.c:7:55: warning: unused parameter 'source' [-Wunused-parameter]
+ til_error_code_t default_set_current_input_source(int source)
+                                                       ^
+component/atv/til/til_source.c: In function 'default_get_input_source_status':
+component/atv/til/til_source.c:13:54: warning: unused parameter 'source' [-Wunused-parameter]
+ til_error_code_t default_get_input_source_status(int source,
+                                                      ^
+component/atv/til/til_source.c:14:36: warning: unused parameter 'status' [-Wunused-parameter]
+         til_input_source_status_t* status)
+                                    ^
+component/atv/til/til_source.c: In function 'default_get_signal_level':
+component/atv/til/til_source.c:20:47: warning: unused parameter 'source' [-Wunused-parameter]
+ til_error_code_t default_get_signal_level(int source, int* level)
+                                               ^
+component/atv/til/til_source.c:20:60: warning: unused parameter 'level' [-Wunused-parameter]
+ til_error_code_t default_get_signal_level(int source, int* level)
+                                                            ^
+component/atv/til/til_source.c: In function 'default_get_signal_quality':
+component/atv/til/til_source.c:26:49: warning: unused parameter 'source' [-Wunused-parameter]
+ til_error_code_t default_get_signal_quality(int source, int* level)
+                                                 ^
+component/atv/til/til_source.c:26:62: warning: unused parameter 'level' [-Wunused-parameter]
+ til_error_code_t default_get_signal_quality(int source, int* level)
+                                                              ^
+component/atv/til/til_source.c: In function 'default_get_current_video_info':
+component/atv/til/til_source.c:32:67: warning: unused parameter 'videoInfo' [-Wunused-parameter]
+ til_error_code_t default_get_current_video_info(til_video_info_t* videoInfo)
+                                                                   ^
+component/atv/til/til_source.c: In function 'default_set_input_source_callback':
+component/atv/til/til_source.c:39:75: warning: unused parameter 'scbs' [-Wunused-parameter]
+ til_error_code_t default_set_input_source_callback(til_source_callbacks_t scbs)
+                                                                           ^

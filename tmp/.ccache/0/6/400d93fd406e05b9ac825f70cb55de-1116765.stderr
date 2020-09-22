@@ -1,0 +1,2 @@
+platform/android/external/icu/icu4c/source/i18n/collationdatabuilder.cpp: In member function 'uint32_t icu_53::CollationDataBuilder::buildContext(icu_53::ConditionalCE32*, UErrorCode&)':
+platform/android/external/icu/icu4c/source/i18n/collationdatabuilder.cpp:1424:90: warning: 'emptySuffixCE32' may be used uninitialized in this function [-Wmaybe-uninitialized]

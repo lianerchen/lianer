@@ -1,0 +1,16 @@
+component/OAM/agent/tr069_cut/session/oamd_message.c:84:5: warning: no previous prototype for 'ConvertInformMsgType' [-Wmissing-prototypes]
+ int ConvertInformMsgType(int iMsgType, unsigned int *pInnerMsgType)
+     ^
+component/OAM/agent/tr069_cut/session/oamd_message.c:335:5: warning: no previous prototype for 'InformMsgInitParam' [-Wmissing-prototypes]
+ int InformMsgInitParam(T_NM_InformMsg *ptInformMsg, int *pAcsEnable)
+     ^
+component/OAM/agent/tr069_cut/session/oamd_message.c: In function 'InformMsgInitParam':
+component/OAM/agent/tr069_cut/session/oamd_message.c:425:9: warning: implicit declaration of function 'GetACSDiagnose' [-Wimplicit-function-declaration]
+         if (STB_SUB_ACS == GetACSDiagnose())  // ÅÐ¶ÏÖ÷´ÓÍø¹Ü
+         ^
+component/OAM/agent/tr069_cut/session/oamd_message.c:425:9: warning: nested extern declaration of 'GetACSDiagnose' [-Wnested-externs]
+component/OAM/agent/tr069_cut/session/oamd_message.c: In function 'RecvInformMsg':
+component/OAM/agent/tr069_cut/session/oamd_message.c:1072:13: warning: implicit declaration of function 'PeekMsgQueue_PopValChg' [-Wimplicit-function-declaration]
+             PeekMsgQueue_PopValChg(g_strValChg, &g_iValChgNum);
+             ^
+component/OAM/agent/tr069_cut/session/oamd_message.c:1072:13: warning: nested extern declaration of 'PeekMsgQueue_PopValChg' [-Wnested-externs]

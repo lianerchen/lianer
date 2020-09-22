@@ -1,0 +1,36 @@
+In file included from platform/android/external/skia/include/core/SkShader.h:17:0,
+                 from platform/android/external/skia/include/core/SkImage.h:24,
+                 from platform/android/external/skia/include/core/SkImageDecoder.h:12,
+                 from platform/android/external/skia/src/images/SkJpegUtility.h:13,
+                 from device/hisilicon/bigfish/hardware/camera/camera_common/SkJpegEncoder.cpp:18:
+platform/android/external/skia/include/core/../gpu/GrColor.h:69:20: warning: unused parameter 'c' [-Wunused-parameter]
+ static inline void GrColorIsPMAssert(GrColor c) {
+                    ^
+In file included from platform/android/external/skia/include/core/SkImage.h:24:0,
+                 from platform/android/external/skia/include/core/SkImageDecoder.h:12,
+                 from platform/android/external/skia/src/images/SkJpegUtility.h:13,
+                 from device/hisilicon/bigfish/hardware/camera/camera_common/SkJpegEncoder.cpp:18:
+platform/android/external/skia/include/core/SkShader.h:376:18: warning: unused parameter 'rec' [-Wunused-parameter]
+     virtual bool asACompose(ComposeRec* rec) const { return false; }
+                  ^
+platform/android/external/skia/include/core/SkShader.h:397:18: warning: unused parameter 'customData' [-Wunused-parameter]
+     virtual bool asACustomShader(void** customData) const { return false; }
+                  ^
+In file included from platform/android/external/skia/src/images/SkJpegUtility.h:13:0,
+                 from device/hisilicon/bigfish/hardware/camera/camera_common/SkJpegEncoder.cpp:18:
+platform/android/external/skia/include/core/SkImageDecoder.h:397:18: warning: unused parameter 'width' [-Wunused-parameter]
+     virtual bool onBuildTileIndex(SkStreamRewindable*, int *width, int *height) {
+                  ^
+platform/android/external/skia/include/core/SkImageDecoder.h:397:18: warning: unused parameter 'height' [-Wunused-parameter]
+platform/android/external/skia/include/core/SkImageDecoder.h:403:18: warning: unused parameter 'bitmap' [-Wunused-parameter]
+     virtual bool onDecodeSubset(SkBitmap* bitmap, const SkIRect& rect) {
+                  ^
+platform/android/external/skia/include/core/SkImageDecoder.h:403:18: warning: unused parameter 'rect' [-Wunused-parameter]
+In file included from platform/android/external/skia/src/images/SkJpegUtility.h:14:0,
+                 from device/hisilicon/bigfish/hardware/camera/camera_common/SkJpegEncoder.cpp:18:
+platform/android/external/skia/include/core/SkStream.h:111:18: warning: unused parameter 'position' [-Wunused-parameter]
+     virtual bool seek(size_t position) { return false; }
+                  ^
+platform/android/external/skia/include/core/SkStream.h:117:18: warning: unused parameter 'offset' [-Wunused-parameter]
+     virtual bool move(long offset) { return false; }
+                  ^

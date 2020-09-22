@@ -1,0 +1,4 @@
+platform/android/external/e2fsprogs/misc/blkid.c: In function 'detectTextEncoding':
+platform/android/external/e2fsprogs/misc/blkid.c:262:13: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+         ret = ucsdet_getName(csm[0], &status);
+             ^

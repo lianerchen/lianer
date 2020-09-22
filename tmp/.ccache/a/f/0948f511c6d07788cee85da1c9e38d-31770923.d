@@ -1,0 +1,19 @@
+out/host/linux-x86/obj32/STATIC_LIBRARIES/libLLVMSupport_intermediates/IsInf.o: \
+  platform/android/external/llvm/lib/Support/IsInf.cpp \
+  platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h \
+  platform/android/external/llvm/host/include/llvm/Config/config.h \
+  platform/android/external/llvm/include/llvm/Config/llvm-platform-config.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/math.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/features.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/predefs.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/sys/cdefs.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/wordsize.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/gnu/stubs.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/gnu/stubs-32.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/huge_val.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/huge_valf.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/huge_vall.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/inf.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/nan.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/mathdef.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/mathcalls.h

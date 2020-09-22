@@ -1,0 +1,112 @@
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:467:5: warning: no previous prototype for 'getCoEthernetConnectState' [-Wmissing-prototypes]
+ int getCoEthernetConnectState(int type)
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c: In function 'getCoEthernetConnectState':
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:477:9: warning: implicit declaration of function 'property_get' [-Wimplicit-function-declaration]
+         property_get("zte.stb.net.coexistmode", coexistmode, "");
+         ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:477:9: warning: nested extern declaration of 'property_get' [-Wnested-externs]
+component/OAM/agent/tr069_cut/comm/tr069_comm.c: At top level:
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:1267:5: warning: no previous prototype for 'Tr069DispRegMsgProc' [-Wmissing-prototypes]
+ int Tr069DispRegMsgProc(void)
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:1302:7: warning: no previous prototype for 'InvokeNmToApkService' [-Wmissing-prototypes]
+ INT32 InvokeNmToApkService(INT8 *serviceName, T_NM_ParamList *pIn, T_NM_ParamList *pOut)
+       ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:1404:5: warning: no previous prototype for 'NM_ReadModelSpecName' [-Wmissing-prototypes]
+ int NM_ReadModelSpecName(INT8 *modelName, T_NM_ParamList *pIn, T_NM_ParamList *pOut)
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:1473:5: warning: no previous prototype for 'Local_StringReplace' [-Wmissing-prototypes]
+ int Local_StringReplace(char *p_result,char* p_source, char* p_seach, char *p_repstr)  
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:1527:7: warning: no previous prototype for 'InvokeNmToModel' [-Wmissing-prototypes]
+ INT32 InvokeNmToModel(INT8 *modelName, T_NM_ParamList *pIn, T_NM_ParamList *pOut)
+       ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:1835:5: warning: no previous prototype for 'Local_NM_RegModelName' [-Wmissing-prototypes]
+ int Local_NM_RegModelName(char *pstrMyName, T_CallBackInfo tCallbackInfo)
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:1872:5: warning: no previous prototype for 'Local_NM_Inform' [-Wmissing-prototypes]
+ int Local_NM_Inform(void *pData, int iDataLen)
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:1926:5: warning: no previous prototype for 'NM_AlarmCfgChangedNotify' [-Wmissing-prototypes]
+ int NM_AlarmCfgChangedNotify(void)
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:1950:5: warning: no previous prototype for 'NM_RegisteredStateNotify' [-Wmissing-prototypes]
+ int NM_RegisteredStateNotify()
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c: In function 'Tr069_ParamChangeCallback':
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2036:21: warning: implicit declaration of function 'QueryRegisterState' [-Wimplicit-function-declaration]
+                     if (QueryRegisterState())
+                     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2036:21: warning: nested extern declaration of 'QueryRegisterState' [-Wnested-externs]
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2070:9: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'void *' [-Wformat=]
+         DebugOutString(TR069_ERROR_OUT, "[zql][other]%s = %s\n", szKeyName, pValue);
+         ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c: At top level:
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2162:6: warning: no previous prototype for 'Tr069_GetDefaultValues' [-Wmissing-prototypes]
+ void Tr069_GetDefaultValues(void)
+      ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c: In function 'Tr069_GetDefaultValues':
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2195:5: warning: passing argument 1 of 'RegisterAppInfoInstanceListener' from incompatible pointer type [enabled by default]
+     RegisterAppInfoInstanceListener(Nm_AddAppInfoInstance, Nm_DelAppInfoInstance);
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:100:12: note: expected 'AddAppInfoInstance' but argument is of type 'void (*)(int)'
+ extern int RegisterAppInfoInstanceListener(AddAppInfoInstance pfCallbackAdd, DelAppInfoInstance pfCallbackDel);
+            ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2195:5: warning: passing argument 2 of 'RegisterAppInfoInstanceListener' from incompatible pointer type [enabled by default]
+     RegisterAppInfoInstanceListener(Nm_AddAppInfoInstance, Nm_DelAppInfoInstance);
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:100:12: note: expected 'DelAppInfoInstance' but argument is of type 'void (*)(int)'
+ extern int RegisterAppInfoInstanceListener(AddAppInfoInstance pfCallbackAdd, DelAppInfoInstance pfCallbackDel);
+            ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c: At top level:
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2214:5: warning: no previous prototype for 'LaunchRegisterToAcs' [-Wmissing-prototypes]
+ int LaunchRegisterToAcs(void)
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c: In function 'LaunchRegisterToAcs':
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2245:21: warning: implicit declaration of function 'ne_log_imp_no_profix' [-Wimplicit-function-declaration]
+                     ne_log_imp_no_profix("%3d \n", i);
+                     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2245:21: warning: nested extern declaration of 'ne_log_imp_no_profix' [-Wnested-externs]
+component/OAM/agent/tr069_cut/comm/tr069_comm.c: At top level:
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2534:5: warning: no previous prototype for 'GetXmlFilePath' [-Wmissing-prototypes]
+ int GetXmlFilePath(void)
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2744:5: warning: no previous prototype for 'Tr069_WaitDispRegMode' [-Wmissing-prototypes]
+ int Tr069_WaitDispRegMode(ParamModleWt *pWaitParamInfo)
+     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c: In function 'Tr069_WaitDispRegMode':
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2769:21: warning: assignment from incompatible pointer type [enabled by default]
+             pNow[i] = &pWaitParamInfo->chPathArray[i];
+                     ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2772:9: warning: implicit declaration of function 'GetInformCfgcontent' [-Wimplicit-function-declaration]
+         nRet = GetInformCfgcontent(100, pNow, 40);
+         ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2772:9: warning: nested extern declaration of 'GetInformCfgcontent' [-Wnested-externs]
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2787:9: warning: implicit declaration of function 'TimeNow' [-Wimplicit-function-declaration]
+         curTm = TimeNow(NULL);
+         ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2787:9: warning: nested extern declaration of 'TimeNow' [-Wnested-externs]
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2815:17: warning: implicit declaration of function 'getmodelANDparam' [-Wimplicit-function-declaration]
+                 nRet = getmodelANDparam(pWaitParamInfo->chPathArray[i], pWaitParamInfo->chModlArray[i], &tParaList);
+                 ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2815:17: warning: nested extern declaration of 'getmodelANDparam' [-Wnested-externs]
+component/OAM/agent/tr069_cut/comm/tr069_comm.c: At top level:
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2962:6: warning: no previous prototype for 'Nm_SendDiagnosticCompleteInformMsg' [-Wmissing-prototypes]
+ void Nm_SendDiagnosticCompleteInformMsg(void)
+      ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2978:6: warning: no previous prototype for 'Nm_DelHopHostInstance' [-Wmissing-prototypes]
+ void Nm_DelHopHostInstance(int keyid)
+      ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:2994:6: warning: no previous prototype for 'Nm_DelAllHops' [-Wmissing-prototypes]
+ void Nm_DelAllHops(int maxHopCount)
+      ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:3004:6: warning: no previous prototype for 'Nm_AddProcessInstance' [-Wmissing-prototypes]
+ void Nm_AddProcessInstance(int keyid)
+      ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:3029:6: warning: no previous prototype for 'Nm_DelProcessInstance' [-Wmissing-prototypes]
+ void Nm_DelProcessInstance(int keyid)
+      ^
+component/OAM/agent/tr069_cut/comm/tr069_comm.c:3083:6: warning: no previous prototype for 'Nm_AddHopHostInstance' [-Wmissing-prototypes]
+ void Nm_AddHopHostInstance(int keyid)
+      ^

@@ -1,0 +1,25 @@
+platform/android/external/fio/parse.c: In function 'get_mult_time':
+platform/android/external/fio/parse.c:149:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < strlen(c); i++)
+                    ^
+In file included from platform/android/external/fio/parse.c:18:0:
+platform/android/external/fio/parse.c: In function 'str_match_len':
+platform/android/external/fio/minmax.h:8:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+ #define max(a, b) ((a) > (b) ? (a) : (b))
+                        ^
+platform/android/external/fio/parse.c:396:9: note: in expansion of macro 'max'
+  return max(strlen(vp->ival), opt_len(str));
+         ^
+platform/android/external/fio/minmax.h:8:36: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+ #define max(a, b) ((a) > (b) ? (a) : (b))
+                                    ^
+platform/android/external/fio/parse.c:396:9: note: in expansion of macro 'max'
+  return max(strlen(vp->ival), opt_len(str));
+         ^
+platform/android/external/fio/parse.c: In function '__handle_option':
+platform/android/external/fio/parse.c:559:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(i = 0; i < o->maxlen; i++)
+                 ^
+platform/android/external/fio/parse.c:562:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (curr >= o->maxlen) {
+            ^

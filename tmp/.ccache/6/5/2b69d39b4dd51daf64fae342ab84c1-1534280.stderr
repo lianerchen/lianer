@@ -1,0 +1,59 @@
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp: In function 'void replacespace(const char*, char*)':
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:110:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = 0, j = 0; i < strlen(str); ++i)
+                                         ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp: At global scope:
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:133:13: warning: unused parameter 'sig' [-Wunused-parameter]
+ static void alarm_func(int sig)
+             ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp: In function 'int my_atoi(const char*)':
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:166:42: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i < strlen(str) + 1; i++)
+                                          ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp: In function 'const char* substr(const char*)':
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:282:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = 0; i < strlen(buf) + 1; i++)
+                                      ^
+In file included from device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:23:0:
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp: In function 'jint Java_com_hisilicon_android_Jni_UImount(JNIEnv*, jobject, jstring, jstring, jstring, jstring, jstring)':
+device/hisilicon/bigfish/frameworks/hinetshare/jni/Samba.h:38:79: warning: format '%d' expects argument of type 'int', but argument 5 has type 'time_t {aka long int}' [-Wformat=]
+ #define LOGW(...) __android_log_print(ANDROID_LOG_WARN  , LOG_TAG, __VA_ARGS__)
+                                                                               ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:486:29: note: in expansion of macro 'LOGW'
+                             LOGW("line : %d, Coming in old buf equal to new buf! old time = %d, new time = %d", __LINE__, old_time, new_time);
+                             ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/Samba.h:38:79: warning: format '%d' expects argument of type 'int', but argument 6 has type 'time_t {aka long int}' [-Wformat=]
+ #define LOGW(...) __android_log_print(ANDROID_LOG_WARN  , LOG_TAG, __VA_ARGS__)
+                                                                               ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:486:29: note: in expansion of macro 'LOGW'
+                             LOGW("line : %d, Coming in old buf equal to new buf! old time = %d, new time = %d", __LINE__, old_time, new_time);
+                             ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp: At global scope:
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:433:24: warning: unused parameter 'obj' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL Java_com_hisilicon_android_Jni_UImount(JNIEnv *env,jobject obj, jstring Ip, jstring Dir, jstring Mount, jstring us, jstring passwd)
+                        ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:638:24: warning: unused parameter 'obj' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL Java_com_hisilicon_android_Jni_myUmount(JNIEnv *env, jobject obj, jstring ph)
+                        ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:666:27: warning: unused parameter 'obj' [-Wunused-parameter]
+ JNIEXPORT jstring JNICALL Java_com_hisilicon_android_Jni_getMountList(JNIEnv *env, jobject obj, jstring ph)
+                           ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:681:27: warning: unused parameter 'obj' [-Wunused-parameter]
+ JNIEXPORT jstring JNICALL Java_com_hisilicon_android_Jni_getPcName(JNIEnv *env, jobject obj, jstring ip)
+                           ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:695:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL Java_com_hisilicon_android_Jni_umountlist(JNIEnv *env, jobject obj)
+                        ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:695:24: warning: unused parameter 'obj' [-Wunused-parameter]
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:700:100: warning: 'visibility' attribute ignored [-Wattributes]
+ JNIEXPORT static jint JNICALL  Java_com_hisilicon_android_sambaClient_init(JNIEnv *env, jobject obj)
+                                                                                                    ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp: In function 'jint Java_com_hisilicon_android_sambaClient_init(JNIEnv*, jobject)':
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:720:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 for(int i = 0; i < total_num; i++) {
+                                    ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp: At global scope:
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:700:32: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT static jint JNICALL  Java_com_hisilicon_android_sambaClient_init(JNIEnv *env, jobject obj)
+                                ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/sambaClient.cpp:700:32: warning: unused parameter 'obj' [-Wunused-parameter]

@@ -1,0 +1,4 @@
+platform/android/external/pdfium/core/src/fxcrt/fx_xml_parser.cpp: In member function 'void CXML_Parser::GetAttrValue(CFX_WideStringL&)':
+platform/android/external/pdfium/core/src/fxcrt/fx_xml_parser.cpp:321:54: warning: 'ch' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         if (ch == mark || m_dwIndex < m_dwBufferSize || IsEOF()) {
+                                                      ^

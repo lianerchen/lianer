@@ -1,0 +1,12 @@
+platform/android/external/checkpolicy/policy_define.c: In function 'define_dominance':
+platform/android/external/checkpolicy/policy_define.c:867:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/checkpolicy/policy_define.c: In function 'clone_level':
+platform/android/external/checkpolicy/policy_define.c:997:38: warning: unused parameter 'key' [-Wunused-parameter]
+platform/android/external/checkpolicy/policy_define.c: In function 'define_compute_type_helper':
+platform/android/external/checkpolicy/policy_define.c:1569:2: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/checkpolicy/policy_define.c: In function 'dominate_role_recheck':
+platform/android/external/checkpolicy/policy_define.c:2146:3: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/checkpolicy/policy_define.c:2152:3: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/checkpolicy/policy_define.c:2125:48: warning: unused parameter 'key' [-Wunused-parameter]
+platform/android/external/checkpolicy/policy_define.c: In function 'parse_semantic_categories':
+platform/android/external/checkpolicy/policy_define.c:3445:64: warning: unused parameter 'levdatum' [-Wunused-parameter]

@@ -1,0 +1,4 @@
+platform/android/external/iptables/iptables/iptables-restore.c: In function 'print_usage':
+platform/android/external/iptables/iptables/iptables-restore.c:44:55: warning: unused parameter 'version' [-Wunused-parameter]
+ static void print_usage(const char *name, const char *version)
+                                                       ^

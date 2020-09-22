@@ -1,0 +1,7 @@
+platform/android/packages/apps/Camera2/jni/jpegutilnative.cpp:53:34: warning: unused parameter 'numBytes' [-Wunused-parameter]
+   auto flush = [](size_t numBytes) {
+                                  ^
+platform/android/packages/apps/Camera2/jni/jpegutilnative.cpp:53:34: warning: unused parameter 'numBytes' [-Wunused-parameter]
+platform/android/packages/apps/Camera2/jni/jpegutilnative.cpp:36:5: warning: unused parameter 'clazz' [-Wunused-parameter]
+     Java_com_android_camera_util_JpegUtilNative_compressJpegFromYUV420pNative(
+     ^

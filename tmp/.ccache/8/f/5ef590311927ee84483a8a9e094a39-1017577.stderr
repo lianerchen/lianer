@@ -1,0 +1,31 @@
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c: In function 'pq_set_engine_mode_v':
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c:301:30: warning: unused parameter 'mode' [-Wunused-parameter]
+ int pq_set_engine_mode_v(int mode, int value)
+                              ^
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c:301:40: warning: unused parameter 'value' [-Wunused-parameter]
+ int pq_set_engine_mode_v(int mode, int value)
+                                        ^
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c: In function 'pq_set_noise_reduction':
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c:409:32: warning: unused parameter 'mode' [-Wunused-parameter]
+ int pq_set_noise_reduction(int mode)
+                                ^
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c: In function 'pq_get_noise_reduction':
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c:427:34: warning: unused parameter 'mode' [-Wunused-parameter]
+ int pq_get_noise_reduction(int * mode)
+                                  ^
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c: In function 'pq_set_mpeg_noise_reduction':
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c:449:37: warning: unused parameter 'mode' [-Wunused-parameter]
+ int pq_set_mpeg_noise_reduction(int mode)
+                                     ^
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c: In function 'pq_get_mpeg_noise_reduction':
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c:467:39: warning: unused parameter 'mode' [-Wunused-parameter]
+ int pq_get_mpeg_noise_reduction(int * mode)
+                                       ^
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c: In function 'pq_set_motion_compensation_mode':
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c:489:41: warning: unused parameter 'mode' [-Wunused-parameter]
+ int pq_set_motion_compensation_mode(int mode)
+                                         ^
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c: In function 'pq_get_motion_compensation_mode':
+device/hisilicon/bigfish/frameworks/hipq/hal/pqsetting.c:510:43: warning: unused parameter 'mode' [-Wunused-parameter]
+ int pq_get_motion_compensation_mode(int * mode)
+                                           ^

@@ -1,0 +1,11 @@
+platform/android/external/fio/blktrace.c: In function 'lookup_device':
+platform/android/external/fio/blktrace.c:160:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (maj == major(st.st_rdev) && min == minor(st.st_rdev)) {
+           ^
+platform/android/external/fio/blktrace.c:160:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (maj == major(st.st_rdev) && min == minor(st.st_rdev)) {
+                                       ^
+platform/android/external/fio/blktrace.c: In function 'load_blktrace':
+platform/android/external/fio/blktrace.c:466:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < td->files_index; i++) {
+                ^

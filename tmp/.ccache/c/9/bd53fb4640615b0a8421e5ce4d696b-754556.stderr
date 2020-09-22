@@ -1,0 +1,8 @@
+platform/android/external/fio/lib/axmap.c: In function 'axmap_reset':
+platform/android/external/fio/lib/axmap.c:66:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < axmap->nr_levels; i++) {
+                ^
+platform/android/external/fio/lib/axmap.c: In function 'axmap_handler':
+platform/android/external/fio/lib/axmap.c:139:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < axmap->nr_levels; i++) {
+                ^

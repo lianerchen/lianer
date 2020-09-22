@@ -1,0 +1,6 @@
+component/OAM/midinterface/getProc.c:762:15: warning: no previous prototype for 'build_proc_info' [-Wmissing-prototypes]
+ struct plist *build_proc_info()
+               ^
+component/OAM/midinterface/getProc.c:776:6: warning: no previous prototype for 'free_proc_info' [-Wmissing-prototypes]
+ void free_proc_info(struct plist *pbase)
+      ^

@@ -1,0 +1,3 @@
+platform/android/external/e2fsprogs/lib/quota/quotaio.c: In function 'compute_num_blocks_proc':
+platform/android/external/e2fsprogs/lib/quota/quotaio.c:100:48: warning: unused parameter 'fs' [-Wunused-parameter]
+platform/android/external/e2fsprogs/lib/quota/quotaio.c:100:61: warning: unused parameter 'blocknr' [-Wunused-parameter]

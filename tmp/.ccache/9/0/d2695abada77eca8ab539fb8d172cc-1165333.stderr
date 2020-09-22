@@ -1,0 +1,4 @@
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_text.cpp: In member function 'void _CFX_UniqueKeyGen::Generate(int, ...)':
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_text.cpp:1770:21: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         ((FX_DWORD*)m_Key)[i] = p;
+                     ^

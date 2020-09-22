@@ -1,0 +1,21 @@
+device/hisilicon/bigfish/system/write_raw/write_raw.c: In function 'write_emmc_raw':
+device/hisilicon/bigfish/system/write_raw/write_raw.c:130:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if ( n != count) {
+                ^
+device/hisilicon/bigfish/system/write_raw/write_raw.c:131:13: warning: format '%ld' expects argument of type 'long int', but argument 5 has type 'ssize_t' [-Wformat=]
+             ALOGE("wirte error %s n = %ld count = %ld\n",filename,n,count);
+             ^
+device/hisilicon/bigfish/system/write_raw/write_raw.c:132:13: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'ssize_t' [-Wformat=]
+             printf("wirte error %s n = %ld count = %ld\n",filename,n,count);
+             ^
+device/hisilicon/bigfish/system/write_raw/write_raw.c: In function 'write_spi_nand_clean':
+device/hisilicon/bigfish/system/write_raw/write_raw.c:170:9: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+         printf("%s: error closing write of %s\n",partition);
+         ^
+device/hisilicon/bigfish/system/write_raw/write_raw.c:171:9: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+         ALOGE("%s: error closing write of %s\n",partition);
+         ^
+device/hisilicon/bigfish/system/write_raw/write_raw.c: In function 'resume_factory':
+device/hisilicon/bigfish/system/write_raw/write_raw.c:318:14: warning: format '%lu' expects argument of type 'long unsigned int', but argument 4 has type 'int' [-Wformat=]
+              ALOGE("Can't lseek %lu: %s\n", MISC_OFFSET, strerror(errno));
+              ^

@@ -1,0 +1,19 @@
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp: In member function 'android::status_t android::CameraJpegDecoder::initJpegDecoder()':
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::u32PhyAddr' [-Wmissing-field-initializers]
+     VDEC_BUFFER_ATTR_S stVdecBufAttr = {0};
+                                          ^
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::pu8UsrVirAddr_meta' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::u32PhyAddr_meta' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::s32FrameBufFd' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::s32MetadataBufFd' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::u32PrivOffset_meta' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::u32BufNum' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::u32BufSize' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::u32MetaBufSize' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::u32Stride' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::bTvp' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:68:42: warning: missing initializer for member 'hiUNF_VDEC_BUFF_ATTR_S::bVideoBypass' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp: At global scope:
+device/hisilicon/bigfish/hardware/camera/camera_common/CameraJpegDecoder.cpp:178:10: warning: unused parameter 'w' [-Wunused-parameter]
+ status_t CameraJpegDecoder::setExternalBuffer(struct preview_stream_ops* window, int w, int h, int count)
+          ^

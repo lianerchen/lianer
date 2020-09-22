@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/external/alsa-lib/src/socket.c: In function 'snd_is_local':
+device/hisilicon/bigfish/external/alsa-lib/src/socket.c:146:38: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+   struct sockaddr_in *s_in = (struct sockaddr_in *)&req->ifr_addr;
+                                      ^

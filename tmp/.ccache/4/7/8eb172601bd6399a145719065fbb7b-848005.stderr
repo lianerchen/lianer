@@ -1,0 +1,12 @@
+component/OAM/agent/tr069_cut/session/main.c:29:6: warning: no previous prototype for 'sigHandler' [-Wmissing-prototypes]
+ void sigHandler(int sig)
+      ^
+component/OAM/agent/tr069_cut/session/main.c:45:6: warning: no previous prototype for 'signalSetup' [-Wmissing-prototypes]
+ void signalSetup(void)
+      ^
+component/OAM/agent/tr069_cut/session/main.c:80:15: warning: no previous prototype for 'CreatDataFolder' [-Wmissing-prototypes]
+ unsigned char CreatDataFolder(void)
+               ^
+component/OAM/agent/tr069_cut/session/main.c:92:6: warning: no previous prototype for 'copyConfig' [-Wmissing-prototypes]
+ void copyConfig()
+      ^

@@ -1,0 +1,24 @@
+device/hisilicon/bigfish/system/ir_user/stb/key_pars/key_pars.c: In function 'Pars_Key':
+device/hisilicon/bigfish/system/ir_user/stb/key_pars/key_pars.c:86:9: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+         memcpy(keyarry->keyname,nodeptr->name,strlen(nodeptr->name));
+         ^
+In file included from device/hisilicon/bigfish/system/ir_user/stb/key_pars/key_pars.c:2:0:
+platform/android/bionic/libc/include/string.h:223:8: note: expected 'const char *' but argument is of type 'const xmlChar *'
+ size_t strlen(const char *s) {
+        ^
+device/hisilicon/bigfish/system/ir_user/stb/key_pars/key_pars.c:87:9: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+         keyarry->keyname[strlen(nodeptr->name)] = '\0';
+         ^
+In file included from device/hisilicon/bigfish/system/ir_user/stb/key_pars/key_pars.c:2:0:
+platform/android/bionic/libc/include/string.h:223:8: note: expected 'const char *' but argument is of type 'const xmlChar *'
+ size_t strlen(const char *s) {
+        ^
+device/hisilicon/bigfish/system/ir_user/stb/key_pars/key_pars.c:108:21: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+                     PARS_LOG("we only support max num %d keys in one Remote controler\n");
+                     ^
+device/hisilicon/bigfish/system/ir_user/stb/key_pars/key_pars.c:9:33: warning: 'ir_keycode' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define PARS_LOG(fmt ...) printf(fmt)
+                                 ^
+device/hisilicon/bigfish/system/ir_user/stb/key_pars/key_pars.c:81:24: note: 'ir_keycode' was declared here
+     unsigned long long ir_keycode;
+                        ^

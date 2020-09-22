@@ -1,0 +1,14 @@
+platform/android/external/neven/Embedded/common/src/b_APIEm/FaceFinderRef.c: In function 'bpi_FaceFinderRef_copy':
+platform/android/external/neven/Embedded/common/src/b_APIEm/FaceFinderRef.c:68:35: warning: unused parameter 'ptrA' [-Wunused-parameter]
+         struct bpi_FaceFinderRef* ptrA, 
+                                   ^
+platform/android/external/neven/Embedded/common/src/b_APIEm/FaceFinderRef.c:69:41: warning: unused parameter 'srcPtrA' [-Wunused-parameter]
+         const struct bpi_FaceFinderRef* srcPtrA )
+                                         ^
+platform/android/external/neven/Embedded/common/src/b_APIEm/FaceFinderRef.c: In function 'bpi_FaceFinderRef_equal':
+platform/android/external/neven/Embedded/common/src/b_APIEm/FaceFinderRef.c:77:42: warning: unused parameter 'ptrA' [-Wunused-parameter]
+          const struct bpi_FaceFinderRef* ptrA, 
+                                          ^
+platform/android/external/neven/Embedded/common/src/b_APIEm/FaceFinderRef.c:78:42: warning: unused parameter 'srcPtrA' [-Wunused-parameter]
+          const struct bpi_FaceFinderRef* srcPtrA )
+                                          ^

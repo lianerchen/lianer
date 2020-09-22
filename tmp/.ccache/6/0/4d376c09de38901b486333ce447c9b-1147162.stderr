@@ -1,0 +1,65 @@
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:120:0: warning: "__linux" redefined [enabled by default]
+ #define __linux
+ ^
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:1:0: note: this is the location of the previous definition
+ /* $NetBSD: isakmp.c,v 1.20.6.13 2008/09/25 09:34:39 vanhu Exp $ */
+ ^
+platform/android/external/ipsec-tools/src/racoon/isakmp.c: In function 'isakmp_handler':
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:223:15: warning: pointer targets in passing argument 6 of 'recvfromto' differ in signedness [-Wpointer-sign]
+       (struct sockaddr *)&local, &local_len)) < 0) {
+               ^
+In file included from platform/android/external/ipsec-tools/src/racoon/isakmp.c:73:0:
+platform/android/external/ipsec-tools/src/racoon/sockmisc.h:60:12: note: expected 'socklen_t *' but argument is of type 'unsigned int *'
+ extern int recvfromto __P((int, void *, size_t, int,
+            ^
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:236:18: warning: pointer targets in passing argument 6 of 'recvfrom' differ in signedness [-Wpointer-sign]
+       0, (struct sockaddr *)&remote, &remote_len)) != 1) {
+                  ^
+In file included from platform/android/external/ipsec-tools/src/racoon/isakmp.c:38:0:
+platform/android/bionic/libc/include/sys/socket.h:301:9: note: expected 'socklen_t *' but argument is of type 'unsigned int *'
+ ssize_t recvfrom(int fd, void* buf, size_t len, int flags, const struct sockaddr* src_addr, socklen_t* addr_len) {
+         ^
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:284:19: warning: pointer targets in passing argument 6 of 'recvfrom' differ in signedness [-Wpointer-sign]
+        0, (struct sockaddr *)&remote, &remote_len)) < 0) {
+                   ^
+In file included from platform/android/external/ipsec-tools/src/racoon/isakmp.c:38:0:
+platform/android/bionic/libc/include/sys/socket.h:301:9: note: expected 'socklen_t *' but argument is of type 'unsigned int *'
+ ssize_t recvfrom(int fd, void* buf, size_t len, int flags, const struct sockaddr* src_addr, socklen_t* addr_len) {
+         ^
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:297:19: warning: pointer targets in passing argument 6 of 'recvfrom' differ in signedness [-Wpointer-sign]
+        0, (struct sockaddr *)&remote, &remote_len)) < 0) {
+                   ^
+In file included from platform/android/external/ipsec-tools/src/racoon/isakmp.c:38:0:
+platform/android/bionic/libc/include/sys/socket.h:301:9: note: expected 'socklen_t *' but argument is of type 'unsigned int *'
+ ssize_t recvfrom(int fd, void* buf, size_t len, int flags, const struct sockaddr* src_addr, socklen_t* addr_len) {
+         ^
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:312:19: warning: pointer targets in passing argument 6 of 'recvfrom' differ in signedness [-Wpointer-sign]
+        0, (struct sockaddr *)&remote, &remote_len)) < 0) {
+                   ^
+In file included from platform/android/external/ipsec-tools/src/racoon/isakmp.c:38:0:
+platform/android/bionic/libc/include/sys/socket.h:301:9: note: expected 'socklen_t *' but argument is of type 'unsigned int *'
+ ssize_t recvfrom(int fd, void* buf, size_t len, int flags, const struct sockaddr* src_addr, socklen_t* addr_len) {
+         ^
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:322:30: warning: pointer targets in passing argument 6 of 'recvfromto' differ in signedness [-Wpointer-sign]
+                      (struct sockaddr *)&local, &local_len)) < 0) {
+                              ^
+In file included from platform/android/external/ipsec-tools/src/racoon/isakmp.c:73:0:
+platform/android/external/ipsec-tools/src/racoon/sockmisc.h:60:12: note: expected 'socklen_t *' but argument is of type 'unsigned int *'
+ extern int recvfromto __P((int, void *, size_t, int,
+            ^
+platform/android/external/ipsec-tools/src/racoon/isakmp.c: In function 'nostate1':
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:2906:11: warning: unused parameter 'msg' [-Wunused-parameter]
+  vchar_t *msg;
+           ^
+platform/android/external/ipsec-tools/src/racoon/isakmp.c: In function 'nostate2':
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:2916:11: warning: unused parameter 'msg' [-Wunused-parameter]
+  vchar_t *msg;
+           ^
+In file included from platform/android/external/ipsec-tools/src/racoon/isakmp.c:85:0:
+platform/android/external/ipsec-tools/src/racoon/isakmp.c: In function 'log_ph1established':
+platform/android/external/ipsec-tools/src/racoon/evt.h:85:43: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+ #define EVT_PUSH(src, dst, type, optdata) ;
+                                           ^
+platform/android/external/ipsec-tools/src/racoon/isakmp.c:2941:3: note: in expansion of macro 'EVT_PUSH'
+   EVT_PUSH(iph1->local, iph1->remote, EVTT_NO_ISAKMP_CFG, NULL);
+   ^

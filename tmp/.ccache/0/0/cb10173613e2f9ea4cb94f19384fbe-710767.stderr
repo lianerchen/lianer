@@ -1,0 +1,4 @@
+platform/android/frameworks/base/media/mca/filterpacks/native/imageproc/invert.c: In function 'invert_process':
+platform/android/frameworks/base/media/mca/filterpacks/native/imageproc/invert.c:24:26: warning: unused parameter 'user_data' [-Wunused-parameter]
+                    void* user_data) {
+                          ^

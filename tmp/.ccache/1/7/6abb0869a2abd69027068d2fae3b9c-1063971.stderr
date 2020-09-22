@@ -1,0 +1,11 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/tsplay/sample_tsplay_multiaud.c: In function 'TsTthread':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/tsplay/sample_tsplay_multiaud.c:67:28: warning: unused parameter 'args' [-Wunused-parameter]
+ HI_VOID TsTthread(HI_VOID *args)
+                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/tsplay/sample_tsplay_multiaud.c: In function 'main':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/tsplay/sample_tsplay_multiaud.c:292:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(j = 0; j < stMultiAudAttr.u32PidNum; j++)
+                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/tsplay/sample_tsplay_multiaud.c:374:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             i = (i >= stMultiAudAttr.u32PidNum) ? 0 : i;
+                    ^

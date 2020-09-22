@@ -1,0 +1,85 @@
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:91:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_NIKON_TAG_LENSTYPE, EXIF_FORMAT_BYTE,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:99:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_NIKON_TAG_FLASHUSED, EXIF_FORMAT_BYTE,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:105:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_NIKON1_TAG_QUALITY, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:116:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_NIKON1_TAG_COLORMODE, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:120:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_NIKON1_TAG_IMAGEADJUSTMENT, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:127:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_NIKON1_TAG_CCDSENSITIVITY, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:133:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_NIKON1_TAG_WHITEBALANCE, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:142:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_NIKON1_TAG_CONVERTER, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:146:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_QUALITY, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:171:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_MACRO, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:176:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_BWMODE, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:180:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_ONETOUCHWB, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:185:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_FLASHMODE, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:191:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_FLASHDEVICE, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:197:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_FOCUSRANGE, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:201:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_MANFOCUS, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:205:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_SHARPNESS, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:210:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_EXTERNALFLASHBOUNCE, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:214:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_CONTRAST, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:219:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_PREVIEWIMAGEVALID, EXIF_FORMAT_LONG,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:223:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_OLYMPUS_TAG_CCDSCANMODE, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:228:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_SANYO_TAG_SEQUENTIALSHOT, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:234:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_SANYO_TAG_FOCUSMODE, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:238:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_SANYO_TAG_RECORDSHUTTERRELEASE, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:242:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_SANYO_TAG_RESAVED, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:246:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_SANYO_TAG_CCDSENSITIVITY, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:253:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_SANYO_TAG_SCENESELECT, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+platform/android/external/libexif/libexif/olympus/mnote-olympus-entry.c:262:5: warning: implicit conversion from enumeration type 'enum _MnoteOlympusTag' to different enumeration type 'ExifTag' [-Wenum-conversion]
+  { MNOTE_SANYO_TAG_SEQUENCESHOTINTERVAL, EXIF_FORMAT_SHORT,
+  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+28 warnings generated.

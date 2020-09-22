@@ -1,0 +1,14 @@
+platform/android/external/libnl/lib/object.c: In function 'nl_object_clone':
+platform/android/external/libnl/lib/object.c:114:22: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   memcpy((void *)new + doff, (void *)obj + doff, size);
+                      ^
+platform/android/external/libnl/lib/object.c:114:42: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   memcpy((void *)new + doff, (void *)obj + doff, size);
+                                          ^
+platform/android/external/libnl/lib/object.c: In function 'nl_object_identical':
+platform/android/external/libnl/lib/object.c:273:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if ((a->ce_mask & req_attrs) != req_attrs ||
+                               ^
+platform/android/external/libnl/lib/object.c:274:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      (b->ce_mask & req_attrs) != req_attrs)
+                               ^

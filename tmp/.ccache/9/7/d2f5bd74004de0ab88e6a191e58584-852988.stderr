@@ -1,0 +1,20 @@
+In file included from component/appman/downloadmanager/downloader/oc/zlib/workspace/src/../inc/zlib_inc.h:4:0,
+                 from component/appman/downloadmanager/downloader/oc/zlib/workspace/src/zlib_part0.c:2:
+component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:4:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable:4996 4819 4244 4267 4311 4312 4133)
+ ^
+In file included from component/appman/downloadmanager/downloader/oc/zlib/workspace/src/../inc/zlib_inc.h:16:0,
+                 from component/appman/downloadmanager/downloader/oc/zlib/workspace/src/zlib_part0.c:2:
+component/appman/downloadmanager/downloader/oc/zlib/workspace/src/../inc/../../uncompr.c: In function 'zlib_uncompress4':
+component/appman/downloadmanager/downloader/oc/zlib/workspace/src/../inc/../../uncompr.c:214:5: warning: "/*" within comment [-Wcomment]
+     /* 这个扩展的解码函数写的有点问题,如果读入的数据解码后没有达到destLen,下次会继续使用该空间进行填充
+ ^
+component/appman/downloadmanager/downloader/oc/zlib/workspace/src/../inc/../../uncompr.c:227:3: warning: "/*" within comment [-Wcomment]
+   /* else if (err == Z_NEED_DICT) ;  //need to implement * /
+ ^
+In file included from component/appman/downloadmanager/downloader/oc/zlib/workspace/src/../inc/zlib_inc.h:16:0,
+                 from component/appman/downloadmanager/downloader/oc/zlib/workspace/src/zlib_part0.c:2:
+component/appman/downloadmanager/downloader/oc/zlib/workspace/src/../inc/../../uncompr.c: In function 'zlib_uncompress2':
+component/appman/downloadmanager/downloader/oc/zlib/workspace/src/../inc/../../uncompr.c:341:81: warning: unused parameter 'flag_gz' [-Wunused-parameter]
+ int ZEXPORT zlib_uncompress2 (void *srcStream0, int size, void *dstStream0, int flag_gz)
+                                                                                 ^

@@ -1,0 +1,2 @@
+platform/android/external/fdlibm/s_expm1.c: In function 'ieee_expm1':
+platform/android/external/fdlibm/s_expm1.c:195:8: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]

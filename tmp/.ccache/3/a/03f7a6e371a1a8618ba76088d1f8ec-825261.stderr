@@ -1,0 +1,4 @@
+platform/android/external/libunwind/src/ptrace/_UPT_get_dyn_info_list_addr.c: In function 'get_list_addr':
+platform/android/external/libunwind/src/ptrace/_UPT_get_dyn_info_list_addr.c:79:10: note: #pragma message: Implement get_list_addr(), please.
+ # pragma message("Implement get_list_addr(), please.")
+          ^

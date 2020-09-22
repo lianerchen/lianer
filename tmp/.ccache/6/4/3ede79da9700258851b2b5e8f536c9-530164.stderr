@@ -1,0 +1,4 @@
+platform/android/external/icu/icu4c/source/common/ucnvscsu.c:1993:1: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnvscsu.c:1993:1: warning: (near initialization for '_SCSUImpl.toUTF8') [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnvscsu.c:2016:1: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnvscsu.c:2016:1: warning: (near initialization for '_SCSUData_53.mbcs') [-Wmissing-field-initializers]

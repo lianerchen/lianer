@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/external/dhcp/bind/bind-9.9.7-P3/lib/isc/log.c: In function 'roll_log':
+device/hisilicon/bigfish/external/dhcp/bind/bind-9.9.7-P3/lib/isc/log.c:1252:53: warning: 'greatest' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if (FILE_VERSIONS(channel) == ISC_LOG_ROLLINFINITE ||
+                                                     ^

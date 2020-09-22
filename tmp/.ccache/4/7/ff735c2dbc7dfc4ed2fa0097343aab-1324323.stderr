@@ -1,0 +1,8 @@
+platform/android/frameworks/minikin/libs/minikin/MinikinFontFreeType.cpp:56:6: warning: unused parameter 'bounds' [-Wunused-parameter]
+ void MinikinFontFreeType::GetBounds(MinikinRect* bounds, uint32_t glyph_id,
+      ^
+platform/android/frameworks/minikin/libs/minikin/MinikinFontFreeType.cpp:56:6: warning: unused parameter 'glyph_id' [-Wunused-parameter]
+platform/android/frameworks/minikin/libs/minikin/MinikinFontFreeType.cpp:56:6: warning: unused parameter 'paint' [-Wunused-parameter]
+platform/android/frameworks/minikin/libs/minikin/MinikinFontFreeType.cpp:75:6: warning: unused parameter 'paint' [-Wunused-parameter]
+ bool MinikinFontFreeType::Render(uint32_t glyph_id,
+      ^

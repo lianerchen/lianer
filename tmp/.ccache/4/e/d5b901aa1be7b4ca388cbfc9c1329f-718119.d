@@ -1,0 +1,32 @@
+out/target/product/Hi3798MV200/obj/EXECUTABLES/vold_intermediates/VoldUtil.o: \
+ platform/android/system/vold/VoldUtil.c \
+ platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h \
+ platform/android/bionic/libc/include/sys/ioctl.h \
+ platform/android/bionic/libc/include/sys/cdefs.h \
+ platform/android/bionic/libc/include/sys/cdefs_elf.h \
+ platform/android/bionic/libc/include/android/api-level.h \
+ platform/android/bionic/libc/kernel/uapi/linux/ioctl.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/ioctl.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/ioctl.h \
+ platform/android/bionic/libc/kernel/uapi/linux/termios.h \
+ platform/android/bionic/libc/kernel/uapi/linux/types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/int-ll64.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/bitsperlong.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/bitsperlong.h \
+ platform/android/bionic/libc/kernel/uapi/linux/posix_types.h \
+ platform/android/bionic/libc/kernel/uapi/linux/stddef.h \
+ platform/android/bionic/libc/kernel/uapi/linux/compiler.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/posix_types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/posix_types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/termios.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/termios.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/termbits.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/termbits.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/ioctls.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/ioctls.h \
+ platform/android/bionic/libc/include/sys/ioctl_compat.h \
+ platform/android/bionic/libc/kernel/uapi/linux/tty.h \
+ platform/android/bionic/libc/kernel/uapi/linux/fs.h \
+ platform/android/bionic/libc/kernel/uapi/linux/limits.h

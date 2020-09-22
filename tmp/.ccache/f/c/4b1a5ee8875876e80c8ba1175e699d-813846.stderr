@@ -1,0 +1,28 @@
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c: In function 'GetSynthPtr':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c:144:58: warning: unused parameter 'voiceNum' [-Wunused-parameter]
+ EAS_INLINE const S_SYNTH_INTERFACE* GetSynthPtr (EAS_INT voiceNum)
+                                                          ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c: In function 'VMSetMIPEntry':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c:686:34: warning: unused parameter 'pVoiceMgr' [-Wunused-parameter]
+ void VMSetMIPEntry (S_VOICE_MGR *pVoiceMgr, S_SYNTH *pSynth, EAS_U8 channel, EAS_U8 priority, EAS_U8 mip)
+                                  ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c: In function 'VMStopNote':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c:1868:95: warning: unused parameter 'velocity' [-Wunused-parameter]
+ void VMStopNote (S_VOICE_MGR *pVoiceMgr, S_SYNTH *pSynth, EAS_U8 channel, EAS_U8 note, EAS_U8 velocity)
+                                                                                               ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c: In function 'VMProgramChange':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c:2687:36: warning: unused parameter 'pVoiceMgr' [-Wunused-parameter]
+ void VMProgramChange (S_VOICE_MGR *pVoiceMgr, S_SYNTH *pSynth, EAS_U8 channel, EAS_U8 program)
+                                    ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c: In function 'VMGetPolyphony':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c:3366:41: warning: unused parameter 'pVoiceMgr' [-Wunused-parameter]
+ EAS_RESULT VMGetPolyphony (S_VOICE_MGR *pVoiceMgr, S_SYNTH *pSynth, EAS_I32 *pPolyphonyCount)
+                                         ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c: In function 'VMSetPriority':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c:3391:40: warning: unused parameter 'pVoiceMgr' [-Wunused-parameter]
+ EAS_RESULT VMSetPriority (S_VOICE_MGR *pVoiceMgr, S_SYNTH *pSynth, EAS_I32 priority)
+                                        ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c: In function 'VMGetPriority':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_voicemgt.c:3416:40: warning: unused parameter 'pVoiceMgr' [-Wunused-parameter]
+ EAS_RESULT VMGetPriority (S_VOICE_MGR *pVoiceMgr, S_SYNTH *pSynth, EAS_I32 *pPriority)
+                                        ^

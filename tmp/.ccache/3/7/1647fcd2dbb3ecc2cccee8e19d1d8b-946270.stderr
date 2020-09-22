@@ -1,0 +1,26 @@
+platform/android/external/fio/stat.c: In function 'show_clat_percentiles':
+platform/android/external/fio/stat.c:234:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if ((j % per_line) == per_line - 1) /* for formatting */
+                      ^
+platform/android/external/fio/stat.c: In function 'show_ddir_status_terse':
+platform/android/external/fio/stat.c:642:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (i >= len) {
+         ^
+platform/android/external/fio/stat.c: In function 'add_ddir_status_json':
+platform/android/external/fio/stat.c:740:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (i >= len) {
+         ^
+platform/android/external/fio/stat.c: In function '__show_run_stats':
+platform/android/external/fio/stat.c:1199:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (last_ts == td->groupid)
+               ^
+platform/android/external/fio/stat.c:1216:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       (td->o.group_reporting && last_ts != td->groupid))) {
+                                         ^
+platform/android/external/fio/stat.c:1232:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (ts->groupid == -1) {
+                   ^
+platform/android/external/fio/stat.c: In function 'check_for_running_stats':
+platform/android/external/fio/stat.c:1533:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   } else if (mtime_since_now(&status_time) >= status_interval) {
+                                            ^

@@ -1,0 +1,10 @@
+In file included from platform/android/external/pdfium/core/src/fxcrt/fxcrt_windows.h:9:0,
+                 from platform/android/external/pdfium/core/src/fxcrt/fxcrt_windows.cpp:8:
+platform/android/external/pdfium/core/src/fxcrt/extension.h: In member function 'virtual void CFX_CRTFileStream::Release()':
+platform/android/external/pdfium/core/src/fxcrt/extension.h:50:24: warning: deleting object of polymorphic class type 'CFX_CRTFileStream' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+                 delete this;
+                        ^
+platform/android/external/pdfium/core/src/fxcrt/extension.h: In member function 'virtual void CFX_MemoryStream::Release()':
+platform/android/external/pdfium/core/src/fxcrt/extension.h:176:20: warning: deleting object of polymorphic class type 'CFX_MemoryStream' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+             delete this;
+                    ^

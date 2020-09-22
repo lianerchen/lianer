@@ -1,0 +1,74 @@
+In file included from platform/android/external/libvpx/armv7a-neon/vp8_rtcd.h:396:0,
+                 from platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:12:
+platform/android/external/libvpx/armv7a-neon/vpx_config.h:13:0: warning: "ARCH_ARM" redefined [enabled by default]
+ #define ARCH_ARM 1
+ ^
+In file included from <command-line>:0:0:
+./platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h:241:0: note: this is the location of the previous definition
+ #define ARCH_ARM
+ ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'set_vp8e_config':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:288:69: warning: unused parameter 'mr_cfg' [-Wunused-parameter]
+                                        vpx_codec_priv_enc_mr_cfg_t *mr_cfg)
+                                                                     ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'vp8e_mr_alloc_mem':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:541:69: warning: unused parameter 'cfg' [-Wunused-parameter]
+ static vpx_codec_err_t vp8e_mr_alloc_mem(const vpx_codec_enc_cfg_t *cfg,
+                                                                     ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:542:48: warning: unused parameter 'mem_loc' [-Wunused-parameter]
+                                         void **mem_loc)
+                                                ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'vp8e_init':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:614:61: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+              extracfg_map[i].usage && extracfg_map[i].usage != cfg->g_usage;
+                                                             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'pick_quickcompress_mode':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:733:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (ctx->oxcf.Mode != new_qc)
+                        ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:698:60: warning: unused parameter 'duration' [-Wunused-parameter]
+                                     unsigned long          duration,
+                                                            ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:699:60: warning: unused parameter 'deadline' [-Wunused-parameter]
+                                     unsigned long          deadline)
+                                                            ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'vp8e_set_reference':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:979:13: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+         int ctr_id,
+             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'vp8e_get_reference':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:999:13: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+         int ctr_id,
+             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'vp8e_update_entropy':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:1093:13: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+         int ctr_id,
+             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'vp8e_update_reference':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:1103:13: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+         int ctr_id,
+             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'vp8e_use_reference':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:1112:13: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+         int ctr_id,
+             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'vp8e_set_roi_map':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:1121:45: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                         int ctr_id,
+                                             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'vp8e_set_activemap':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:1141:13: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+         int ctr_id,
+             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: In function 'vp8e_set_scalemode':
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:1161:13: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+         int ctr_id,
+             ^
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c: At top level:
+platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:1299:5: warning: missing initializer for field 'set_fb_fn' of 'struct vpx_codec_dec_iface' [-Wmissing-field-initializers]
+     },
+     ^
+In file included from platform/android/external/libvpx/libvpx/vp8/vp8_cx_iface.c:14:0:
+platform/android/external/libvpx/libvpx/vpx/internal/vpx_codec_internal.h:341:31: note: 'set_fb_fn' declared here
+     vpx_codec_set_fb_fn_t     set_fb_fn;   /**< \copydoc ::vpx_codec_set_fb_fn_t */
+                               ^

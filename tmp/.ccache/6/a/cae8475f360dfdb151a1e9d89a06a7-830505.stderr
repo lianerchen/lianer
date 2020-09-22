@@ -1,0 +1,18 @@
+component/atv/til/til_config.c: In function 'default_normalize_cfg_param':
+component/atv/til/til_config.c:6:37: warning: unused parameter 'target' [-Wunused-parameter]
+ int default_normalize_cfg_param(int target, til_param_t * param)
+                                     ^
+component/atv/til/til_config.c:6:59: warning: unused parameter 'param' [-Wunused-parameter]
+ int default_normalize_cfg_param(int target, til_param_t * param)
+                                                           ^
+component/atv/til/til_config.c: In function 'default_set_cfg_param':
+component/atv/til/til_config.c:12:44: warning: unused parameter 'target' [-Wunused-parameter]
+ til_error_code_t default_set_cfg_param(int target,
+                                            ^
+component/atv/til/til_config.c:13:23: warning: unused parameter 'param' [-Wunused-parameter]
+         til_param_t * param)
+                       ^
+component/atv/til/til_config.c: In function 'default_get_cfg_param':
+component/atv/til/til_config.c:19:44: warning: unused parameter 'target' [-Wunused-parameter]
+ til_error_code_t default_get_cfg_param(int target,
+                                            ^

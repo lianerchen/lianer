@@ -1,0 +1,10 @@
+In file included from platform/android/external/freetype/src/autofit/autofit.c:30:0:
+platform/android/external/freetype/src/autofit/aflatin.c: In function 'af_latin_metrics_init_widths':
+platform/android/external/freetype/src/autofit/aflatin.c:155:7: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+       af_glyph_hints_rescale( hints, (AF_StyleMetrics)dummy );
+       ^
+In file included from platform/android/external/freetype/src/autofit/autofit.c:34:0:
+platform/android/external/freetype/src/autofit/afcjk.c: In function 'af_cjk_metrics_init_widths':
+platform/android/external/freetype/src/autofit/afcjk.c:161:7: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+       af_glyph_hints_rescale( hints, (AF_StyleMetrics)dummy );
+       ^

@@ -1,0 +1,7 @@
+component/OAM/common/cipher/rsa/rsa.c: In function 'load_key':
+component/OAM/common/cipher/rsa/rsa.c:171:71: warning: unused parameter 'maybe_stdin' [-Wunused-parameter]
+ static EVP_PKEY *load_key(BIO *err, const char *file, int format, int maybe_stdin,
+                                                                       ^
+component/OAM/common/cipher/rsa/rsa.c:172:53: warning: unused parameter 'e' [-Wunused-parameter]
+                           const char *pass, ENGINE *e, const char *key_descrip)
+                                                     ^

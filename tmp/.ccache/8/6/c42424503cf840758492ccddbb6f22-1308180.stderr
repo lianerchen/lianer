@@ -1,0 +1,38 @@
+In file included from platform/android/frameworks/wilhelm/src/sles_allinclusive.h:96:0,
+                 from platform/android/frameworks/wilhelm/src/itf/IObject.c:19:
+platform/android/frameworks/wilhelm/src/android/android_sles_conversions.h:98:36: warning: unused parameter 'channelMask' [-Wunused-parameter]
+ static inline audio_channel_mask_t sles_to_android_channelMaskIn(SLuint32 nbChannels,
+                                    ^
+platform/android/frameworks/wilhelm/src/android/android_sles_conversions.h:105:36: warning: unused parameter 'channelMask' [-Wunused-parameter]
+ static inline audio_channel_mask_t sles_to_android_channelMaskOut(SLuint32 nbChannels,
+                                    ^
+In file included from platform/android/frameworks/wilhelm/src/classes.h:20:0,
+                 from platform/android/frameworks/wilhelm/src/sles_allinclusive.h:283,
+                 from platform/android/frameworks/wilhelm/src/itf/IObject.c:19:
+platform/android/frameworks/wilhelm/src/android/android_GenericPlayer.h:81:18: warning: unused parameter 'bufferProducer' [-Wunused-parameter]
+     virtual void setVideoSurfaceTexture(const sp<IGraphicBufferProducer> &bufferProducer) {}
+                  ^
+platform/android/frameworks/wilhelm/src/itf/IObject.c:25:13: warning: unused parameter 'ignored' [-Wunused-parameter]
+ static void HandleRealize(void *self, void *ignored, int unused)
+             ^
+platform/android/frameworks/wilhelm/src/itf/IObject.c:25:13: warning: unused parameter 'unused' [-Wunused-parameter]
+platform/android/frameworks/wilhelm/src/itf/IObject.c:168:13: warning: unused parameter 'ignored' [-Wunused-parameter]
+ static void HandleResume(void *self, void *ignored, int unused)
+             ^
+platform/android/frameworks/wilhelm/src/itf/IObject.c:168:13: warning: unused parameter 'unused' [-Wunused-parameter]
+platform/android/frameworks/wilhelm/src/itf/IObject.c:642:17: warning: unused parameter 'self' [-Wunused-parameter]
+ static SLresult IObject_SetPriority(SLObjectItf self, SLint32 priority, SLboolean preemptable)
+                 ^
+platform/android/frameworks/wilhelm/src/itf/IObject.c:642:17: warning: unused parameter 'priority' [-Wunused-parameter]
+platform/android/frameworks/wilhelm/src/itf/IObject.c:642:17: warning: unused parameter 'preemptable' [-Wunused-parameter]
+platform/android/frameworks/wilhelm/src/itf/IObject.c:661:17: warning: unused parameter 'self' [-Wunused-parameter]
+ static SLresult IObject_GetPriority(SLObjectItf self, SLint32 *pPriority, SLboolean *pPreemptable)
+                 ^
+platform/android/frameworks/wilhelm/src/itf/IObject.c:661:17: warning: unused parameter 'pPriority' [-Wunused-parameter]
+platform/android/frameworks/wilhelm/src/itf/IObject.c:661:17: warning: unused parameter 'pPreemptable' [-Wunused-parameter]
+platform/android/frameworks/wilhelm/src/itf/IObject.c:686:17: warning: unused parameter 'self' [-Wunused-parameter]
+ static SLresult IObject_SetLossOfControlInterfaces(SLObjectItf self,
+                 ^
+platform/android/frameworks/wilhelm/src/itf/IObject.c:686:17: warning: unused parameter 'numInterfaces' [-Wunused-parameter]
+platform/android/frameworks/wilhelm/src/itf/IObject.c:686:17: warning: unused parameter 'pInterfaceIDs' [-Wunused-parameter]
+platform/android/frameworks/wilhelm/src/itf/IObject.c:686:17: warning: unused parameter 'enabled' [-Wunused-parameter]

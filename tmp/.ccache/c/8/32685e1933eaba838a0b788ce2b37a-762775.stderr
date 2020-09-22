@@ -1,0 +1,22 @@
+platform/android/external/libpcap/savefile.c: In function 'sf_getnonblock':
+platform/android/external/libpcap/savefile.c:84:24: warning: unused parameter 'p' [-Wunused-parameter]
+ sf_getnonblock(pcap_t *p, char *errbuf)
+                        ^
+platform/android/external/libpcap/savefile.c:84:33: warning: unused parameter 'errbuf' [-Wunused-parameter]
+ sf_getnonblock(pcap_t *p, char *errbuf)
+                                 ^
+platform/android/external/libpcap/savefile.c: In function 'sf_setnonblock':
+platform/android/external/libpcap/savefile.c:94:31: warning: unused parameter 'nonblock' [-Wunused-parameter]
+ sf_setnonblock(pcap_t *p, int nonblock, char *errbuf)
+                               ^
+platform/android/external/libpcap/savefile.c:94:47: warning: unused parameter 'errbuf' [-Wunused-parameter]
+ sf_setnonblock(pcap_t *p, int nonblock, char *errbuf)
+                                               ^
+platform/android/external/libpcap/savefile.c: In function 'sf_stats':
+platform/android/external/libpcap/savefile.c:110:39: warning: unused parameter 'ps' [-Wunused-parameter]
+ sf_stats(pcap_t *p, struct pcap_stat *ps)
+                                       ^
+platform/android/external/libpcap/savefile.c: In function 'sf_setdirection':
+platform/android/external/libpcap/savefile.c:156:45: warning: unused parameter 'd' [-Wunused-parameter]
+ sf_setdirection(pcap_t *p, pcap_direction_t d)
+                                             ^

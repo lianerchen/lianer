@@ -1,0 +1,23 @@
+platform/android/external/e2fsprogs/resize/resize2fs.c: In function 'fix_uninit_block_bitmaps':
+platform/android/external/e2fsprogs/resize/resize2fs.c:251:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+        i < (unsigned int) fs->inode_blocks_per_group;
+          ^
+platform/android/external/e2fsprogs/resize/resize2fs.c: In function 'free_gdp_blocks':
+platform/android/external/e2fsprogs/resize/resize2fs.c:301:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       j < fs->inode_blocks_per_group; j++, blk++) {
+         ^
+platform/android/external/e2fsprogs/resize/resize2fs.c: In function 'blocks_to_move':
+platform/android/external/e2fsprogs/resize/resize2fs.c:1104:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+        j < fs->inode_blocks_per_group ; j++, blk++) {
+          ^
+platform/android/external/e2fsprogs/resize/resize2fs.c:1117:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+        j < fs->inode_blocks_per_group ; j++, blk++)
+          ^
+platform/android/external/e2fsprogs/resize/resize2fs.c: In function 'block_mover':
+platform/android/external/e2fsprogs/resize/resize2fs.c:1307:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (c > fs->inode_blocks_per_group)
+          ^
+platform/android/external/e2fsprogs/resize/resize2fs.c: In function 'move_itables':
+platform/android/external/e2fsprogs/resize/resize2fs.c:1814:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+        j < fs->inode_blocks_per_group ; j++, blk++)
+          ^

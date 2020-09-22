@@ -1,0 +1,83 @@
+component/dtv/service/src/drv/section/chdrv_section.c:14:0: warning: "LOG_NDEBUG" redefined [enabled by default]
+ #define LOG_NDEBUG 0
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from component/dtv/service/src/drv/include/chdrv_platform.h:36,
+                 from component/dtv/service/src/drv/section/chdrv_section.c:6:
+platform/android/system/core/include/log/log.h:55:0: note: this is the location of the previous definition
+ #define LOG_NDEBUG 1
+ ^
+component/dtv/service/src/drv/section/chdrv_section.c:15:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "chdrv_section.c"
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from component/dtv/service/src/drv/include/chdrv_platform.h:36,
+                 from component/dtv/service/src/drv/section/chdrv_section.c:6:
+platform/android/system/core/include/log/log.h:67:0: note: this is the location of the previous definition
+ #define LOG_TAG NULL
+ ^
+component/dtv/service/src/drv/section/chdrv_section.c: In function 'CHDRV_SECTION_AllocChannel':
+component/dtv/service/src/drv/section/chdrv_section.c:237:55: warning: unused parameter 'ri_DeviceId' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AllocChannel(S32 ri_DeviceId, U16 rus_Pid, CHDRV_SECTION_FilterCallBack pfn_DetectCallback, CHDRV_SECTION_ChannelHandle *rph_Channel, S32 ri_BufferSize)
+                                                       ^
+component/dtv/service/src/drv/section/chdrv_section.c: In function 'CHDRV_SECTION_StopChannel':
+component/dtv/service/src/drv/section/chdrv_section.c:386:5: warning: format '%x' expects argument of type 'unsigned int', but argument 6 has type 'CHDRV_SECTION_ChannelHandle' [-Wformat=]
+     LOGE("[%s][%d]--channelid:%x--%x--enter\n",__FUNCTION__,__LINE__,rh_Channel,*((HI_HANDLE*)rh_Channel));
+     ^
+component/dtv/service/src/drv/section/chdrv_section.c: In function 'CHDRV_SECTION_FlushChannelBuffer':
+component/dtv/service/src/drv/section/chdrv_section.c:413:85: warning: unused parameter 'rh_Channel' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_FlushChannelBuffer(CHDRV_SECTION_ChannelHandle rh_Channel)
+                                                                                     ^
+component/dtv/service/src/drv/section/chdrv_section.c: In function 'CHDRV_SECTION_AllocFilter':
+component/dtv/service/src/drv/section/chdrv_section.c:520:2: warning: format '%x' expects argument of type 'unsigned int', but argument 7 has type 'CHDRV_SECTION_FilterHandle' [-Wformat=]
+  LOGE("[%s][%d]--channelid:%x--pid:%x--OK\n",__FUNCTION__,__LINE__,*((HI_HANDLE*)rpstru_Param->h_Channel),*rph_Filter);
+  ^
+component/dtv/service/src/drv/section/chdrv_section.c:454:54: warning: unused parameter 'ri_DeviceId' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AllocFilter(S32 ri_DeviceId, CHDRV_SECTION_AllocParam_t *rpstru_Param, CHDRV_SECTION_FilterHandle *rph_Filter)
+                                                      ^
+component/dtv/service/src/drv/section/chdrv_section.c: In function 'CHDRV_SECTION_AssociateFilterToChannel':
+component/dtv/service/src/drv/section/chdrv_section.c:561:90: warning: unused parameter 'rh_Filter' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AssociateFilterToChannel(CHDRV_SECTION_FilterHandle rh_Filter, CHDRV_SECTION_ChannelHandle rh_Channel)
+                                                                                          ^
+component/dtv/service/src/drv/section/chdrv_section.c:561:129: warning: unused parameter 'rh_Channel' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AssociateFilterToChannel(CHDRV_SECTION_FilterHandle rh_Filter, CHDRV_SECTION_ChannelHandle rh_Channel)
+                                                                                                                                 ^
+component/dtv/service/src/drv/section/chdrv_section.c: In function 'CHDRV_SECTION_DisAssociateFilterToChannel':
+component/dtv/service/src/drv/section/chdrv_section.c:567:93: warning: unused parameter 'rh_Filter' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_DisAssociateFilterToChannel(CHDRV_SECTION_FilterHandle rh_Filter, CHDRV_SECTION_ChannelHandle rh_Channel)
+                                                                                             ^
+component/dtv/service/src/drv/section/chdrv_section.c:567:132: warning: unused parameter 'rh_Channel' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_DisAssociateFilterToChannel(CHDRV_SECTION_FilterHandle rh_Filter, CHDRV_SECTION_ChannelHandle rh_Channel)
+                                                                                                                                    ^
+component/dtv/service/src/drv/section/chdrv_section.c: In function 'CHDRV_SECTION_SetFilter':
+component/dtv/service/src/drv/section/chdrv_section.c:573:160: warning: unused parameter 'rb_NotMatchMode' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_SetFilter(CHDRV_SECTION_FilterHandle rh_Filter, U8 *rpuc_pData, U8 *rpuc_pMask, U8 *rpuc_pPatern, S32 ri_DataLen, CH_BOOL rb_NotMatchMode)
+                                                                                                                                                                ^
+component/dtv/service/src/drv/section/chdrv_section.c: In function 'CHDRV_SECTION_GetInfo':
+component/dtv/service/src/drv/section/chdrv_section.c:789:50: warning: unused parameter 'ri_DeviceID' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_GetInfo(S32 ri_DeviceID, CHDRV_SECTION_INFO_TYPE_e renm_InfoType, void *rpv_Param)
+                                                  ^
+component/dtv/service/src/drv/section/chdrv_section.c: In function 'CHDRV_SECTION_AllocChannelEx':
+component/dtv/service/src/drv/section/chdrv_section.c:907:57: warning: unused parameter 'ri_DeviceId' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AllocChannelEx(S32 ri_DeviceId, U16 rus_Pid, CHDRV_SECTION_FilterCallBack pfn_DetectCallback, CHDRV_SECTION_ChannelHandle *rph_Channel, S32 ri_BufferSize, CH_BOOL rb_Bypass, U32 rui_Reserved)
+                                                         ^
+component/dtv/service/src/drv/section/chdrv_section.c:907:74: warning: unused parameter 'rus_Pid' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AllocChannelEx(S32 ri_DeviceId, U16 rus_Pid, CHDRV_SECTION_FilterCallBack pfn_DetectCallback, CHDRV_SECTION_ChannelHandle *rph_Channel, S32 ri_BufferSize, CH_BOOL rb_Bypass, U32 rui_Reserved)
+                                                                          ^
+component/dtv/service/src/drv/section/chdrv_section.c:907:112: warning: unused parameter 'pfn_DetectCallback' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AllocChannelEx(S32 ri_DeviceId, U16 rus_Pid, CHDRV_SECTION_FilterCallBack pfn_DetectCallback, CHDRV_SECTION_ChannelHandle *rph_Channel, S32 ri_BufferSize, CH_BOOL rb_Bypass, U32 rui_Reserved)
+                                                                                                                ^
+component/dtv/service/src/drv/section/chdrv_section.c:907:161: warning: unused parameter 'rph_Channel' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AllocChannelEx(S32 ri_DeviceId, U16 rus_Pid, CHDRV_SECTION_FilterCallBack pfn_DetectCallback, CHDRV_SECTION_ChannelHandle *rph_Channel, S32 ri_BufferSize, CH_BOOL rb_Bypass, U32 rui_Reserved)
+                                                                                                                                                                 ^
+component/dtv/service/src/drv/section/chdrv_section.c:907:178: warning: unused parameter 'ri_BufferSize' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AllocChannelEx(S32 ri_DeviceId, U16 rus_Pid, CHDRV_SECTION_FilterCallBack pfn_DetectCallback, CHDRV_SECTION_ChannelHandle *rph_Channel, S32 ri_BufferSize, CH_BOOL rb_Bypass, U32 rui_Reserved)
+                                                                                                                                                                                  ^
+component/dtv/service/src/drv/section/chdrv_section.c:907:201: warning: unused parameter 'rb_Bypass' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AllocChannelEx(S32 ri_DeviceId, U16 rus_Pid, CHDRV_SECTION_FilterCallBack pfn_DetectCallback, CHDRV_SECTION_ChannelHandle *rph_Channel, S32 ri_BufferSize, CH_BOOL rb_Bypass, U32 rui_Reserved)
+                                                                                                                                                                                                         ^
+component/dtv/service/src/drv/section/chdrv_section.c:907:216: warning: unused parameter 'rui_Reserved' [-Wunused-parameter]
+ CHDRV_SECTION_RESULT_e CHDRV_SECTION_AllocChannelEx(S32 ri_DeviceId, U16 rus_Pid, CHDRV_SECTION_FilterCallBack pfn_DetectCallback, CHDRV_SECTION_ChannelHandle *rph_Channel, S32 ri_BufferSize, CH_BOOL rb_Bypass, U32 rui_Reserved)
+                                                                                                                                                                                                                        ^

@@ -1,0 +1,2 @@
+platform/android/external/fdlibm/e_lgamma_r.c: In function '__ieee754_lgamma_r':
+platform/android/external/fdlibm/e_lgamma_r.c:302:4: warning: 'nadj' may be used uninitialized in this function [-Wmaybe-uninitialized]

@@ -1,0 +1,8 @@
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_parser/fpdf_parser_objects.cpp: In member function 'CPDF_Object* CPDF_IndirectObjects::GetIndirectObject(FX_DWORD, PARSE_CONTEXT*)':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_parser/fpdf_parser_objects.cpp:1265:56: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             if (((CPDF_Object*)value)->GetObjNum() == -1) {
+                                                        ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_parser/fpdf_parser_objects.cpp: In member function 'void CPDF_IndirectObjects::ReleaseIndirectObject(FX_DWORD)':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_parser/fpdf_parser_objects.cpp:1320:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (((CPDF_Object*)value)->GetObjNum() == -1) {
+                                                ^

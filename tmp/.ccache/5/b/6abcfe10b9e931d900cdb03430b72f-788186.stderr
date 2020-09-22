@@ -1,0 +1,7 @@
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_reverb.c: In function 'ReverbCalculateSinCos':
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_reverb.c:495:5: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+     nTemp = EG1_ONE + MULT_EG1_EG1(REVERB_PAN_G2, nNetAngle);
+     ^
+platform/android/external/sonivox/arm-wt-22k/lib_src/eas_reverb.c:500:5: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+     nTemp = -EG1_ONE + MULT_EG1_EG1(REVERB_PAN_G2, nNetAngle);
+     ^

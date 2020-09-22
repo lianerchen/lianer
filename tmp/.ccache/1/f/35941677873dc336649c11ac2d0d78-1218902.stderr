@@ -1,0 +1,63 @@
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp: In member function 'void CPDF_CMapManager::DropAll(FX_BOOL)':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:112:79: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < sizeof m_CID2UnicodeMaps / sizeof(CPDF_CID2UnicodeMap*); i ++) {
+                                                                               ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp: At global scope:
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegCount' [-Wmissing-field-initializers]
+ };
+ ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegs' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegCount' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegs' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegCount' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegs' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegCount' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegs' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegCount' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegs' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegCount' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegs' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegCount' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegs' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegCount' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegs' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegCount' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegs' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_CodingScheme' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegCount' [-Wmissing-field-initializers]
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:381:1: warning: missing initializer for member 'CPDF_PredefinedCMap::m_LeadingSegs' [-Wmissing-field-initializers]
+In file included from platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font_cid.cpp:810:0:
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h: In constructor 'CFX_CTTGSUBTable::CFX_CTTGSUBTable()':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h:403:10: warning: 'CFX_CTTGSUBTable::loaded' will be initialized after [-Wreorder]
+     bool loaded;
+          ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h:402:13: warning:   'FX_BOOL CFX_CTTGSUBTable::m_bFeautureMapLoad' [-Wreorder]
+     FX_BOOL m_bFeautureMapLoad;
+             ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h:25:5: warning:   when initialized here [-Wreorder]
+     CFX_CTTGSUBTable(void): loaded(false), m_bFeautureMapLoad(FALSE) {};
+     ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h: In constructor 'CFX_CTTGSUBTable::CFX_CTTGSUBTable(FT_Bytes)':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h:403:10: warning: 'CFX_CTTGSUBTable::loaded' will be initialized after [-Wreorder]
+     bool loaded;
+          ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h:402:13: warning:   'FX_BOOL CFX_CTTGSUBTable::m_bFeautureMapLoad' [-Wreorder]
+     FX_BOOL m_bFeautureMapLoad;
+             ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h:26:5: warning:   when initialized here [-Wreorder]
+     CFX_CTTGSUBTable(FT_Bytes gsub): loaded(false), m_bFeautureMapLoad(FALSE)
+     ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h: In constructor 'CFX_CTTGSUBTable::TSingleSubstFormat1::TSingleSubstFormat1()':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h:276:20: warning: 'CFX_CTTGSUBTable::TSingleSubstFormat1::DeltaGlyphID' will be initialized after [-Wreorder]
+         TT_int16_t DeltaGlyphID;
+                    ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h:275:30: warning:   'CFX_CTTGSUBTable::TCoverageFormatBase* CFX_CTTGSUBTable::TSingleSubstFormat1::Coverage' [-Wreorder]
+         TCoverageFormatBase *Coverage;
+                              ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h:277:9: warning:   when initialized here [-Wreorder]
+         TSingleSubstFormat1(): DeltaGlyphID(0), Coverage(NULL)
+         ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h: In member function 'virtual void CFX_GSUBTable::Release()':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/ttgsubtable.h:414:16: warning: deleting object of polymorphic class type 'CFX_GSUBTable' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+         delete this;
+                ^

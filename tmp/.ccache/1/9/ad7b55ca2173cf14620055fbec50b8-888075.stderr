@@ -1,0 +1,85 @@
+component/dtv/service/src/mid/tuner/mid_tuner.c: In function 'CHMID_TUNER_SetCarrier':
+component/dtv/service/src/mid/tuner/mid_tuner.c:597:2: warning: format '%d' expects argument of type 'int', but argument 7 has type 'U32' [-Wformat=]
+  LOGE("[%s][%d] type is %d!ui_FrequencyKhz=%d\n",__FUNCTION__,__LINE__, rpstru_CarrierParams->enm_AntType,rpstru_CarrierParams->uni_Params.stru_SCarrierParams.ui_FrequencyKhz );
+  ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:649:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'U32' [-Wformat=]
+    LOGE("DavidTune::CHMID_TUNER_SetCarrier_Repeat:%d\n", rpstru_CarrierParams->uni_Params.stru_CCarrierParams.ui_FrequencyKhz);
+    ^
+component/dtv/service/src/mid/tuner/mid_tuner.c: In function 'CHMID_TUNER_ResetCarrierTaskFunction':
+component/dtv/service/src/mid/tuner/mid_tuner.c:870:56: warning: unused parameter 'areg' [-Wunused-parameter]
+ static void CHMID_TUNER_ResetCarrierTaskFunction(void *areg)
+                                                        ^
+component/dtv/service/src/mid/tuner/mid_tuner.c: In function 'CHMID_TUNER_CallbackForTuning':
+component/dtv/service/src/mid/tuner/mid_tuner.c:1078:6: warning: format '%d' expects argument of type 'int', but argument 6 has type 'CH_BOOL' [-Wformat=]
+      LOGE("DavidTune::@@@@@@@@[%s][%d] b_IfLock=%d ----",__FUNCTION__,__LINE__,b_IfLock);  
+      ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:1089:7: warning: format '%d' expects argument of type 'int', but argument 6 has type 'U32' [-Wformat=]
+       LOGE("DavidTune::@@@@@@@@[%s][%d][%d] enm_LockStatus=[%d,%d],dure:%d\n",
+       ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:1089:7: warning: format '%d' expects argument of type 'int', but argument 8 has type 'CH_BOOL' [-Wformat=]
+component/dtv/service/src/mid/tuner/mid_tuner.c:1089:7: warning: format '%d' expects argument of type 'int', but argument 9 has type 'U32' [-Wformat=]
+component/dtv/service/src/mid/tuner/mid_tuner.c:1019:105: warning: unused parameter 'rpv_ReturnData' [-Wunused-parameter]
+ static void CHMID_TUNER_CallbackForTuning(S32 ri_Device, CHDRV_TUNER_EVENT_TYPE_e renm_EventType, void *rpv_ReturnData,CHMID_TUNER_RESULT_e rbTuneStaus)
+                                                                                                         ^
+component/dtv/service/src/mid/tuner/mid_tuner.c: In function 'CHMID_TUNER_Tune':
+component/dtv/service/src/mid/tuner/mid_tuner.c:1324:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'U32' [-Wformat=]
+   LOGI("DavidTune::CHMID_TUNER_Tune_error:%d\n", stru_CarParams.uni_Params.stru_CCarrierParams.ui_FrequencyKhz);
+   ^
+component/dtv/service/src/mid/tuner/mid_tuner.c: In function 'CHMID_TUNER_TuneToDvbCCarrier':
+component/dtv/service/src/mid/tuner/mid_tuner.c:1428:2: warning: format '%d' expects argument of type 'int', but argument 4 has type 'U32' [-Wformat=]
+  LOGI("DavidTune::CHMID_TUNER_TuneToDvbCCarrier:[%d,%d,%d]\n", ui_FrequencyKhz,ui_SymbolRateKbps,enm_DrvQAMMode);
+  ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:1428:2: warning: format '%d' expects argument of type 'int', but argument 5 has type 'U32' [-Wformat=]
+component/dtv/service/src/mid/tuner/mid_tuner.c:1436:2: warning: enumeration value 'CHDRV_TUNER_IQ_TYPE_MAX' not handled in switch [-Wswitch]
+  switch (enm_IQSpectrum)
+  ^
+component/dtv/service/src/mid/tuner/mid_tuner.c: In function 'CHMID_TUNER_ResetCarrierStatus':
+component/dtv/service/src/mid/tuner/mid_tuner.c:1895:34: warning: '*((void *)&stru_CarrierStatus+1)' is used uninitialized in this function [-Wuninitialized]
+  rpstru_Object->c_SignLevelValue = rstru_Source.c_SignLevelValue;
+                                  ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:1744:30: note: '*((void *)&stru_CarrierStatus+1)' was declared here
+  CHMID_TUNER_CarrierStatus_t stru_CarrierStatus;
+                              ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:1900:30: warning: '*((void *)&stru_CarrierStatus+16)' is used uninitialized in this function [-Wuninitialized]
+  rpstru_Object->enm_Spectrum = rstru_Source.enm_Spectrum;
+                              ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:1744:30: note: '*((void *)&stru_CarrierStatus+16)' was declared here
+  CHMID_TUNER_CarrierStatus_t stru_CarrierStatus;
+                              ^
+component/dtv/service/src/mid/tuner/mid_tuner.c: In function 'CHMID_TUNER_GetCarrierStatusFB':
+component/dtv/service/src/mid/tuner/mid_tuner.c:1888:37: warning: '*((void *)&stru_CarrierStatus+16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  rpstru_CarrierStatus->enm_Spectrum = stru_CarrierStatus.enm_Spectrum;
+                                     ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:1863:4: warning: '*((void *)&stru_CarrierStatus+12)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if(stru_CarrierStatus.enm_LockStatus!=CHMID_TUNER_TURNING)
+    ^
+component/dtv/service/src/mid/tuner/mid_tuner.c: In function 'CHMID_TUNER_SetTunerInvalid':
+component/dtv/service/src/mid/tuner/mid_tuner.c:1894:36: warning: 'stru_CarCarStatus' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  rpstru_Object->c_SignLevelPercent = rstru_Source.c_SignLevelPercent;
+                                    ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:505:30: note: 'stru_CarCarStatus' was declared here
+  CHMID_TUNER_CarrierStatus_t stru_CarCarStatus;
+                              ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:1895:34: warning: '*((void *)&stru_CarCarStatus+1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  rpstru_Object->c_SignLevelValue = rstru_Source.c_SignLevelValue;
+                                  ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:505:30: note: '*((void *)&stru_CarCarStatus+1)' was declared here
+  CHMID_TUNER_CarrierStatus_t stru_CarCarStatus;
+                              ^
+component/dtv/service/src/mid/tuner/mid_tuner.c: In function 'CHMID_TUNER_Tune':
+component/dtv/service/src/mid/tuner/mid_tuner.c:1322:5: warning: 'enm_Result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if (enm_Result != CHMID_TUNER_OK)
+     ^
+component/dtv/service/src/mid/tuner/mid_tuner.c: In function 'CHMID_TUNER_SetCarrier':
+component/dtv/service/src/mid/tuner/mid_tuner.c:1894:36: warning: 'stru_CarCarStatus' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  rpstru_Object->c_SignLevelPercent = rstru_Source.c_SignLevelPercent;
+                                    ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:578:30: note: 'stru_CarCarStatus' was declared here
+  CHMID_TUNER_CarrierStatus_t stru_CarCarStatus;
+                              ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:1895:34: warning: '*((void *)&stru_CarCarStatus+1)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  rpstru_Object->c_SignLevelValue = rstru_Source.c_SignLevelValue;
+                                  ^
+component/dtv/service/src/mid/tuner/mid_tuner.c:578:30: note: '*((void *)&stru_CarCarStatus+1)' was declared here
+  CHMID_TUNER_CarrierStatus_t stru_CarCarStatus;
+                              ^

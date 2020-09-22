@@ -1,0 +1,4 @@
+platform/android/frameworks/av/media/libmedia/ICrypto.cpp: In member function 'virtual android::status_t android::BnCrypto::onTransact(uint32_t, const android::Parcel&, android::Parcel*, uint32_t)':
+platform/android/frameworks/av/media/libmedia/ICrypto.cpp:312:49: warning: 'dstPtr' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     reply->write(dstPtr, result);
+                                                 ^

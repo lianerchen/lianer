@@ -1,0 +1,19 @@
+In file included from platform/android/external/freetype/src/base/ftinit.c:76:0:
+platform/android/external/freetype/include/config/ftmodule.h:14:1: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+ FT_USE_MODULE( FT_Driver_ClassRec, tt_driver_class )
+ ^
+platform/android/external/freetype/include/config/ftmodule.h:15:1: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+ FT_USE_MODULE( FT_Driver_ClassRec, cff_driver_class )
+ ^
+platform/android/external/freetype/include/config/ftmodule.h:18:1: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+ FT_USE_MODULE( FT_Renderer_Class, ft_raster1_renderer_class )
+ ^
+platform/android/external/freetype/include/config/ftmodule.h:20:1: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+ FT_USE_MODULE( FT_Renderer_Class, ft_smooth_renderer_class )
+ ^
+platform/android/external/freetype/include/config/ftmodule.h:21:1: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+ FT_USE_MODULE( FT_Renderer_Class, ft_smooth_lcd_renderer_class )
+ ^
+platform/android/external/freetype/include/config/ftmodule.h:22:1: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+ FT_USE_MODULE( FT_Renderer_Class, ft_smooth_lcdv_renderer_class )
+ ^

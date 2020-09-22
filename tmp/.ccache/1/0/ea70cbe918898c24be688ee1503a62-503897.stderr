@@ -1,0 +1,6 @@
+platform/android/external/icu/icu4c/source/common/ucnv_u8.c:1041:1: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnv_u8.c:1041:1: warning: (near initialization for '_UTF8Data_53.mbcs') [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnv_u8.c:1066:1: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnv_u8.c:1066:1: warning: (near initialization for '_CESU8Impl.toUTF8') [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnv_u8.c:1084:1: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnv_u8.c:1084:1: warning: (near initialization for '_CESU8Data_53.mbcs') [-Wmissing-field-initializers]

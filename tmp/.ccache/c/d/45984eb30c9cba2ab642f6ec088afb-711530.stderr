@@ -1,0 +1,9 @@
+In file included from platform/android/external/libvpx/armv7a-neon/./vpx_scale_rtcd.h:56:0,
+                 from platform/android/external/libvpx/libvpx/vpx_scale/arm/neon/yv12extend_arm.c:11:
+platform/android/external/libvpx/armv7a-neon/./vpx_config.h:13:0: warning: "ARCH_ARM" redefined [enabled by default]
+ #define ARCH_ARM 1
+ ^
+In file included from <command-line>:0:0:
+./platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h:241:0: note: this is the location of the previous definition
+ #define ARCH_ARM
+ ^

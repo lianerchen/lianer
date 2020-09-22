@@ -1,0 +1,3 @@
+component/OAM/midinterface/GetAppInfo.c:134:5: warning: no previous prototype for 'GetAppInfoLinkLen' [-Wmissing-prototypes]
+ int GetAppInfoLinkLen()
+     ^

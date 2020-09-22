@@ -1,0 +1,12 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fs/sample_fsdisk.c: In function 'FS_DirAttributesSet':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fs/sample_fsdisk.c:214:53: warning: unused parameter 'attributes' [-Wunused-parameter]
+ HI_S32 FS_DirAttributesSet(HI_CHAR *dirName, HI_U32 attributes)
+                                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fs/sample_fsdisk.c: In function 'FS_DirNextEntryFind':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fs/sample_fsdisk.c:425:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 if (i != sg_DirSndEntry)
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fs/sample_fsdisk.c: In function 'FS_FileAttributesSet':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fs/sample_fsdisk.c:651:55: warning: unused parameter 'attributes' [-Wunused-parameter]
+ HI_S32 FS_FileAttributesSet(HI_CHAR *fileName, HI_U32 attributes)
+                                                       ^

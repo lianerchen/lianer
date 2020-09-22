@@ -1,0 +1,20 @@
+out/host/linux-x86/obj32/SHARED_LIBRARIES/libext2_com_err_host_intermediates/et_name.o: \
+ platform/android/external/e2fsprogs/lib/et/et_name.c \
+ platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h \
+ platform/android/external/e2fsprogs/lib/et/com_err.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/include/stddef.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/include/stdarg.h \
+ platform/android/external/e2fsprogs/lib/et/error_table.h \
+ platform/android/external/e2fsprogs/lib/et/internal.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/errno.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/features.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/predefs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/sys/cdefs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/wordsize.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/gnu/stubs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/gnu/stubs-32.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/errno.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/linux/errno.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/asm/errno.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/asm-generic/errno.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/asm-generic/errno-base.h

@@ -1,0 +1,22 @@
+cc1: warning: command line option '-Wno-non-virtual-dtor' is valid for C++/ObjC++ but not for C [enabled by default]
+In file included from platform/android/external/pdfium/core/src/fxcodec/lcms2/src/fx_cmsmd5.c:7:0:
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmsmd5.c: In function 'MD5add':
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmsmd5.c:200:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         MD5_Transform(ctx->buf, (cmsUInt32Number *) ctx->in);
+         ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmsmd5.c:208:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         MD5_Transform(ctx->buf, (cmsUInt32Number *) ctx->in);
+         ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmsmd5.c: In function 'MD5finish':
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmsmd5.c:235:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         MD5_Transform(ctx->buf, (cmsUInt32Number *) ctx->in);
+         ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmsmd5.c:243:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     ((cmsUInt32Number *) ctx->in)[14] = ctx->bits[0];
+     ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmsmd5.c:244:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     ((cmsUInt32Number *) ctx->in)[15] = ctx->bits[1];
+     ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmsmd5.c:246:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     MD5_Transform(ctx->buf, (cmsUInt32Number *) ctx->in);
+     ^

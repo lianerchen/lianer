@@ -1,0 +1,12 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/drv/include/hi_drv_memdev.h:24:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./userproc/mpi_userproc.c:33:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./userproc/mpi_userproc.c: In function 'MPI_UPROC_Thread':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./userproc/mpi_userproc.c:364:43: warning: unused parameter 'pParam' [-Wunused-parameter]
+ static HI_VOID* MPI_UPROC_Thread(HI_VOID* pParam)
+                                           ^

@@ -1,0 +1,8 @@
+platform/android/external/pdfium/core/src/fxcodec/jbig2/JBig2_Image.cpp: In member function 'FX_BOOL CJBig2_Image::composeTo_opt2(CJBig2_Image*, FX_INT32, FX_INT32, JBig2ComposeOp)':
+platform/android/external/pdfium/core/src/fxcodec/jbig2/JBig2_Image.cpp:1160:41: warning: 'tmp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     dp[3] = (FX_BYTE)tmp;
+                                         ^
+platform/android/external/pdfium/core/src/fxcodec/jbig2/JBig2_Image.cpp: In member function 'FX_BOOL CJBig2_Image::composeTo_opt2(CJBig2_Image*, FX_INT32, FX_INT32, JBig2ComposeOp, const FX_RECT*)':
+platform/android/external/pdfium/core/src/fxcodec/jbig2/JBig2_Image.cpp:1583:41: warning: 'tmp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     dp[3] = (FX_BYTE)tmp;
+                                         ^

@@ -1,0 +1,10 @@
+platform/android/system/vold/Exfat.cpp:80:5: warning: unused parameter 'ro' [-Wunused-parameter]
+ int Exfat::doMount(const char *fsPath, const char *mountPoint,
+     ^
+platform/android/system/vold/Exfat.cpp:80:5: warning: unused parameter 'remount' [-Wunused-parameter]
+platform/android/system/vold/Exfat.cpp:80:5: warning: unused parameter 'executable' [-Wunused-parameter]
+platform/android/system/vold/Exfat.cpp:80:5: warning: unused parameter 'createLost' [-Wunused-parameter]
+platform/android/system/vold/Exfat.cpp:129:5: warning: unused parameter 'fsPath' [-Wunused-parameter]
+ int Exfat::format(const char *fsPath, unsigned int numSectors)
+     ^
+platform/android/system/vold/Exfat.cpp:129:5: warning: unused parameter 'numSectors' [-Wunused-parameter]

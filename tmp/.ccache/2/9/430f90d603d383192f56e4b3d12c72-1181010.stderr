@@ -1,0 +1,12 @@
+platform/android/external/webrtc/src/modules/audio_processing/ns/nsx_core_neon.c: In function 'SynthesisUpdateNeon':
+platform/android/external/webrtc/src/modules/audio_processing/ns/nsx_core_neon.c:502:25: warning: initialization discards 'const' qualifier from pointer target type [enabled by default]
+   int16_t* ptr_window = &inst->window[0];
+                         ^
+platform/android/external/webrtc/src/modules/audio_processing/ns/nsx_core_neon.c: In function 'AnalysisUpdateNeon':
+platform/android/external/webrtc/src/modules/audio_processing/ns/nsx_core_neon.c:650:25: warning: initialization discards 'const' qualifier from pointer target type [enabled by default]
+   int16_t* ptr_window = &inst->window[0];
+                         ^
+platform/android/external/webrtc/src/modules/audio_processing/ns/nsx_core_neon.c: In function 'NoiseEstimationNeon':
+platform/android/external/webrtc/src/modules/audio_processing/ns/nsx_core_neon.c:235:7: warning: 'tmp16x8_4' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       __asm__("vbif %q0, %q1, %q2"::
+       ^

@@ -1,0 +1,182 @@
+In file included from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:7:0,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:4:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable:4996 4819 4244 4267 4311 4312 4133)
+ ^
+In file included from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:51:0,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_exec.c: In function 'McExec_exit':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_exec.c:14:45: warning: unused parameter 'code' [-Wunused-parameter]
+ MFUN_EXTERN void MFUN_DECL McExec_exit(si32 code)
+                                             ^
+In file included from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:57:0,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McMem_init':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:7:23: warning: unused parameter 'info' [-Wunused-parameter]
+ McMem_init(McMemInfo* info)
+                       ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McMem_setSize':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:18:19: warning: unused parameter 'totalSize' [-Wunused-parameter]
+ McMem_setSize(int totalSize)
+                   ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McMem_getInfo':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:34:26: warning: unused parameter 'info' [-Wunused-parameter]
+ McMem_getInfo(McMemInfo* info)
+                          ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McMem_getSystemInfo':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:39:38: warning: unused parameter 'info' [-Wunused-parameter]
+ McMem_getSystemInfo(McSystemMemInfo* info)
+                                      ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McMem_printInfo':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:44:23: warning: unused parameter 'file' [-Wunused-parameter]
+ McMem_printInfo(char* file, char* function, int line)
+                       ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:44:35: warning: unused parameter 'function' [-Wunused-parameter]
+ McMem_printInfo(char* file, char* function, int line)
+                                   ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:44:49: warning: unused parameter 'line' [-Wunused-parameter]
+ McMem_printInfo(char* file, char* function, int line)
+                                                 ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McMem_statInfo':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:60:22: warning: unused parameter 'max_system' [-Wunused-parameter]
+ McMem_statInfo(ui32* max_system, ui32* system_bytes, ui32* used_bytes)
+                      ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:60:40: warning: unused parameter 'system_bytes' [-Wunused-parameter]
+ McMem_statInfo(ui32* max_system, ui32* system_bytes, ui32* used_bytes)
+                                        ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:60:60: warning: unused parameter 'used_bytes' [-Wunused-parameter]
+ McMem_statInfo(ui32* max_system, ui32* system_bytes, ui32* used_bytes)
+                                                            ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McHeap_malloc':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:105:22: warning: unused parameter 'h' [-Wunused-parameter]
+ McHeap_malloc(McHeap h, ui32 size DECLDBG)
+                      ^
+In file included from component/appman/downloadmanager/downloader/oc/includeExport/mc/cce_base.h:190:0,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_time.h:8,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_libc.h:31,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:36,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:7,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:4:39: warning: unused parameter 'filename' [-Wunused-parameter]
+ #define _DECLDBG        , const char *filename, int line
+                                       ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:9:25: note: in expansion of macro '_DECLDBG'
+ #define DECLDBG         _DECLDBG
+                         ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:105:35: note: in expansion of macro 'DECLDBG'
+ McHeap_malloc(McHeap h, ui32 size DECLDBG)
+                                   ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:4:53: warning: unused parameter 'line' [-Wunused-parameter]
+ #define _DECLDBG        , const char *filename, int line
+                                                     ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:9:25: note: in expansion of macro '_DECLDBG'
+ #define DECLDBG         _DECLDBG
+                         ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:105:35: note: in expansion of macro 'DECLDBG'
+ McHeap_malloc(McHeap h, ui32 size DECLDBG)
+                                   ^
+In file included from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:57:0,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McHeap_calloc':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:112:22: warning: unused parameter 'h' [-Wunused-parameter]
+ McHeap_calloc(McHeap h, ui32 unit, ui32 size DECLDBG)
+                      ^
+In file included from component/appman/downloadmanager/downloader/oc/includeExport/mc/cce_base.h:190:0,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_time.h:8,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_libc.h:31,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:36,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:7,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:4:39: warning: unused parameter 'filename' [-Wunused-parameter]
+ #define _DECLDBG        , const char *filename, int line
+                                       ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:9:25: note: in expansion of macro '_DECLDBG'
+ #define DECLDBG         _DECLDBG
+                         ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:112:46: note: in expansion of macro 'DECLDBG'
+ McHeap_calloc(McHeap h, ui32 unit, ui32 size DECLDBG)
+                                              ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:4:53: warning: unused parameter 'line' [-Wunused-parameter]
+ #define _DECLDBG        , const char *filename, int line
+                                                     ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:9:25: note: in expansion of macro '_DECLDBG'
+ #define DECLDBG         _DECLDBG
+                         ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:112:46: note: in expansion of macro 'DECLDBG'
+ McHeap_calloc(McHeap h, ui32 unit, ui32 size DECLDBG)
+                                              ^
+In file included from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:57:0,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McHeap_realloc':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:119:23: warning: unused parameter 'h' [-Wunused-parameter]
+ McHeap_realloc(McHeap h, void* addr, ui32 size DECLDBG)
+                       ^
+In file included from component/appman/downloadmanager/downloader/oc/includeExport/mc/cce_base.h:190:0,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_time.h:8,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_libc.h:31,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:36,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:7,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:4:39: warning: unused parameter 'filename' [-Wunused-parameter]
+ #define _DECLDBG        , const char *filename, int line
+                                       ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:9:25: note: in expansion of macro '_DECLDBG'
+ #define DECLDBG         _DECLDBG
+                         ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:119:48: note: in expansion of macro 'DECLDBG'
+ McHeap_realloc(McHeap h, void* addr, ui32 size DECLDBG)
+                                                ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:4:53: warning: unused parameter 'line' [-Wunused-parameter]
+ #define _DECLDBG        , const char *filename, int line
+                                                     ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:9:25: note: in expansion of macro '_DECLDBG'
+ #define DECLDBG         _DECLDBG
+                         ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:119:48: note: in expansion of macro 'DECLDBG'
+ McHeap_realloc(McHeap h, void* addr, ui32 size DECLDBG)
+                                                ^
+In file included from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:57:0,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McHeap_free':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:126:20: warning: unused parameter 'h' [-Wunused-parameter]
+ McHeap_free(McHeap h, void* addr DECLDBG)
+                    ^
+In file included from component/appman/downloadmanager/downloader/oc/includeExport/mc/cce_base.h:190:0,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_time.h:8,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_libc.h:31,
+                 from component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:36,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:7,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:4:39: warning: unused parameter 'filename' [-Wunused-parameter]
+ #define _DECLDBG        , const char *filename, int line
+                                       ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:9:25: note: in expansion of macro '_DECLDBG'
+ #define DECLDBG         _DECLDBG
+                         ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:126:34: note: in expansion of macro 'DECLDBG'
+ McHeap_free(McHeap h, void* addr DECLDBG)
+                                  ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:4:53: warning: unused parameter 'line' [-Wunused-parameter]
+ #define _DECLDBG        , const char *filename, int line
+                                                     ^
+component/appman/downloadmanager/downloader/oc/includeExport/sdk/sdk_mem.h:9:25: note: in expansion of macro '_DECLDBG'
+ #define DECLDBG         _DECLDBG
+                         ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:126:34: note: in expansion of macro 'DECLDBG'
+ McHeap_free(McHeap h, void* addr DECLDBG)
+                                  ^
+In file included from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:57:0,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part05.c:3:
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c: In function 'McHeap_statInfo':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:160:24: warning: unused parameter 'h' [-Wunused-parameter]
+ McHeap_statInfo(McHeap h, ui32* max_system, ui32* system_bytes, ui32* used_bytes)
+                        ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:160:33: warning: unused parameter 'max_system' [-Wunused-parameter]
+ McHeap_statInfo(McHeap h, ui32* max_system, ui32* system_bytes, ui32* used_bytes)
+                                 ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:160:51: warning: unused parameter 'system_bytes' [-Wunused-parameter]
+ McHeap_statInfo(McHeap h, ui32* max_system, ui32* system_bytes, ui32* used_bytes)
+                                                   ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../mc/mc_mem.c:160:71: warning: unused parameter 'used_bytes' [-Wunused-parameter]
+ McHeap_statInfo(McHeap h, ui32* max_system, ui32* system_bytes, ui32* used_bytes)
+                                                                       ^

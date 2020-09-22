@@ -1,0 +1,7 @@
+component/OAM/common/socket/ipv6_socket_iface.c: In function 'Ipv6_recvfrom':
+component/OAM/common/socket/ipv6_socket_iface.c:576:31: warning: unused parameter 'domain' [-Wunused-parameter]
+ int Ipv6_recvfrom( int s, int domain , void *buf, int len, int flags, char *from, int * port,char * ifrname  )
+                               ^
+component/OAM/common/socket/ipv6_socket_iface.c:576:101: warning: unused parameter 'ifrname' [-Wunused-parameter]
+ int Ipv6_recvfrom( int s, int domain , void *buf, int len, int flags, char *from, int * port,char * ifrname  )
+                                                                                                     ^

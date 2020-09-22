@@ -1,0 +1,24 @@
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_parser_old.cpp: In member function 'void CPDF_StreamContentParser::ParsePathObject()':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_parser_old.cpp:216:83: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+                     params[nParams++] = bInteger ? (FX_FLOAT)value : *(FX_FLOAT*)&value;
+                                                                                   ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_parser_old.cpp: In member function 'CPDF_StreamParser::SyntaxType CPDF_StreamParser::ParseNextElement()':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_parser_old.cpp:493:25: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         if (*(FX_DWORD*)m_WordBuffer == FXDWORD_TRUE) {
+                         ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_parser_old.cpp:497:25: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         if (*(FX_DWORD*)m_WordBuffer == FXDWORD_NULL) {
+                         ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_parser_old.cpp:502:25: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         if (*(FX_DWORD*)m_WordBuffer == FXDWORD_FALS && m_WordBuffer[4] == 'e') {
+                         ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_parser_old.cpp: In member function 'CPDF_Object* CPDF_StreamParser::ReadNextObject(FX_BOOL, FX_BOOL)':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_parser_old.cpp:644:25: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         if (*(FX_DWORD*)m_WordBuffer == FXDWORD_TRUE) {
+                         ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_parser_old.cpp:647:25: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         if (*(FX_DWORD*)m_WordBuffer == FXDWORD_NULL) {
+                         ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_parser_old.cpp:651:25: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         if (*(FX_DWORD*)m_WordBuffer == FXDWORD_FALS && m_WordBuffer[4] == 'e') {
+                         ^

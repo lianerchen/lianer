@@ -1,0 +1,183 @@
+component/dtv/service/CHDTVService.cpp:26:0: warning: "LOG_NDEBUG" redefined [enabled by default]
+ #define LOG_NDEBUG 0
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Vector.h:24,
+                 from platform/android/frameworks/native/include/binder/Parcel.h:24,
+                 from component/dtv/service/CHDTVService.cpp:5:
+platform/android/system/core/include/log/log.h:55:0: note: this is the location of the previous definition
+ #define LOG_NDEBUG 1
+ ^
+component/dtv/service/CHDTVService.cpp:27:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "CHDTVService.cpp"
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Vector.h:24,
+                 from platform/android/frameworks/native/include/binder/Parcel.h:24,
+                 from component/dtv/service/CHDTVService.cpp:5:
+platform/android/system/core/include/log/log.h:67:0: note: this is the location of the previous definition
+ #define LOG_TAG NULL
+ ^
+component/dtv/service/CHDTVService.cpp:160:0: warning: "CHECK_INTERFACE" redefined [enabled by default]
+ #define CHECK_INTERFACE(interface, data, reply)
+ ^
+In file included from platform/android/frameworks/native/include/binder/IServiceManager.h:21:0,
+                 from component/dtv/service/CHDTVService.cpp:6:
+platform/android/frameworks/native/include/binder/IInterface.h:107:0: note: this is the location of the previous definition
+ #define CHECK_INTERFACE(interface, data, reply)                         \
+ ^
+In file included from component/dtv/service/CHDTVService.cpp:10:0:
+component/dtv/service/../com/chdtvdata.h:1030:15: warning: unused parameter 'outData' [-Wunused-parameter]
+  virtual void writeToParcel(Parcel* outData){};
+               ^
+component/dtv/service/../com/chdtvdata.h:1031:15: warning: unused parameter 'inData' [-Wunused-parameter]
+  virtual void readFromParcel(const Parcel* inData){};
+               ^
+component/dtv/service/CHDTVService.cpp:3086:5: warning: unused parameter 'ri_databaseID' [-Wunused-parameter]
+  }
+     ^
+component/dtv/service/CHDTVService.cpp:3352:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+   rpstru_PfInfo->stru_Pf_Info[i].stru_StartTime.uc_mins = CH_COM_CnvBcdToVal(pPfEvent->stru_Pf_Info[i].stru_StartTime.uc_mins);
+     ^
+component/dtv/service/CHDTVService.cpp:3405:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+  
+     ^
+component/dtv/service/CHDTVService.cpp:6853:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+  }
+     ^
+component/dtv/service/CHDTVService.cpp:6890:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+  return 0;
+     ^
+component/dtv/service/CHDTVService.cpp:6895:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+  DTV_EPG_EventList_t* pEventList;
+     ^
+component/dtv/service/CHDTVService.cpp:6915:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+  DTV_EPG_EventList_t* pEventList;
+     ^
+component/dtv/service/CHDTVService.cpp:6935:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+  DTV_EPG_EventList_t* pEventList;
+     ^
+component/dtv/service/CHDTVService.cpp:6955:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+  DTV_EPG_EventList_t* pEventList;
+     ^
+component/dtv/service/CHDTVService.cpp:6975:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+  DTV_EPG_EventList_t* pEventList;
+     ^
+component/dtv/service/CHDTVService.cpp:6995:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+  CH_RESULT_e i_Result = DTV_EPG_GetEventTypeByID(ri_TsID, ri_OrgNetId, ri_ServiceID, ri_EventID, rpi_Type);
+     ^
+component/dtv/service/CHDTVService.cpp:7016:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+   //gs_EpgWatchClientCallBack = NULL;
+     ^
+component/dtv/service/CHDTVService.cpp:7028:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+ 
+     ^
+component/dtv/service/CHDTVService.cpp:7035:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+  return 0;
+     ^
+component/dtv/service/CHDTVService.cpp:7045:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+   {
+     ^
+component/dtv/service/CHDTVService.cpp:7052:5: warning: unused parameter 'ri_DeMux' [-Wunused-parameter]
+  }
+     ^
+component/dtv/service/CHDTVService.cpp: In member function 'int android::DTVService::GetTable(int, int, int, int, int, int, int, int, android::TableContainer**, S32*)':
+component/dtv/service/CHDTVService.cpp:7389:21: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     uc_mask[0] = 0xfe;
+                     ^
+component/dtv/service/CHDTVService.cpp: At global scope:
+component/dtv/service/CHDTVService.cpp:7659:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+   CHDTV_Service_Mutex_UnLock(&Service_Capture_mutex);
+     ^
+component/dtv/service/CHDTVService.cpp:7773:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+ 
+     ^
+component/dtv/service/CHDTVService.cpp:7994:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+  CHDTV_Service_Mutex_Lock(&Service_Capture_mutex);
+     ^
+component/dtv/service/CHDTVService.cpp:8072:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+ 
+     ^
+component/dtv/service/CHDTVService.cpp:8092:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+  }
+     ^
+component/dtv/service/CHDTVService.cpp:8132:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+  int tunerType;
+     ^
+component/dtv/service/CHDTVService.cpp:8336:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+  }
+     ^
+component/dtv/service/CHDTVService.cpp:8340:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+   LOGE("[%s][%d] err new\n",__FUNCTION__,__LINE__);
+     ^
+component/dtv/service/CHDTVService.cpp:8388:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+ DTV_NVOD_FreeRefEventList(rus_RefServiceID);
+     ^
+component/dtv/service/CHDTVService.cpp:8441:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+  {
+     ^
+component/dtv/service/CHDTVService.cpp:8486:5: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+   if (gpstru_ScanPrivate->pSatelliteData)
+     ^
+component/dtv/service/CHDTVService.cpp:8491:5: warning: unused parameter 'ri_DeviceID' [-Wunused-parameter]
+   if (gpstru_ScanPrivate->pTransponderData)
+     ^
+component/dtv/service/CHDTVService.cpp:8496:6: warning: unused parameter 'ri_Device' [-Wunused-parameter]
+   if (gpstru_ScanPrivate->pNvodData)
+      ^
+component/dtv/service/CHDTVService.cpp:8894:5: warning: unused parameter 'ri_DeviceID' [-Wunused-parameter]
+  {
+     ^
+component/dtv/service/CHDTVService.cpp: In function 'CHMID_SCAN_RESULT_e android::ScanCallback(CHMID_SCAN_STATUS_t*)':
+component/dtv/service/CHDTVService.cpp:9302:10: warning: enumeration value 'CHMID_DMB_TH' not handled in switch [-Wswitch]
+  scanStatus.us_RadioCount = rpstru_ScanStatus->us_RadioCount;
+          ^
+component/dtv/service/CHDTVService.cpp:9302:10: warning: enumeration value 'CHMID_DVB_TYPE_NUM' not handled in switch [-Wswitch]
+component/dtv/service/CHDTVService.cpp: At global scope:
+component/dtv/service/CHDTVService.cpp:9501:6: warning: unused parameter 'renm_Event' [-Wunused-parameter]
+ }
+      ^
+component/dtv/service/CHDTVService.cpp: In function 'bool android::JudgeIfMyTable(android::TableContainer*, U8*)':
+component/dtv/service/CHDTVService.cpp:9607:4: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  case CHMID_PSI_TABLE_NITOTHER:
+    ^
+component/dtv/service/CHDTVService.cpp:9613:4: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+    return 0;
+    ^
+component/dtv/service/CHDTVService.cpp: At global scope:
+component/dtv/service/CHDTVService.cpp:10187:6: warning: unused parameter 'who' [-Wunused-parameter]
+ 
+      ^
+component/dtv/service/CHDTVService.cpp:10210:6: warning: unused parameter 'who' [-Wunused-parameter]
+ 
+      ^
+component/dtv/service/CHDTVService.cpp: In member function 'int android::DTVService::SetNetworkList(int, int, android::NetworkInfo*)':
+component/dtv/service/CHDTVService.cpp:2912:30: warning: array subscript is above array bounds [-Warray-bounds]
+  CHDTV_Service_Mutex_Lock(&Service_DB_mutex);
+                              ^
+In file included from platform/android/bionic/libc/include/stdlib.h:34:0,
+                 from component/dtv/service/CHDTVService.cpp:2:
+In function 'char* strncpy(char*, const char*, size_t)',
+    inlined from 'int android::DTVService::SetNetworkList(int, int, android::NetworkInfo*)' at component/dtv/service/CHDTVService.cpp:2910:78:
+platform/android/bionic/libc/include/string.h:151:62: warning: call to char* __builtin___strncpy_chk(char*, const char*, unsigned int, unsigned int) will always overflow destination buffer [enabled by default]
+         return __builtin___strncpy_chk(dest, src, n, bos_dest);
+                                                              ^
+component/dtv/service/CHDTVService.cpp: In member function 'int android::DTVService::SetBouquetList(int, int, android::BouquetInfo*)':
+component/dtv/service/CHDTVService.cpp:3016:26: warning: array subscript is above array bounds [-Warray-bounds]
+ 
+                          ^
+In file included from platform/android/bionic/libc/include/stdlib.h:34:0,
+                 from component/dtv/service/CHDTVService.cpp:2:
+In function 'char* strncpy(char*, const char*, size_t)',
+    inlined from 'int android::DTVService::SetBouquetList(int, int, android::BouquetInfo*)' at component/dtv/service/CHDTVService.cpp:3014:80:
+platform/android/bionic/libc/include/string.h:151:62: warning: call to char* __builtin___strncpy_chk(char*, const char*, unsigned int, unsigned int) will always overflow destination buffer [enabled by default]
+         return __builtin___strncpy_chk(dest, src, n, bos_dest);
+                                                              ^
+component/dtv/service/CHDTVService.cpp: In member function 'int android::DTVService::EnterDTVNitScan(int, android::InterDTVScanParamS*)':
+component/dtv/service/CHDTVService.cpp:8545:55: warning: 'ret' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   stru_ScanParam.dvbtype.dvbs.pstru_SatelliteData = gpstru_ScanPrivate->pSatelliteData;
+                                                       ^
+component/dtv/service/CHDTVService.cpp: In member function 'int android::DTVService::EnterDTVBandScan(int, android::InterDTVScanParamS*)':
+component/dtv/service/CHDTVService.cpp:8778:55: warning: 'ret' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   case DTV_S:
+                                                       ^

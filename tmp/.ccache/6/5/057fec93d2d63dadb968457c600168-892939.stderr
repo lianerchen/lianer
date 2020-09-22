@@ -1,0 +1,23 @@
+platform/android/external/libnl/lib/utils.c: In function 'nl_msec2str':
+platform/android/external/libnl/lib/utils.c:420:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < ARRAY_SIZE(split); i++) {
+                ^
+platform/android/external/libnl/lib/utils.c: In function '__type2str':
+platform/android/external/libnl/lib/utils.c:794:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < tbl_len; i++) {
+                ^
+platform/android/external/libnl/lib/utils.c: In function '__flags2str':
+platform/android/external/libnl/lib/utils.c:829:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < tbl_len; i++) {
+                ^
+platform/android/external/libnl/lib/utils.c: In function '__str2type':
+platform/android/external/libnl/lib/utils.c:850:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < tbl_len; i++)
+                ^
+platform/android/external/libnl/lib/utils.c: In function '__str2flags':
+platform/android/external/libnl/lib/utils.c:892:19: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   len = t ? t - p : strlen(p);
+                   ^
+platform/android/external/libnl/lib/utils.c:893:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < tbl_len; i++)
+                 ^

@@ -1,0 +1,16 @@
+In file included from device/hisilicon/bigfish/hardware/camera/capability_manager/CapabilityManager.h:22:0,
+                 from device/hisilicon/bigfish/hardware/camera/camera_hal/CameraHal.h:26,
+                 from device/hisilicon/bigfish/hardware/camera/camera_hal/CameraModule.cpp:20:
+device/hisilicon/bigfish/hardware/camera/capability_manager/CapabilityInterface.h:46:17: warning: unused parameter 'who' [-Wunused-parameter]
+     virtual int onValueChanged(CapabilityInterface* who, CameraParameters& p) {return 0;};
+                 ^
+device/hisilicon/bigfish/hardware/camera/capability_manager/CapabilityInterface.h:46:17: warning: unused parameter 'p' [-Wunused-parameter]
+device/hisilicon/bigfish/hardware/camera/camera_hal/CameraModule.cpp:400:13: warning: unused parameter 'dev' [-Wunused-parameter]
+ static void put_parameters(struct camera_device * dev, char * param)
+             ^
+device/hisilicon/bigfish/hardware/camera/camera_hal/CameraModule.cpp:706:1: warning: missing initializer for member 'camera_module::set_callbacks' [-Wmissing-field-initializers]
+ };
+ ^
+device/hisilicon/bigfish/hardware/camera/camera_hal/CameraModule.cpp:706:1: warning: missing initializer for member 'camera_module::get_vendor_tag_ops' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_hal/CameraModule.cpp:706:1: warning: missing initializer for member 'camera_module::open_legacy' [-Wmissing-field-initializers]
+device/hisilicon/bigfish/hardware/camera/camera_hal/CameraModule.cpp:706:1: warning: missing initializer for member 'camera_module::reserved' [-Wmissing-field-initializers]

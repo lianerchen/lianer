@@ -1,0 +1,91 @@
+In file included from platform/android/dalvik/libdex/DexSwapVerify.cpp:28:0:
+platform/android/dalvik/libdex/DexSwapVerify.cpp: In function 'bool swapMap(CheckState*, DexMapList*)':
+platform/android/external/safe-iop/include/safe_iop.h:211:39: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     typeof(_ptr) __sio(var)(p) = (_ptr); \
+                                       ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:167:14: note: in expansion of macro 'safe_mul'
+         if (!safe_mul(NULL, (_count), (_elemSize)) ||                       \
+              ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:408:5: note: in expansion of macro 'CHECK_LIST_SIZE'
+     CHECK_LIST_SIZE(item, count, sizeof(DexMapItem));
+     ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp: In function 'u1* swapFieldAnnotations(const CheckState*, u4, u1*)':
+platform/android/external/safe-iop/include/safe_iop.h:211:39: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     typeof(_ptr) __sio(var)(p) = (_ptr); \
+                                       ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:167:14: note: in expansion of macro 'safe_mul'
+         if (!safe_mul(NULL, (_count), (_elemSize)) ||                       \
+              ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:1073:5: note: in expansion of macro 'CHECK_LIST_SIZE'
+     CHECK_LIST_SIZE(item, count, sizeof(DexFieldAnnotationsItem));
+     ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp: In function 'u1* swapMethodAnnotations(const CheckState*, u4, u1*)':
+platform/android/external/safe-iop/include/safe_iop.h:211:39: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     typeof(_ptr) __sio(var)(p) = (_ptr); \
+                                       ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:167:14: note: in expansion of macro 'safe_mul'
+         if (!safe_mul(NULL, (_count), (_elemSize)) ||                       \
+              ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:1102:5: note: in expansion of macro 'CHECK_LIST_SIZE'
+     CHECK_LIST_SIZE(item, count, sizeof(DexMethodAnnotationsItem));
+     ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp: In function 'u1* swapParameterAnnotations(const CheckState*, u4, u1*)':
+platform/android/external/safe-iop/include/safe_iop.h:211:39: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     typeof(_ptr) __sio(var)(p) = (_ptr); \
+                                       ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:167:14: note: in expansion of macro 'safe_mul'
+         if (!safe_mul(NULL, (_count), (_elemSize)) ||                       \
+              ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:1132:5: note: in expansion of macro 'CHECK_LIST_SIZE'
+     CHECK_LIST_SIZE(item, count, sizeof(DexParameterAnnotationsItem));
+     ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp: In function 'void* swapTypeList(const CheckState*, void*)':
+platform/android/external/safe-iop/include/safe_iop.h:211:39: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     typeof(_ptr) __sio(var)(p) = (_ptr); \
+                                       ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:167:14: note: in expansion of macro 'safe_mul'
+         if (!safe_mul(NULL, (_count), (_elemSize)) ||                       \
+              ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:1334:5: note: in expansion of macro 'CHECK_LIST_SIZE'
+     CHECK_LIST_SIZE(pType, count, sizeof(DexTypeItem));
+     ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp: In function 'void* swapAnnotationSetRefList(const CheckState*, void*)':
+platform/android/external/safe-iop/include/safe_iop.h:211:39: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     typeof(_ptr) __sio(var)(p) = (_ptr); \
+                                       ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:167:14: note: in expansion of macro 'safe_mul'
+         if (!safe_mul(NULL, (_count), (_elemSize)) ||                       \
+              ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:1355:5: note: in expansion of macro 'CHECK_LIST_SIZE'
+     CHECK_LIST_SIZE(item, count, sizeof(DexAnnotationSetRefItem));
+     ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp: In function 'void* swapAnnotationSetItem(const CheckState*, void*)':
+platform/android/external/safe-iop/include/safe_iop.h:211:39: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     typeof(_ptr) __sio(var)(p) = (_ptr); \
+                                       ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:167:14: note: in expansion of macro 'safe_mul'
+         if (!safe_mul(NULL, (_count), (_elemSize)) ||                       \
+              ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:1394:5: note: in expansion of macro 'CHECK_LIST_SIZE'
+     CHECK_LIST_SIZE(item, count, sizeof(u4));
+     ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp: In function 'void* swapTriesAndCatches(const CheckState*, DexCode*)':
+platform/android/external/safe-iop/include/safe_iop.h:211:39: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     typeof(_ptr) __sio(var)(p) = (_ptr); \
+                                       ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:167:14: note: in expansion of macro 'safe_mul'
+         if (!safe_mul(NULL, (_count), (_elemSize)) ||                       \
+              ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:1768:5: note: in expansion of macro 'CHECK_LIST_SIZE'
+     CHECK_LIST_SIZE(tries, count, sizeof(DexTry));
+     ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp: In function 'void* swapCodeItem(const CheckState*, void*)':
+platform/android/external/safe-iop/include/safe_iop.h:211:39: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     typeof(_ptr) __sio(var)(p) = (_ptr); \
+                                       ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:167:14: note: in expansion of macro 'safe_mul'
+         if (!safe_mul(NULL, (_count), (_elemSize)) ||                       \
+              ^
+platform/android/dalvik/libdex/DexSwapVerify.cpp:1847:5: note: in expansion of macro 'CHECK_LIST_SIZE'
+     CHECK_LIST_SIZE(insns, count, sizeof(u2));
+     ^

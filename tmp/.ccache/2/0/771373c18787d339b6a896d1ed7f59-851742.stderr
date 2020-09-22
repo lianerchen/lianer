@@ -1,0 +1,7 @@
+platform/android/bootable/recovery/recovery.cpp: In function 'int main(int, char**)':
+platform/android/bootable/recovery/recovery.cpp:1152:17: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     if (temp != NULL && (temp != Device::NO_ACTION)) after = temp;
+                 ^
+platform/android/bootable/recovery/recovery.cpp:1152:5: warning: 'temp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (temp != NULL && (temp != Device::NO_ACTION)) after = temp;
+     ^
