@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/external/dhcp/common/ethernet.c: In function 'decode_ethernet_header':
-device/hisilicon/bigfish/external/dhcp/common/ethernet.c:68:29: warning: unused parameter 'interface' [-Wunused-parameter]
-      struct interface_info *interface;
-                             ^

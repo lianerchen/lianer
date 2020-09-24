@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/external/alsa-lib/src/mixer/mixer.c: In function 'snd_mixer_poll_descriptors_revents':
-device/hisilicon/bigfish/external/alsa-lib/src/mixer/mixer.c:738:53: warning: unused parameter 'mixer' [-Wunused-parameter]
- int snd_mixer_poll_descriptors_revents(snd_mixer_t *mixer, struct pollfd *pfds, unsigned int nfds, unsigned short *revents)
-                                                     ^

@@ -1,7 +1,0 @@
-platform/android/external/webrtc/src/modules/audio_processing/agc/analog_agc.c: In function 'WebRtcAgc_Init':
-platform/android/external/webrtc/src/modules/audio_processing/agc/analog_agc.c:1655:24: warning: iteration 10u invokes undefined behavior [-Waggressive-loop-optimizations]
-         stt->env[0][i] = 0;
-                        ^
-platform/android/external/webrtc/src/modules/audio_processing/agc/analog_agc.c:1653:5: note: containing loop
-     for (i = 0; i < 20; i++)
-     ^

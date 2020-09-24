@@ -1,9 +1,0 @@
-In file included from platform/android/system/extras/ext4_utils/wipe.h:20:0,
-                 from platform/android/bootable/recovery/roots.cpp:41:
-platform/android/system/extras/ext4_utils/ext4_utils.h:28:0: warning: "_LARGEFILE64_SOURCE" redefined [enabled by default]
- #define _LARGEFILE64_SOURCE 1
- ^
-In file included from platform/android/bootable/recovery/roots.cpp:39:0:
-./device/hisilicon/bigfish/system/other/recovery/include/uuid.h:3:0: note: this is the location of the previous definition
- #define _LARGEFILE64_SOURCE
- ^

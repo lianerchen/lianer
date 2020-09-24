@@ -1,4 +1,0 @@
-platform/android/external/libnl/lib/fib_lookup/request.c: In function 'request_compare':
-platform/android/external/libnl/lib/fib_lookup/request.c:57:27: warning: unused parameter 'flags' [-Wunused-parameter]
-       uint32_t attrs, int flags)
-                           ^

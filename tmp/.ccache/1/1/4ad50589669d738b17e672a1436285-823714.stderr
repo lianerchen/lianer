@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/ir/sample_ir.c: In function 'ir_sample_thread':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/ir/sample_ir.c:259:30: warning: unused parameter 'arg' [-Wunused-parameter]
- void *ir_sample_thread(void *arg)
-                              ^

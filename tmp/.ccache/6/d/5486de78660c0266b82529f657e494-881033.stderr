@@ -1,8 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_filter.c: In function 'dmx_timer_task':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_filter.c:199:41: warning: unused parameter 'param' [-Wunused-parameter]
- static HI_VOID* dmx_timer_task(HI_VOID *param)
-                                         ^
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_filter.c: In function 'flt_task':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_filter.c:226:36: warning: unused parameter 'param' [-Wunused-parameter]
- static HI_VOID* flt_task( HI_VOID *param)
-                                    ^

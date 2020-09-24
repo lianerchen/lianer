@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/system/ir_user/stb/ir_interface/android_ir_inter.c: In function 'IR_SetCodeType':
-device/hisilicon/bigfish/system/ir_user/stb/ir_interface/android_ir_inter.c:423:38: warning: unused parameter 'enIRCode' [-Wunused-parameter]
- signed int IR_SetCodeType(signed int enIRCode)
-                                      ^

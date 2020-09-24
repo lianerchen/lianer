@@ -1,5 +1,0 @@
-component/DAS/agent/DAS_debug.c: In function 'TimeFomat':
-component/DAS/agent/DAS_debug.c:92:9: warning: implicit declaration of function 'times' [-Wimplicit-function-declaration]
-         nTickCount = (unsigned int)times(NULL);
-         ^
-component/DAS/agent/DAS_debug.c:92:9: warning: nested extern declaration of 'times' [-Wnested-externs]

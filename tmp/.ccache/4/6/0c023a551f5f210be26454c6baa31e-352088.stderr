@@ -1,2 +1,0 @@
-platform/android/external/fdlibm/e_sqrt.c: In function '__ieee754_sqrt':
-platform/android/external/fdlibm/e_sqrt.c:161:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

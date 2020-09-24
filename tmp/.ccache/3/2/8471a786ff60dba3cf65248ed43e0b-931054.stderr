@@ -1,8 +1,0 @@
-device/hisilicon/bigfish/external/alsa-lib/src/rawmidi/rawmidi_virt.c: In function 'snd_rawmidi_virtual_write':
-device/hisilicon/bigfish/external/alsa-lib/src/rawmidi/rawmidi_virt.c:217:10: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
-   buffer += size1;
-          ^
-device/hisilicon/bigfish/external/alsa-lib/src/rawmidi/rawmidi_virt.c: In function 'snd_rawmidi_virtual_read':
-device/hisilicon/bigfish/external/alsa-lib/src/rawmidi/rawmidi_virt.c:274:10: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
-   buffer += size1;
-          ^

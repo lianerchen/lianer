@@ -1,8 +1,0 @@
-platform/android/external/sqlite/dist/sqlite3.c: In function 'pcache1Fetch':
-platform/android/external/sqlite/dist/sqlite3.c:39395:51: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
-platform/android/external/sqlite/dist/sqlite3.c:39397:49: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
-platform/android/external/sqlite/dist/sqlite3.c: At top level:
-platform/android/external/sqlite/dist/sqlite3.c:98086:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/sqlite/dist/sqlite3.c:98086:1: warning: (near initialization for 'sqlite3Apis.aggregate_count') [-Wmissing-field-initializers]
-platform/android/external/sqlite/dist/sqlite3.c: In function 'fts3InitVtab':
-platform/android/external/sqlite/dist/sqlite3.c:128256:3: warning: 'nIndex' may be used uninitialized in this function [-Wmaybe-uninitialized]

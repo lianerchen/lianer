@@ -1,6 +1,0 @@
-In file included from platform/android/external/pdfium/fpdfsdk/include/fsdk_rendercontext.h:9:0,
-                 from platform/android/frameworks/base/core/jni/android/graphics/pdf/PdfEditor.cpp:22:
-platform/android/external/pdfium/fpdfsdk/include/../include/fsdk_define.h: In member function 'virtual void CPDF_CustomAccess::Release()':
-platform/android/external/pdfium/fpdfsdk/include/../include/fsdk_define.h:115:35: warning: deleting object of polymorphic class type 'CPDF_CustomAccess' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
-  virtual void  Release() { delete this; }
-                                   ^

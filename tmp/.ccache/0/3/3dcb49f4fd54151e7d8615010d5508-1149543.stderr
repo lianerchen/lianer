@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/external/dhcp/common/dispatch.c: In function 'isclib_timer_callback':
-device/hisilicon/bigfish/external/dhcp/common/dispatch.c:139:36: warning: unused parameter 'taskp' [-Wunused-parameter]
- isclib_timer_callback(isc_task_t  *taskp,
-                                    ^

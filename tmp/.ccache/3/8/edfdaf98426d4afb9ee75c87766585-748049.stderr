@@ -1,4 +1,0 @@
-platform/android/frameworks/av/media/libeffects/lvm/lib/StereoWidening/src/LVCS_ReverbGenerator.c: In function 'LVCS_ReverbGenerator':
-platform/android/frameworks/av/media/libeffects/lvm/lib/StereoWidening/src/LVCS_ReverbGenerator.c:212:41: warning: comparison between 'LVCS_SpeakerType_en' and 'enum <anonymous>' [-Wenum-compare]
-     if (((pInstance->Params.SpeakerType == LVCS_HEADPHONE) ||           /* Disable when CS4MS in stereo mode */
-                                         ^

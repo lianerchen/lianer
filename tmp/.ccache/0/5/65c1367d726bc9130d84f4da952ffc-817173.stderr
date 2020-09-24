@@ -1,4 +1,0 @@
-platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndbdic.c: In function 'bdic_search_data':
-platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndbdic.c:998:55: warning: unused parameter 'condition' [-Wunused-parameter]
- static NJ_INT16 bdic_search_data(NJ_SEARCH_CONDITION *condition, NJ_SEARCH_LOCATION_SET *loctset)
-                                                       ^

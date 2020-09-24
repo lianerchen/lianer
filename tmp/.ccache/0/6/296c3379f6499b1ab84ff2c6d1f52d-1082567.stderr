@@ -1,3 +1,0 @@
-platform/android/frameworks/base/media/jni/soundpool/android_media_SoundPool_SoundPoolImpl.cpp:315:6: warning: unused parameter 'reserved' [-Wunused-parameter]
- jint JNI_OnLoad(JavaVM* vm, void* reserved)
-      ^

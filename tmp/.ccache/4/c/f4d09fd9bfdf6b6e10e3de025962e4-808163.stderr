@@ -1,4 +1,0 @@
-platform/android/external/ltrace/debug.c: In function 'xwritedump':
-platform/android/external/ltrace/debug.c:53:8: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
-   addr += sizeof(long);
-        ^

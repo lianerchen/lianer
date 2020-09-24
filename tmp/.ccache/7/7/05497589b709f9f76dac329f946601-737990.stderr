@@ -1,8 +1,0 @@
-In file included from platform/android/external/libgsm/src/long_term.c:15:0:
-platform/android/external/libgsm/src/long_term.c: In function 'Gsm_Long_Term_Predictor':
-platform/android/external/libgsm/src/long_term.c:869:21: warning: unused parameter 'S' [-Wunused-parameter]
-  struct gsm_state * S,
-                     ^
-platform/android/external/libgsm/inc/proto.h:46:38: note: in definition of macro 'P7'
- # define P7(x, a, b, c, d, e, f, g) (a, b, c, d, e, f, g)
-                                      ^

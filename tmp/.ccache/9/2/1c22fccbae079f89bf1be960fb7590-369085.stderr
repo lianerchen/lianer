@@ -1,3 +1,0 @@
-platform/android/external/icu/icu4c/source/i18n/utmscale.c: In function 'utmscale_getTimeScaleValue_53':
-platform/android/external/icu/icu4c/source/i18n/utmscale.c:44:5: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
-platform/android/external/icu/icu4c/source/i18n/utmscale.c:45:9: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]

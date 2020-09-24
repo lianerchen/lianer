@@ -1,2 +1,0 @@
-platform/android/external/e2fsprogs/e2fsck/super.c: In function 'check_super_value':
-platform/android/external/e2fsprogs/e2fsck/super.c:34:6: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]

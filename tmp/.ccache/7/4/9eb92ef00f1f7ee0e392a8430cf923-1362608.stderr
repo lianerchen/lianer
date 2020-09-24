@@ -1,3 +1,0 @@
-platform/android/external/webrtc/src/modules/audio_processing/high_pass_filter_impl.cc:175:5: warning: unused parameter 'handle' [-Wunused-parameter]
- int HighPassFilterImpl::GetHandleError(void* handle) const {
-     ^

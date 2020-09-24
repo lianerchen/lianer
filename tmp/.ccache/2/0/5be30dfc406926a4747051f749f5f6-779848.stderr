@@ -1,4 +1,0 @@
-platform/android/hardware/libhardware/modules/local_time/local_time_hw.c: In function 'ltdev_get_local_freq':
-platform/android/hardware/libhardware/modules/local_time/local_time_hw.c:53:67: warning: unused parameter 'dev' [-Wunused-parameter]
- static uint64_t ltdev_get_local_freq(struct local_time_hw_device* dev)
-                                                                   ^

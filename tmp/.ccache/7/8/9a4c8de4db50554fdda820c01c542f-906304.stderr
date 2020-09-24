@@ -1,4 +1,0 @@
-platform/android/external/ipsec-tools/src/racoon/isakmp_unity.c: In function 'isakmp_cfg_split':
-platform/android/external/ipsec-tools/src/racoon/isakmp_unity.c:262:20: warning: unused parameter 'iph1' [-Wunused-parameter]
-  struct ph1handle *iph1;
-                    ^

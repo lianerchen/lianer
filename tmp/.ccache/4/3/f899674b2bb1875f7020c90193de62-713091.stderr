@@ -1,4 +1,0 @@
-platform/android/external/fdlibm/s_floor.c: In function 'ieee_floor':
-platform/android/external/fdlibm/s_floor.c:69:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-    if(j<i1) i0 +=1 ;  /* got a carry */
-        ^

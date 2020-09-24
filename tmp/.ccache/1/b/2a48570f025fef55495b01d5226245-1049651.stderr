@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/avcast/sample_ts_cast.c: In function 'TsTthread':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/avcast/sample_ts_cast.c:157:28: warning: unused parameter 'args' [-Wunused-parameter]
- HI_VOID TsTthread(HI_VOID *args)
-                            ^

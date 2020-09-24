@@ -1,7 +1,0 @@
-platform/android/external/neven/Embedded/common/src/b_TensorEm/Alt.c: In function 'bts_Alt_equal':
-platform/android/external/neven/Embedded/common/src/b_TensorEm/Alt.c:81:28: warning: unused parameter 'ptrA' [-Wunused-parameter]
-      const struct bts_Alt* ptrA, 
-                            ^
-platform/android/external/neven/Embedded/common/src/b_TensorEm/Alt.c:82:28: warning: unused parameter 'srcPtrA' [-Wunused-parameter]
-      const struct bts_Alt* srcPtrA )
-                            ^

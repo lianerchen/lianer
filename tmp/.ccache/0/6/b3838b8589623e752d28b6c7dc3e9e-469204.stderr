@@ -1,4 +1,0 @@
-platform/android/external/icu/icu4c/source/common/ucnvlat1.c:465:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnvlat1.c:465:1: warning: (near initialization for '_Latin1Data_53.mbcs') [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnvlat1.c:742:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnvlat1.c:742:1: warning: (near initialization for '_ASCIIData_53.mbcs') [-Wmissing-field-initializers]

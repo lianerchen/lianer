@@ -1,4 +1,0 @@
-platform/android/external/iptables/iptables/iptables-xml.c: In function 'print_usage':
-platform/android/external/iptables/iptables/iptables-xml.c:49:43: warning: unused parameter 'version' [-Wunused-parameter]
- print_usage(const char *name, const char *version)
-                                           ^

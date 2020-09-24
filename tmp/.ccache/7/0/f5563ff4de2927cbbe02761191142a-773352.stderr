@@ -1,4 +1,0 @@
-platform/android/system/extras/latencytop/latencytop.c: In function 'signal_handler':
-platform/android/system/extras/latencytop/latencytop.c:407:32: warning: unused parameter 'sig' [-Wunused-parameter]
- static void signal_handler(int sig) {
-                                ^

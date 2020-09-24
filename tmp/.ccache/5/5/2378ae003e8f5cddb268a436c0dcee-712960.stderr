@@ -1,4 +1,0 @@
-platform/android/external/fdlibm/e_sinh.c: In function '__ieee754_sinh':
-platform/android/external/fdlibm/e_sinh.c:74:39: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
-  if (ix<0x408633CE || (ix==0x408633ce)&&(lx<=(unsigned)0x8fb9f87d)) {
-                                       ^

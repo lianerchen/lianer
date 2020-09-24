@@ -1,9 +1,0 @@
-platform/android/frameworks/base/drm/jni/android_drm_DrmManagerClient.cpp:383:13: warning: unused parameter 'env' [-Wunused-parameter]
- static void android_drm_DrmManagerClient_installDrmEngine(
-             ^
-platform/android/frameworks/base/drm/jni/android_drm_DrmManagerClient.cpp:383:13: warning: unused parameter 'thiz' [-Wunused-parameter]
-platform/android/frameworks/base/drm/jni/android_drm_DrmManagerClient.cpp:383:13: warning: unused parameter 'uniqueId' [-Wunused-parameter]
-platform/android/frameworks/base/drm/jni/android_drm_DrmManagerClient.cpp:383:13: warning: unused parameter 'engineFilePath' [-Wunused-parameter]
-platform/android/frameworks/base/drm/jni/android_drm_DrmManagerClient.cpp:779:6: warning: unused parameter 'reserved' [-Wunused-parameter]
- jint JNI_OnLoad(JavaVM* vm, void* reserved) {
-      ^

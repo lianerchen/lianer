@@ -1,8 +1,0 @@
-In file included from platform/android/packages/apps/Gallery2/jni/filters/exposure.c:17:0:
-platform/android/packages/apps/Gallery2/jni/filters/exposure.c: In function 'Java_com_android_gallery3d_filtershow_filters_ImageFilterExposure_nativeApplyFilter':
-platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:126: warning: unused parameter 'obj' [-Wunused-parameter]
- #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
-                                                                                                                              ^
-platform/android/packages/apps/Gallery2/jni/filters/exposure.c:19:6: note: in expansion of macro 'JNIFUNCF'
- void JNIFUNCF(ImageFilterExposure, nativeApplyFilter, jobject bitmap, jint width, jint height, jfloat bright)
-      ^

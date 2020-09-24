@@ -1,7 +1,0 @@
-device/hisilicon/bigfish/hardware/camera/libexif/./libexif/pentax/mnote-pentax-entry.c: In function 'mnote_pentax_entry_get_value':
-device/hisilicon/bigfish/hardware/camera/libexif/./libexif/pentax/mnote-pentax-entry.c:347:46: warning: comparison between 'ExifTag' and 'MnotePentaxTag' [-Wenum-compare]
-    for (i = 0; (items[i].tag && items[i].tag != entry->tag); i++);
-                                              ^
-device/hisilicon/bigfish/hardware/camera/libexif/./libexif/pentax/mnote-pentax-entry.c:371:48: warning: comparison between 'ExifTag' and 'MnotePentaxTag' [-Wenum-compare]
-    for (i = 0; (items2[i].tag && items2[i].tag != entry->tag); i++);
-                                                ^

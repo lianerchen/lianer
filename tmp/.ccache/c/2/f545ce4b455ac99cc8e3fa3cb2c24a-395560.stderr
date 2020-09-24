@@ -1,3 +1,0 @@
-platform/android/system/extras/f2fs_utils/f2fs_utils.c: In function 'reset_f2fs_info':
-platform/android/system/extras/f2fs_utils/f2fs_utils.c:52:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
-platform/android/system/extras/f2fs_utils/f2fs_utils.c:52:2: warning: incompatible implicit declaration of built-in function 'memset' [enabled by default]

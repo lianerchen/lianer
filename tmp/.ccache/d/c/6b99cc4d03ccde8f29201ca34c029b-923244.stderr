@@ -1,3 +1,0 @@
-component/DAS/api/DABinderServer/main_DABinder.cpp:23:7: warning: unused parameter 'arg' [-Wunused-parameter]
- void *StartTestBinder(void *arg)
-       ^

@@ -1,4 +1,0 @@
-platform/android/external/ipsec-tools/src/racoon/isakmp_base.c: In function 'base_i3send':
-platform/android/external/ipsec-tools/src/racoon/isakmp_base.c:761:11: warning: unused parameter 'msg' [-Wunused-parameter]
-  vchar_t *msg;
-           ^

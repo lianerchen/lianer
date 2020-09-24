@@ -1,4 +1,0 @@
-platform/android/external/fdlibm/e_atan2.c: In function '__ieee754_atan2':
-platform/android/external/fdlibm/e_atan2.c:74:8: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
-  if((hx-0x3ff00000|lx)==0) return ieee_atan(y);   /* x=1.0 */
-        ^

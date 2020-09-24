@@ -1,5 +1,0 @@
-platform/android/external/harfbuzz_ng/src/hb-common.cc: In member function 'void* hb_user_data_array_t::get(hb_user_data_key_t*)':
-platform/android/external/harfbuzz_ng/src/hb-common.cc:528:36: warning: missing initializer for member 'hb_user_data_array_t::hb_user_data_item_t::data' [-Wmissing-field-initializers]
-   hb_user_data_item_t item = {NULL };
-                                    ^
-platform/android/external/harfbuzz_ng/src/hb-common.cc:528:36: warning: missing initializer for member 'hb_user_data_array_t::hb_user_data_item_t::destroy' [-Wmissing-field-initializers]

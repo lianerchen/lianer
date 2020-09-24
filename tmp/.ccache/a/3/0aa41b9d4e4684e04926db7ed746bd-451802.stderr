@@ -1,2 +1,0 @@
-platform/android/external/icu/icu4c/source/common/ucnv_set.c: In function 'ucnv_getUnicodeSet_53':
-platform/android/external/icu/icu4c/source/common/ucnv_set.c:38:5: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]

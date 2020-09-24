@@ -1,9 +1,0 @@
-In file included from platform/android/external/pdfium/fpdfsdk/src/fpdfsave.cpp:7:0:
-platform/android/external/pdfium/fpdfsdk/src/../include/fsdk_define.h: In member function 'virtual void CPDF_CustomAccess::Release()':
-platform/android/external/pdfium/fpdfsdk/src/../include/fsdk_define.h:115:35: warning: deleting object of polymorphic class type 'CPDF_CustomAccess' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
-  virtual void  Release() { delete this; }
-                                   ^
-platform/android/external/pdfium/fpdfsdk/src/fpdfsave.cpp: In function 'FPDF_BOOL _FPDF_Doc_Save(FPDF_DOCUMENT, FPDF_FILEWRITE*, FPDF_DWORD, FPDF_BOOL, int)':
-platform/android/external/pdfium/fpdfsdk/src/fpdfsave.cpp:76:9: warning: deleting object of polymorphic class type 'CFX_IFileWrite' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
-  delete pStreamWrite;
-         ^

@@ -1,4 +1,0 @@
-In file included from platform/android/frameworks/native/libs/ui/FramebufferNativeWindow.cpp:32:0:
-platform/android/frameworks/native/include/ui/FramebufferNativeWindow.h:20:2: warning: #warning "FramebufferNativeWindow is deprecated" [-Wcpp]
- #warning "FramebufferNativeWindow is deprecated"
-  ^

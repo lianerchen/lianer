@@ -1,8 +1,0 @@
-device/hisilicon/bigfish/external/alsa-lib/src/control/control_ext.c: In function 'snd_ctl_ext_elem_read':
-device/hisilicon/bigfish/external/alsa-lib/src/control/control_ext.c:249:3: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
-   ret = ext->callback->read_iec958(ext, key, (snd_aes_iec958_t *)&control->value.iec958);
-   ^
-device/hisilicon/bigfish/external/alsa-lib/src/control/control_ext.c: In function 'snd_ctl_ext_elem_write':
-device/hisilicon/bigfish/external/alsa-lib/src/control/control_ext.c:302:3: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
-   ret = ext->callback->write_iec958(ext, key, (snd_aes_iec958_t *)&control->value.iec958);
-   ^

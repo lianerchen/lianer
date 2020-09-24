@@ -1,4 +1,0 @@
-platform/android/external/svox/pico/lib/picowa.c: In function 'waTerminate':
-platform/android/external/svox/pico/lib/picowa.c:146:67: warning: unused parameter 'this' [-Wunused-parameter]
- static pico_status_t waTerminate(register picodata_ProcessingUnit this) {
-                                                                   ^

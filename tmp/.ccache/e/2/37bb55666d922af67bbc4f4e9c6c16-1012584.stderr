@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/omx_ha/ha_adec/ha_adec.c:45:1: warning: missing braces around initializer [-Wmissing-braces]
- static adec_info_t g_adec_info[MAX_ADEC_COUNT] = {0};
- ^
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/omx_ha/ha_adec/ha_adec.c:45:1: warning: (near initialization for 'g_adec_info[0]') [-Wmissing-braces]

@@ -1,6 +1,0 @@
-component/DAS/api/Jni/BinderclientJni.cpp:14:17: warning: unused parameter 'clazz' [-Wunused-parameter]
- static jboolean JavaBinderClient_writeData(JNIEnv* env, jobject clazz,jstring content)
-                 ^
-component/DAS/api/Jni/BinderclientJni.cpp:52:6: warning: unused parameter 'reserved' [-Wunused-parameter]
- jint JNI_OnLoad(JavaVM* vm, void* reserved){
-      ^

@@ -1,3 +1,0 @@
-platform/android/external/webrtc/src/modules/audio_processing/level_estimator_impl.cc:167:5: warning: unused parameter 'handle' [-Wunused-parameter]
- int LevelEstimatorImpl::GetHandleError(void* handle) const {
-     ^

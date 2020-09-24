@@ -1,7 +1,0 @@
-device/hisilicon/bigfish/external/dhcp/omapip/protocol.c: In function 'omapi_protocol_listener_destroy':
-device/hisilicon/bigfish/external/dhcp/omapip/protocol.c:1118:24: warning: unused parameter 'file' [-Wunused-parameter]
-            const char *file, int line)
-                        ^
-device/hisilicon/bigfish/external/dhcp/omapip/protocol.c:1118:34: warning: unused parameter 'line' [-Wunused-parameter]
-            const char *file, int line)
-                                  ^

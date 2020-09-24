@@ -1,9 +1,0 @@
-In file included from device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_share.c:40:0:
-device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_local.h: In function 'gettimestamp':
-device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_local.h:952:63: warning: unused parameter 'monotonic' [-Wunused-parameter]
- static inline void gettimestamp(snd_htimestamp_t *tstamp, int monotonic)
-                                                               ^
-device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_share.c: In function '_snd_pcm_share_missing':
-device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_share.c:246:59: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
-     SYSMSG("commit returns %ld for size %ld", err, frames);
-                                                           ^

@@ -1,2 +1,0 @@
-platform/android/external/e2fsprogs/lib/ext2fs/test_io.c:100:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/e2fsprogs/lib/ext2fs/test_io.c:100:1: warning: (near initialization for 'struct_test_manager.reserved') [-Wmissing-field-initializers]

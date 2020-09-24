@@ -1,4 +1,0 @@
-platform/android/external/fio/engines/net.c: In function 'fio_netio_is_multicast':
-platform/android/external/fio/engines/net.c:222:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if (addr == -1)
-           ^

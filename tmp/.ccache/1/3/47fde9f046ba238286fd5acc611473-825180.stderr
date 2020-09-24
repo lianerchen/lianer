@@ -1,4 +1,0 @@
-platform/android/external/tinyalsa/pcm.c: In function 'pcm_mmap_commit':
-platform/android/external/tinyalsa/pcm.c:1109:51: warning: unused parameter 'offset' [-Wunused-parameter]
- int pcm_mmap_commit(struct pcm *pcm, unsigned int offset, unsigned int frames)
-                                                   ^

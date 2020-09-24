@@ -1,4 +1,0 @@
-platform/android/external/sonivox/arm-wt-22k/host_src/eas_config.c: In function 'EAS_CMEnumData':
-platform/android/external/sonivox/arm-wt-22k/host_src/eas_config.c:445:38: warning: unused parameter 'dataModule' [-Wunused-parameter]
- EAS_VOID_PTR EAS_CMEnumData (EAS_INT dataModule)
-                                      ^

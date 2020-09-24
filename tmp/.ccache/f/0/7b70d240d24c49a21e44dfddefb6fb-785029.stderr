@@ -1,7 +1,0 @@
-platform/android/external/ppp/pppd/pppox.c:25:5: warning: missing initializer for field 'addr2' of 'option_t' [-Wmissing-field-initializers]
-     {"pppox", o_special, pppox_set, "PPPoX socket", OPT_DEVNAM},
-     ^
-In file included from platform/android/external/ppp/pppd/pppox.c:18:0:
-platform/android/external/ppp/pppd/pppd.h:112:8: note: 'addr2' declared here
-  void *addr2;
-        ^

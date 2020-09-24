@@ -1,8 +1,0 @@
-In file included from platform/android/external/ppp/pppd/utils.c:59:0:
-platform/android/external/ppp/pppd/utils.c: In function 'pr_log':
-platform/android/external/ppp/pppd/utils.c:562:19: warning: unused parameter 'arg' [-Wunused-parameter]
- pr_log __V((void *arg, char *fmt, ...))
-                   ^
-platform/android/external/ppp/pppd/pppd.h:62:16: note: in definition of macro '__V'
- #define __V(x) x
-                ^

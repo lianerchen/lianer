@@ -1,4 +1,0 @@
-platform/android/frameworks/av/drm/drmserver/main_drmserver.cpp:29:5: warning: unused parameter 'argc' [-Wunused-parameter]
- int main(int argc, char** argv)
-     ^
-platform/android/frameworks/av/drm/drmserver/main_drmserver.cpp:29:5: warning: unused parameter 'argv' [-Wunused-parameter]

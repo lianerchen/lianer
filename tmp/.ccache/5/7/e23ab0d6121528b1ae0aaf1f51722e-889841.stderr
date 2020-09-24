@@ -1,7 +1,0 @@
-platform/android/external/e2fsprogs/e2fsck/pass5.c: In function 'check_block_bitmaps':
-platform/android/external/e2fsprogs/e2fsck/pass5.c:286:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-       (group == (int)fs->group_desc_count - 1) ||
-              ^
-platform/android/external/e2fsprogs/e2fsck/pass5.c:331:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-     if (group == (int)fs->group_desc_count - 1)
-               ^

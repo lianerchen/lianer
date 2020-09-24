@@ -1,4 +1,0 @@
-platform/android/external/ipsec-tools/main.c: In function 'terminate':
-platform/android/external/ipsec-tools/main.c:136:27: warning: unused parameter 'signal' [-Wunused-parameter]
- static void terminate(int signal)
-                           ^

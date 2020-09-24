@@ -1,5 +1,0 @@
-component/DAS/agent/DASSocketServerProcess.c: In function 'DASParseJavaParam':
-component/DAS/agent/DASSocketServerProcess.c:214:21: warning: implicit declaration of function 'getActiondata' [-Wimplicit-function-declaration]
-                     getActiondata(pResp, GetDataNum, buffLen);
-                     ^
-component/DAS/agent/DASSocketServerProcess.c:214:21: warning: nested extern declaration of 'getActiondata' [-Wnested-externs]

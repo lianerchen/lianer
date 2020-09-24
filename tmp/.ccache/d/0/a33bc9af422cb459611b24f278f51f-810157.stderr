@@ -1,6 +1,0 @@
-device/hisilicon/bigfish/system/other/recovery/uuid.cpp:696:12: warning: unused parameter 'fileName' [-Wunused-parameter]
- static int Action_null(const char *fileName, struct stat *statbuf, void* userData, int depth)
-            ^
-device/hisilicon/bigfish/system/other/recovery/uuid.cpp:696:12: warning: unused parameter 'statbuf' [-Wunused-parameter]
-device/hisilicon/bigfish/system/other/recovery/uuid.cpp:696:12: warning: unused parameter 'userData' [-Wunused-parameter]
-device/hisilicon/bigfish/system/other/recovery/uuid.cpp:696:12: warning: unused parameter 'depth' [-Wunused-parameter]

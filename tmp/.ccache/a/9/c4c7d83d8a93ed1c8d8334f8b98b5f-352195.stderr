@@ -1,2 +1,0 @@
-platform/android/external/fdlibm/s_log1p.c: In function 'ieee_log1p':
-platform/android/external/fdlibm/s_log1p.c:154:8: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]

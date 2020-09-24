@@ -1,3 +1,0 @@
-platform/android/frameworks/base/core/jni/android_hardware_location_ActivityRecognitionHardware.cpp:126:39: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
- activity_recognition_callback_procs_t sCallbacks {
-                                       ^

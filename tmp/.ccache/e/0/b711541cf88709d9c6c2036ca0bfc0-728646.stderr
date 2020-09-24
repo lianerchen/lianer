@@ -1,4 +1,0 @@
-platform/android/external/neven/Embedded/common/src/b_BasicEm/Complex.c: In function 'bbs_Complex_memSize':
-platform/android/external/neven/Embedded/common/src/b_BasicEm/Complex.c:81:49: warning: unused parameter 'cpA' [-Wunused-parameter]
- uint32 bbs_Complex_memSize( struct bbs_Context* cpA,
-                                                 ^

@@ -1,6 +1,0 @@
-platform/android/frameworks/opt/net/voip/src/jni/rtp/AmrCodec.cpp:131:5: warning: unused parameter 'count' [-Wunused-parameter]
- int AmrCodec::decode(int16_t *samples, int count, void *payload, int length)
-     ^
-platform/android/frameworks/opt/net/voip/src/jni/rtp/AmrCodec.cpp:211:9: warning: unused parameter 'fmtp' [-Wunused-parameter]
-     int set(int sampleRate, const char *fmtp) {
-         ^

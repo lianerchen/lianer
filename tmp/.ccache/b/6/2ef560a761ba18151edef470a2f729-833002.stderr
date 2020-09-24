@@ -1,4 +1,0 @@
-component/OAM/agent/tr069_cut/soap/tr069_parse_if.c: In function 'getRPCName':
-component/OAM/agent/tr069_cut/soap/tr069_parse_if.c:168:27: warning: argument to 'sizeof' in 'memset' call is the same expression as the destination; did you mean to provide an explicit length? [-Wsizeof-pointer-memaccess]
-  memset(RPCName, 0, sizeof(RPCName));
-                           ^

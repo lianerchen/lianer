@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/hardware/audio/tinyhal/audio_hw.c: In function 'adev_open':
-device/hisilicon/bigfish/hardware/audio/tinyhal/audio_hw.c:1718:5: warning: implicit declaration of function 'sched_setaffinity' [-Wimplicit-function-declaration]
-     ret = sched_setaffinity(0, sizeof(mask), &mask);
-     ^

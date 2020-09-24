@@ -1,3 +1,0 @@
-platform/android/frameworks/base/media/jni/android_media_MediaCrypto.cpp:226:17: warning: unused parameter 'thiz' [-Wunused-parameter]
- static jboolean android_media_MediaCrypto_isCryptoSchemeSupportedNative(
-                 ^

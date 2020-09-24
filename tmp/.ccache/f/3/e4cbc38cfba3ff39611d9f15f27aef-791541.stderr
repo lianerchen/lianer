@@ -1,4 +1,0 @@
-platform/android/external/jhead/gpsinfo.c: In function 'ProcessGpsInfo':
-platform/android/external/jhead/gpsinfo.c:124:51: warning: unused parameter 'ByteCountUnused' [-Wunused-parameter]
- void ProcessGpsInfo(unsigned char * DirStart, int ByteCountUnused, unsigned char * OffsetBase, unsigned ExifLength)
-                                                   ^

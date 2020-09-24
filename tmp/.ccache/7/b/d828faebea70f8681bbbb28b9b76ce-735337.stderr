@@ -1,4 +1,0 @@
-platform/android/external/neven/Embedded/common/src/b_BasicEm/MemTbl.c: In function 'bbs_MemTbl_overlap':
-platform/android/external/neven/Embedded/common/src/b_BasicEm/MemTbl.c:101:46: warning: unused parameter 'cpA' [-Wunused-parameter]
- flag bbs_MemTbl_overlap( struct bbs_Context* cpA,
-                                              ^

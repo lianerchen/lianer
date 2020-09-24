@@ -1,5 +1,0 @@
-In file included from component/appman/downloadmanager/downloader/oc/zlib/workspace/src/../inc/zlib_inc.h:4:0,
-                 from component/appman/downloadmanager/downloader/oc/zlib/workspace/src/zlib_part3.c:2:
-component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:4:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
- #pragma warning(disable:4996 4819 4244 4267 4311 4312 4133)
- ^

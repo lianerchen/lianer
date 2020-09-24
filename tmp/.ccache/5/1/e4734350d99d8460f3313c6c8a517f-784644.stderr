@@ -1,5 +1,0 @@
-In file included from platform/android/bootable/recovery/mtdutils/flash_image.c:25:0:
-platform/android/bootable/recovery/mtdutils/mtdutils.h:61:31: warning: 'struct mtd_info_user' declared inside parameter list [enabled by default]
- int GetMtdInfo(int fd, struct mtd_info_user *info);
-                               ^
-platform/android/bootable/recovery/mtdutils/mtdutils.h:61:31: warning: its scope is only this definition or declaration, which is probably not what you want [enabled by default]

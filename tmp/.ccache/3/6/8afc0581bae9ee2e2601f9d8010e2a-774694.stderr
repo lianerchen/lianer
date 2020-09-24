@@ -1,4 +1,0 @@
-platform/android/system/extras/libpagemap/pm_kernel.c: In function 'pm_kernel_pids':
-platform/android/system/extras/libpagemap/pm_kernel.c:62:33: warning: unused parameter 'ker' [-Wunused-parameter]
- int pm_kernel_pids(pm_kernel_t *ker, pid_t **pids_out, size_t *len) {
-                                 ^

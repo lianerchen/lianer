@@ -1,7 +1,0 @@
-device/hisilicon/bigfish/external/dhcp/common/ns_name.c: In function 'MRns_name_compress_list':
-device/hisilicon/bigfish/external/dhcp/common/ns_name.c:766:48: warning: signed and unsigned type in conditional expression [-Wsign-compare]
-   int copylen = ((comma != NULL) ? comma - src : strlen(src));
-                                                ^
-device/hisilicon/bigfish/external/dhcp/common/ns_name.c:767:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   if (copylen > (sizeof(cur_name) - 1)) {
-               ^

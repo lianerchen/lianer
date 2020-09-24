@@ -1,8 +1,0 @@
-platform/android/external/libnl/lib/genl/genl.c: In function 'genlmsg_attrdata':
-platform/android/external/libnl/lib/genl/genl.c:213:28: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
-  return genlmsg_data(gnlh) + NLMSG_ALIGN(hdrlen);
-                            ^
-platform/android/external/libnl/lib/genl/genl.c: In function 'genlmsg_put':
-platform/android/external/libnl/lib/genl/genl.c:263:25: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
-  return nlmsg_data(nlh) + GENL_HDRLEN;
-                         ^

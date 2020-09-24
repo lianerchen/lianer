@@ -1,4 +1,0 @@
-platform/android/external/e2fsprogs/lib/ext2fs/undo_io.c:14:0: warning: "_LARGEFILE_SOURCE" redefined [enabled by default]
-./platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h:148:0: note: this is the location of the previous definition
-platform/android/external/e2fsprogs/lib/ext2fs/undo_io.c:105:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/e2fsprogs/lib/ext2fs/undo_io.c:105:1: warning: (near initialization for 'struct_undo_manager.discard') [-Wmissing-field-initializers]

@@ -1,4 +1,0 @@
-platform/android/external/libexif/libexif/fuji/exif-mnote-data-fuji.c:318:48: warning: unused parameter 'ed' [-Wunused-parameter]
-exif_mnote_data_fuji_identify (const ExifData *ed, const ExifEntry *e)
-                                               ^
-1 warning generated.

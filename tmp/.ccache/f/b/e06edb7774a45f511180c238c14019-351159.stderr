@@ -1,2 +1,0 @@
-platform/android/external/fdlibm/e_sinh.c: In function '__ieee754_sinh':
-platform/android/external/fdlibm/e_sinh.c:74:2: warning: suggest parentheses around '&&' within '||' [-Wparentheses]

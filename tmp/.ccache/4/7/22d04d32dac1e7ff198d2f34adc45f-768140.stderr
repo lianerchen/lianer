@@ -1,4 +1,0 @@
-platform/android/external/tremolo/Tremolo/treminfo.c: In function '_vorbis_unpack_books':
-platform/android/external/tremolo/Tremolo/treminfo.c:281:5: warning: comparison is always false due to limited range of data type [-Wtype-limits]
-     if(ci->floor_type[i]<0 || ci->floor_type[i]>=VI_FLOORB)goto err_out;
-     ^

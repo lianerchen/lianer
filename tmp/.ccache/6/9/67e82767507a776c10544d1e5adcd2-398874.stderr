@@ -1,2 +1,0 @@
-platform/android/external/e2fsprogs/lib/quota/../../e2fsck/dict.c:21:0: warning: "NDEBUG" redefined [enabled by default]
-<command-line>:0:0: note: this is the location of the previous definition

@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tlogcat.c: In function 'main':
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tlogcat.c:435:53: warning: suggest braces around empty body in an 'else' statement [-Wempty-body]
-   TDEBUG("open dev success m_dev_fd=%d\n", m_dev_fd);
-                                                     ^

@@ -1,4 +1,0 @@
-platform/android/bootable/recovery/minui/graphics_fbdev.c: In function 'fbdev_init':
-platform/android/bootable/recovery/minui/graphics_fbdev.c:105:45: warning: unused parameter 'backend' [-Wunused-parameter]
- static gr_surface fbdev_init(minui_backend* backend) {
-                                             ^

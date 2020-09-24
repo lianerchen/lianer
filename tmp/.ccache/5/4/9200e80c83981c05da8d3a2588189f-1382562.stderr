@@ -1,3 +1,0 @@
-platform/android/system/extras/tests/binder/benchmarks/binderAddInts.cpp:312:10: warning: unused parameter 'flags' [-Wunused-parameter]
- status_t AddIntsService::onTransact(uint32_t code, const Parcel &data,
-          ^

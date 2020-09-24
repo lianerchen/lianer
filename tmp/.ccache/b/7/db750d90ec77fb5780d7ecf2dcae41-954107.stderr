@@ -1,8 +1,0 @@
-framework/ngb-j/jni/org_ngb_dcas_services_ChipControllerService.cpp:13:20: warning: unused parameter 'cls' [-Wunused-parameter]
-  static jbyteArray native_nGetPublicId(JNIEnv *env, jclass cls) {
-                    ^
-framework/ngb-j/jni/org_ngb_dcas_services_ChipControllerService.cpp:82:20: warning: unused parameter 'cls' [-Wunused-parameter]
-  static jbyteArray native_nAuthenticate(JNIEnv *env, jclass cls, 
-                    ^
-framework/ngb-j/jni/org_ngb_dcas_services_ChipControllerService.cpp:82:20: warning: unused parameter 'schemeId' [-Wunused-parameter]
-framework/ngb-j/jni/org_ngb_dcas_services_ChipControllerService.cpp:82:20: warning: unused parameter 'mode' [-Wunused-parameter]

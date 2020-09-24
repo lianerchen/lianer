@@ -1,8 +1,0 @@
-device/hisilicon/bigfish/external/rp-pppoe/discovery.c: In function 'waitForPADO':
-device/hisilicon/bigfish/external/rp-pppoe/discovery.c:446:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if (ntohs(packet.length) + HDR_SIZE > len) {
-                                      ^
-device/hisilicon/bigfish/external/rp-pppoe/discovery.c: In function 'waitForPADS':
-device/hisilicon/bigfish/external/rp-pppoe/discovery.c:684:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if (ntohs(packet.length) + HDR_SIZE > len) {
-                                      ^

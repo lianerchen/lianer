@@ -1,8 +1,0 @@
-platform/android/external/svox/pico/lib/picospho.c: In function 'sphoInitialize':
-platform/android/external/svox/pico/lib/picospho.c:289:89: warning: unused parameter 'resetMode' [-Wunused-parameter]
- static pico_status_t sphoInitialize(register picodata_ProcessingUnit this, picoos_int32 resetMode)
-                                                                                         ^
-platform/android/external/svox/pico/lib/picospho.c: In function 'sphoTerminate':
-platform/android/external/svox/pico/lib/picospho.c:336:69: warning: unused parameter 'this' [-Wunused-parameter]
- static pico_status_t sphoTerminate(register picodata_ProcessingUnit this)
-                                                                     ^

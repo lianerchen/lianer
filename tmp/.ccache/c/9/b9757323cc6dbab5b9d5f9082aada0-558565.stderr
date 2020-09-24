@@ -1,5 +1,0 @@
-In file included from <command-line>:0:0:
-./platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h:316:5: warning: "__GLIBC__" is not defined [-Wundef]
-./platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h:316:23: warning: "__GLIBC__" is not defined [-Wundef]
-platform/android/external/libsepol/src/link.c: In function 'is_decl_requires_met':
-platform/android/external/libsepol/src/link.c:2030:8: warning: variable 'rc' set but not used [-Wunused-but-set-variable]

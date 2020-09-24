@@ -1,2 +1,0 @@
-platform/android/external/javasqlite/src/main/native/sqlite_jni.c: In function 'Java_SQLite_Database_stmt_1prepare':
-platform/android/external/javasqlite/src/main/native/sqlite_jni.c:3597:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

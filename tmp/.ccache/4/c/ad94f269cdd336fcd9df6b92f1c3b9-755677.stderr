@@ -1,7 +1,0 @@
-platform/android/frameworks/av/media/libstagefright/codecs/on2/h264dec/./source/h264bsd_inter_prediction.c: In function 'MvPrediction16x16':
-platform/android/frameworks/av/media/libstagefright/codecs/on2/h264dec/./source/h264bsd_inter_prediction.c:512:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
-     tmpMv1 = (u32*)(&a[0].mv); /* we test just that both MVs are zero */
-     ^
-platform/android/frameworks/av/media/libstagefright/codecs/on2/h264dec/./source/h264bsd_inter_prediction.c:514:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
-     tmpMv2 = (u32*)(&a[1].mv); /* i.e. a[0].mv.hor == 0 && a[0].mv.ver == 0 */
-     ^

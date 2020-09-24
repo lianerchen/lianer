@@ -1,3 +1,0 @@
-platform/android/external/fdlibm/k_tan.c:1:0: warning: ignoring #pragma ident  [-Wunknown-pragmas]
- #pragma ident "@(#)k_tan.c 1.5 04/04/22 SMI"
- ^

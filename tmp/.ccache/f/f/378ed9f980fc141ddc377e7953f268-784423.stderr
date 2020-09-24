@@ -1,4 +1,0 @@
-platform/android/external/e2fsprogs/lib/blkid/read.c: In function 'blkid_read_cache':
-platform/android/external/e2fsprogs/lib/blkid/read.c:398:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if ((st.st_mtime == cache->bic_ftime) ||
-                   ^

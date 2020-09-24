@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/system/fsSpaceCheck/fsSpaceCheck.c: In function 'main':
-device/hisilicon/bigfish/system/fsSpaceCheck/fsSpaceCheck.c:67:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-     if( freeSize < limit ){
-                  ^

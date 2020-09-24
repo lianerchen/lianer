@@ -1,7 +1,0 @@
-platform/android/frameworks/av/media/libeffects/lvm/lib/Common/src/LVC_MixSoft_1St_2i_D16C31_SAT.c: In function 'LVC_MixSoft_1St_2i_D16C31_SAT':
-platform/android/frameworks/av/media/libeffects/lvm/lib/Common/src/LVC_MixSoft_1St_2i_D16C31_SAT.c:44:5: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
-     Mix_Private_st  *pInstance1=(Mix_Private_st *)(ptrInstance->MixerStream[0].PrivateParams);
-     ^
-platform/android/frameworks/av/media/libeffects/lvm/lib/Common/src/LVC_MixSoft_1St_2i_D16C31_SAT.c:45:5: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
-     Mix_Private_st  *pInstance2=(Mix_Private_st *)(ptrInstance->MixerStream[1].PrivateParams);
-     ^

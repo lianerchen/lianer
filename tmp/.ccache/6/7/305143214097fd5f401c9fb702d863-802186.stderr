@@ -1,7 +1,0 @@
-platform/android/external/strace/util.c: In function 'umovestr':
-platform/android/external/strace/util.c:1015:23: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
-     local[0].iov_base += r;
-                       ^
-platform/android/external/strace/util.c:1016:24: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
-     remote[0].iov_base += r;
-                        ^

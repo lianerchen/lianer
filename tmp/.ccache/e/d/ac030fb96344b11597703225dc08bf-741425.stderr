@@ -1,8 +1,0 @@
-In file included from platform/android/external/libgsm/src/lpc.c:15:0:
-platform/android/external/libgsm/src/lpc.c: In function 'Gsm_LPC_Analysis':
-platform/android/external/libgsm/src/lpc.c:327:20: warning: unused parameter 'S' [-Wunused-parameter]
-  struct gsm_state *S,
-                    ^
-platform/android/external/libgsm/inc/proto.h:42:28: note: in definition of macro 'P3'
- # define P3(x, a, b, c)   (a, b, c)
-                            ^

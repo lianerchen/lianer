@@ -1,9 +1,0 @@
-platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c: In function 'check_loop_mounted':
-platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c:49:43: warning: unused parameter 'mnt_fsname' [-Wunused-parameter]
-platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c:49:61: warning: unused parameter 'mnt_rdev' [-Wunused-parameter]
-platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c:50:11: warning: unused parameter 'file_dev' [-Wunused-parameter]
-platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c:50:27: warning: unused parameter 'file_ino' [-Wunused-parameter]
-platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c: In function 'ext2fs_check_mount_point':
-platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c:365:3: warning: #warning "Can't use getmntent or getmntinfo to check for mounted filesystems!" [-Wcpp]
-platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c: At top level:
-platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c:49:12: warning: 'check_loop_mounted' defined but not used [-Wunused-function]

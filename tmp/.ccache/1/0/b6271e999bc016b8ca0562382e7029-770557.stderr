@@ -1,4 +1,0 @@
-platform/android/external/sonivox/arm-wt-22k/lib_src/eas_wtsynth.c: In function 'WT_UpdateChannel':
-platform/android/external/sonivox/arm-wt-22k/lib_src/eas_wtsynth.c:663:44: warning: unused parameter 'pVoiceMgr' [-Wunused-parameter]
- static void WT_UpdateChannel (S_VOICE_MGR *pVoiceMgr, S_SYNTH *pSynth, EAS_U8 channel)
-                                            ^

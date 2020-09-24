@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/video_test/sample_video_test_ts.c: In function 'TsTthread':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/test/video_test/sample_video_test_ts.c:48:28: warning: unused parameter 'args' [-Wunused-parameter]
- HI_VOID TsTthread(HI_VOID *args)
-                            ^

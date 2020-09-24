@@ -1,4 +1,0 @@
-platform/android/external/icu/icu4c/source/common/ucnvhz.c:608:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnvhz.c:608:1: warning: (near initialization for '_HZImpl.toUTF8') [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnvhz.c:638:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnvhz.c:638:1: warning: (near initialization for '_HZData_53.mbcs') [-Wmissing-field-initializers]

@@ -1,2 +1,0 @@
-platform/android/external/linux-tools-perf/perf-3.12.0/tools/perf/../lib/traceevent/event-parse.c: In function 'pevent_strerror':
-platform/android/external/linux-tools-perf/perf-3.12.0/tools/perf/../lib/traceevent/event-parse.c:5118:7: warning: assignment makes pointer from integer without a cast [enabled by default]

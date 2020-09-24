@@ -1,8 +1,0 @@
-platform/android/external/ipsec-tools/src/racoon/remoteconf.c: In function 'dump_peers_identifiers':
-platform/android/external/ipsec-tools/src/racoon/remoteconf.c:497:44: warning: unused parameter 'arg' [-Wunused-parameter]
- dump_peers_identifiers (void *entry, void *arg)
-                                            ^
-platform/android/external/ipsec-tools/src/racoon/remoteconf.c: In function 'dump_rmconf_single':
-platform/android/external/ipsec-tools/src/racoon/remoteconf.c:511:49: warning: unused parameter 'data' [-Wunused-parameter]
- dump_rmconf_single (struct remoteconf *p, void *data)
-                                                 ^

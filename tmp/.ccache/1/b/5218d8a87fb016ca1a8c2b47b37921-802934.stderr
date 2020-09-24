@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/external/rp-pppoe/if.c: In function 'sendPacket':
-device/hisilicon/bigfish/external/rp-pppoe/if.c:530:29: warning: unused parameter 'conn' [-Wunused-parameter]
- sendPacket(PPPoEConnection *conn, int sock, PPPoEPacket *pkt, int size)
-                             ^

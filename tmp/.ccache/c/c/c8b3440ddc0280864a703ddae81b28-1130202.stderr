@@ -1,9 +1,0 @@
-In file included from platform/android/external/pdfium/fpdfsdk/src/fpdfppo.cpp:8:0:
-platform/android/external/pdfium/fpdfsdk/src/../include/fsdk_define.h: In member function 'virtual void CPDF_CustomAccess::Release()':
-platform/android/external/pdfium/fpdfsdk/src/../include/fsdk_define.h:115:35: warning: deleting object of polymorphic class type 'CPDF_CustomAccess' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
-  virtual void  Release() { delete this; }
-                                   ^
-platform/android/external/pdfium/fpdfsdk/src/fpdfppo.cpp: In member function 'int CPDF_PageOrganizer::GetNewObjId(CPDF_Document*, CFX_MapPtrToPtr*, CPDF_Reference*)':
-platform/android/external/pdfium/fpdfsdk/src/fpdfppo.cpp:306:67: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
-  pMapPtrToPtr->Lookup((FX_LPVOID)(uintptr_t)dwObjnum, (FX_LPVOID&)dwNewObjNum);
-                                                                   ^

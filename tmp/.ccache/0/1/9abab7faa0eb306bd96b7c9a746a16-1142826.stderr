@@ -1,4 +1,0 @@
-platform/android/external/ipsec-tools/src/racoon/oakley.c: In function 'oakley_getcr':
-platform/android/external/ipsec-tools/src/racoon/oakley.c:2459:38: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
-   plogdump(LLV_DEBUG, buf->v, buf->l);
-                                      ^

@@ -1,4 +1,0 @@
-platform/android/hardware/ril/reference-ril/atchannel.c: In function 'readerLoop':
-platform/android/hardware/ril/reference-ril/atchannel.c:428:31: warning: unused parameter 'arg' [-Wunused-parameter]
- static void *readerLoop(void *arg)
-                               ^

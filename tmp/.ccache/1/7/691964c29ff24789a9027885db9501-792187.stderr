@@ -1,3 +1,0 @@
-component/OAM/agent/tr069_cut/comm/config_func.c:513:5: warning: no previous prototype for 'GetPowerState' [-Wmissing-prototypes]
- int GetPowerState(char * pMsgContent,int *Pstate)
-     ^

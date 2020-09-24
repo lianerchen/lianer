@@ -1,7 +1,0 @@
-platform/android/external/e2fsprogs/lib/quota/quotaio_v2.c: In function 'v2_check_file':
-platform/android/external/e2fsprogs/lib/quota/quotaio_v2.c:160:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if (ext2fs_le32_to_cpu(dqh.dqh_magic) != file_magics[type]) {
-                                        ^
-platform/android/external/e2fsprogs/lib/quota/quotaio_v2.c:161:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   if (ext2fs_be32_to_cpu(dqh.dqh_magic) == file_magics[type])
-                                         ^

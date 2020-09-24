@@ -1,4 +1,0 @@
-platform/android/hardware/libhardware_legacy/qemu/qemu.c: In function 'qemu_channel_open_tty':
-platform/android/hardware/libhardware_legacy/qemu/qemu.c:157:38: warning: unused parameter 'mode' [-Wunused-parameter]
-                        int           mode )
-                                      ^

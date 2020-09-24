@@ -1,3 +1,0 @@
-component/OAM/agent/alarm_api/OAMBinderServer/main_OAMBinder.cpp:23:7: warning: unused parameter 'arg' [-Wunused-parameter]
- void *StartOAMBinder(void *arg)
-       ^

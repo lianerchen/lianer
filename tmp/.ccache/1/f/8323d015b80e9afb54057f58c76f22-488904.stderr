@@ -1,8 +1,0 @@
-platform/android/external/icu/icu4c/source/common/ucnv_u7.c:763:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnv_u7.c:763:1: warning: (near initialization for '_UTF7Impl.toUTF8') [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnv_u7.c:782:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnv_u7.c:782:1: warning: (near initialization for '_UTF7Data_53.mbcs') [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnv_u7.c:1463:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnv_u7.c:1463:1: warning: (near initialization for '_IMAPImpl.toUTF8') [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnv_u7.c:1482:1: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/ucnv_u7.c:1482:1: warning: (near initialization for '_IMAPData_53.mbcs') [-Wmissing-field-initializers]

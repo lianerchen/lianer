@@ -1,4 +1,0 @@
-platform/android/external/svox/pico/lib/picoctrl.c: In function 'ctrlAddPU':
-platform/android/external/svox/pico/lib/picoctrl.c:297:21: warning: unused parameter 'levelAwareCbOut' [-Wunused-parameter]
-         picoos_bool levelAwareCbOut,
-                     ^

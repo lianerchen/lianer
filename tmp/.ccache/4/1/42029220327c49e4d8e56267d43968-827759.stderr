@@ -1,8 +1,0 @@
-platform/android/external/iputils/ping_common.c: In function 'sigexit':
-platform/android/external/iputils/ping_common.c:401:25: warning: unused parameter 'signo' [-Wunused-parameter]
- static void sigexit(int signo)
-                         ^
-platform/android/external/iputils/ping_common.c: In function 'sigstatus':
-platform/android/external/iputils/ping_common.c:408:27: warning: unused parameter 'signo' [-Wunused-parameter]
- static void sigstatus(int signo)
-                           ^

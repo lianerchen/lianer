@@ -1,6 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_get_app_cert.c: In function 'tee_get_app_cert':
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_get_app_cert.c:525:56: warning: unused parameter 'ca_uid' [-Wunused-parameter]
- int tee_get_app_cert(unsigned int ca_pid, unsigned int ca_uid, uint32_t *len,
-                                                        ^
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_get_app_cert.c: At top level:
-cc1: warning: unrecognized command line option "-Wno-int-conversion" [enabled by default]

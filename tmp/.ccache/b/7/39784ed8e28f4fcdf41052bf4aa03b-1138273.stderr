@@ -1,8 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_adp_mpi.c: In function 'HIADP_AVPlay_SetAdecAttr':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_adp_mpi.c:957:105: warning: unused parameter 'isCoreOnly' [-Wunused-parameter]
- HI_S32 HIADP_AVPlay_SetAdecAttr(HI_HANDLE hAvplay, HI_U32 enADecType, HI_HA_DECODEMODE_E enMode, HI_S32 isCoreOnly)
-                                                                                                         ^
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_adp_mpi.c: In function 'HIADP_AVPlay_SetAdecAttr_MS12':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_adp_mpi.c:1134:110: warning: unused parameter 'enADecFormat' [-Wunused-parameter]
- HI_S32 HIADP_AVPlay_SetAdecAttr_MS12(HI_HANDLE hAvplay, HI_U32 enADecType, HI_HA_DECODEMODE_E enMode, HI_S32 enADecFormat)
-                                                                                                              ^

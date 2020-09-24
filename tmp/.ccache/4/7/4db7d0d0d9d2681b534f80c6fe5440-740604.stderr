@@ -1,4 +1,0 @@
-platform/android/external/neven/FaceRecEm/common/src/b_FDSDK/SDK.c: In function 'btk_malloc':
-platform/android/external/neven/FaceRecEm/common/src/b_FDSDK/SDK.c:62:32: warning: unused parameter 'memSegPtrA' [-Wunused-parameter]
-       const struct bbs_MemSeg* memSegPtrA,
-                                ^

@@ -1,7 +1,0 @@
-device/hisilicon/bigfish/external/dhcp/common/tables.c: In function 'option_reference':
-device/hisilicon/bigfish/external/dhcp/common/tables.c:933:24: warning: unused parameter 'file' [-Wunused-parameter]
-           const char * file, int line)
-                        ^
-device/hisilicon/bigfish/external/dhcp/common/tables.c:933:34: warning: unused parameter 'line' [-Wunused-parameter]
-           const char * file, int line)
-                                  ^

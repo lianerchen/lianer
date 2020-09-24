@@ -1,2 +1,0 @@
-platform/android/external/icu/icu4c/source/common/utrace.c: In function 'outputPtrBytes':
-platform/android/external/icu/icu4c/source/common/utrace.c:147:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

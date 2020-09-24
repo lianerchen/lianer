@@ -1,4 +1,0 @@
-platform/android/bootable/recovery/minadbd/services.c: In function 'sideload_host_service':
-platform/android/bootable/recovery/minadbd/services.c:55:5: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'uint32_t' [-Wformat=]
-     printf("sideload-host file size %llu block size %lu\n", file_size, block_size);
-     ^

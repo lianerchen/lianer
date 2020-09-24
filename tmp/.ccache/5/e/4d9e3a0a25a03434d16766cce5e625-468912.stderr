@@ -1,3 +1,0 @@
-out/host/linux-x86/obj32/EXECUTABLES/aidl_intermediates/aidl_language_y.cpp: In function 'int yyparse()':
-out/host/linux-x86/obj32/EXECUTABLES/aidl_intermediates/aidl_language_y.cpp:1947:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
-out/host/linux-x86/obj32/EXECUTABLES/aidl_intermediates/aidl_language_y.cpp:2091:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]

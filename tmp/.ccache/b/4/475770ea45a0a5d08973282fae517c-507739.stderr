@@ -1,9 +1,0 @@
-platform/android/external/e2fsprogs/lib/uuid/gen_uuid.c: In function 'get_node_id':
-platform/android/external/e2fsprogs/lib/uuid/gen_uuid.c:224:39: warning: unused parameter 'node_id' [-Wunused-parameter]
-platform/android/external/e2fsprogs/lib/uuid/gen_uuid.c: In function 'get_uuid_via_daemon':
-platform/android/external/e2fsprogs/lib/uuid/gen_uuid.c:480:36: warning: unused parameter 'op' [-Wunused-parameter]
-platform/android/external/e2fsprogs/lib/uuid/gen_uuid.c:480:47: warning: unused parameter 'out' [-Wunused-parameter]
-platform/android/external/e2fsprogs/lib/uuid/gen_uuid.c:480:57: warning: unused parameter 'num' [-Wunused-parameter]
-platform/android/external/e2fsprogs/lib/uuid/gen_uuid.c: At top level:
-platform/android/external/e2fsprogs/lib/uuid/gen_uuid.c:423:16: warning: 'read_all' defined but not used [-Wunused-function]
-platform/android/external/e2fsprogs/lib/uuid/gen_uuid.c:450:13: warning: 'close_all_fds' defined but not used [-Wunused-function]

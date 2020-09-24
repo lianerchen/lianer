@@ -1,8 +1,0 @@
-device/hisilicon/bigfish/external/alsa-lib/src/seq/seq.c: In function 'snd_seq_poll_descriptors_count':
-device/hisilicon/bigfish/external/alsa-lib/src/seq/seq.c:1060:47: warning: unused parameter 'seq' [-Wunused-parameter]
- int snd_seq_poll_descriptors_count(snd_seq_t *seq, short events)
-                                               ^
-device/hisilicon/bigfish/external/alsa-lib/src/seq/seq.c: In function 'snd_seq_poll_descriptors_revents':
-device/hisilicon/bigfish/external/alsa-lib/src/seq/seq.c:1123:49: warning: unused parameter 'seq' [-Wunused-parameter]
- int snd_seq_poll_descriptors_revents(snd_seq_t *seq, struct pollfd *pfds, unsigned int nfds, unsigned short *revents)
-                                                 ^

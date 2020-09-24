@@ -1,4 +1,0 @@
-platform/android/external/jhead/exif.c: In function 'RemoveThumbnail':
-platform/android/external/jhead/exif.c:1609:37: warning: unused parameter 'ExifSection' [-Wunused-parameter]
- int RemoveThumbnail(unsigned char * ExifSection)
-                                     ^

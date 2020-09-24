@@ -1,6 +1,0 @@
-platform/android/external/neven/FaceDetector_jni.cpp:256:1: warning: unused parameter 'index' [-Wunused-parameter]
- get_face(JNIEnv *_env, jobject _this,
- ^
-platform/android/external/neven/FaceDetector_jni.cpp:296:6: warning: unused parameter 'reserved' [-Wunused-parameter]
- jint JNI_OnLoad(JavaVM* vm, void* reserved)
-      ^

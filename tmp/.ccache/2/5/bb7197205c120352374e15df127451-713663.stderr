@@ -1,4 +1,0 @@
-platform/android/external/fdlibm/e_asin.c: In function '__ieee754_asin':
-platform/android/external/fdlibm/e_asin.c:91:12: warning: 't' may be used uninitialized in this function [-Wmaybe-uninitialized]
-   q = one+t*(qS1+t*(qS2+t*(qS3+t*qS4)));
-            ^

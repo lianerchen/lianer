@@ -1,4 +1,0 @@
-platform/android/external/svox/pico/lib/picocep.c: In function 'cepTerminate':
-platform/android/external/svox/pico/lib/picocep.c:374:68: warning: unused parameter 'this' [-Wunused-parameter]
- static pico_status_t cepTerminate(register picodata_ProcessingUnit this)
-                                                                    ^

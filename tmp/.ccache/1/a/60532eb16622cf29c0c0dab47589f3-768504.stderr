@@ -1,3 +1,0 @@
-device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/share/dictlist.cpp:310:8: warning: unused parameter 'max_splids' [-Wunused-parameter]
- uint16 DictList::get_splids_for_hanzi(char16 hanzi, uint16 half_splid,
-        ^

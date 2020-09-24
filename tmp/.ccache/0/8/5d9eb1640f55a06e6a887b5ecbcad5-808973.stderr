@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/external/dhcp/bind/bind-9.9.7-P3/lib/irs/resconf.c: In function 'add_server':
-device/hisilicon/bigfish/external/dhcp/bind/bind-9.9.7-P3/lib/irs/resconf.c:235:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if (res->ai_addrlen > sizeof(address->type)) {
-                      ^

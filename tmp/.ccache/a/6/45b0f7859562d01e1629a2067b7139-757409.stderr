@@ -1,4 +1,0 @@
-platform/android/external/fio/debug.c: In function '__dprint':
-platform/android/external/fio/debug.c:16:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-      && pid != *fio_debug_jobp)
-             ^

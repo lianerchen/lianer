@@ -1,4 +1,0 @@
-platform/android/bootable/recovery/fuse_sideload.c: In function 'fuse_reply':
-platform/android/bootable/recovery/fuse_sideload.c:108:21: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
-     vec[1].iov_base = data;
-                     ^

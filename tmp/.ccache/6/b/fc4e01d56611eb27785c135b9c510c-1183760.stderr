@@ -1,6 +1,0 @@
-platform/android/frameworks/av/media/libstagefright/CameraSource.cpp:854:6: warning: unused parameter 'msgType' [-Wunused-parameter]
- void CameraSource::dataCallbackTimestamp(int64_t timestampUs,
-      ^
-platform/android/frameworks/av/media/libstagefright/CameraSource.cpp:917:6: warning: unused parameter 'who' [-Wunused-parameter]
- void CameraSource::DeathNotifier::binderDied(const wp<IBinder>& who) {
-      ^

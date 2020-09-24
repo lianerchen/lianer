@@ -1,4 +1,0 @@
-platform/android/frameworks/native/libs/gui/Sensor.cpp: In constructor 'android::Sensor::Sensor(const sensor_t*, int)':
-platform/android/frameworks/native/libs/gui/Sensor.cpp:236:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-         if (mFlags != hwSensor->flags) {
-                                 ^

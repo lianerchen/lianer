@@ -1,5 +1,0 @@
-In file included from platform/android/external/vixl/src/a64/assembler-a64.cc:29:
-platform/android/external/vixl/src/a64/assembler-a64.h:1867:12: warning: private field 'buffer_size_' is not used [-Wunused-private-field]
-  unsigned buffer_size_;
-           ^
-1 warning generated.

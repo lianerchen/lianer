@@ -1,4 +1,0 @@
-platform/android/external/pdfium/core/src/fpdfdoc/doc_tagged.cpp: In member function 'void CPDF_StructElementImpl::Release()':
-platform/android/external/pdfium/core/src/fpdfdoc/doc_tagged.cpp:240:16: warning: deleting object of polymorphic class type 'CPDF_StructElementImpl' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
-         delete this;
-                ^

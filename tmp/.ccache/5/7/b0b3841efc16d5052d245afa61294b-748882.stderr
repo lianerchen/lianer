@@ -1,8 +1,0 @@
-component/OAM/midinterface/usbStatus.c:13:7: warning: no previous prototype for 'getUsbMountSate' [-Wmissing-prototypes]
- char *getUsbMountSate(){
-       ^
-component/OAM/midinterface/usbStatus.c: In function 'getUsbMountSate':
-component/OAM/midinterface/usbStatus.c:24:5: warning: missing braces around initializer [-Wmissing-braces]
-     char device[USB_NUMBER][USB_DEV_LEN + 1] = {0};
-     ^
-component/OAM/midinterface/usbStatus.c:24:5: warning: (near initialization for 'device[0]') [-Wmissing-braces]

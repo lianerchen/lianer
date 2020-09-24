@@ -1,4 +1,0 @@
-platform/android/external/neven/Embedded/common/src/b_TensorEm/Int32Mat.c: In function 'bts_Int32Mat_solve2':
-platform/android/external/neven/Embedded/common/src/b_TensorEm/Int32Mat.c:231:47: warning: unused parameter 'cpA' [-Wunused-parameter]
- flag bts_Int32Mat_solve2( struct bbs_Context* cpA,
-                                               ^

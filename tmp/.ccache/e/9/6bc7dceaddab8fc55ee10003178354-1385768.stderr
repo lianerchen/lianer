@@ -1,4 +1,0 @@
-platform/android/external/stlport/src/ctype.cpp: In static member function 'static bool std::_WCharIndexT<true>::in_range(wchar_t, size_t)':
-platform/android/external/stlport/src/ctype.cpp:284:17: warning: comparison of unsigned expression >= 0 is always true [-Wtype-limits]
-     return c >= 0 && size_t(c) < upperBound;
-                 ^

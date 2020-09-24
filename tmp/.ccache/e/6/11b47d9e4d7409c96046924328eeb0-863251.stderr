@@ -1,3 +1,0 @@
-framework/ngb-j/jni/onload.cpp:41:17: warning: unused parameter 'reserved' [-Wunused-parameter]
- extern "C" jint JNI_OnLoad(JavaVM* vm, void* reserved)
-                 ^

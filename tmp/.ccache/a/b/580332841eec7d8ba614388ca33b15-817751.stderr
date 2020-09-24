@@ -1,3 +1,0 @@
-platform/android/system/vold/Ntfs.cpp:94:5: warning: unused parameter 'executable' [-Wunused-parameter]
- int Ntfs::doMount(const char *fsPath, const char *mountPoint,
-     ^

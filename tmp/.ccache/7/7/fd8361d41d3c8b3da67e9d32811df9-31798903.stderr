@@ -1,4 +1,0 @@
-platform/android/external/libexif/libexif/canon/exif-mnote-data-canon.c:350:70: warning: unused parameter 'e' [-Wunused-parameter]
-exif_mnote_data_canon_identify (const ExifData *ed, const ExifEntry *e)
-                                                                     ^
-1 warning generated.

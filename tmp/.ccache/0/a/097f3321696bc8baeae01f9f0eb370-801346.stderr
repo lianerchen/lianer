@@ -1,4 +1,0 @@
-component/OAM/midinterface/get_ini.c: In function 'set_ini_string':
-component/OAM/midinterface/get_ini.c:661:13: warning: format '%lu' expects argument of type 'long unsigned int', but argument 5 has type 'long long int' [-Wformat=]
-             dbg("error size %lu\n", statbuf.st_size);
-             ^

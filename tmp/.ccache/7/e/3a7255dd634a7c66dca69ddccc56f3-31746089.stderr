@@ -1,7 +1,0 @@
-platform/android/external/compiler-rt/lib/builtins/clear_cache.c:36:21: warning: unused parameter 'start' [-Wunused-parameter]
-__clear_cache(void* start, void* end)
-                    ^
-platform/android/external/compiler-rt/lib/builtins/clear_cache.c:36:34: warning: unused parameter 'end' [-Wunused-parameter]
-__clear_cache(void* start, void* end)
-                                 ^
-2 warnings generated.

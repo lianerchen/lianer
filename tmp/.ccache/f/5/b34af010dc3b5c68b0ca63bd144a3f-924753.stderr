@@ -1,4 +1,0 @@
-platform/android/external/e2fsprogs/e2fsck/pass1.c: In function 'scan_extent_node':
-platform/android/external/e2fsprogs/e2fsck/pass1.c:1803:37: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-     ((extent.e_lblk + extent.e_len) >
-                                     ^

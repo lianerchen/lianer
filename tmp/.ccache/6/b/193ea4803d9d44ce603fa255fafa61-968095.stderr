@@ -1,6 +1,0 @@
-component/OAM/agent/alarm_api/Jni/OAMBinderclientJni.cpp:14:17: warning: unused parameter 'clazz' [-Wunused-parameter]
- static jboolean JavaBinderClient_SetAlarmInfo(JNIEnv* env, jobject clazz,jstring time, jint code, jint action, jstring info)
-                 ^
-component/OAM/agent/alarm_api/Jni/OAMBinderclientJni.cpp:46:6: warning: unused parameter 'reserved' [-Wunused-parameter]
- jint JNI_OnLoad(JavaVM* vm, void* reserved){
-      ^

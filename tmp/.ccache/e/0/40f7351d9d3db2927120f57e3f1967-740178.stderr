@@ -1,8 +1,0 @@
-platform/android/external/ltrace/vect.c: In function 'vect_erase':
-platform/android/external/ltrace/vect.c:147:24: warning: pointer of type 'void *' used in subtraction [-Wpointer-arith]
-   slot(vec, vec->size) - slot(vec, end));
-                        ^
-platform/android/external/ltrace/vect.c: In function 'vect_each':
-platform/android/external/ltrace/vect.c:175:19: warning: pointer of type 'void *' used in subtraction [-Wpointer-arith]
-   : ((start_after - vec->data) / vec->elt_size) + 1;
-                   ^

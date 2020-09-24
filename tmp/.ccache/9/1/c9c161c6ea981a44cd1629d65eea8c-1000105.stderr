@@ -1,3 +1,0 @@
-device/hisilicon/bigfish/system/ir_user/stb/ir_user.cpp:306:7: warning: unused parameter 'arg' [-Wunused-parameter]
- void *ir_sample_thread(void *arg) {
-       ^

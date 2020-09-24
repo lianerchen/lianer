@@ -1,4 +1,0 @@
-grammar.y: In function 'pfreason_to_num':
-grammar.y:221:29: warning: unused parameter 'reason' [-Wunused-parameter]
-grammar.y: In function 'pfaction_to_num':
-grammar.y:231:29: warning: unused parameter 'action' [-Wunused-parameter]

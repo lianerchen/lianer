@@ -1,8 +1,0 @@
-platform/android/external/pdfium/core/src/fpdftext/fpdf_text_search.cpp: In function 'int GetCharWidth(FX_DWORD, CPDF_Font*)':
-platform/android/external/pdfium/core/src/fpdftext/fpdf_text_search.cpp:66:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-     if(charCode == -1) {
-                     ^
-platform/android/external/pdfium/core/src/fpdftext/fpdf_text_search.cpp: In member function 'FX_BOOL CPDF_TextStream::ProcessObject(const CPDF_TextObject*, FX_BOOL)':
-platform/android/external/pdfium/core/src/fpdftext/fpdf_text_search.cpp:228:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-             if (space_charcode != -1) {
-                                    ^

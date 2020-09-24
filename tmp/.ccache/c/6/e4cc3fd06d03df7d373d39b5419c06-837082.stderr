@@ -1,4 +1,0 @@
-platform/android/bootable/recovery/minzip/Zip.c: In function 'processStoredEntry':
-platform/android/bootable/recovery/minzip/Zip.c:538:13: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'ssize_t' [-Wformat=]
-             LOGE("Can't read %zu bytes from zip file: %ld\n", count, n);
-             ^

@@ -1,7 +1,0 @@
-platform/android/external/libpcap/fad-gifc.c: In function 'pcap_findalldevs_interfaces':
-platform/android/external/libpcap/fad-gifc.c:195:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   if (ifc.ifc_len < buf_size &&
-                   ^
-platform/android/external/libpcap/fad-gifc.c:217:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   if (n < sizeof(*ifrp))
-         ^

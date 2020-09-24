@@ -1,4 +1,0 @@
-platform/android/external/svox/pico/lib/picorsrc.c: In function 'picorsrc_releaseKnowledgeBase':
-platform/android/external/svox/pico/lib/picorsrc.c:464:34: warning: unused parameter 'this' [-Wunused-parameter]
-         picorsrc_ResourceManager this,
-                                  ^

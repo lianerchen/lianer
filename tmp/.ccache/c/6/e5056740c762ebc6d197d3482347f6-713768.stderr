@@ -1,4 +1,0 @@
-platform/android/external/fdlibm/e_log.c: In function '__ieee754_log':
-platform/android/external/fdlibm/e_log.c:115:8: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]
-      if(f==zero) if(k==0) return zero;  else {dk=(double)k;
-        ^

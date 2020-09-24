@@ -1,4 +1,0 @@
-platform/android/external/fio/engines/sync.c: In function 'fio_vsyncio_end':
-platform/android/external/fio/engines/sync.c:240:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if (bytes == sd->queued_bytes)
-            ^

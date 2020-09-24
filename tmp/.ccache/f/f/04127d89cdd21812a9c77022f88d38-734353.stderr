@@ -1,3 +1,0 @@
-platform/android/frameworks/opt/net/voip/src/jni/rtp/GsmCodec.cpp:42:9: warning: unused parameter 'fmtp' [-Wunused-parameter]
-     int set(int sampleRate, const char *fmtp) {
-         ^

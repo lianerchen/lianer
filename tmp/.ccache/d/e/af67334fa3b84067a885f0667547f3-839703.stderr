@@ -1,4 +1,0 @@
-platform/android/frameworks/av/media/mtp/MtpPacket.cpp: In member function 'void android::MtpPacket::dump()':
-platform/android/frameworks/av/media/mtp/MtpPacket.cpp:72:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-     for (int i = 0; i < mPacketSize; i++) {
-                         ^

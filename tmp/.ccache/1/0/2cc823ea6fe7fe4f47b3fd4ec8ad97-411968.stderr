@@ -1,5 +1,0 @@
-platform/android/external/icu/icu4c/source/common/udataswp.c: In function 'udata_swapDataHeader_53':
-platform/android/external/icu/icu4c/source/common/udataswp.c:301:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/icu/icu4c/source/common/udataswp.c: In function 'udata_openSwapperForInputData_53':
-platform/android/external/icu/icu4c/source/common/udataswp.c:428:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/icu/icu4c/source/common/udataswp.c:436:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

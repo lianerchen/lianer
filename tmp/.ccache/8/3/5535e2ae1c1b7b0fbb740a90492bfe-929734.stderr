@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/smc/tvos_hal_smc.c: In function '_smc_check_card_type':
-device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/smc/tvos_hal_smc.c:347:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
-     HAL_DEBUG("m_enStandard %d, sk_ret 0x%x", (int)p_info->m_enStandard, ret);
-     ^

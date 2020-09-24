@@ -1,3 +1,0 @@
-platform/android/external/pcre/dist/pcre_compile.c: In function 'compile_regex':
-platform/android/external/pcre/dist/pcre_compile.c:7184:13: warning: 'slot' may be used uninitialized in this function [-Wmaybe-uninitialized]
-platform/android/external/pcre/dist/pcre_compile.c:6560:19: note: 'slot' was declared here

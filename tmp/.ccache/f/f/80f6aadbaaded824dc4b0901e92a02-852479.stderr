@@ -1,4 +1,0 @@
-platform/android/external/e2fsprogs/lib/ext2fs/initialize.c: In function 'ext2fs_initialize':
-platform/android/external/e2fsprogs/lib/ext2fs/initialize.c:500:7: warning: comparison is always false due to limited range of data type [-Wtype-limits]
-  if (((int) c) == -1) {
-       ^

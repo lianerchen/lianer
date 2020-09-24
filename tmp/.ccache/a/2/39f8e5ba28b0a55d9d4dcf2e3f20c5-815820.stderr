@@ -1,4 +1,0 @@
-platform/android/external/e2fsprogs/lib/ext2fs/csum.c: In function 'ext2fs_group_desc_csum':
-platform/android/external/e2fsprogs/lib/ext2fs/csum.c:82:2: warning: 'crc' may be used uninitialized in this function [-Wmaybe-uninitialized]
-  return crc;
-  ^

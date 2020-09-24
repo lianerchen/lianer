@@ -1,6 +1,0 @@
-platform/android/frameworks/base/packages/PrintSpooler/jni/com_android_printspooler_util_BitmapSerializeUtils.cpp:82:13: warning: unused parameter 'clazz' [-Wunused-parameter]
- static void readBitmapPixels(JNIEnv* env, jclass clazz, jobject jbitmap, jint fd) {
-             ^
-platform/android/frameworks/base/packages/PrintSpooler/jni/com_android_printspooler_util_BitmapSerializeUtils.cpp:130:13: warning: unused parameter 'clazz' [-Wunused-parameter]
- static void writeBitmapPixels(JNIEnv* env, jclass clazz, jobject jbitmap, jint fd) {
-             ^

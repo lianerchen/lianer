@@ -1,6 +1,0 @@
-platform/android/external/e2fsprogs/lib/quota/quotaio_v2.c: In function 'v2_check_file':
-platform/android/external/e2fsprogs/lib/quota/quotaio_v2.c:160:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/e2fsprogs/lib/quota/quotaio_v2.c:161:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/e2fsprogs/lib/quota/quotaio_v2.c: In function 'v2_report':
-platform/android/external/e2fsprogs/lib/quota/quotaio_v2.c:278:43: warning: unused parameter 'h' [-Wunused-parameter]
-platform/android/external/e2fsprogs/lib/quota/quotaio_v2.c:278:50: warning: unused parameter 'verbose' [-Wunused-parameter]

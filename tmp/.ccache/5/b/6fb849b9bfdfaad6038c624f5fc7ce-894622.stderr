@@ -1,4 +1,0 @@
-platform/android/external/fio/libfio.c: In function 'fio_terminate_threads':
-platform/android/external/fio/libfio.c:199:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   if (group_id == TERMINATE_ALL || groupid == td->groupid) {
-                                            ^

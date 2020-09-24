@@ -1,4 +1,0 @@
-platform/android/external/ipsec-tools/src/racoon/isakmp_xauth.c: In function 'xauth_reply':
-platform/android/external/ipsec-tools/src/racoon/isakmp_xauth.c:374:1: warning: type of 'res' defaults to 'int' [-Wmissing-parameter-type]
- xauth_reply(iph1, port, id, res)
- ^

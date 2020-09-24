@@ -1,3 +1,0 @@
-component/dcas/server/./src/IDCASUtilsManagerServer.cpp:20:14: warning: unused parameter 'flags' [-Wunused-parameter]
-     status_t BnDCASUtilsManagerServer::onTransact(uint32_t code, const Parcel &data, Parcel *reply, uint32_t flags)
-              ^

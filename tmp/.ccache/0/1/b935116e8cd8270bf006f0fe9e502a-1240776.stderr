@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/external/dhcp/common/tree.c: In function 'evaluate_data_expression':
-device/hisilicon/bigfish/external/dhcp/common/tree.c:1791:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-    for (i = 0; i < data.len; i += len) {
-                  ^

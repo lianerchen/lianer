@@ -1,2 +1,0 @@
-platform/android/system/extras/f2fs_utils/f2fs_ioutils.c: In function 'dev_write_fd':
-platform/android/system/extras/f2fs_utils/f2fs_ioutils.c:102:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

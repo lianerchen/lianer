@@ -1,8 +1,0 @@
-platform/android/external/harfbuzz_ng/src/hb-blob.cc: In function 'hb_blob_t* hb_blob_get_empty()':
-platform/android/external/harfbuzz_ng/src/hb-blob.cc:195:3: warning: missing initializer for member 'hb_prealloced_array_t<hb_user_data_array_t::hb_user_data_item_t, 2u>::static_array' [-Wmissing-field-initializers]
-   };
-   ^
-platform/android/external/harfbuzz_ng/src/hb-blob.cc: At global scope:
-platform/android/external/harfbuzz_ng/src/hb-blob.cc:385:1: warning: unused parameter 'blob' [-Wunused-parameter]
- _try_make_writable_inplace_unix (hb_blob_t *blob)
- ^

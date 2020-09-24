@@ -1,3 +1,0 @@
-platform/android/external/webrtc/src/modules/audio_processing/gain_control_impl.cc:385:5: warning: unused parameter 'handle' [-Wunused-parameter]
- int GainControlImpl::GetHandleError(void* handle) const {
-     ^

@@ -1,4 +1,0 @@
-platform/android/external/libnl/lib/handlers.c: In function 'nl_error_handler_verbose':
-platform/android/external/libnl/lib/handlers.c:83:57: warning: unused parameter 'who' [-Wunused-parameter]
- static int nl_error_handler_verbose(struct sockaddr_nl *who,
-                                                         ^

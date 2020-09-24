@@ -1,4 +1,0 @@
-platform/android/external/harfbuzz_ng/src/hb-set.cc: In function 'hb_set_t* hb_set_get_empty()':
-platform/android/external/harfbuzz_ng/src/hb-set.cc:68:3: warning: missing initializer for member 'hb_prealloced_array_t<hb_user_data_array_t::hb_user_data_item_t, 2u>::static_array' [-Wmissing-field-initializers]
-   };
-   ^

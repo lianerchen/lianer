@@ -1,7 +1,0 @@
-platform/android/frameworks/base/services/core/jni/com_android_server_connectivity_Vpn.cpp: In function 'bool android::modifyAddress(JNIEnv*, jobject, jstring, jstring, jint, bool)':
-platform/android/frameworks/base/services/core/jni/com_android_server_connectivity_Vpn.cpp:229:70: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
-             if (error = ifc_add_address(name, address, jPrefixLength)) {
-                                                                      ^
-platform/android/frameworks/base/services/core/jni/com_android_server_connectivity_Vpn.cpp:234:70: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
-             if (error = ifc_del_address(name, address, jPrefixLength)) {
-                                                                      ^

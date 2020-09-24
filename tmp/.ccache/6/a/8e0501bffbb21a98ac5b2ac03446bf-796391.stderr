@@ -1,7 +1,0 @@
-platform/android/external/neven/FaceRecEm/common/src/b_FDSDK/DCR.c: In function 'btk_DCR_assignImageROI':
-platform/android/external/neven/FaceRecEm/common/src/b_FDSDK/DCR.c:238:55: warning: signed and unsigned type in conditional expression [-Wsign-compare]
-   rectL.x2E = rectL.x2E > ( int32 )widthA    ? widthA : rectL.x2E;
-                                                       ^
-platform/android/external/neven/FaceRecEm/common/src/b_FDSDK/DCR.c:239:56: warning: signed and unsigned type in conditional expression [-Wsign-compare]
-   rectL.y2E = rectL.y2E > ( int32 )heightA   ? heightA : rectL.y2E;
-                                                        ^

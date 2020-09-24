@@ -1,7 +1,0 @@
-device/hisilicon/bigfish/hardware/camera/libexif/./libexif/olympus/mnote-olympus-entry.c: In function 'mnote_olympus_entry_get_value':
-device/hisilicon/bigfish/hardware/camera/libexif/./libexif/olympus/mnote-olympus-entry.c:430:45: warning: comparison between 'ExifTag' and 'MnoteOlympusTag' [-Wenum-compare]
-   for (i = 0; (items[i].tag && items[i].tag != entry->tag); i++)
-                                             ^
-device/hisilicon/bigfish/hardware/camera/libexif/./libexif/olympus/mnote-olympus-entry.c:500:45: warning: comparison between 'ExifTag' and 'MnoteOlympusTag' [-Wenum-compare]
-   for (i = 0; (items[i].tag && items[i].tag != entry->tag); i++)
-                                             ^

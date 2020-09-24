@@ -1,4 +1,0 @@
-platform/android/external/ltrace/dict.c: In function 'dict_each':
-platform/android/external/ltrace/dict.c:450:21: warning: pointer of type 'void *' used in subtraction [-Wpointer-arith]
-   i = ((start_after - dict->keys.data) / dict->keys.elt_size) + 1;
-                     ^

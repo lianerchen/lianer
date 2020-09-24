@@ -1,5 +1,0 @@
-device/hisilicon/bigfish/system/mkbootargs/mkbootargs.c: In function 'main':
-device/hisilicon/bigfish/system/mkbootargs/mkbootargs.c:439:5: warning: implicit declaration of function 'crc32' [-Wimplicit-function-declaration]
-device/hisilicon/bigfish/system/mkbootargs/mkbootargs.c:445:1: warning: label 'LL' defined but not used [-Wunused-label]
-device/hisilicon/bigfish/system/mkbootargs/mkbootargs.c: At top level:
-device/hisilicon/bigfish/system/mkbootargs/mkbootargs.c:16:13: warning: 'environment' defined but not used [-Wunused-variable]

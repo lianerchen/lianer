@@ -1,9 +1,0 @@
-platform/android/external/icu/icu4c/source/common/uloc_tag.c: In function '_ldmlKeyToBCP47':
-platform/android/external/icu/icu4c/source/common/uloc_tag.c:638:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/icu/icu4c/source/common/uloc_tag.c: In function '_bcp47ToLDMLKey':
-platform/android/external/icu/icu4c/source/common/uloc_tag.c:700:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/icu/icu4c/source/common/uloc_tag.c: In function '_ldmlTypeToBCP47':
-platform/android/external/icu/icu4c/source/common/uloc_tag.c:778:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/icu/icu4c/source/common/uloc_tag.c:797:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/icu/icu4c/source/common/uloc_tag.c: In function '_bcp47ToLDMLType':
-platform/android/external/icu/icu4c/source/common/uloc_tag.c:896:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

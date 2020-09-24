@@ -1,4 +1,0 @@
-platform/android/system/extras/ext4_utils/canned_fs_config.c: In function 'canned_fs_config':
-platform/android/system/extras/ext4_utils/canned_fs_config.c:83:45: warning: unused parameter 'dir' [-Wunused-parameter]
- void canned_fs_config(const char* path, int dir,
-                                             ^

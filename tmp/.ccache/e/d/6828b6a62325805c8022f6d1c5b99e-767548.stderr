@@ -1,4 +1,0 @@
-platform/android/external/libpcap/sf-pcap.c: In function 'pcap_next_packet':
-platform/android/external/libpcap/sf-pcap.c:493:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if (hdr->caplen > p->bufsize) {
-                  ^

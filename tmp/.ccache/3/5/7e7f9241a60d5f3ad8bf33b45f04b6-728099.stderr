@@ -1,4 +1,0 @@
-platform/android/external/neven/Embedded/common/src/b_BasicEm/APh.c: In function 'bbs_APh_memSize':
-platform/android/external/neven/Embedded/common/src/b_BasicEm/APh.c:80:45: warning: unused parameter 'cpA' [-Wunused-parameter]
- uint32 bbs_APh_memSize( struct bbs_Context* cpA,
-                                             ^

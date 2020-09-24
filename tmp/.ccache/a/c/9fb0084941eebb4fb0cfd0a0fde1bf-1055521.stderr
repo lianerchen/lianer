@@ -1,4 +1,0 @@
-platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_pattern.cpp: In function 'CFX_FloatRect _GetShadingBBox(CPDF_Stream*, int, const CFX_Matrix*, CPDF_Function**, int, CPDF_ColorSpace*)':
-platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_pattern.cpp:257:23: warning: 'flag' may be used uninitialized in this function [-Wmaybe-uninitialized]
-         if (!bGouraud && flag) {
-                       ^

@@ -1,9 +1,0 @@
-platform/android/external/checkpolicy/module_compiler.c: In function 'add_perm_to_class':
-platform/android/external/checkpolicy/module_compiler.c:710:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/checkpolicy/module_compiler.c: In function 'is_scope_in_stack':
-platform/android/external/checkpolicy/module_compiler.c:1233:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/checkpolicy/module_compiler.c: In function 'end_optional':
-platform/android/external/checkpolicy/module_compiler.c:1448:22: warning: unused parameter 'pass' [-Wunused-parameter]
-platform/android/external/checkpolicy/module_compiler.c: In function 'copy_requirements':
-platform/android/external/checkpolicy/module_compiler.c:1511:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-platform/android/external/checkpolicy/module_compiler.c:1517:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

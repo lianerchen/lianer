@@ -1,6 +1,0 @@
-platform/android/dalvik/dexdump/DexDump.cpp:608:12: warning: unused parameter 'cnxt' [-Wunused-parameter]
- static int dumpPositionsCb(void *cnxt, u4 address, u4 lineNum)
-            ^
-platform/android/dalvik/dexdump/DexDump.cpp:630:13: warning: unused parameter 'cnxt' [-Wunused-parameter]
- static void dumpLocalsCb(void *cnxt, u2 reg, u4 startAddress,
-             ^

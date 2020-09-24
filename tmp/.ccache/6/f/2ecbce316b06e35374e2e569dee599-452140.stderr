@@ -1,3 +1,0 @@
-platform/android/external/icu/icu4c/source/common/propsvec.c: In function 'upvec_compactToUTrie2WithRowIndexes_53':
-platform/android/external/icu/icu4c/source/common/propsvec.c:480:5: warning: missing initializer [-Wmissing-field-initializers]
-platform/android/external/icu/icu4c/source/common/propsvec.c:480:5: warning: (near initialization for 'toUTrie2.initialValue') [-Wmissing-field-initializers]

@@ -1,7 +1,0 @@
-platform/android/external/webrtc/src/common_audio/signal_processing/filter_ar.c: In function 'WebRtcSpl_FilterAR':
-platform/android/external/webrtc/src/common_audio/signal_processing/filter_ar.c:27:28: warning: unused parameter 'state_low_length' [-Wunused-parameter]
-                        int state_low_length,
-                            ^
-platform/android/external/webrtc/src/common_audio/signal_processing/filter_ar.c:30:28: warning: unused parameter 'filtered_low_length' [-Wunused-parameter]
-                        int filtered_low_length)
-                            ^

@@ -1,4 +1,0 @@
-platform/android/external/libnl/lib/genl/mngt.c: In function 'genl_register':
-platform/android/external/libnl/lib/genl/mngt.c:181:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if (ops->co_hdrsize < GENL_HDRSIZE(0)) {
-                      ^

@@ -1,2 +1,0 @@
-platform/android/external/e2fsprogs/e2fsck/logfile.c: In function 'expand_percent_expression':
-platform/android/external/e2fsprogs/e2fsck/logfile.c:70:28: warning: unused variable 'pw_struct' [-Wunused-variable]

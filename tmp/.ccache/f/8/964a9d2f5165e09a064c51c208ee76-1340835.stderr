@@ -1,3 +1,0 @@
-platform/android/external/webrtc/src/modules/audio_processing/noise_suppression_impl.cc:173:5: warning: unused parameter 'handle' [-Wunused-parameter]
- int NoiseSuppressionImpl::GetHandleError(void* handle) const {
-     ^

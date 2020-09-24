@@ -1,2 +1,0 @@
-platform/android/external/linux-tools-perf/perf-3.12.0/tools/perf/util/target.c: In function 'perf_target__strerror':
-platform/android/external/linux-tools-perf/perf-3.12.0/tools/perf/util/target.c:116:21: warning: initialization makes pointer from integer without a cast [enabled by default]

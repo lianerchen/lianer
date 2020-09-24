@@ -1,8 +1,0 @@
-component/atv/til/til_audio.c: In function 'default_mute_audio':
-component/atv/til/til_audio.c:6:42: warning: unused parameter 'mute' [-Wunused-parameter]
- til_error_code_t default_mute_audio(bool mute)
-                                          ^
-component/atv/til/til_audio.c: In function 'default_is_mute_audio':
-component/atv/til/til_audio.c:12:46: warning: unused parameter 'mute' [-Wunused-parameter]
- til_error_code_t default_is_mute_audio(bool* mute)
-                                              ^

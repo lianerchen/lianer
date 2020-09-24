@@ -1,4 +1,0 @@
-platform/android/system/core/init/devices.c: In function 'handle_generic_device_event':
-platform/android/system/core/init/devices.c:761:10: warning: 'kernel_logger' is deprecated (declared at platform/android/system/core/init/devices.c:670) [-Wdeprecated-declarations]
-          kernel_logger();
-          ^

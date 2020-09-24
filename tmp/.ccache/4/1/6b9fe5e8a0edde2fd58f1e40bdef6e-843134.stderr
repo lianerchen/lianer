@@ -1,7 +1,0 @@
-platform/android/external/ltrace/output.c: In function 'output_right':
-platform/android/external/ltrace/output.c:751:23: warning: pointer of type 'void *' used in subtraction [-Wpointer-arith]
-          ((size_t)(ip - lib->base)
-                       ^
-platform/android/external/ltrace/output.c:753:20: warning: pointer of type 'void *' used in subtraction [-Wpointer-arith]
-      distance = ip - lib->base;
-                    ^

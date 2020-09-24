@@ -1,8 +1,0 @@
-device/hisilicon/bigfish/external/dhcp/common/packet.c: In function 'assemble_udp_ip_header':
-device/hisilicon/bigfish/external/dhcp/common/packet.c:134:25: warning: unused parameter 'interface' [-Wunused-parameter]
-  struct interface_info *interface;
-                         ^
-device/hisilicon/bigfish/external/dhcp/common/packet.c: In function 'decode_udp_ip_header':
-device/hisilicon/bigfish/external/dhcp/common/packet.c:226:45: warning: unused parameter 'interface' [-Wunused-parameter]
- decode_udp_ip_header(struct interface_info *interface,
-                                             ^

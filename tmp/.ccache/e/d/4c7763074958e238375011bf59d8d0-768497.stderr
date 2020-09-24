@@ -1,7 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/otp/sample_otp_lockhdcprootkey.c: In function 'main':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/otp/sample_otp_lockhdcprootkey.c:12:17: warning: unused parameter 'argc' [-Wunused-parameter]
- HI_S32 main(int argc, char *argv[])
-                 ^
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/otp/sample_otp_lockhdcprootkey.c:12:29: warning: unused parameter 'argv' [-Wunused-parameter]
- HI_S32 main(int argc, char *argv[])
-                             ^

@@ -1,7 +1,0 @@
-In file included from platform/android/frameworks/av/drm/mediadrm/plugins/clearkey/ClearKeyTypes.h:20:0,
-                 from platform/android/frameworks/av/drm/mediadrm/plugins/clearkey/AesCtrDecryptor.h:25,
-                 from platform/android/frameworks/av/drm/mediadrm/plugins/clearkey/AesCtrDecryptor.cpp:23:
-platform/android/frameworks/native/include/media/hardware/CryptoAPI.h:71:18: warning: unused parameter 'width' [-Wunused-parameter]
-     virtual void notifyResolution(uint32_t width, uint32_t height) {}
-                  ^
-platform/android/frameworks/native/include/media/hardware/CryptoAPI.h:71:18: warning: unused parameter 'height' [-Wunused-parameter]

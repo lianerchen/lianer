@@ -1,4 +1,0 @@
-platform/android/external/libvpx/libvpx/vpx/src/svc_encodeframe.c: In function 'svc_log':
-platform/android/external/libvpx/libvpx/vpx/src/svc_encodeframe.c:243:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   if (level > svc_ctx->log_level) {
-             ^

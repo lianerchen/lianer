@@ -1,6 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_multi_user_daemon.c: In function 'handle_notify':
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_multi_user_daemon.c:84:3: warning: implicit declaration of function 'make_sec_storage_dir' [-Wimplicit-function-declaration]
-   make_sec_storage_dir(SEC_STORAGE_DATA_USERS);/*[false alarm]*/
-   ^
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_multi_user_daemon.c: At top level:
-cc1: warning: unrecognized command line option "-Wno-int-conversion" [enabled by default]

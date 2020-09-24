@@ -1,7 +1,0 @@
-platform/android/system/extras/sane_schedstat/sane_schedstat.c: In function 'main':
-platform/android/system/extras/sane_schedstat/sane_schedstat.c:141:14: warning: unused parameter 'argc' [-Wunused-parameter]
- int main(int argc, char **argv) {
-              ^
-platform/android/system/extras/sane_schedstat/sane_schedstat.c:141:27: warning: unused parameter 'argv' [-Wunused-parameter]
- int main(int argc, char **argv) {
-                           ^

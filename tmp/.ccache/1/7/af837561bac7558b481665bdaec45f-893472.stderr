@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/osal/OMX_CONF_StubbedComponent.c: In function 'StubbedUseEGLImage':
-device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/osal/OMX_CONF_StubbedComponent.c:282:17: warning: unused parameter 'nPortIndex' [-Wunused-parameter]
-  OMX_IN OMX_U32 nPortIndex,
-                 ^

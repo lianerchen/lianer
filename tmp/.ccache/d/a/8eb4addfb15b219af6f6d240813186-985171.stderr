@@ -1,8 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_adp_search.c: In function 'SRH_SDTRequest':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_adp_search.c:1002:30: warning: unused parameter 'u32DmxID' [-Wunused-parameter]
- HI_S32 SRH_SDTRequest(HI_U32 u32DmxID, SDT_TB *sdt_tb)
-                              ^
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_adp_search.c: In function 'DVB_SaveSearch':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_adp_search.c:1114:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-     for (i = 0; i < DB_GetProgTotalCount(); i++)
-                   ^

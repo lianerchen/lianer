@@ -1,4 +1,0 @@
-component/OAM/midinterface/SocketServerProcess.c: In function 'SocketServerProcess':
-component/OAM/midinterface/SocketServerProcess.c:51:36: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
-     if (bind(sockserverfd, (struct sockaddr *) &remote_addr, sizeof(remote_addr)) == -1)
-                                    ^

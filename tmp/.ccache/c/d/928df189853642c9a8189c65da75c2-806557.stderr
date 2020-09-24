@@ -1,4 +1,0 @@
-platform/android/external/ipsec-tools/src/racoon/sockmisc.c: In function 'sendfromto':
-platform/android/external/ipsec-tools/src/racoon/sockmisc.c:281:69: warning: unused parameter 'from' [-Wunused-parameter]
- int sendfromto(int s, const void *buf, size_t len, struct sockaddr *from,
-                                                                     ^

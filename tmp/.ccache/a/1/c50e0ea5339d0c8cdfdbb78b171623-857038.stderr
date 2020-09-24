@@ -1,4 +1,0 @@
-platform/android/external/dnsmasq/src/dnsmasq.c: In function 'poll_resolv':
-platform/android/external/dnsmasq/src/dnsmasq.c:930:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if (statbuf.st_mtime != res->mtime)
-                       ^

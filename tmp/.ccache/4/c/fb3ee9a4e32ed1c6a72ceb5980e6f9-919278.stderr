@@ -1,4 +1,0 @@
-platform/android/external/fio/diskutil.c: In function 'disk_util_add':
-platform/android/external/fio/diskutil.c:297:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  if (l < 0 || l >= sizeof(du->path)) {
-                 ^

@@ -1,6 +1,0 @@
-In file included from platform/android/external/pdfium/core/src/fxge/agg/src/../agg23/fx_agg_path_storage.cpp:26:0,
-                 from platform/android/external/pdfium/core/src/fxge/agg/src/fxfx_agg_path_storage.cpp:7:
-platform/android/external/pdfium/core/src/fxge/agg/src/../agg23/agg_path_storage.h: In member function 'unsigned int agg::path_storage::vertex_source::vertex(FX_FLOAT*, FX_FLOAT*)':
-platform/android/external/pdfium/core/src/fxge/agg/src/../agg23/agg_path_storage.h:43:20: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
-                    path_cmd_stop;
-                    ^

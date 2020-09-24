@@ -1,6 +1,0 @@
-device/hisilicon/bigfish/security/hash_tool/hash.c: In function 'CalHash':
-device/hisilicon/bigfish/security/hash_tool/hash.c:46:9: warning: pointer targets in passing argument 1 of 'SHA1' differ in signedness [-Wpointer-sign]
-platform/android/external/openssl/include/openssl/sha.h:125:16: note: expected 'unsigned char const *' but argument is of type 'char *'
-device/hisilicon/bigfish/security/hash_tool/hash.c:74:9: warning: pointer targets in passing argument 1 of 'SHA256' differ in signedness [-Wpointer-sign]
-platform/android/external/openssl/include/openssl/sha.h:155:16: note: expected 'unsigned char const *' but argument is of type 'char *'
-device/hisilicon/bigfish/security/hash_tool/hash.c:82:1: warning: control reaches end of non-void function [-Wreturn-type]

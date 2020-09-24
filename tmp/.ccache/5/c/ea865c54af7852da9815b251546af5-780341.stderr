@@ -1,4 +1,0 @@
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/i2c/sample_i2c_write.c: In function 'main':
-device/hisilicon/bigfish/HiSTBSDKV6R2/sample/i2c/sample_i2c_write.c:53:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-     if (u32WriteNumber + 6 > argc)
-                            ^

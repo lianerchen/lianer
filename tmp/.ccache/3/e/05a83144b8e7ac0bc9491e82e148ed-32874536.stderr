@@ -1,6 +1,0 @@
-In file included from platform/android/external/compiler-rt/lib/asan/asan_interceptors.cc:151:
-In file included from platform/android/external/compiler-rt/lib/sanitizer_common/sanitizer_common_interceptors.inc:32:
-platform/android/external/compiler-rt/lib/sanitizer_common/sanitizer_addrhashmap.h:80:5: warning: non-class friend type 'AddrHashMap<T, kSize>' is a C++11 extension [-Wc++11-extensions]
-    friend AddrHashMap<T, kSize>;
-    ^      ~~~~~~~~~~~~~~~~~~~~~
-1 warning generated.

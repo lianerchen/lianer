@@ -1,4 +1,0 @@
-platform/android/external/ltrace/handle_event.c:28:0: warning: "_GNU_SOURCE" redefined [enabled by default]
- #define _GNU_SOURCE
- ^
-<command-line>:0:0: note: this is the location of the previous definition

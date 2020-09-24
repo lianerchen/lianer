@@ -1,7 +1,0 @@
-platform/android/external/icu/icu4c/source/common/propsvec.c: In function 'upvec_compactToUTrie2Handler_53':
-platform/android/external/icu/icu4c/source/common/propsvec.c:498:58: warning: unused parameter 'row' [-Wunused-parameter]
-                              int32_t rowIndex, uint32_t *row, int32_t columns,
-                                                          ^
-platform/android/external/icu/icu4c/source/common/propsvec.c:498:71: warning: unused parameter 'columns' [-Wunused-parameter]
-                              int32_t rowIndex, uint32_t *row, int32_t columns,
-                                                                       ^

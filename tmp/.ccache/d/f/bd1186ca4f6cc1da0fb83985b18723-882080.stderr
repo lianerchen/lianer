@@ -1,4 +1,0 @@
-platform/android/external/jpeg/./../../../../device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/jpeg/src/src_hard/jpeg_hdec_sentstream.c: In function 'JPEG_HDEC_SaveScen':
-platform/android/external/jpeg/./../../../../device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/jpeg/src/src_hard/jpeg_hdec_sentstream.c:822:59: warning: unused parameter 'cinfo' [-Wunused-parameter]
- static inline HI_VOID JPEG_HDEC_SaveScen(j_decompress_ptr cinfo)
-                                                           ^

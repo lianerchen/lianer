@@ -1,4 +1,0 @@
-platform/android/external/ipsec-tools/src/racoon/isakmp_ident.c: In function 'ident_i4send':
-platform/android/external/ipsec-tools/src/racoon/isakmp_ident.c:827:11: warning: unused parameter 'msg' [-Wunused-parameter]
-  vchar_t *msg;
-           ^

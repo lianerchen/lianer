@@ -1,4 +1,0 @@
-platform/android/external/pcre/dist/pcre_compile.c: In function 'add_to_class':
-platform/android/external/pcre/dist/pcre_compile.c:4135:50: warning: unused parameter 'uchardptr' [-Wunused-parameter]
- add_to_class(pcre_uint8 *classbits, pcre_uchar **uchardptr, int options,
-                                                  ^

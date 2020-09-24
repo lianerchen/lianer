@@ -1,3 +1,0 @@
-platform/android/packages/apps/Gallery2/jni_jpegstream/src/jpegstream.cpp:326:6: warning: unused parameter 'reserved' [-Wunused-parameter]
- jint JNI_OnLoad(JavaVM* vm, void* reserved) {
-      ^
