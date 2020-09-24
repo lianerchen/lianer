@@ -1,0 +1,7 @@
+platform/android/external/libnl/lib/socket.c: In function 'noop_seq_check':
+platform/android/external/libnl/lib/socket.c:171:42: warning: unused parameter 'msg' [-Wunused-parameter]
+ static int noop_seq_check(struct nl_msg *msg, void *arg)
+                                          ^
+platform/android/external/libnl/lib/socket.c:171:53: warning: unused parameter 'arg' [-Wunused-parameter]
+ static int noop_seq_check(struct nl_msg *msg, void *arg)
+                                                     ^

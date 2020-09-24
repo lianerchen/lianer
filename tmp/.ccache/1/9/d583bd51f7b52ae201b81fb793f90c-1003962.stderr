@@ -1,0 +1,14 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fb/sample_fb.c:76:1: warning: missing initializer for field 'sync' of 'struct fb_var_screeninfo' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fb/sample_fb.c:32:0:
+platform/android/bionic/libc/kernel/uapi/linux/fb.h:284:8: note: 'sync' declared here
+  __u32 sync;
+        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fb/sample_fb.c: In function 'DrawBox':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fb/sample_fb.c:175:37: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (column = pstRect->y;column < (pstRect->y+pstRect->h);column++)
+                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/fb/sample_fb.c:178:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (row = pstRect->x;row < (pstRect->x+pstRect->w);row++)
+                                   ^

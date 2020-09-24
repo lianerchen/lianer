@@ -1,0 +1,19 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./mem/mpi_mem.c:6:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./mem/mpi_mem.c: In function 'HI_MALLOC':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./mem/mpi_mem.c:160:27: warning: unused parameter 'u32ModuleID' [-Wunused-parameter]
+ HI_VOID* HI_MALLOC(HI_U32 u32ModuleID, HI_U32 u32Size)
+                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./mem/mpi_mem.c: In function 'HI_FREE':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./mem/mpi_mem.c:219:24: warning: unused parameter 'u32ModuleID' [-Wunused-parameter]
+ HI_VOID HI_FREE(HI_U32 u32ModuleID, HI_VOID* pMemAddr)
+                        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./mem/mpi_mem.c: In function 'HI_CALLOC':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./mem/mpi_mem.c:250:27: warning: unused parameter 'u32ModuleID' [-Wunused-parameter]
+ HI_VOID* HI_CALLOC(HI_U32 u32ModuleID, HI_U32 u32MemBlock, HI_U32 u32Size)
+                           ^

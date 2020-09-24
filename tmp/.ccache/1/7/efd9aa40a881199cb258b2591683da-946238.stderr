@@ -1,0 +1,70 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:22:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_SetImageMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:76:45: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_SetImageMode(HI_UNF_DISP_E enChan, HI_UNF_PQ_IMAGE_MODE_E enImageMode)
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_GetImageMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:91:45: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_GetImageMode(HI_UNF_DISP_E enChan, HI_UNF_PQ_IMAGE_MODE_E *penImageMode)
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_InitImageMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:109:46: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_InitImageMode(HI_UNF_DISP_E enChan, HI_UNF_PQ_IMAGE_MODE_E enImageMode)
+                                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:109:77: warning: unused parameter 'enImageMode' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_InitImageMode(HI_UNF_DISP_E enChan, HI_UNF_PQ_IMAGE_MODE_E enImageMode)
+                                                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_GetNR':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:538:38: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_GetNR(HI_UNF_DISP_E enChan, HI_U32 *pu32NRLevel)
+                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_SetNR':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:556:38: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_SetNR(HI_UNF_DISP_E enChan, HI_U32 u32NRLevel)
+                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_GetDNR':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:571:39: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_GetDNR(HI_UNF_DISP_E enChan, HI_U32 *pu32DNRLevel)
+                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_SetDNR':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:578:39: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_SetDNR(HI_UNF_DISP_E enChan, HI_U32 u32DNRLevel)
+                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_GetSRMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:608:42: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_GetSRMode(HI_UNF_DISP_E enChan, HI_UNF_PQ_SR_DEMO_E *penType)
+                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_SetSRMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:627:42: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_SetSRMode(HI_UNF_DISP_E enChan, HI_UNF_PQ_SR_DEMO_E enType)
+                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_GetSharpness':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:643:45: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_GetSharpness(HI_UNF_DISP_E enChan, HI_U32 *pu32Sharpness)
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_SetSharpness':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:671:45: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_SetSharpness(HI_UNF_DISP_E enChan, HI_U32 u32Sharpness)
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_GetColorGain':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:695:45: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_GetColorGain(HI_UNF_DISP_E enChan, HI_U32 *pu32ColorGainLevel)
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_SetColorGain':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:723:45: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_SetColorGain(HI_UNF_DISP_E enChan, HI_U32 u32ColorGainLevel)
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_GetFleshTone':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:746:45: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_GetFleshTone(HI_UNF_DISP_E enChan, HI_UNF_PQ_FLESHTONE_E *pu32FleshToneLevel)
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c: In function 'HI_UNF_PQ_SetFleshTone':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/pq/unf_pq.c:764:45: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 HI_UNF_PQ_SetFleshTone(HI_UNF_DISP_E enChan, HI_UNF_PQ_FLESHTONE_E enFleshToneLevel)
+                                             ^

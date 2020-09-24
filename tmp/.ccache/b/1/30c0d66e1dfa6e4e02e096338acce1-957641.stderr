@@ -1,0 +1,106 @@
+In file included from platform/android/external/libvpx/libvpx/vp9/encoder/vp9_onyx_int.h:16:0,
+                 from platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:17:
+platform/android/external/libvpx/armv7a-neon/./vpx_config.h:13:0: warning: "ARCH_ARM" redefined [enabled by default]
+ #define ARCH_ARM 1
+ ^
+In file included from <command-line>:0:0:
+./platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h:241:0: note: this is the location of the previous definition
+ #define ARCH_ARM
+ ^
+In file included from platform/android/external/libvpx/libvpx/vp9/common/vp9_blockd.h:20:0,
+                 from platform/android/external/libvpx/libvpx/vp9/common/vp9_entropy.h:16,
+                 from platform/android/external/libvpx/libvpx/vp9/encoder/vp9_onyx_int.h:22,
+                 from platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:17:
+platform/android/external/libvpx/libvpx/vp9/common/vp9_common.h: In function 'clip_pixel':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_common.h:52:46: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   return (val > 255) ? 255u : (val < 0) ? 0u : val;
+                                              ^
+In file included from platform/android/external/libvpx/libvpx/vp9/common/vp9_seg_common.h:14:0,
+                 from platform/android/external/libvpx/libvpx/vp9/common/vp9_blockd.h:26,
+                 from platform/android/external/libvpx/libvpx/vp9/common/vp9_entropy.h:16,
+                 from platform/android/external/libvpx/libvpx/vp9/encoder/vp9_onyx_int.h:22,
+                 from platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:17:
+platform/android/external/libvpx/libvpx/vp9/common/vp9_prob.h: In function 'clip_prob':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_prob.h:47:42: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   return (p > 255) ? 255u : (p < 1) ? 1u : p;
+                                          ^
+In file included from platform/android/external/libvpx/libvpx/vp9/encoder/vp9_onyx_int.h:22:0,
+                 from platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:17:
+platform/android/external/libvpx/libvpx/vp9/common/vp9_entropy.h: At top level:
+platform/android/external/libvpx/libvpx/vp9/common/vp9_entropy.h:176:1: warning: '__inline__' is not at beginning of declaration [-Wold-style-declaration]
+ static const INLINE scan_order *get_scan(const MACROBLOCKD *xd, TX_SIZE tx_size,
+ ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'validate_config':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:243:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             ||(int)(stats->count + 0.5) != n_packets_per_layer[layer_id] - 1)
+                                         ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'encoder_common_init':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:546:57: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+          extracfg_map[i].usage && extracfg_map[i].usage != cfg->g_usage;
+                                                         ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'encoder_init':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:583:66: warning: unused parameter 'data' [-Wunused-parameter]
+                                     vpx_codec_priv_enc_mr_cfg_t *data) {
+                                                                  ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_set_reference':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:868:47: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                           int ctr_id, va_list args) {
+                                               ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_copy_reference':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:884:48: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                            int ctr_id, va_list args) {
+                                                ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_get_reference':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:900:47: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                           int ctr_id, va_list args) {
+                                               ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_update_entropy':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:954:48: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                            int ctr_id, va_list args) {
+                                                ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_update_reference':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:961:50: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                              int ctr_id, va_list args) {
+                                                  ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_use_reference':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:968:47: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                           int ctr_id, va_list args) {
+                                               ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_set_roi_map':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:974:63: warning: unused parameter 'ctx' [-Wunused-parameter]
+ static vpx_codec_err_t ctrl_set_roi_map(vpx_codec_alg_priv_t *ctx,
+                                                               ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:975:45: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                         int ctr_id, va_list args) {
+                                             ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:975:61: warning: unused parameter 'args' [-Wunused-parameter]
+                                         int ctr_id, va_list args) {
+                                                             ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_set_active_map':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:982:48: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                            int ctr_id, va_list args) {
+                                                ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_set_scale_mode':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:996:48: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                            int ctr_id, va_list args) {
+                                                ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_set_svc':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:1009:68: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+ static vpx_codec_err_t ctrl_set_svc(vpx_codec_alg_priv_t *ctx, int ctr_id,
+                                                                    ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_set_svc_layer_id':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:1028:50: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                              int ctr_id,
+                                                  ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: In function 'ctrl_set_svc_parameters':
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:1048:52: warning: unused parameter 'ctr_id' [-Wunused-parameter]
+                                                int ctr_id, va_list args) {
+                                                    ^
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c: At top level:
+platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:1193:3: warning: missing initializer for field 'set_fb_fn' of 'struct vpx_codec_dec_iface' [-Wmissing-field-initializers]
+   },
+   ^
+In file included from platform/android/external/libvpx/libvpx/vp9/vp9_cx_iface.c:15:0:
+platform/android/external/libvpx/libvpx/vpx/internal/vpx_codec_internal.h:341:31: note: 'set_fb_fn' declared here
+     vpx_codec_set_fb_fn_t     set_fb_fn;   /**< \copydoc ::vpx_codec_set_fb_fn_t */
+                               ^

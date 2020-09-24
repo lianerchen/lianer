@@ -1,0 +1,43 @@
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp: In member function 'android::status_t android::ACodec::configureOutputBuffersFromNativeWindow(OMX_U32*, OMX_U32*, OMX_U32*)':
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:631:11: warning: 'int native_window_set_buffers_geometry(ANativeWindow*, int, int, int)' is deprecated (declared at platform/android/system/core/include/system/window.h:734) [-Wdeprecated-declarations]
+     err = native_window_set_buffers_geometry(
+           ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:635:42: warning: 'int native_window_set_buffers_geometry(ANativeWindow*, int, int, int)' is deprecated (declared at platform/android/system/core/include/system/window.h:734) [-Wdeprecated-declarations]
+             def.format.video.eColorFormat);
+                                          ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp: In static member function 'static bool android::ACodec::describeDefaultColorFormat(android::DescribeColorFormatParams&)':
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:3289:16: warning: comparison between 'const OMX_COLOR_FORMATTYPE {aka const enum OMX_COLOR_FORMATTYPE}' and 'enum<anonymous>' [-Wenum-compare]
+         fmt != HAL_PIXEL_FORMAT_YV12) {
+                ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp: In member function 'android::status_t android::ACodec::pushBlankBuffersToNativeWindow()':
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:3921:11: warning: 'int native_window_set_buffers_geometry(ANativeWindow*, int, int, int)' is deprecated (declared at platform/android/system/core/include/system/window.h:734) [-Wdeprecated-declarations]
+     err = native_window_set_buffers_geometry(mNativeWindow.get(), 1, 1,
+           ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:3922:39: warning: 'int native_window_set_buffers_geometry(ANativeWindow*, int, int, int)' is deprecated (declared at platform/android/system/core/include/system/window.h:734) [-Wdeprecated-declarations]
+             HAL_PIXEL_FORMAT_RGBX_8888);
+                                       ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp: In member function 'bool android::ACodec::BaseState::onOMXMessage(const android::sp<android::AMessage>&)':
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:4156:26: warning: NULL used in arithmetic [-Wpointer-arith]
+     if (mCodec->mNode == NULL) {
+                          ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp: In member function 'virtual void android::ACodec::UninitializedState::stateEntered()':
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:4750:19: warning: converting to non-pointer type 'android::IOMX::node_id {aka unsigned int}' from NULL [-Wconversion-null]
+     mCodec->mNode = NULL;
+                   ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp: In member function 'bool android::ACodec::UninitializedState::onAllocateComponent(const android::sp<android::AMessage>&)':
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:4828:5: warning: NULL used in arithmetic [-Wpointer-arith]
+     CHECK(mCodec->mNode == NULL);
+     ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:4876:26: warning: converting to non-pointer type 'android::IOMX::node_id {aka unsigned int}' from NULL [-Wconversion-null]
+     IOMX::node_id node = NULL;
+                          ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:4895:14: warning: converting to non-pointer type 'android::IOMX::node_id {aka unsigned int}' from NULL [-Wconversion-null]
+         node = NULL;
+              ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:4898:17: warning: NULL used in arithmetic [-Wpointer-arith]
+     if (node == NULL) {
+                 ^
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp: In member function 'bool android::ACodec::LoadedState::onConfigureComponent(const android::sp<android::AMessage>&)':
+platform/android/frameworks/av/media/libstagefright/ACodec.cpp:5046:5: warning: NULL used in arithmetic [-Wpointer-arith]
+     CHECK(mCodec->mNode != NULL);
+     ^

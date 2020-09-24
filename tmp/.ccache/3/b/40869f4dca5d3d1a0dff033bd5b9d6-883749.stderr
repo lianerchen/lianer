@@ -1,0 +1,20 @@
+platform/android/external/libnl/lib/fib_lookup/lookup.c: In function 'result_msg_parser':
+platform/android/external/libnl/lib/fib_lookup/lookup.c:70:51: warning: unused parameter 'ops' [-Wunused-parameter]
+ static int result_msg_parser(struct nl_cache_ops *ops, struct sockaddr_nl *who,
+                                                   ^
+platform/android/external/libnl/lib/fib_lookup/lookup.c:70:76: warning: unused parameter 'who' [-Wunused-parameter]
+ static int result_msg_parser(struct nl_cache_ops *ops, struct sockaddr_nl *who,
+                                                                            ^
+platform/android/external/libnl/lib/fib_lookup/lookup.c: In function 'result_compare':
+platform/android/external/libnl/lib/fib_lookup/lookup.c:143:45: warning: unused parameter '_a' [-Wunused-parameter]
+ static int result_compare(struct nl_object *_a, struct nl_object *_b,
+                                             ^
+platform/android/external/libnl/lib/fib_lookup/lookup.c:143:67: warning: unused parameter '_b' [-Wunused-parameter]
+ static int result_compare(struct nl_object *_a, struct nl_object *_b,
+                                                                   ^
+platform/android/external/libnl/lib/fib_lookup/lookup.c:144:13: warning: unused parameter 'attrs' [-Wunused-parameter]
+    uint32_t attrs, int flags)
+             ^
+platform/android/external/libnl/lib/fib_lookup/lookup.c:144:24: warning: unused parameter 'flags' [-Wunused-parameter]
+    uint32_t attrs, int flags)
+                        ^

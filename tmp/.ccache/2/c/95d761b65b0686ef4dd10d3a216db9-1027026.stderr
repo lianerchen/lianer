@@ -1,0 +1,49 @@
+In file included from platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:12:0:
+platform/android/external/libvpx/armv7a-neon/vpx_config.h:13:0: warning: "ARCH_ARM" redefined [enabled by default]
+ #define ARCH_ARM 1
+ ^
+In file included from <command-line>:0:0:
+./platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h:241:0: note: this is the location of the previous definition
+ #define ARCH_ARM
+ ^
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c: In function 'vp8_change_config':
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:1673:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (cpi->oxcf.number_of_layers != prev_number_of_layers)
+                                    ^
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:1712:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (((cm->Width + 15) & 0xfffffff0) !=
+                                         ^
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:1714:42: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         ((cm->Height + 15) & 0xfffffff0) !=
+                                          ^
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c: In function 'vp8_get_preview_raw_frame':
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5430:87: warning: unused parameter 'flags' [-Wunused-parameter]
+ int vp8_get_preview_raw_frame(VP8_COMP *cpi, YV12_BUFFER_CONFIG *dest, vp8_ppflags_t *flags)
+                                                                                       ^
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c: In function 'vp8_set_roimap':
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5482:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (cpi->common.mb_rows != rows || cpi->common.mb_cols != cols)
+                             ^
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5482:60: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (cpi->common.mb_rows != rows || cpi->common.mb_cols != cols)
+                                                            ^
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c: In function 'vp8_set_active_map':
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5538:14: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (rows == cpi->common.mb_rows && cols == cpi->common.mb_cols)
+              ^
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5538:45: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (rows == cpi->common.mb_rows && cols == cpi->common.mb_cols)
+                                             ^
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c: In function 'vp8_get_compressed_data':
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5079:23: warning: array subscript is above array bounds [-Warray-bounds]
+                     lc->framerate = cpi->ref_framerate /
+                       ^
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5079:23: warning: array subscript is above array bounds [-Warray-bounds]
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5079:23: warning: array subscript is above array bounds [-Warray-bounds]
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5079:23: warning: array subscript is above array bounds [-Warray-bounds]
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5079:23: warning: array subscript is above array bounds [-Warray-bounds]
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5079:23: warning: array subscript is above array bounds [-Warray-bounds]
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5079:23: warning: array subscript is above array bounds [-Warray-bounds]
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5079:23: warning: array subscript is above array bounds [-Warray-bounds]
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5079:23: warning: array subscript is above array bounds [-Warray-bounds]
+platform/android/external/libvpx/libvpx/vp8/encoder/onyx_if.c:5079:23: warning: array subscript is above array bounds [-Warray-bounds]

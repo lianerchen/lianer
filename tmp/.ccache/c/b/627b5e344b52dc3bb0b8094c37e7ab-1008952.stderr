@@ -1,0 +1,13 @@
+In file included from device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_rate_linear.c:25:0:
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_local.h: In function 'gettimestamp':
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_local.h:952:63: warning: unused parameter 'monotonic' [-Wunused-parameter]
+ static inline void gettimestamp(snd_htimestamp_t *tstamp, int monotonic)
+                                                               ^
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_rate_linear.c: In function 'linear_shrink':
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_rate_linear.c:192:49: warning: unused parameter 'dst_frames' [-Wunused-parameter]
+      snd_pcm_uframes_t dst_offset, unsigned int dst_frames,
+                                                 ^
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_rate_linear.c: In function 'linear_shrink_s16':
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_rate_linear.c:262:53: warning: unused parameter 'dst_frames' [-Wunused-parameter]
+          snd_pcm_uframes_t dst_offset, unsigned int dst_frames,
+                                                     ^

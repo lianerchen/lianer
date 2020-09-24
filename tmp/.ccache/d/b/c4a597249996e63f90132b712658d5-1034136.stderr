@@ -1,0 +1,8 @@
+platform/android/external/ipsec-tools/src/racoon/nattraversal.c: In function 'natt_keepalive_send':
+platform/android/external/ipsec-tools/src/racoon/nattraversal.c:333:28: warning: unused parameter 'param' [-Wunused-parameter]
+ natt_keepalive_send (void *param)
+                            ^
+platform/android/external/ipsec-tools/src/racoon/nattraversal.c: In function 'natt_enabled_in_rmconf_stub':
+platform/android/external/ipsec-tools/src/racoon/nattraversal.c:455:63: warning: unused parameter 'data' [-Wunused-parameter]
+ natt_enabled_in_rmconf_stub (struct remoteconf *rmconf, void *data)
+                                                               ^

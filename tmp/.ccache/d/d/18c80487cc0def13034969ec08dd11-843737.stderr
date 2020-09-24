@@ -1,0 +1,16 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/drv/include/hi_drv_ao.h:24:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_buffer.c:16:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_buffer.c: In function 'RENDER_Buffer_Init':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_buffer.c:73:47: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+     pstBuffer->pInputTmpBuf = pstBuffer->pBuf + u32BufferSize;
+                                               ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_buffer.c: In function 'RENDER_Buffer_Acquire':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_buffer.c:179:62: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+     s32Ret = kfifo_read(&pstBuffer->fifo, pstBuffer->pOutBuf + pstBuffer->u32OutBufDataSize, u32MinSize);
+                                                              ^

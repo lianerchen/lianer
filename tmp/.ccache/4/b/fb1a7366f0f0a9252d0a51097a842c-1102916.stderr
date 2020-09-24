@@ -1,0 +1,12 @@
+platform/android/external/ipsec-tools/src/racoon/isakmp_inf.c: In function 'isakmp_info_recv_d':
+platform/android/external/ipsec-tools/src/racoon/isakmp_inf.c:450:12: warning: unused parameter 'msgid' [-Wunused-parameter]
+  u_int32_t msgid;
+            ^
+platform/android/external/ipsec-tools/src/racoon/isakmp_inf.c: In function 'isakmp_info_recv_r_u':
+platform/android/external/ipsec-tools/src/racoon/isakmp_inf.c:1522:12: warning: unused parameter 'msgid' [-Wunused-parameter]
+  u_int32_t msgid;
+            ^
+platform/android/external/ipsec-tools/src/racoon/isakmp_inf.c: In function 'isakmp_info_recv_r_u_ack':
+platform/android/external/ipsec-tools/src/racoon/isakmp_inf.c:1568:12: warning: unused parameter 'msgid' [-Wunused-parameter]
+  u_int32_t msgid;
+            ^

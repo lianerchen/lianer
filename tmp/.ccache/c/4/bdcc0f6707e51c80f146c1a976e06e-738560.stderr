@@ -1,0 +1,7 @@
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Mat.c: In function 'bts_Mat_equal':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Mat.c:81:28: warning: unused parameter 'ptrA' [-Wunused-parameter]
+      const struct bts_Mat* ptrA, 
+                            ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Mat.c:82:28: warning: unused parameter 'srcPtrA' [-Wunused-parameter]
+      const struct bts_Mat* srcPtrA )
+                            ^

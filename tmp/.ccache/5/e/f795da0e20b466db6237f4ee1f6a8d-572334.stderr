@@ -1,0 +1,7 @@
+platform/android/external/icu/icu4c/source/common/ucnvisci.c: In function 'UConverter_toUnicode_ISCII_OFFSETS_LOGIC':
+platform/android/external/icu/icu4c/source/common/ucnvisci.c:1433:106: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/icu/icu4c/source/common/ucnvisci.c: At top level:
+platform/android/external/icu/icu4c/source/common/ucnvisci.c:1600:1: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnvisci.c:1600:1: warning: (near initialization for '_ISCIIImpl.toUTF8') [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnvisci.c:1629:1: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnvisci.c:1629:1: warning: (near initialization for '_ISCIIData_53.mbcs') [-Wmissing-field-initializers]

@@ -1,0 +1,8 @@
+platform/android/external/fio/eta.c: In function 'thread_eta':
+platform/android/external/fio/eta.c:229:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (ramp_left <= t_eta)
+                   ^
+platform/android/external/fio/eta.c: In function 'display_thread_status':
+platform/android/external/fio/eta.c:539:42: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      mtime_since_now(&disp_eta_new_line) > eta_new_line * 1000) {
+                                          ^

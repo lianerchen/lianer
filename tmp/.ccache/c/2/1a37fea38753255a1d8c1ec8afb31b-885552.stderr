@@ -1,0 +1,4 @@
+platform/android/external/libnl/lib/genl/family.c: In function 'family_compare':
+platform/android/external/libnl/lib/genl/family.c:129:26: warning: unused parameter 'flags' [-Wunused-parameter]
+      uint32_t attrs, int flags)
+                          ^

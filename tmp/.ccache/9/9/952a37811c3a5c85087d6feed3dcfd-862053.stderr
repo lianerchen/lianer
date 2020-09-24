@@ -1,0 +1,53 @@
+platform/android/external/icu/icu4c/source/common/ucnv_u32.c:484:1: warning: missing initializer for field 'toUTF8' of 'UConverterImpl' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_bld.h:27:0,
+                 from platform/android/external/icu/icu4c/source/common/ucnv_u32.c:23:
+platform/android/external/icu/icu4c/source/common/ucnv_cnv.h:252:23: note: 'toUTF8' declared here
+     UConverterConvert toUTF8;
+                       ^
+platform/android/external/icu/icu4c/source/common/ucnv_u32.c:502:1: warning: missing initializer for field 'mbcs' of 'UConverterSharedData' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_u32.c:23:0:
+platform/android/external/icu/icu4c/source/common/ucnv_bld.h:125:25: note: 'mbcs' declared here
+     UConverterMBCSTable mbcs;
+                         ^
+platform/android/external/icu/icu4c/source/common/ucnv_u32.c:979:1: warning: missing initializer for field 'toUTF8' of 'UConverterImpl' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_bld.h:27:0,
+                 from platform/android/external/icu/icu4c/source/common/ucnv_u32.c:23:
+platform/android/external/icu/icu4c/source/common/ucnv_cnv.h:252:23: note: 'toUTF8' declared here
+     UConverterConvert toUTF8;
+                       ^
+platform/android/external/icu/icu4c/source/common/ucnv_u32.c:998:1: warning: missing initializer for field 'mbcs' of 'UConverterSharedData' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_u32.c:23:0:
+platform/android/external/icu/icu4c/source/common/ucnv_bld.h:125:25: note: 'mbcs' declared here
+     UConverterMBCSTable mbcs;
+                         ^
+platform/android/external/icu/icu4c/source/common/ucnv_u32.c: In function '_UTF32Open':
+platform/android/external/icu/icu4c/source/common/ucnv_u32.c:1037:32: warning: unused parameter 'pArgs' [-Wunused-parameter]
+            UConverterLoadArgs *pArgs,
+                                ^
+platform/android/external/icu/icu4c/source/common/ucnv_u32.c:1038:24: warning: unused parameter 'pErrorCode' [-Wunused-parameter]
+            UErrorCode *pErrorCode) {
+                        ^
+platform/android/external/icu/icu4c/source/common/ucnv_u32.c: At top level:
+platform/android/external/icu/icu4c/source/common/ucnv_u32.c:1224:1: warning: missing initializer for field 'toUTF8' of 'UConverterImpl' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_bld.h:27:0,
+                 from platform/android/external/icu/icu4c/source/common/ucnv_u32.c:23:
+platform/android/external/icu/icu4c/source/common/ucnv_cnv.h:252:23: note: 'toUTF8' declared here
+     UConverterConvert toUTF8;
+                       ^
+platform/android/external/icu/icu4c/source/common/ucnv_u32.c:1247:1: warning: missing initializer for field 'mbcs' of 'UConverterSharedData' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_u32.c:23:0:
+platform/android/external/icu/icu4c/source/common/ucnv_bld.h:125:25: note: 'mbcs' declared here
+     UConverterMBCSTable mbcs;
+                         ^

@@ -1,0 +1,6 @@
+In file included from platform/android/system/vold/DirectVolume.cpp:36:0:
+platform/android/system/vold/PartVolume.h:54:17: warning: unused parameter 'new_path' [-Wunused-parameter]
+     virtual int updateDeviceInfo(char *new_path, int new_major, int new_minor) { return 0; }
+                 ^
+platform/android/system/vold/PartVolume.h:54:17: warning: unused parameter 'new_major' [-Wunused-parameter]
+platform/android/system/vold/PartVolume.h:54:17: warning: unused parameter 'new_minor' [-Wunused-parameter]

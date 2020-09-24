@@ -1,0 +1,29 @@
+cc1: warning: command line option '-Wno-non-virtual-dtor' is valid for C++/ObjC++ but not for C [enabled by default]
+In file included from platform/android/external/pdfium/core/src/fxcodec/lcms2/src/fx_cmstypes.c:7:0:
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c: In function 'Type_Text_Description_Write':
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c:1017:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     if (!_cmsWriteUInt16Array(io, len_filler_alignment+1, (cmsUInt16Number*) Filler)) goto Error;
+     ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c: In function 'Type_LUT8_Read':
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c:1775:5: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+     if ((InputChannels == 3) && !_cmsMAT3isIdentity((cmsMAT3*) Matrix)) {
+     ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c: In function 'Type_LUT16_Read':
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c:2068:5: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+     if ((InputChannels == 3) && !_cmsMAT3isIdentity((cmsMAT3*) Matrix)) {
+     ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c: In function 'Type_ProfileSequenceDesc_Read':
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c:3271:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         if (!_cmsReadUInt32Number(io, (cmsUInt32Number *)&sec ->technology)) goto Error;
+         ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c: In function 'ReadSegmentedCurve':
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c:3908:6: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      if (!_cmsReadUInt32Number(io, (cmsUInt32Number*) &ElementSig)) return NULL;
+      ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c:3935:11: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+           if (!_cmsReadUInt32Number(io, (cmsUInt32Number*) &ElementSig)) goto Error;
+           ^
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c: In function 'ReadMPEElem':
+platform/android/external/pdfium/core/src/fxcodec/lcms2/src/../lcms2-2.6/src/cmstypes.c:4370:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     if (!_cmsReadUInt32Number(io, (cmsUInt32Number*) &ElementSig)) return FALSE;
+     ^

@@ -1,0 +1,12 @@
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Flt16Vec.c: In function 'bts_Flt16Vec_avg':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Flt16Vec.c:97:45: warning: unused parameter 'cpA' [-Wunused-parameter]
+ int16 bts_Flt16Vec_avg( struct bbs_Context* cpA, const struct bts_Flt16Vec* ptrA )
+                                             ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Flt16Vec.c: In function 'bts_Flt16Vec_norm':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Flt16Vec.c:112:47: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bts_Flt16Vec_norm( struct bbs_Context* cpA, const struct bts_Flt16Vec* ptrA )
+                                               ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Flt16Vec.c: In function 'bts_Flt16Vec_maxAbs':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Flt16Vec.c:119:49: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint16 bts_Flt16Vec_maxAbs( struct bbs_Context* cpA, const struct bts_Flt16Vec* ptrA )
+                                                 ^

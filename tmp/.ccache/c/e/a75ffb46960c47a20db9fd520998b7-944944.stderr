@@ -1,0 +1,11 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_aenc/aacenc/sw/src/omx_aac_aenc.c: In function 'HI_OMX_AACENC_ComponentRoleEnum':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_aenc/aacenc/sw/src/omx_aac_aenc.c:214:69: warning: unused parameter 'hComponent' [-Wunused-parameter]
+ OMX_ERRORTYPE HI_OMX_AACENC_ComponentRoleEnum(OMX_IN OMX_HANDLETYPE hComponent,
+                                                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_aenc/aacenc/sw/src/omx_aac_aenc.c: In function 'component_init':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_aenc/aacenc/sw/src/omx_aac_aenc.c:420:25: warning: assignment from incompatible pointer type [enabled by default]
+     pHAData->CodecFrame = HA_OMX_EncodeFrame;
+                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_aenc/aacenc/sw/src/omx_aac_aenc.c:234:65: warning: unused parameter 'comp_name' [-Wunused-parameter]
+ OMX_ERRORTYPE component_init(OMX_HANDLETYPE phandle, OMX_STRING comp_name)
+                                                                 ^

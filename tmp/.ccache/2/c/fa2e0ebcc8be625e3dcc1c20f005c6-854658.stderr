@@ -1,0 +1,18 @@
+In file included from platform/android/system/vold/PartVolume.cpp:28:0:
+platform/android/system/vold/PartVolume.h:54:17: warning: unused parameter 'new_path' [-Wunused-parameter]
+     virtual int updateDeviceInfo(char *new_path, int new_major, int new_minor) { return 0; }
+                 ^
+platform/android/system/vold/PartVolume.h:54:17: warning: unused parameter 'new_major' [-Wunused-parameter]
+platform/android/system/vold/PartVolume.h:54:17: warning: unused parameter 'new_minor' [-Wunused-parameter]
+platform/android/system/vold/PartVolume.cpp:123:6: warning: unused parameter 'devpath' [-Wunused-parameter]
+ void PartVolume::handlePartitionAdded(const char *devpath, NetlinkEvent *evt) {
+      ^
+platform/android/system/vold/PartVolume.cpp:153:6: warning: unused parameter 'devpath' [-Wunused-parameter]
+ void PartVolume::handlePartitionChanged(const char *devpath, NetlinkEvent *evt) {
+      ^
+platform/android/system/vold/PartVolume.cpp:162:6: warning: unused parameter 'devpath' [-Wunused-parameter]
+ void PartVolume::handlePartitionRemoved(const char *devpath, NetlinkEvent *evt) {
+      ^
+platform/android/system/vold/PartVolume.cpp:233:5: warning: unused parameter 'max' [-Wunused-parameter]
+ int PartVolume::getDeviceNodes(dev_t *devs, int max) {
+     ^

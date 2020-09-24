@@ -1,0 +1,58 @@
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:165:6: warning: no previous prototype for 'truncate' [-Wmissing-prototypes]
+ void truncate
+      ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c: In function 'hmac_sha':
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:198:2: warning: pointer targets in passing argument 2 of 'SHA1Update' differ in signedness [-Wpointer-sign]
+  SHA1Update(&tctx, k, lk) ;
+  ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:92:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void SHA1Update(SHA1_CTX* context, unsigned char* data, __ut32 len)
+      ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:199:2: warning: pointer targets in passing argument 1 of 'SHA1Final' differ in signedness [-Wpointer-sign]
+  SHA1Final(key, &tctx) ;
+  ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:118:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void SHA1Final(unsigned char digest[20], SHA1_CTX* context)
+      ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:213:2: warning: pointer targets in passing argument 2 of 'SHA1Update' differ in signedness [-Wpointer-sign]
+  SHA1Update(&ictx, buf, SHA_BLOCKSIZE) ;
+  ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:92:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void SHA1Update(SHA1_CTX* context, unsigned char* data, __ut32 len)
+      ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:214:2: warning: pointer targets in passing argument 2 of 'SHA1Update' differ in signedness [-Wpointer-sign]
+  SHA1Update(&ictx, d, ld) ;
+  ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:92:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void SHA1Update(SHA1_CTX* context, unsigned char* data, __ut32 len)
+      ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:216:2: warning: pointer targets in passing argument 1 of 'SHA1Final' differ in signedness [-Wpointer-sign]
+  SHA1Final(isha, &ictx) ;
+  ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:118:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void SHA1Final(unsigned char digest[20], SHA1_CTX* context)
+      ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:227:2: warning: pointer targets in passing argument 2 of 'SHA1Update' differ in signedness [-Wpointer-sign]
+  SHA1Update(&octx, buf, SHA_BLOCKSIZE) ;
+  ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:92:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void SHA1Update(SHA1_CTX* context, unsigned char* data, __ut32 len)
+      ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:228:2: warning: pointer targets in passing argument 2 of 'SHA1Update' differ in signedness [-Wpointer-sign]
+  SHA1Update(&octx, isha, SHA_DIGESTSIZE) ;
+  ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:92:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void SHA1Update(SHA1_CTX* context, unsigned char* data, __ut32 len)
+      ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:230:2: warning: pointer targets in passing argument 1 of 'SHA1Final' differ in signedness [-Wpointer-sign]
+  SHA1Final(osha, &octx) ;
+  ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:118:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void SHA1Final(unsigned char digest[20], SHA1_CTX* context)
+      ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:235:2: warning: pointer targets in passing argument 1 of 'pr_sha' differ in signedness [-Wpointer-sign]
+  pr_sha(out, t) ;
+  ^
+component/OAM/agent/tr069_cut/stunclient/HMACSHA1.c:155:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void pr_sha(unsigned char* s, int t)
+      ^

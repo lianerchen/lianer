@@ -1,0 +1,11 @@
+platform/android/external/icu/icu4c/source/common/uresdata.c: In function 'isAcceptable':
+platform/android/external/icu/icu4c/source/common/uresdata.c:138:26: warning: unused parameter 'type' [-Wunused-parameter]
+              const char *type, const char *name,
+                          ^
+platform/android/external/icu/icu4c/source/common/uresdata.c:138:44: warning: unused parameter 'name' [-Wunused-parameter]
+              const char *type, const char *name,
+                                            ^
+platform/android/external/icu/icu4c/source/common/uresdata.c: In function 'ures_swap_53':
+platform/android/external/icu/icu4c/source/common/uresdata.c:1073:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(resFlagsLength<=sizeof(stackResFlags)) {
+                          ^

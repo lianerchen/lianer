@@ -1,0 +1,29 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/include/hi_mpi_edid.h:24:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_edid.c:22:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_edid.c: In function 'EDID_GetVideoFormat':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_edid.c:25:59: warning: unused parameter 'pstVideoTiming' [-Wunused-parameter]
+ HI_UNF_ENC_FMT_E EDID_GetVideoFormat(EDID_VIDEO_TIMING_S *pstVideoTiming,HI_BOOL *pbNativeFormat)
+                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_edid.c:25:83: warning: unused parameter 'pbNativeFormat' [-Wunused-parameter]
+ HI_UNF_ENC_FMT_E EDID_GetVideoFormat(EDID_VIDEO_TIMING_S *pstVideoTiming,HI_BOOL *pbNativeFormat)
+                                                                                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_edid.c: In function 'HI_UNF_EDID_EdidParse':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_edid.c:30:37: warning: unused parameter 'pu8Edid' [-Wunused-parameter]
+ HI_S32 HI_UNF_EDID_EdidParse(HI_U8 *pu8Edid, HI_U32 u32EdidLength,HI_UNF_EDID_INFO_S *pstEdidInfo)
+                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_edid.c:30:53: warning: unused parameter 'u32EdidLength' [-Wunused-parameter]
+ HI_S32 HI_UNF_EDID_EdidParse(HI_U8 *pu8Edid, HI_U32 u32EdidLength,HI_UNF_EDID_INFO_S *pstEdidInfo)
+                                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_edid.c:30:87: warning: unused parameter 'pstEdidInfo' [-Wunused-parameter]
+ HI_S32 HI_UNF_EDID_EdidParse(HI_U8 *pu8Edid, HI_U32 u32EdidLength,HI_UNF_EDID_INFO_S *pstEdidInfo)
+                                                                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_edid.c: In function 'HI_UNF_EDID_EdidRelease':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_edid.c:37:53: warning: unused parameter 'pEdidInfo' [-Wunused-parameter]
+ HI_VOID HI_UNF_EDID_EdidRelease(HI_UNF_EDID_INFO_S *pEdidInfo)
+                                                     ^

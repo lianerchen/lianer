@@ -1,0 +1,11 @@
+platform/android/external/e2fsprogs/lib/blkid/probe.c: In function 'probe_jfs':
+platform/android/external/e2fsprogs/lib/blkid/probe.c:878:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (blkid_le32(js->js_bsize) != (1 << blkid_le16(js->js_l2bsize)))
+                                  ^
+platform/android/external/e2fsprogs/lib/blkid/probe.c:881:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (blkid_le32(js->js_pbsize) != (1 << blkid_le16(js->js_l2pbsize)))
+                                   ^
+platform/android/external/e2fsprogs/lib/blkid/probe.c: In function 'blkid_verify':
+platform/android/external/e2fsprogs/lib/blkid/probe.c:1556:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         (st.st_mtime <= dev->bid_time) &&
+                      ^

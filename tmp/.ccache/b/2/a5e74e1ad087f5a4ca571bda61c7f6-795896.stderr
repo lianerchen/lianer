@@ -1,0 +1,8 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/keyled/sample_keyled.c: In function 'LED_DisplayTask':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/keyled/sample_keyled.c:33:30: warning: unused parameter 'args' [-Wunused-parameter]
+ void * LED_DisplayTask(void *args)
+                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/keyled/sample_keyled.c: In function 'KEY_ReceiveTask':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/keyled/sample_keyled.c:70:30: warning: unused parameter 'args' [-Wunused-parameter]
+ void * KEY_ReceiveTask(void *args)
+                              ^

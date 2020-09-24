@@ -1,0 +1,8 @@
+platform/android/external/fio/idletime.c: In function 'idle_prof_thread_fn':
+platform/android/external/fio/idletime.c:92:2: warning: implicit declaration of function 'fio_set_sched_idle' [-Wimplicit-function-declaration]
+  if ((retval = fio_set_sched_idle()))
+  ^
+platform/android/external/fio/idletime.c: In function 'fio_idle_prof_init':
+platform/android/external/fio/idletime.c:216:41: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   ipt->data = (unsigned char *)(ipc.buf + page_size * i);
+                                         ^

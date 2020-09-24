@@ -1,0 +1,2 @@
+platform/android/external/fdlibm/e_pow.c: In function '__ieee754_pow':
+platform/android/external/fdlibm/e_pow.c:138:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

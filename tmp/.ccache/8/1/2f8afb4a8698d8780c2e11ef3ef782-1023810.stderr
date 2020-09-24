@@ -1,0 +1,5 @@
+platform/android/external/pdfium/core/src/fxcodec/codec/fx_codec_jpeg.cpp: In function 'FX_BOOL _JpegLoadInfo(FX_LPCBYTE, FX_DWORD, int&, int&, int&, int&, FX_BOOL&, unsigned char**, FX_DWORD*)':
+platform/android/external/pdfium/core/src/fxcodec/codec/fx_codec_jpeg.cpp:273:16: warning: argument 'src_buf' might be clobbered by 'longjmp' or 'vfork' [-Wclobbered]
+ static FX_BOOL _JpegLoadInfo(FX_LPCBYTE src_buf, FX_DWORD src_size, int& width, int& height,
+                ^
+platform/android/external/pdfium/core/src/fxcodec/codec/fx_codec_jpeg.cpp:273:16: warning: argument 'src_size' might be clobbered by 'longjmp' or 'vfork' [-Wclobbered]

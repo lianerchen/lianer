@@ -1,0 +1,6 @@
+platform/android/external/harfbuzz_ng/src/hb-icu.cc: In function 'hb_unicode_funcs_t* hb_icu_get_unicode_funcs()':
+platform/android/external/harfbuzz_ng/src/hb-icu.cc:360:3: warning: missing initializer for member 'hb_prealloced_array_t<hb_user_data_array_t::hb_user_data_item_t, 2u>::static_array' [-Wmissing-field-initializers]
+   };
+   ^
+platform/android/external/harfbuzz_ng/src/hb-icu.cc:360:3: warning: missing initializer for member 'hb_unicode_funcs_t::user_data' [-Wmissing-field-initializers]
+platform/android/external/harfbuzz_ng/src/hb-icu.cc:360:3: warning: missing initializer for member 'hb_unicode_funcs_t::destroy' [-Wmissing-field-initializers]

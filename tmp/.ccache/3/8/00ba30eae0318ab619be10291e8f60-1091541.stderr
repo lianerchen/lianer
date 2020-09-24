@@ -1,0 +1,51 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:27:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c: In function 'HI_OMX_CODEC_UseBuffer':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.h:574:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (_pList.nListEnd == (_pPortDef->nBufferCountActual - 1)) \
+                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:226:9: note: in expansion of macro 'LoadBufferHeader'
+         LoadBufferHeader(pHAData->sInBufList, pHAData->sInBufList.pBufHdr[nIndex], pAppPrivate,
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.h:574:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (_pList.nListEnd == (_pPortDef->nBufferCountActual - 1)) \
+                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:253:9: note: in expansion of macro 'LoadBufferHeader'
+         LoadBufferHeader(pHAData->sOutBufList, pHAData->sOutBufList.pBufHdr[nIndex],
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c: In function 'HI_OMX_CODEC_AllocateBuffer':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.h:574:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (_pList.nListEnd == (_pPortDef->nBufferCountActual - 1)) \
+                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:339:9: note: in expansion of macro 'LoadBufferHeader'
+         LoadBufferHeader(pHAData->sInBufList, pHAData->sInBufList.pBufHdr[nIndex], pAppPrivate,
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.h:574:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (_pList.nListEnd == (_pPortDef->nBufferCountActual - 1)) \
+                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:372:9: note: in expansion of macro 'LoadBufferHeader'
+         LoadBufferHeader(pHAData->sOutBufList, pHAData->sOutBufList.pBufHdr[nIndex],
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c: In function 'CmdProcess':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:1115:18: warning: comparison between 'OMX_COMMANDTYPE' and 'enum <anonymous>' [-Wenum-compare]
+     else if (cmd == OMX_HA_CommandStopThread)
+                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:1120:18: warning: comparison between 'OMX_COMMANDTYPE' and 'enum <anonymous>' [-Wenum-compare]
+     else if (cmd == OMX_HA_CommandFillBuf)
+                  ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:27:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.h:412:59: warning: assignment makes pointer from integer without a cast [enabled by default]
+             _pH.pBufHdr[_pH.bufferindex[_pH.nWritePos++]] = _pB;       \
+                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:1125:9: note: in expansion of macro 'ListSetEntry'
+         ListSetEntry(pHAData->sOutBufList,  cmddata);  //cmddata  OMX_BUFFERHEADERTYPE POINTER
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:1127:18: warning: comparison between 'OMX_COMMANDTYPE' and 'enum <anonymous>' [-Wenum-compare]
+     else if (cmd == OMX_HA_CommandEmptyBuf)
+                  ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:27:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.h:412:59: warning: assignment makes pointer from integer without a cast [enabled by default]
+             _pH.pBufHdr[_pH.bufferindex[_pH.nWritePos++]] = _pB;       \
+                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/base/omx_audio_base.c:1132:9: note: in expansion of macro 'ListSetEntry'
+         ListSetEntry(pHAData->sInBufList, cmddata);
+         ^

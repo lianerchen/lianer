@@ -1,0 +1,4 @@
+platform/android/bootable/recovery/updater/blockimg.c: In function 'parse_range':
+platform/android/bootable/recovery/updater/blockimg.c:65:17: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'unsigned int' [-Wformat=]
+                 sizeof(RangeSet) + num * sizeof(int));
+                 ^

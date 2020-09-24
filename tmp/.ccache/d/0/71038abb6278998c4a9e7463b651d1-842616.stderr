@@ -1,0 +1,4 @@
+platform/android/external/e2fsprogs/lib/ext2fs/mmp.c: In function 'ext2fs_mmp_read':
+platform/android/external/e2fsprogs/lib/ext2fs/mmp.c:71:51: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (read(fs->mmp_fd, fs->mmp_cmp, fs->blocksize) != fs->blocksize) {
+                                                   ^

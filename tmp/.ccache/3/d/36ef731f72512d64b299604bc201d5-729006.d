@@ -1,0 +1,35 @@
+out/target/product/Hi3798MV200/obj/STATIC_LIBRARIES/libextirs_intermediates/bind/bind-9.9.7-P3/lib/irs/gai_strerror.o: \
+ device/hisilicon/bigfish/external/dhcp/bind/bind-9.9.7-P3/lib/irs/gai_strerror.c \
+ platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h \
+ device/hisilicon/bigfish/external/dhcp/bind/bind-9.9.7-P3/config.h \
+ device/hisilicon/bigfish/external/dhcp/bind/include/irs/netdb.h \
+ platform/android/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ platform/android/bionic/libc/include/netdb.h \
+ platform/android/bionic/libc/include/sys/cdefs.h \
+ platform/android/bionic/libc/include/sys/cdefs_elf.h \
+ platform/android/bionic/libc/include/android/api-level.h \
+ platform/android/bionic/libc/include/sys/types.h \
+ platform/android/bionic/libc/include/stdint.h \
+ platform/android/bionic/libc/include/machine/wchar_limits.h \
+ platform/android/bionic/libc/kernel/uapi/linux/types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/int-ll64.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/bitsperlong.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/bitsperlong.h \
+ platform/android/bionic/libc/kernel/uapi/linux/posix_types.h \
+ platform/android/bionic/libc/kernel/uapi/linux/stddef.h \
+ platform/android/bionic/libc/kernel/uapi/linux/compiler.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/posix_types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/posix_types.h \
+ platform/android/bionic/libc/include/sys/sysmacros.h \
+ platform/android/bionic/libc/include/sys/socket.h \
+ platform/android/bionic/libc/kernel/uapi/linux/socket.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/fcntl.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/fcntl.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/socket.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/socket.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/sockios.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/sockios.h \
+ platform/android/bionic/libc/kernel/uapi/linux/sockios.h \
+ platform/android/bionic/libc/kernel/uapi/linux/uio.h

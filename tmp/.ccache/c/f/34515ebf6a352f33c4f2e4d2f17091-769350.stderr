@@ -1,0 +1,4 @@
+platform/android/system/extras/tests/cpueater/cpueater.c: In function 'main':
+platform/android/system/extras/tests/cpueater/cpueater.c:28:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char *argv[])
+              ^

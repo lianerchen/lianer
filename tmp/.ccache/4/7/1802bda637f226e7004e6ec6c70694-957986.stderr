@@ -1,0 +1,15 @@
+platform/android/external/aac/libAACenc/src/adj_thr.cpp:196:1: warning: narrowing conversion of '2975553344u' from 'unsigned int' to 'LONG {aka long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+ };
+ ^
+platform/android/external/aac/libAACenc/src/adj_thr.cpp:196:1: warning: narrowing conversion of '3204251762u' from 'unsigned int' to 'LONG {aka long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/adj_thr.cpp:210:1: warning: narrowing conversion of '3274620506u' from 'unsigned int' to 'LONG {aka long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+ };
+ ^
+platform/android/external/aac/libAACenc/src/adj_thr.cpp:210:1: warning: narrowing conversion of '3415357995u' from 'unsigned int' to 'LONG {aka long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/adj_thr.cpp:224:1: warning: narrowing conversion of '3833172413u' from 'unsigned int' to 'LONG {aka long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+ };
+ ^
+platform/android/external/aac/libAACenc/src/adj_thr.cpp:224:1: warning: narrowing conversion of '4261981948u' from 'unsigned int' to 'LONG {aka long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/adj_thr.cpp:224:1: warning: narrowing conversion of '4272977064u' from 'unsigned int' to 'LONG {aka long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/adj_thr.cpp:224:1: warning: narrowing conversion of '3415357995u' from 'unsigned int' to 'LONG {aka long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/adj_thr.cpp:224:1: warning: narrowing conversion of '3498920878u' from 'unsigned int' to 'LONG {aka long int}' inside { } is ill-formed in C++11 [-Wnarrowing]

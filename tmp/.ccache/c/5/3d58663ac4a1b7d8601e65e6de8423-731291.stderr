@@ -1,0 +1,23 @@
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c: In function 'bbs_Int16Arr_init':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c:44:45: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bbs_Int16Arr_init( struct bbs_Context* cpA,
+                                             ^
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c: In function 'bbs_Int16Arr_equal':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c:93:46: warning: unused parameter 'cpA' [-Wunused-parameter]
+ flag bbs_Int16Arr_equal( struct bbs_Context* cpA,
+                                              ^
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c: In function 'bbs_Int16Arr_heapSize':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c:118:51: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bbs_Int16Arr_heapSize( struct bbs_Context* cpA,
+                                                   ^
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c:119:37: warning: unused parameter 'ptrA' [-Wunused-parameter]
+          const struct bbs_Int16Arr* ptrA, 
+                                     ^
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c: In function 'bbs_Int16Arr_memSize':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c:222:50: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bbs_Int16Arr_memSize( struct bbs_Context* cpA,
+                                                  ^
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c: In function 'bbs_Int16Arr_fill':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Int16Arr.c:276:45: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bbs_Int16Arr_fill( struct bbs_Context* cpA,
+                                             ^

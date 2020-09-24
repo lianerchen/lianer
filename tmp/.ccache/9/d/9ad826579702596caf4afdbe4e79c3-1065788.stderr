@@ -1,0 +1,77 @@
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:73:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "sysmanager"
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:51:
+platform/android/system/core/include/log/log.h:67:0: note: this is the location of the previous definition
+ #define LOG_TAG NULL
+ ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_upgrade':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:81:5: warning: passing argument 1 of 'rebootForUpgrade' discards 'const' qualifier from pointer target type [enabled by default]
+     rebootForUpgrade(path);
+     ^
+In file included from device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:56:0:
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/hiRecovery.h:9:16: note: expected 'char *' but argument is of type 'const char *'
+     extern int rebootForUpgrade(char* path);
+                ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_emergencyRecovery':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:91:5: warning: implicit declaration of function 'emergency_recovery' [-Wimplicit-function-declaration]
+     emergency_recovery(flag);
+     ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_updateCAFile':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:94:33: warning: unused parameter 'path1' [-Wunused-parameter]
+ int do_updateCAFile(const char* path1,const char* path2)
+                                 ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:94:51: warning: unused parameter 'path2' [-Wunused-parameter]
+ int do_updateCAFile(const char* path1,const char* path2)
+                                                   ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_setFlashInfo':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:140:5: warning: format '%d' expects argument of type 'int', but argument 6 has type 'long unsigned int' [-Wformat=]
+     SLOGE("do_setFlashInfo= %s %d %d %s", mtdname,moffset,mofflen,minfo);
+     ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_getFlashInfo':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:160:5: warning: format '%d' expects argument of type 'int', but argument 6 has type 'long unsigned int' [-Wformat=]
+     SLOGE("get_flash_info= %s %d %d", mtdname,moffset,mofflen);
+     ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_setHdmiHDCPKey':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:351:5: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+     ALOGE("do_setHdmiHDCPKey = %s %d %s %d", mtdname, moffset, hdcpfile_name, mdatasize);
+     ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:365:9: warning: implicit declaration of function 'set_HDMI_HDCP_Key' [-Wimplicit-function-declaration]
+         ret = set_HDMI_HDCP_Key(mtdname, moffset, pBuf, mdatasize);
+         ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:308:46: warning: unused parameter 'default_offset' [-Wunused-parameter]
+ int do_setHdmiHDCPKey(const char* tdname,int default_offset,const char* filename,int datasize)
+                                              ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_getHdmiHDCPKey':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:414:5: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long unsigned int' [-Wformat=]
+     ALOGE("do_getHDCPKey = %s %d %s %d", mtdname, moffset, hdcpfile_name, mofflen);
+     ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:425:9: warning: implicit declaration of function 'get_HDMI_HDCP_Key' [-Wimplicit-function-declaration]
+         ret = get_HDMI_HDCP_Key(mtdname, moffset, pBuf, mofflen);
+         ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:377:46: warning: unused parameter 'default_offset' [-Wunused-parameter]
+ int do_getHdmiHDCPKey(const char* tdname,int default_offset,const char* filename,int datasize)
+                                              ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_setHDCPKey':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:472:5: warning: format '%d' expects argument of type 'int', but argument 6 has type 'long int' [-Wformat=]
+     SLOGE("do_setHDCPKey = %s %d %s %d", mtdname, moffset, hdcpfile_name, mdatasize);
+     ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_getHDCPKey':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:515:5: warning: format '%d' expects argument of type 'int', but argument 6 has type 'long unsigned int' [-Wformat=]
+     SLOGE("do_getHDCPKey = %s %d %s %d", mtdname, moffset, hdcpfile_name, mofflen);
+     ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_updateLogo':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:703:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(HI_FAILURE == fileSize){
+                   ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c: In function 'do_snapshot':
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:893:5: warning: implicit declaration of function 'HIADP_OSD_Init' [-Wimplicit-function-declaration]
+     HIADP_OSD_Init();
+     ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:896:5: warning: implicit declaration of function 'HIADP_OSD_EncodeFrame' [-Wimplicit-function-declaration]
+     ret = HIADP_OSD_EncodeFrame(&VidFrame, 1, path);
+     ^
+device/hisilicon/bigfish/frameworks/hisysmanager/libs/sysmanager.c:903:5: warning: implicit declaration of function 'HIADP_OSD_DeInit' [-Wimplicit-function-declaration]
+     HIADP_OSD_DeInit();
+     ^

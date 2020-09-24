@@ -1,0 +1,8 @@
+platform/android/external/skia/src/images/bmpdecoderhelper.cpp: In member function 'bool image_codec::BmpDecoderHelper::DecodeImage(SkStream*, size_t, int, image_codec::BmpDecoderCallback*)':
+platform/android/external/skia/src/images/bmpdecoderhelper.cpp:162:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (offset > 0 && offset > pos_) {
+                              ^
+platform/android/external/skia/src/images/bmpdecoderhelper.cpp: In member function 'bool image_codec::BmpDecoderHelper::GetLine(uint8*)':
+platform/android/external/skia/src/images/bmpdecoderhelper.cpp:431:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (len_-pos_<rowLen_)
+                   ^

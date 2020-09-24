@@ -1,0 +1,196 @@
+In file included from platform/android/external/aac/libSBRenc/src/sbr_def.h:91:0,
+                 from platform/android/external/aac/libSBRenc/src/env_est.h:91,
+                 from platform/android/external/aac/libSBRenc/src/env_est.cpp:84:
+platform/android/external/aac/libSBRenc/src/env_est.cpp: In function 'void FDKsbrEnc_extractSbrEnvelope2(HANDLE_SBR_CONFIG_DATA, HANDLE_SBR_HEADER_DATA, HANDLE_PARAMETRIC_STEREO, HANDLE_SBR_BITSTREAM_DATA, HANDLE_ENV_CHANNEL, HANDLE_ENV_CHANNEL, HANDLE_COMMON_DATA, SBR_ENV_TEMP_DATA*, SBR_FRAME_TEMP_DATA*, int)':
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1024:36: note: in expansion of macro 'fixMin'
+       eData[0].transient_info[0] = fixMin(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                    ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/env_est.cpp:1035:40: note: in expansion of macro 'fixMax'
+           eData[0].transient_info[0] = fixMax(eData[1].transient_info[0], eData[0].transient_info[0]);
+                                        ^

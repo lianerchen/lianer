@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/omx_ha/ha_aenc/ha_aenc.c: In function 'HA_OMX_EncodeFrame':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/common/omx_ha/ha_aenc/ha_aenc.c:312:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (u32EncodeInDataSize > pstInnerBuf->s32Insize)
+                                 ^

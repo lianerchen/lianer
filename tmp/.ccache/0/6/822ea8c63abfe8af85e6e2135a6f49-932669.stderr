@@ -1,0 +1,3 @@
+component/dcas/client/DCASClient.cpp:40:10: warning: unused parameter 'who' [-Wunused-parameter]
+     void DCASClient::DeathNotifier::binderDied(const wp<IBinder> &who)
+          ^

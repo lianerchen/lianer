@@ -1,0 +1,286 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c: In function 'tee_check_ca_cert':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:134:5: warning: 'static' is not at beginning of declaration [-Wold-style-declaration]
+     const static __le8 *array_cert_native[TA_COUNTER_NATIVE] = {
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:135:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "sample_keybox_provision 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:135:9: warning: (near initialization for 'array_cert_native[0]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:136:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "sample_tvp_play 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:136:9: warning: (near initialization for 'array_cert_native[1]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:137:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "widevine_ce_cdm_unittest 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:137:9: warning: (near initialization for 'array_cert_native[2]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:138:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_agent 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:138:9: warning: (near initialization for 'array_cert_native[3]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:139:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_CA 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:139:9: warning: (near initialization for 'array_cert_native[4]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:140:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_cancellation 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:140:9: warning: (near initialization for 'array_cert_native[5]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:141:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_cipher 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:141:9: warning: (near initialization for 'array_cert_native[6]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:142:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_elfload 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:142:9: warning: (near initialization for 'array_cert_native[7]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:143:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_hdcp_storekey 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:143:9: warning: (near initialization for 'array_cert_native[8]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:144:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_hdcp_write 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:144:9: warning: (near initialization for 'array_cert_native[9]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:145:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_login 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:145:9: warning: (near initialization for 'array_cert_native[10]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:146:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_random 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:146:9: warning: (near initialization for 'array_cert_native[11]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:147:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_random 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:147:9: warning: (near initialization for 'array_cert_native[12]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:148:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_hwi_ipc 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:148:9: warning: (near initialization for 'array_cert_native[13]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:149:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_invoke 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:149:9: warning: (near initialization for 'array_cert_native[14]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:150:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_mem 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:150:9: warning: (near initialization for 'array_cert_native[15]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:151:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_secboot 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:151:9: warning: (near initialization for 'array_cert_native[16]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:152:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_secure_timer 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:152:9: warning: (near initialization for 'array_cert_native[17]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:153:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_sess 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:153:9: warning: (near initialization for 'array_cert_native[18]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:154:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./test_otp 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:154:9: warning: (near initialization for 'array_cert_native[19]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:155:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./test_advca 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:155:9: warning: (near initialization for 'array_cert_native[20]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:156:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_stability 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:156:9: warning: (near initialization for 'array_cert_native[21]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:157:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/bin/tee_test_storage 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:157:9: warning: (near initialization for 'array_cert_native[22]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:158:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_ut 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:158:9: warning: (near initialization for 'array_cert_native[23]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:159:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_time 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:159:9: warning: (near initialization for 'array_cert_native[24]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:160:3: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+   "tee_test_main 0",
+   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:160:3: warning: (near initialization for 'array_cert_native[25]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:161:3: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+   "teec_permctrl 0",
+   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:161:3: warning: (near initialization for 'array_cert_native[26]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:162:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "teec_hello 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:162:9: warning: (near initialization for 'array_cert_native[27]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:163:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "teec_permctrl 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:163:9: warning: (near initialization for 'array_cert_native[28]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:164:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "hisi_keymaster_test 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:164:9: warning: (near initialization for 'array_cert_native[29]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:165:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "hisi_gatekeeper_test 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:165:9: warning: (near initialization for 'array_cert_native[30]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:166:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "hisi_demo_client 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:166:9: warning: (near initialization for 'array_cert_native[31]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:167:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./tee_test_cipher 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:167:9: warning: (near initialization for 'array_cert_native[32]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:168:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "tee_test_beidou 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:168:9: warning: (near initialization for 'array_cert_native[33]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:169:6: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+      "./st_cipher 0",
+      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:169:6: warning: (near initialization for 'array_cert_native[34]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:170:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./st_mmz 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:170:9: warning: (near initialization for 'array_cert_native[35]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:171:6: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+      "./st_demux 0",
+      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:171:6: warning: (near initialization for 'array_cert_native[36]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:172:6: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+      "./sample_tee_tsplay 0",
+      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:172:6: warning: (near initialization for 'array_cert_native[37]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:173:6: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+      "./sample_tee_tsplay_pid 0",
+      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:173:6: warning: (near initialization for 'array_cert_native[38]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:174:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "sample_omxvdec 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:174:9: warning: (near initialization for 'array_cert_native[39]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:175:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "sample_esplay 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:175:9: warning: (near initialization for 'array_cert_native[40]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:176:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "sample_rawplay 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:176:9: warning: (near initialization for 'array_cert_native[41]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:177:3: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+   "hisi_drv_hdmi 0",
+   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:177:3: warning: (near initialization for 'array_cert_native[42]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:178:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/system/bin/mediaserver 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:178:9: warning: (near initialization for 'array_cert_native[43]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:179:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/system/bin/mediaserver 1013",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:179:9: warning: (near initialization for 'array_cert_native[44]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:180:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/system/bin/drmserver 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:180:9: warning: (near initialization for 'array_cert_native[45]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:181:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/system/bin/drmserver 1019",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:181:9: warning: (near initialization for 'array_cert_native[46]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:182:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "sample_keybox 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:182:9: warning: (near initialization for 'array_cert_native[47]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:183:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "sample_checkkeybox 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:183:9: warning: (near initialization for 'array_cert_native[48]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:184:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "test_modularwv_hal 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:184:9: warning: (near initialization for 'array_cert_native[49]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:185:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "oemcrypto_test 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:185:9: warning: (near initialization for 'array_cert_native[50]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:186:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "sample_playreadypk_play 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:186:9: warning: (near initialization for 'array_cert_native[51]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:187:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "sample_playreadypk_provision 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:187:9: warning: (near initialization for 'array_cert_native[52]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:188:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/usr/bin/sample_playready_provision 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:188:9: warning: (near initialization for 'array_cert_native[53]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:189:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/usr/bin/drmservicetest 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:189:9: warning: (near initialization for 'array_cert_native[54]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:190:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/usr/bin/test_playready_play 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:190:9: warning: (near initialization for 'array_cert_native[55]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:191:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/usr/bin/netflix 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:191:9: warning: (near initialization for 'array_cert_native[56]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:192:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./bin/simple 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:192:9: warning: (near initialization for 'array_cert_native[57]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:193:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./bin/youtube 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:193:9: warning: (near initialization for 'array_cert_native[58]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:194:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/system/bin/mediadrmserver 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:194:9: warning: (near initialization for 'array_cert_native[59]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:195:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "/system/bin/mediadrmserver 1013",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:195:9: warning: (near initialization for 'array_cert_native[60]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:196:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./sample_pvr_tee_rec 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:196:9: warning: (near initialization for 'array_cert_native[61]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:197:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./sample_pvr_tee_play 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:197:9: warning: (near initialization for 'array_cert_native[62]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:198:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./sample_tee_esplay 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:198:9: warning: (near initialization for 'array_cert_native[63]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:199:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./st_avplay 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:199:9: warning: (near initialization for 'array_cert_native[64]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:200:9: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+         "./test_vdp 0",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:200:9: warning: (near initialization for 'array_cert_native[65]') [-Wpointer-sign]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:264:4: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+    ret = memcmp(ca_cert, array_cert_native[index], strlen(array_cert_native[index]));
+    ^
+In file included from platform/android/bionic/libc/include/stdlib.h:34:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:2:
+platform/android/bionic/libc/include/string.h:223:8: note: expected 'const char *' but argument is of type 'const unsigned char *'
+ size_t strlen(const char *s) {
+        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c: In function 'tee_get_ca_name':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:118:5: warning: 'ret' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if (ret) {
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c: In function 'tee_check_ca_cert':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c:212:6: warning: 'ret' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  int ret;
+      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_ca_daemon.c: At top level:
+cc1: warning: unrecognized command line option "-Wno-int-conversion" [enabled by default]

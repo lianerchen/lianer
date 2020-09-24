@@ -1,0 +1,11 @@
+In file included from platform/android/external/skia/src/images/SkImageDecoder.cpp:9:0:
+platform/android/external/skia/include/core/SkImageDecoder.h: In constructor 'SkImageDecoder::SkImageDecoder()':
+platform/android/external/skia/include/core/SkImageDecoder.h:495:29: warning: 'SkImageDecoder::fDitherImage' will be initialized after [-Wreorder]
+     bool                    fDitherImage;
+                             ^
+platform/android/external/skia/include/core/SkImageDecoder.h:493:29: warning:   'bool SkImageDecoder::fUsePrefTable' [-Wreorder]
+     bool                    fUsePrefTable;
+                             ^
+platform/android/external/skia/src/images/SkImageDecoder.cpp:17:1: warning:   when initialized here [-Wreorder]
+ SkImageDecoder::SkImageDecoder()
+ ^

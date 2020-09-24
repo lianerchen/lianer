@@ -1,0 +1,4 @@
+platform/android/external/libcxxabi/src/Unwind/UnwindLevel1-gcc-ext.c:134:16: warning: assigning to 'uint32_t *' (aka 'unsigned int *') from 'const uint32_t *' (aka 'const unsigned int *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    unwindInfo = decode_eht_entry(unwindInfo, &off, &len);
+               ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.

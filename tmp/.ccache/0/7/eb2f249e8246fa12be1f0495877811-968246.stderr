@@ -1,0 +1,22 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_common.h:21:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/include/hi_unf_common.h:28,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/include/hi_unf_venc.h:25,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/include/hi_mpi_venc.h:23,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/venc/mpi_venc.c:32:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/venc/mpi_venc.c: In function 'MpiVencCheckPrivateAttr':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/venc/mpi_venc.c:305:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (pstAttr->u32DriftRateThr != (-1))
+                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/venc/mpi_venc.c: In function 'HI_MPI_VENC_Create':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/venc/mpi_venc.c:645:60: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+         s_asrVeChnVirAddr[i].pStrmBufVirAddr = pUsrVirAddr + VEDU_MMZ_ALIGN;
+                                                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/venc/mpi_venc.c:669:60: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+         s_asrVeChnVirAddr[i].pStrmBufVirAddr = pUsrVirAddr + VEDU_MMZ_ALIGN;
+                                                            ^

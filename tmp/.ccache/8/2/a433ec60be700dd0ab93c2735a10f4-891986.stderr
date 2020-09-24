@@ -1,0 +1,27 @@
+platform/android/external/libnl/lib/msg.c: In function 'nlmsg_valid_hdr':
+platform/android/external/libnl/lib/msg.c:274:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (nlh->nlmsg_len < nlmsg_msg_size(hdrlen))
+                     ^
+platform/android/external/libnl/lib/msg.c: In function 'nlmsg_ok':
+platform/android/external/libnl/lib/msg.c:289:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   nlh->nlmsg_len <= remaining);
+                  ^
+platform/android/external/libnl/lib/msg.c: In function 'nlmsg_set_default_size':
+platform/android/external/libnl/lib/msg.c:472:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (max < nlmsg_total_size(0))
+          ^
+platform/android/external/libnl/lib/msg.c: In function 'nlmsg_reserve':
+platform/android/external/libnl/lib/msg.c:526:6: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+  buf += nlmsg_len;
+      ^
+platform/android/external/libnl/lib/msg.c:530:14: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   memset(buf + len, 0, tlen - len);
+              ^
+platform/android/external/libnl/lib/msg.c: In function 'dump_attrs':
+platform/android/external/libnl/lib/msg.c:949:32: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+    dump_hex(ofd, nla_data(nla) + alen,
+                                ^
+platform/android/external/libnl/lib/msg.c: In function 'nl_msg_dump':
+platform/android/external/libnl/lib/msg.c:977:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+      hdr->nlmsg_len >= nlmsg_msg_size(sizeof(struct nlmsgerr))) {
+                     ^

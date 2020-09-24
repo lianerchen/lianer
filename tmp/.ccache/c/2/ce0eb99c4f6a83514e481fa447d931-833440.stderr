@@ -1,0 +1,4 @@
+platform/android/external/ppp/pppd/openssl-hash.c: In function 'openssl_hash_init':
+platform/android/external/ppp/pppd/openssl-hash.c:28:9: warning: implicit declaration of function 'dbglog' [-Wimplicit-function-declaration]
+         dbglog("Error Unknown message digest SHA1\n");
+         ^

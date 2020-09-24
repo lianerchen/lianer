@@ -1,0 +1,4 @@
+platform/android/external/ipsec-tools/src/racoon/pfkey.c: In function 'pk_sendeacquire':
+platform/android/external/ipsec-tools/src/racoon/pfkey.c:2761:39: warning: unused parameter 'iph2' [-Wunused-parameter]
+ int pk_sendeacquire(struct ph2handle *iph2)
+                                       ^

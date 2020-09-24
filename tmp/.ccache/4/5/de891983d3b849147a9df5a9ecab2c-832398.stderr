@@ -1,0 +1,7 @@
+In file included from platform/android/packages/apps/Gallery2/jni/filters/kmeans.cc:17:0:
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:38: warning: unused parameter 'obj' [-Wunused-parameter]
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                      ^
+platform/android/packages/apps/Gallery2/jni/filters/kmeans.cc:33:6: note: in expansion of macro 'JNIFUNCF'
+ void JNIFUNCF(ImageFilterKMeans, nativeApplyFilter, jobject bitmap, jint width, jint height,
+      ^

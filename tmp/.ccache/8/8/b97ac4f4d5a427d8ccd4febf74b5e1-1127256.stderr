@@ -1,0 +1,15 @@
+platform/android/external/pdfium/core/src/fpdfdoc/doc_ap.cpp: In member function 'virtual FX_INT32 CPVT_Provider::GetCharWidth(FX_INT32, FX_WORD, FX_INT32)':
+platform/android/external/pdfium/core/src/fpdfdoc/doc_ap.cpp:124:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (charcode != -1) {
+                          ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_ap.cpp: In member function 'virtual FX_INT32 CPVT_Provider::GetWordFontIndex(FX_WORD, FX_INT32, FX_INT32)':
+platform/android/external/pdfium/core/src/fpdfdoc/doc_ap.cpp:147:53: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (pDefFont->CharCodeFromUnicode(word) != -1) {
+                                                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_ap.cpp:152:53: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (pSysFont->CharCodeFromUnicode(word) != -1) {
+                                                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_ap.cpp: In function 'CFX_ByteString GetPDFWordString(IPVT_FontMap*, FX_INT32, FX_WORD, FX_WORD)':
+platform/android/external/pdfium/core/src/fpdfdoc/doc_ap.cpp:180:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                     if (dwCharCode != -1) {
+                                        ^

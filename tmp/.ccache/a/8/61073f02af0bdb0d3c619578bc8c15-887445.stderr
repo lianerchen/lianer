@@ -1,0 +1,39 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/drv/include/hi_drv_ao.h:24:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c:20:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c: In function 'EngineAcquireStreamData':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c:289:58: warning: unused parameter 'pstSourceManager' [-Wunused-parameter]
+ static HI_VOID EngineAcquireStreamData(SOURCE_MANAGER_S* pstSourceManager, HA_MS12_STREAM_S* pstMS12DecodeStream, HI_U32* pu32StreamBufBytes)
+                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c: In function 'EngineReleaseStreamData':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c:332:58: warning: unused parameter 'pstSourceManager' [-Wunused-parameter]
+ static HI_VOID EngineReleaseStreamData(SOURCE_MANAGER_S* pstSourceManager, HA_MS12_STREAM_S* pstMS12DecodeStream, HI_U32* pu32StreamBufBytes)
+                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c: In function 'EngineSendOutFrame':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c:367:53: warning: unused parameter 'pstEngineManager' [-Wunused-parameter]
+ static HI_VOID EngineSendOutFrame(ENGINE_MANAGER_S* pstEngineManager, HA_MS12_STREAM_S* pstMS12DecodeStream)
+                                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c: In function 'EngineDecThread':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c:395:42: warning: unused parameter 'arg' [-Wunused-parameter]
+ static HI_VOID* EngineDecThread(HI_VOID* arg)
+                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c: In function 'EngineGetSinkDelayMs':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c:520:54: warning: unused parameter 'pstEngineManager' [-Wunused-parameter]
+ static HI_S32 EngineGetSinkDelayMs(ENGINE_MANAGER_S* pstEngineManager, HI_U32* pu32DelayMs)
+                                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c: In function 'EngineGetTrackConfig':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c:583:54: warning: unused parameter 'pstEngineManager' [-Wunused-parameter]
+ static HI_S32 EngineGetTrackConfig(ENGINE_MANAGER_S* pstEngineManager, const SOURCE_ID_E enSourceID, HI_VOID* pConfig)
+                                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c:583:90: warning: unused parameter 'enSourceID' [-Wunused-parameter]
+ static HI_S32 EngineGetTrackConfig(ENGINE_MANAGER_S* pstEngineManager, const SOURCE_ID_E enSourceID, HI_VOID* pConfig)
+                                                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c: In function 'Engine_DropTrackStream':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/render_engine.c:761:68: warning: unused parameter 'u32SeekPts' [-Wunused-parameter]
+ HI_S32 Engine_DropTrackStream(const SOURCE_ID_E enSourceID, HI_U32 u32SeekPts)
+                                                                    ^

@@ -1,0 +1,4 @@
+platform/android/frameworks/av/media/mtp/MtpRequestPacket.cpp: In member function 'int android::MtpRequestPacket::read(int)':
+platform/android/frameworks/av/media/mtp/MtpRequestPacket.cpp:48:70: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             && ret <= MTP_CONTAINER_HEADER_SIZE + 5 * sizeof(uint32_t)
+                                                                      ^

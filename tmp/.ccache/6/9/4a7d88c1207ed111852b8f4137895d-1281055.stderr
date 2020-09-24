@@ -1,0 +1,187 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'AV_SDK_Init':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1413:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.MP3.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1414:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.DOLBYPLUS.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1415:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.DTSHD.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1416:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.DTSM6.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1417:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.MP2.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1418:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.AAC.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1419:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.DRA.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1420:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.DOLBYTRUEHD.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1421:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.TRUEHDPASSTHROUGH.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1422:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.AMRNB.codec.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1423:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.AMRWB.codec.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1424:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.WMA.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1425:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.COOK.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1426:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.BLURAYLPCM.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1427:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.FFMPEG_ADEC.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1428:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.PCM.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1429:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.AC3PASSTHROUGH.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1430:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterAcodecLib("libHA.AUDIO.DTSPASSTHROUGH.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1431:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     AV_DO_FUNC(HI_UNF_AVPLAY_RegisterVcodecLib("libHV.VIDEO.FFMPEG_VDEC.decode.so"), s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1435:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE, "AVPlay init error, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'AV_SDK_Deinit':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1446:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE, "AVPlay Deinit error, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'AV_SDK_SetEvent':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1469:9: warning: passing argument 3 of 'HI_UNF_AVPLAY_RegisterEvent64' from incompatible pointer type [enabled by default]
+         s32Ret = HI_UNF_AVPLAY_RegisterEvent64(hAvPlayerSdk, enEvtType, AV_SDK_EvtCallback);
+         ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:8:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/include/hi_unf_avplay.h:931:8: note: expected 'HI_UNF_AVPLAY_EVENT_CB_FN64' but argument is of type 'S32 (*)(HANDLE,  enum HI_UNF_AVPLAY_EVENT_E,  void *)'
+ HI_S32 HI_UNF_AVPLAY_RegisterEvent64(HI_HANDLE      hAvplay,
+        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1474:13: warning: passing argument 3 of 'HI_UNF_AVPLAY_RegisterEvent64' from incompatible pointer type [enabled by default]
+             s32Ret = HI_UNF_AVPLAY_RegisterEvent64(hAvPlayerSdk, enEvtType1, AV_SDK_EvtCallback);
+             ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:8:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/include/hi_unf_avplay.h:931:8: note: expected 'HI_UNF_AVPLAY_EVENT_CB_FN64' but argument is of type 'S32 (*)(HANDLE,  enum HI_UNF_AVPLAY_EVENT_E,  void *)'
+ HI_S32 HI_UNF_AVPLAY_RegisterEvent64(HI_HANDLE      hAvplay,
+        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1483:9: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+         HAL_CHK_PRINTF((s32Ret != SUCCESS), "sdk avplayer event(%d) unregister error(0x%08x)", enEvtType, s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1488:13: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+             HAL_CHK_PRINTF((s32Ret != SUCCESS), "sdk avplayer event1(%d) unregister error(0x%08x)", enEvtType1, s32Ret);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'AV_SDK_Create':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1551:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_CALL_RETURN((SUCCESS != s32Ret), ERROR_AV_OP_FAILED, AV_FREEP(&pstAvInfo), "av error, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1561:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_CALL_RETURN((SUCCESS != s32Ret), ERROR_AV_OP_FAILED, AV_FREEP(&pstAvInfo), "av error, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'AV_SDK_Close':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1645:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE, "avplay destroy return s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'AV_SDK_GetStatus':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:1671:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE,
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'AV_SDK_SendData':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:2062:9: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_ERROR("sdk put buffer error(0x%x), request len = %u, get len = %u",
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'AV_SDK_SetADecAttr':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:2114:5: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE, "find audio codec fail, format(%u), error code(0x%08x)", u32AudioFormat, s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'AV_SDK_TPlay':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:2487:9: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'S32' [-Wformat=]
+         AV_DO_FUNC(HI_UNF_AVPLAY_Reset(hAvPlayerSdk, NULL), s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:2495:13: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long int' [-Wformat=]
+             HAL_DEBUG("tplay speed = %d.%u ", s32Speed / AV_NORMAL_PLAY_SPEED, stOption.u32SpeedDecimal);
+             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'AV_SDK_SetPid':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:2572:9: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_CHK_PRINTF((SUCCESS != s32Ret), "set video pid fail, ret(0x%x)", s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:2578:9: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_CHK_PRINTF((SUCCESS != s32Ret), "set audio pid fail, ret(0x%x)", s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:2584:9: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_CHK_PRINTF((SUCCESS != s32Ret), "set pcr pid fail, ret(0x%x)", s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_init':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:2986:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), ERROR_AV_INIT_FAILED, "av module error, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_create':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:3071:9: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_CHK_PRINTF((SUCCESS != s32Ret), "open video channel fail, ret = 0x%x", s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:3074:9: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_CHK_PRINTF((SUCCESS != s32Ret), "open audio channel fail, ret = 0x%x", s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_destroy':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:3120:9: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_CHK_PRINTF((SUCCESS != s32Ret), "close video channel fail, ret = 0x%x", s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:3123:9: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+         HAL_CHK_PRINTF((SUCCESS != s32Ret), "close audio channel fail, ret = 0x%x", s32Ret);
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_term':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:3164:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), ERROR_AV_DEINIT_FAILED,
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_pause':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:3769:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE, "pase sdk avplay fail, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_resume':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:3816:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE, "resume sdk avplay fail, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_reset':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:3857:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE, "reset sdk avplay fail, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_start_video':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:3920:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), ERROR_AV_VID_START_FAIL, "set video decoder attr fail, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:3936:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), ERROR_AV_VID_START_FAIL, "start sdk avplay vid channel fail, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_stop_video':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:4020:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE, "stop sdk vid channel error, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_start_audio':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:4143:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), ERROR_AV_AUD_START_FAIL,
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_stop_audio':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:4198:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE, "stop sdk aud channel error, s32Ret(0x%08x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_inject_write_complete':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:5051:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_PRINTF((SUCCESS != s32Ret), "inject write complete fail, ret(0x%x)", s32Ret);
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c: In function 'av_inject_get_buf_status':
+device/hisilicon/bigfish/HiSTBSDKV6R2/hal/src/av/tvos_hal_av.c:5099:5: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'S32' [-Wformat=]
+     HAL_CHK_RETURN((SUCCESS != s32Ret), FAILURE, "get sdk avplay status info fail, s32Ret(0x%08x)", s32Ret);
+     ^

@@ -1,0 +1,21 @@
+platform/android/frameworks/base/media/jni/android_media_MediaMuxer.cpp:43:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static jint android_media_MediaMuxer_addTrack(
+             ^
+platform/android/frameworks/base/media/jni/android_media_MediaMuxer.cpp:73:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static void android_media_MediaMuxer_writeSampleData(
+             ^
+platform/android/frameworks/base/media/jni/android_media_MediaMuxer.cpp:148:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static void android_media_MediaMuxer_setOrientationHint(
+             ^
+platform/android/frameworks/base/media/jni/android_media_MediaMuxer.cpp:166:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static void android_media_MediaMuxer_setLocation(
+             ^
+platform/android/frameworks/base/media/jni/android_media_MediaMuxer.cpp:178:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static void android_media_MediaMuxer_start(JNIEnv *env, jclass clazz,
+             ^
+platform/android/frameworks/base/media/jni/android_media_MediaMuxer.cpp:196:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static void android_media_MediaMuxer_stop(JNIEnv *env, jclass clazz,
+             ^
+platform/android/frameworks/base/media/jni/android_media_MediaMuxer.cpp:214:13: warning: unused parameter 'env' [-Wunused-parameter]
+ static void android_media_MediaMuxer_native_release(
+             ^

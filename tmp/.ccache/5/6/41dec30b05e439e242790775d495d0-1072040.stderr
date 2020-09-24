@@ -1,0 +1,23 @@
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c: In function 'evp_weakkey':
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c:1308:22: warning: unused parameter 'key' [-Wunused-parameter]
+ evp_weakkey(vchar_t *key, const EVP_CIPHER *e)
+                      ^
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c:1308:45: warning: unused parameter 'e' [-Wunused-parameter]
+ evp_weakkey(vchar_t *key, const EVP_CIPHER *e)
+                                             ^
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c: In function 'eay_bf_weakkey':
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c:1443:11: warning: unused parameter 'key' [-Wunused-parameter]
+  vchar_t *key;
+           ^
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c: In function 'eay_cast_weakkey':
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c:1588:11: warning: unused parameter 'key' [-Wunused-parameter]
+  vchar_t *key;
+           ^
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c: In function 'eay_aes_weakkey':
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c:1703:11: warning: unused parameter 'key' [-Wunused-parameter]
+  vchar_t *key;
+           ^
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c: In function 'eay_null_keylen':
+platform/android/external/ipsec-tools/src/racoon/crypto_openssl.c:1799:6: warning: unused parameter 'len' [-Wunused-parameter]
+  int len;
+      ^

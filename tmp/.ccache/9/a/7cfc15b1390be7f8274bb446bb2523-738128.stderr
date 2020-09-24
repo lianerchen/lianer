@@ -1,0 +1,22 @@
+platform/android/frameworks/av/media/libeffects/lvm/lib/Reverb/src/LVREV_ClearAudioBuffers.c: In function 'LVREV_ClearAudioBuffers':
+platform/android/frameworks/av/media/libeffects/lvm/lib/Reverb/src/LVREV_ClearAudioBuffers.c:74:9: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+         LoadConst_32(0, (LVM_INT32 *)&pLVREV_Private->pFastData->RevLPTaps[3], 2);
+         ^
+platform/android/frameworks/av/media/libeffects/lvm/lib/Reverb/src/LVREV_ClearAudioBuffers.c:75:9: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+         LoadConst_32(0, (LVM_INT32 *)&pLVREV_Private->pFastData->RevLPTaps[2], 2);
+         ^
+platform/android/frameworks/av/media/libeffects/lvm/lib/Reverb/src/LVREV_ClearAudioBuffers.c:76:9: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+         LoadConst_32(0, (LVM_INT32 *)&pLVREV_Private->pFastData->RevLPTaps[1], 2);
+         ^
+platform/android/frameworks/av/media/libeffects/lvm/lib/Reverb/src/LVREV_ClearAudioBuffers.c:77:9: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+         LoadConst_32(0, (LVM_INT32 *)&pLVREV_Private->pFastData->RevLPTaps[0], 2);
+         ^
+platform/android/frameworks/av/media/libeffects/lvm/lib/Reverb/src/LVREV_ClearAudioBuffers.c:88:9: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+         LoadConst_32(0, (LVM_INT32 *)&pLVREV_Private->pFastData->RevLPTaps[1], 2);
+         ^
+platform/android/frameworks/av/media/libeffects/lvm/lib/Reverb/src/LVREV_ClearAudioBuffers.c:89:9: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+         LoadConst_32(0, (LVM_INT32 *)&pLVREV_Private->pFastData->RevLPTaps[0], 2);
+         ^
+platform/android/frameworks/av/media/libeffects/lvm/lib/Reverb/src/LVREV_ClearAudioBuffers.c:97:9: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+         LoadConst_32(0, (LVM_INT32 *)&pLVREV_Private->pFastData->RevLPTaps[0], 2);
+         ^

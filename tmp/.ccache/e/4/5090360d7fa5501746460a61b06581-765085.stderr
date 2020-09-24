@@ -1,0 +1,7 @@
+component/DAS/agent/wrstring.c:98:5: warning: no previous prototype for 'getActiondata' [-Wmissing-prototypes]
+ int getActiondata(char* p, int GetNum, int buffLen) //获取某些节点
+     ^
+component/DAS/agent/wrstring.c: In function 'getActiondata':
+component/DAS/agent/wrstring.c:126:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if((strlen(p) + strlen(tmp->name)) > buffLen)//不足以再装下一条消息
+                                            ^

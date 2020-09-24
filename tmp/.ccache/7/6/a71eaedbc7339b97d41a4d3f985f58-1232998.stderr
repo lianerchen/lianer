@@ -1,0 +1,4 @@
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font.cpp: In member function 'FX_BOOL CPDF_SimpleFont::LoadCommon()':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_font/fpdf_font.cpp:994:57: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (int range = 0; range < sizeof lowercases / 2; range ++) {
+                                                         ^

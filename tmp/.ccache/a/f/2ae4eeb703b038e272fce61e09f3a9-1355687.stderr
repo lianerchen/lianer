@@ -1,0 +1,48 @@
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:67:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+ native_getOutputInterfaceList(JNIEnv *env, jclass clazz)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:90:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+ native_getOutputInterfaceStatus(JNIEnv *env, jclass clazz, jstring _port)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:96:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+ native_enableOutputInterface(JNIEnv *env, jclass clazz, jstring _port)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:102:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+ native_disableOutputInterface(JNIEnv *env, jclass clazz, jstring _port)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:108:1: warning: unused parameter 'env' [-Wunused-parameter]
+ native_setOutputVolume(JNIEnv *env, jclass clazz, jint _volume)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:108:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:114:1: warning: unused parameter 'env' [-Wunused-parameter]
+ native_getOutputVolume(JNIEnv *env, jclass clazz)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:114:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:120:1: warning: unused parameter 'env' [-Wunused-parameter]
+ native_setOutputChannelMode(JNIEnv *env, jclass clazz, jint _mode)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:120:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:126:1: warning: unused parameter 'env' [-Wunused-parameter]
+ native_getOutputChannelMode(JNIEnv *env, jclass clazz)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:126:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:132:1: warning: unused parameter 'env' [-Wunused-parameter]
+ native_setOutputSPDIFMode(JNIEnv *env, jclass clazz, jint _mode)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:132:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:138:1: warning: unused parameter 'env' [-Wunused-parameter]
+ native_getOutputSPDIFMode(JNIEnv *env, jclass clazz)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:138:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:144:1: warning: unused parameter 'env' [-Wunused-parameter]
+ native_isMute(JNIEnv *env, jclass clazz)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:144:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:150:1: warning: unused parameter 'env' [-Wunused-parameter]
+ native_mute(JNIEnv *env, jclass clazz)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:150:1: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:156:1: warning: unused parameter 'env' [-Wunused-parameter]
+ native_unMute(JNIEnv *env, jclass clazz)
+ ^
+framework/ngb-j/jni/org_ngb_util_setting_AudioSetting.cpp:156:1: warning: unused parameter 'clazz' [-Wunused-parameter]

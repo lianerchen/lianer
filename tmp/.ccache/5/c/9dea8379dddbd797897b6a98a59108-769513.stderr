@@ -1,0 +1,25 @@
+platform/android/external/bzip2/compress.c: In function 'BZ2_compressBlock':
+platform/android/external/bzip2/compress.c:401:25: warning: 'cost[5]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             if (cost[t] < bc) { bc = cost[t]; bt = t; };
+                         ^
+platform/android/external/bzip2/compress.c:256:11: note: 'cost[5]' was declared here
+    UInt16 cost[BZ_N_GROUPS];
+           ^
+platform/android/external/bzip2/compress.c:391:54: warning: 'cost[4]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                for (t = 0; t < nGroups; t++) cost[t] += s->len[t][icv];
+                                                      ^
+platform/android/external/bzip2/compress.c:256:11: note: 'cost[4]' was declared here
+    UInt16 cost[BZ_N_GROUPS];
+           ^
+platform/android/external/bzip2/compress.c:391:54: warning: 'cost[3]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                for (t = 0; t < nGroups; t++) cost[t] += s->len[t][icv];
+                                                      ^
+platform/android/external/bzip2/compress.c:256:11: note: 'cost[3]' was declared here
+    UInt16 cost[BZ_N_GROUPS];
+           ^
+platform/android/external/bzip2/compress.c:391:54: warning: 'cost[2]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                for (t = 0; t < nGroups; t++) cost[t] += s->len[t][icv];
+                                                      ^
+platform/android/external/bzip2/compress.c:256:11: note: 'cost[2]' was declared here
+    UInt16 cost[BZ_N_GROUPS];
+           ^

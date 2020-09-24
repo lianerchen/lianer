@@ -1,0 +1,41 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c:26:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c: In function 'AdjustToneFreq':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c:830:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(i = 0; i < u32RealUBNumber; i++)
+                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c: In function 'GetMinAgcArray':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c:911:51: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(j = 0; j < SCR_USER_BAND_NUMBERS && j < u32UBCount; j++)
+                                                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c:919:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if(j < SCR_USER_BAND_NUMBERS && j >= u32UBCount)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c: In function 'CheckToneOff':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c:976:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(i = u32UBCount; i < u32RealUBNumber && (i < SCR_USER_BAND_NUMBERS - 1); i++)
+                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c: In function 'CheckToneUp':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c:1035:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(i = u32UBCount;i < u32RealUBNumber;i++)
+                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c: In function 'Scr_BlindScanTone':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c:1199:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(i = 0; i < u32RealUBNumber; i++)
+                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c:1206:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(i = 0; i < u32RealUBNumber; i++)
+                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c: In function 'HI_UNF_TUNER_UNICABLE_ExitScanUserBands':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c:1261:55: warning: unused parameter 'u32TunerId' [-Wunused-parameter]
+ HI_S32 HI_UNF_TUNER_UNICABLE_ExitScanUserBands(HI_U32 u32TunerId)
+                                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c: In function 'HI_UNF_TUNER_UNICABLE_GetUserBandsInfo':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/frontend/unf_unicable.c:1267:54: warning: unused parameter 'u32TunerId' [-Wunused-parameter]
+ HI_S32 HI_UNF_TUNER_UNICABLE_GetUserBandsInfo(HI_U32 u32TunerId, HI_UNF_TUNER_SCR_UB_S **ppUBInfo, HI_U32 *pu32Num)
+                                                      ^

@@ -1,0 +1,83 @@
+In file included from platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:9:0:
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h: In constructor 'CTypeset::CTypeset(CSection*)':
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:333:23: warning: 'CTypeset::m_pSection' will be initialized after [-Wreorder]
+     CSection        * m_pSection;
+                       ^
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:332:30: warning:   'CPDF_VariableText* CTypeset::m_pVT' [-Wreorder]
+     CPDF_VariableText      * m_pVT;
+                              ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:320:1: warning:   when initialized here [-Wreorder]
+ CTypeset::CTypeset(CSection * pSection) : m_pSection(pSection), m_pVT(pSection->m_pVT), m_rcRet(0.0f, 0.0f, 0.0f, 0.0f)
+ ^
+In file included from platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:9:0:
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:332:30: warning: 'CTypeset::m_pVT' will be initialized after [-Wreorder]
+     CPDF_VariableText      * m_pVT;
+                              ^
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:331:26: warning:   'CPVT_FloatRect CTypeset::m_rcRet' [-Wreorder]
+     CPVT_FloatRect       m_rcRet;
+                          ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:320:1: warning:   when initialized here [-Wreorder]
+ CTypeset::CTypeset(CSection * pSection) : m_pSection(pSection), m_pVT(pSection->m_pVT), m_rcRet(0.0f, 0.0f, 0.0f, 0.0f)
+ ^
+In file included from platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:9:0:
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h: In constructor 'CPDF_VariableText::CPDF_VariableText()':
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:615:36: warning: 'CPDF_VariableText::m_pVTIterator' will be initialized after [-Wreorder]
+     CPDF_VariableText_Iterator *   m_pVTIterator;
+                                    ^
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:610:21: warning:   'FX_BOOL CPDF_VariableText::m_bInitial' [-Wreorder]
+     FX_BOOL         m_bInitial;
+                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:806:1: warning:   when initialized here [-Wreorder]
+ CPDF_VariableText::CPDF_VariableText() :
+ ^
+In file included from platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:9:0:
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:611:21: warning: 'CPDF_VariableText::m_bRichText' will be initialized after [-Wreorder]
+     FX_BOOL         m_bRichText;
+                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:598:21: warning:   'FX_BOOL CPDF_VariableText::m_bMultiLine' [-Wreorder]
+     FX_BOOL         m_bMultiLine;
+                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:806:1: warning:   when initialized here [-Wreorder]
+ CPDF_VariableText::CPDF_VariableText() :
+ ^
+In file included from platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:9:0:
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:600:21: warning: 'CPDF_VariableText::m_bAutoFontSize' will be initialized after [-Wreorder]
+     FX_BOOL         m_bAutoFontSize;
+                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:596:21: warning:   'FX_INT32 CPDF_VariableText::m_nLimitChar' [-Wreorder]
+     FX_INT32        m_nLimitChar;
+                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:806:1: warning:   when initialized here [-Wreorder]
+ CPDF_VariableText::CPDF_VariableText() :
+ ^
+In file included from platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:9:0:
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:607:21: warning: 'CPDF_VariableText::m_fFontSize' will be initialized after [-Wreorder]
+     FX_FLOAT        m_fFontSize;
+                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:604:21: warning:   'FX_INT32 CPDF_VariableText::m_nHorzScale' [-Wreorder]
+     FX_INT32        m_nHorzScale;
+                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:806:1: warning:   when initialized here [-Wreorder]
+ CPDF_VariableText::CPDF_VariableText() :
+ ^
+In file included from platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:9:0:
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:605:21: warning: 'CPDF_VariableText::m_wSubWord' will be initialized after [-Wreorder]
+     FX_WORD         m_wSubWord;
+                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:602:21: warning:   'FX_FLOAT CPDF_VariableText::m_fLineLeading' [-Wreorder]
+     FX_FLOAT        m_fLineLeading;
+                     ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:806:1: warning:   when initialized here [-Wreorder]
+ CPDF_VariableText::CPDF_VariableText() :
+ ^
+In file included from platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:9:0:
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h: In constructor 'CPDF_VariableText_Iterator::CPDF_VariableText_Iterator(CPDF_VariableText*)':
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:641:30: warning: 'CPDF_VariableText_Iterator::m_pVT' will be initialized after [-Wreorder]
+     CPDF_VariableText *      m_pVT;
+                              ^
+platform/android/external/pdfium/core/src/fpdfdoc/pdf_vt.h:640:26: warning:   'CPVT_WordPlace CPDF_VariableText_Iterator::m_CurPos' [-Wreorder]
+     CPVT_WordPlace       m_CurPos;
+                          ^
+platform/android/external/pdfium/core/src/fpdfdoc/doc_vt.cpp:1690:1: warning:   when initialized here [-Wreorder]
+ CPDF_VariableText_Iterator::CPDF_VariableText_Iterator(CPDF_VariableText * pVT):
+ ^

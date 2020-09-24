@@ -1,0 +1,9 @@
+framework/ngb-j/jni/com_android_server_NgbEventManagerService.cpp:11:19: warning: unused parameter 'env' [-Wunused-parameter]
+  static jintArray ngbem_getAllTunerId(JNIEnv* env, jobject clazz) {
+                   ^
+framework/ngb-j/jni/com_android_server_NgbEventManagerService.cpp:11:19: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/com_android_server_NgbEventManagerService.cpp:29:14: warning: unused parameter 'env' [-Wunused-parameter]
+  static jint ngbem_getTunerStatus(JNIEnv* env, jobject clazz, jint tunerId) {
+              ^
+framework/ngb-j/jni/com_android_server_NgbEventManagerService.cpp:29:14: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/com_android_server_NgbEventManagerService.cpp:29:14: warning: unused parameter 'tunerId' [-Wunused-parameter]

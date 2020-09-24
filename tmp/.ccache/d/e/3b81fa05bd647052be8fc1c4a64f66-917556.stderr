@@ -1,0 +1,15 @@
+component/dtv/service/src/common/ch_common.c:32:2: warning: missing braces around initializer [-Wmissing-braces]
+  0x00a4,0xa1e8,
+  ^
+component/dtv/service/src/common/ch_common.c:32:2: warning: (near initialization for 'gstru_unigb2312_map[0]') [-Wmissing-braces]
+component/dtv/service/src/common/ch_common.c: In function 'CH_COM_TimerTask':
+component/dtv/service/src/common/ch_common.c:7583:36: warning: unused parameter 'rpv_param' [-Wunused-parameter]
+ static void CH_COM_TimerTask(void *rpv_param)
+                                    ^
+component/dtv/service/src/common/ch_common.c: In function 'CH_COM_Module_Print':
+component/dtv/service/src/common/ch_common.c:7739:30: warning: unused parameter 'ri_Module' [-Wunused-parameter]
+ void CH_COM_Module_Print(S32 ri_Module, S32 ri_Level, const S8 *rpc_buffer, ...)
+                              ^
+component/dtv/service/src/common/ch_common.c:7739:45: warning: unused parameter 'ri_Level' [-Wunused-parameter]
+ void CH_COM_Module_Print(S32 ri_Module, S32 ri_Level, const S8 *rpc_buffer, ...)
+                                             ^

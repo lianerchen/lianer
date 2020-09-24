@@ -1,0 +1,10 @@
+platform/android/external/fio/lib/num2str.c: In function 'num2str':
+platform/android/external/fio/lib/num2str.c:38:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  while (post_index < sizeof(postfix)) {
+                    ^
+platform/android/external/fio/lib/num2str.c:40:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (strlen(tmp) <= maxlen)
+                   ^
+platform/android/external/fio/lib/num2str.c:51:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (post_index >= ARRAY_LENGTH(postfix))
+                  ^

@@ -1,0 +1,4 @@
+platform/android/frameworks/native/services/surfaceflinger/Layer.cpp:841:14: warning: unused parameter 'useIdentityTransform' [-Wunused-parameter]
+        bool useIdentityTransform) const
+             ^
+1 warning generated.

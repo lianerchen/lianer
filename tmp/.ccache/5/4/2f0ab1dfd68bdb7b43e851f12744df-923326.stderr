@@ -1,0 +1,23 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_common.h:21:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/include/hi_unf_common.h:28,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_edid.c:38:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_edid.c: In function 'HI_MPI_EDID_EdidRelease':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_edid.c:43:46: warning: unused parameter 'pstEdidInfo' [-Wunused-parameter]
+ HI_VOID HI_MPI_EDID_EdidRelease(EDID_INFO_S* pstEdidInfo)
+                                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_edid.c: In function 'HI_MPI_EDID_EdidParse':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_edid.c:48:37: warning: unused parameter 'u8Edid' [-Wunused-parameter]
+ HI_S32 HI_MPI_EDID_EdidParse(HI_U8* u8Edid, HI_U32 u32EdidLength, EDID_INFO_S* pstEdidInfo)
+                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_edid.c:48:52: warning: unused parameter 'u32EdidLength' [-Wunused-parameter]
+ HI_S32 HI_MPI_EDID_EdidParse(HI_U8* u8Edid, HI_U32 u32EdidLength, EDID_INFO_S* pstEdidInfo)
+                                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_edid.c:48:80: warning: unused parameter 'pstEdidInfo' [-Wunused-parameter]
+ HI_S32 HI_MPI_EDID_EdidParse(HI_U8* u8Edid, HI_U32 u32EdidLength, EDID_INFO_S* pstEdidInfo)
+                                                                                ^

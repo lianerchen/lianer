@@ -1,0 +1,48 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/drv/include/hi_drv_disp.h:20:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/include/hi_mpi_disp.h:22,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:24:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c: In function 'HI_UNF_DISP_SetLayerZorder':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:459:49: warning: unused parameter 'enDisp' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_SetLayerZorder(HI_UNF_DISP_E enDisp, HI_UNF_DISP_LAYER_E enLayer, HI_LAYER_ZORDER_E enZFlag)
+                                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:459:77: warning: unused parameter 'enLayer' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_SetLayerZorder(HI_UNF_DISP_E enDisp, HI_UNF_DISP_LAYER_E enLayer, HI_LAYER_ZORDER_E enZFlag)
+                                                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:459:104: warning: unused parameter 'enZFlag' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_SetLayerZorder(HI_UNF_DISP_E enDisp, HI_UNF_DISP_LAYER_E enLayer, HI_LAYER_ZORDER_E enZFlag)
+                                                                                                        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c: In function 'HI_UNF_DISP_SetAlgCfg':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:788:44: warning: unused parameter 'enDisp' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_SetAlgCfg(HI_UNF_DISP_E enDisp, HI_UNF_DISP_ALG_CFG_S* pstAlg)
+                                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:788:75: warning: unused parameter 'pstAlg' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_SetAlgCfg(HI_UNF_DISP_E enDisp, HI_UNF_DISP_ALG_CFG_S* pstAlg)
+                                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c: In function 'HI_UNF_DISP_GetAlgCfg':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:793:44: warning: unused parameter 'enDisp' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_GetAlgCfg(HI_UNF_DISP_E enDisp, HI_UNF_DISP_ALG_CFG_S* pstAlg)
+                                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:793:75: warning: unused parameter 'pstAlg' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_GetAlgCfg(HI_UNF_DISP_E enDisp, HI_UNF_DISP_ALG_CFG_S* pstAlg)
+                                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c: In function 'HI_UNF_DISP_SetWss':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:850:41: warning: unused parameter 'enDisp' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_SetWss(HI_UNF_DISP_E enDisp, const HI_UNF_DISP_WSS_DATA_S* pstWssData)
+                                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:850:79: warning: unused parameter 'pstWssData' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_SetWss(HI_UNF_DISP_E enDisp, const HI_UNF_DISP_WSS_DATA_S* pstWssData)
+                                                                               ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c: In function 'HI_UNF_DISP_SetMacrovision':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:855:111: warning: unused parameter 'pData' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_SetMacrovision(HI_UNF_DISP_E enDisp, HI_UNF_DISP_MACROVISION_MODE_E enMode, const HI_VOID* pData)
+                                                                                                               ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c: In function 'HI_UNF_DISP_GetMacrovision':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/unf_display.c:867:113: warning: unused parameter 'pData' [-Wunused-parameter]
+ HI_S32 HI_UNF_DISP_GetMacrovision(HI_UNF_DISP_E enDisp, HI_UNF_DISP_MACROVISION_MODE_E* penMode, const HI_VOID* pData)
+                                                                                                                 ^

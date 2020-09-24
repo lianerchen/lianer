@@ -1,0 +1,50 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c: In function 'DDPlusCallBack':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:77:49: warning: unused parameter 'Event' [-Wunused-parameter]
+ static HI_VOID DDPlusCallBack(DOLBYPLUS_EVENT_E Event, HI_VOID* pUserData)
+                                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c: In function 'HI_OMX_DDP_GetParameter':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:174:9: warning: case value '1866465281' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+         case OMX_IndexParamAudioAndroidAc3:
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:175:9: warning: case value '1866465284' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+         case OMX_IndexParamAudioAndroidEac3:
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:178:9: warning: case value '1877999617' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+         case OMX_IndexParamAudioDolbyDrcMode:
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:179:9: warning: case value '1877999618' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+         case OMX_IndexParamAudioDolbyDrcRange:
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:182:9: warning: case value '1877999619' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+         case OMX_IndexParamAudioDolbyStreamInfo:
+         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c: In function 'HI_OMX_DDP_SetParameter':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:279:10: warning: case value '1866465281' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+          case OMX_IndexParamAudioAndroidAc3:
+          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:280:10: warning: case value '1866465284' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+          case OMX_IndexParamAudioAndroidEac3:
+          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:283:10: warning: case value '1877999617' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+          case OMX_IndexParamAudioDolbyDrcMode:
+          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:298:10: warning: case value '1877999618' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+          case OMX_IndexParamAudioDolbyDrcRange:
+          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:314:10: warning: case value '1877999619' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+          case OMX_IndexParamAudioDolbyStreamInfo:
+          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:317:10: warning: case value '2130706433' not in enumerated type 'OMX_INDEXTYPE' [-Wswitch]
+          case OMX_HA_EnablePassThroughOutput:
+          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c: In function 'HI_OMX_DDP_ComponentRoleEnum':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:334:66: warning: unused parameter 'hComponent' [-Wunused-parameter]
+ OMX_ERRORTYPE HI_OMX_DDP_ComponentRoleEnum(OMX_IN OMX_HANDLETYPE hComponent,
+                                                                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c: In function 'component_init':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:557:25: warning: assignment from incompatible pointer type [enabled by default]
+     pHAData->CodecFrame = HA_OMX_DecodeFrame;
+                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_audio/omx_adec/ddpdec/sw/src/omx_ddp_adec.c:356:65: warning: unused parameter 'comp_name' [-Wunused-parameter]
+ OMX_ERRORTYPE component_init(OMX_HANDLETYPE phandle, OMX_STRING comp_name)
+                                                                 ^

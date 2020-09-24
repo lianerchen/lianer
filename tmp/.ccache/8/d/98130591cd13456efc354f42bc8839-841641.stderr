@@ -1,0 +1,4 @@
+platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c: In function 'ext2fs_check_mount_point':
+platform/android/external/e2fsprogs/lib/ext2fs/ismounted.c:365:3: warning: #warning "Can't use getmntent or getmntinfo to check for mounted filesystems!" [-Wcpp]
+  #warning "Can't use getmntent or getmntinfo to check for mounted filesystems!"
+   ^

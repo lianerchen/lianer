@@ -1,0 +1,86 @@
+In file included from component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/dsmcc.h:6:0,
+                 from component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/dsmcc_part1.c:7:
+component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:4:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable:4996 4819 4244 4267 4311 4312 4133)
+ ^
+In file included from component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/dsmcc.h:25:0,
+                 from component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/dsmcc_part1.c:7:
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_setCallback':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:266:45: warning: unused parameter 'me' [-Wunused-parameter]
+ void DSMCCManager_setCallback(DSMCCManager* me, FPTR_add_filter f1, FPTR_remove_filter f2, int maxDsmccFilters)
+                                             ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:266:65: warning: unused parameter 'f1' [-Wunused-parameter]
+ void DSMCCManager_setCallback(DSMCCManager* me, FPTR_add_filter f1, FPTR_remove_filter f2, int maxDsmccFilters)
+                                                                 ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:266:88: warning: unused parameter 'f2' [-Wunused-parameter]
+ void DSMCCManager_setCallback(DSMCCManager* me, FPTR_add_filter f1, FPTR_remove_filter f2, int maxDsmccFilters)
+                                                                                        ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:266:96: warning: unused parameter 'maxDsmccFilters' [-Wunused-parameter]
+ void DSMCCManager_setCallback(DSMCCManager* me, FPTR_add_filter f1, FPTR_remove_filter f2, int maxDsmccFilters)
+                                                                                                ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_loadURL':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:281:40: warning: unused parameter 'me' [-Wunused-parameter]
+ int DSMCCManager_loadURL(DSMCCManager* me, const char* url, int mode)
+                                        ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:281:56: warning: unused parameter 'url' [-Wunused-parameter]
+ int DSMCCManager_loadURL(DSMCCManager* me, const char* url, int mode)
+                                                        ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:281:65: warning: unused parameter 'mode' [-Wunused-parameter]
+ int DSMCCManager_loadURL(DSMCCManager* me, const char* url, int mode)
+                                                                 ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_open':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:434:79: warning: unused parameter 'flag_check_TS' [-Wunused-parameter]
+ int DSMCCManager_open(DSMCCManager* me, uint32 ip0, short port, int type, int flag_check_TS)
+                                                                               ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_obtainHandle':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1343:113: warning: unused parameter 'module' [-Wunused-parameter]
+ DSMCCLinkHandle* DSMCCManager_obtainHandle(DSMCCManager* me, DSMCCCarouselPub* pub, const char* filename, void* module)
+                                                                                                                 ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_resetCarouselByName':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1387:52: warning: unused parameter 'me' [-Wunused-parameter]
+ int DSMCCManager_resetCarouselByName(DSMCCManager* me, char* hostname, int flag_keep_dsi_filter)
+                                                    ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_cleanCarouselCache':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1416:52: warning: unused parameter 'me' [-Wunused-parameter]
+ int  DSMCCManager_cleanCarouselCache(DSMCCManager* me, char* hostname, int flag_clean_section_buf)
+                                                    ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_createGlobalCarousel':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1500:5: warning: missing braces around initializer [-Wmissing-braces]
+     CarouselParams param[1] = {0};
+     ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1500:5: warning: (near initialization for 'param[0]') [-Wmissing-braces]
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1496:46: warning: unused parameter 'type' [-Wunused-parameter]
+ int DSMCCManager_createGlobalCarousel(uint32 type, uint16 pid)
+                                              ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_destroyGlobalCarousel':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1543:47: warning: unused parameter 'type' [-Wunused-parameter]
+ int DSMCCManager_destroyGlobalCarousel(uint32 type, uint16 pid)
+                                               ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_runningGlobalCarousel':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1581:71: warning: unused parameter 'frequency' [-Wunused-parameter]
+ int DSMCCManager_runningGlobalCarousel(DSMCCManager* dsmccMgr, uint32 frequency)
+                                                                       ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_runningGlobalCarouselSelf':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1607:51: warning: unused parameter 'type' [-Wunused-parameter]
+ int DSMCCManager_runningGlobalCarouselSelf(uint32 type)
+                                                   ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'DSMCCManager_reRequestModule':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1621:41: warning: unused parameter 'type' [-Wunused-parameter]
+ int DSMCCManager_reRequestModule(uint32 type, uint16 pid, uint16 moduleid)
+                                         ^
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c: In function 'dsmcc_module_monitor_unregister':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_mgr.c:1667:74: warning: unused parameter 'face' [-Wunused-parameter]
+ int dsmcc_module_monitor_unregister(void* handle, DsmccMonitorInterface* face)
+                                                                          ^
+In file included from component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/dsmcc.h:27:0,
+                 from component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/dsmcc_part1.c:7:
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_api.c: In function 'dsmcc_thead_proc':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dsmcc_api.c:87:43: warning: unused parameter 'me' [-Wunused-parameter]
+ static si32 dsmcc_thead_proc(DSMCCPlugin* me, int msg, int p1, int p2)
+                                           ^
+In file included from component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/dsmcc.h:28:0,
+                 from component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/dsmcc_part1.c:7:
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dvbc_dsmcc.c: In function 'DSMCC_cacheCurrentOC':
+component/appman/downloadmanager/downloader/oc/dsmcc/workspace/src/../inc/../../shell/dvbc_dsmcc.c:18:29: warning: unused parameter 'bCache' [-Wunused-parameter]
+ DSMCC_cacheCurrentOC(bool32 bCache)
+                             ^

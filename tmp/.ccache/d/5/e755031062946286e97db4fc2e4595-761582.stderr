@@ -1,0 +1,72 @@
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c: In function 'flipVertical':
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:20:105: warning: unused parameter 'dstWidth' [-Wunused-parameter]
+ static __inline__ void flipVertical(char * source, int srcWidth, int srcHeight, char * destination, int dstWidth, int dstHeight){
+                                                                                                         ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:20:119: warning: unused parameter 'dstHeight' [-Wunused-parameter]
+ static __inline__ void flipVertical(char * source, int srcWidth, int srcHeight, char * destination, int dstWidth, int dstHeight){
+                                                                                                                       ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c: In function 'flipHorizontal':
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:34:107: warning: unused parameter 'dstWidth' [-Wunused-parameter]
+ static __inline__ void flipHorizontal(char * source, int srcWidth, int srcHeight, char * destination, int dstWidth, int dstHeight){
+                                                                                                           ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:34:121: warning: unused parameter 'dstHeight' [-Wunused-parameter]
+ static __inline__ void flipHorizontal(char * source, int srcWidth, int srcHeight, char * destination, int dstWidth, int dstHeight){
+                                                                                                                         ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c: In function 'rotate90':
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:80:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (j = 0; j < length * cpy_bytes; j+= cpy_bytes){
+                   ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:73:101: warning: unused parameter 'dstWidth' [-Wunused-parameter]
+ static __inline__ void rotate90(char * source, int srcWidth, int srcHeight, char * destination, int dstWidth, int dstHeight){
+                                                                                                     ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:73:115: warning: unused parameter 'dstHeight' [-Wunused-parameter]
+ static __inline__ void rotate90(char * source, int srcWidth, int srcHeight, char * destination, int dstWidth, int dstHeight){
+                                                                                                                   ^
+In file included from platform/android/packages/apps/Gallery2/jni/filters/geometry.c:17:0:
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c: In function 'Java_com_android_gallery3d_filtershow_filters_ImageFilterGeometry_nativeApplyFilterFlip':
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:126: warning: unused parameter 'obj' [-Wunused-parameter]
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                                                                                                              ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:130:6: note: in expansion of macro 'JNIFUNCF'
+ void JNIFUNCF(ImageFilterGeometry, nativeApplyFilterFlip, jobject src, jint srcWidth, jint srcHeight, jobject dst, jint dstWidth, jint dstHeight, jint flip) {
+      ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c: In function 'Java_com_android_gallery3d_filtershow_filters_ImageFilterGeometry_nativeApplyFilterRotate':
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:126: warning: unused parameter 'obj' [-Wunused-parameter]
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                                                                                                              ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:143:6: note: in expansion of macro 'JNIFUNCF'
+ void JNIFUNCF(ImageFilterGeometry, nativeApplyFilterRotate, jobject src, jint srcWidth, jint srcHeight, jobject dst, jint dstWidth, jint dstHeight, jint rotate) {
+      ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c: In function 'Java_com_android_gallery3d_filtershow_filters_ImageFilterGeometry_nativeApplyFilterCrop':
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:126: warning: unused parameter 'obj' [-Wunused-parameter]
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                                                                                                              ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:154:6: note: in expansion of macro 'JNIFUNCF'
+ void JNIFUNCF(ImageFilterGeometry, nativeApplyFilterCrop, jobject src, jint srcWidth, jint srcHeight, jobject dst, jint dstWidth, jint dstHeight, jint offsetWidth, jint offsetHeight) {
+      ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c: In function 'Java_com_android_gallery3d_filtershow_filters_ImageFilterGeometry_nativeApplyFilterStraighten':
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:126: warning: unused parameter 'obj' [-Wunused-parameter]
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                                                                                                              ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:165:6: note: in expansion of macro 'JNIFUNCF'
+ void JNIFUNCF(ImageFilterGeometry, nativeApplyFilterStraighten, jobject src, jint srcWidth, jint srcHeight, jobject dst, jint dstWidth, jint dstHeight, jfloat straightenAngle) {
+      ^
+In file included from platform/android/packages/apps/Gallery2/jni/filters/geometry.c:17:0:
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:165:83: warning: unused parameter 'srcWidth' [-Wunused-parameter]
+ void JNIFUNCF(ImageFilterGeometry, nativeApplyFilterStraighten, jobject src, jint srcWidth, jint srcHeight, jobject dst, jint dstWidth, jint dstHeight, jfloat straightenAngle) {
+                                                                                   ^
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:131: note: in definition of macro 'JNIFUNCF'
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                                                                                                                   ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:165:98: warning: unused parameter 'srcHeight' [-Wunused-parameter]
+ void JNIFUNCF(ImageFilterGeometry, nativeApplyFilterStraighten, jobject src, jint srcWidth, jint srcHeight, jobject dst, jint dstWidth, jint dstHeight, jfloat straightenAngle) {
+                                                                                                  ^
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:131: note: in definition of macro 'JNIFUNCF'
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                                                                                                                   ^
+platform/android/packages/apps/Gallery2/jni/filters/geometry.c:165:160: warning: unused parameter 'straightenAngle' [-Wunused-parameter]
+ void JNIFUNCF(ImageFilterGeometry, nativeApplyFilterStraighten, jobject src, jint srcWidth, jint srcHeight, jobject dst, jint dstWidth, jint dstHeight, jfloat straightenAngle) {
+                                                                                                                                                                ^
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:131: note: in definition of macro 'JNIFUNCF'
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                                                                                                                   ^

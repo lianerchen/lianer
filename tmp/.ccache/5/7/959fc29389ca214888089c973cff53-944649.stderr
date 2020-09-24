@@ -1,0 +1,9 @@
+platform/android/external/harfbuzz_ng/src/hb-font.cc:229:1: warning: missing initializer for member 'hb_prealloced_array_t<hb_user_data_array_t::hb_user_data_item_t, 2u>::static_array' [-Wmissing-field-initializers]
+ };
+ ^
+platform/android/external/harfbuzz_ng/src/hb-font.cc:229:1: warning: missing initializer for member 'hb_font_funcs_t::user_data' [-Wmissing-field-initializers]
+platform/android/external/harfbuzz_ng/src/hb-font.cc:229:1: warning: missing initializer for member 'hb_font_funcs_t::destroy' [-Wmissing-field-initializers]
+platform/android/external/harfbuzz_ng/src/hb-font.cc: In function 'hb_font_t* hb_font_get_empty()':
+platform/android/external/harfbuzz_ng/src/hb-font.cc:936:3: warning: missing initializer for member 'hb_prealloced_array_t<hb_user_data_array_t::hb_user_data_item_t, 2u>::static_array' [-Wmissing-field-initializers]
+   };
+   ^

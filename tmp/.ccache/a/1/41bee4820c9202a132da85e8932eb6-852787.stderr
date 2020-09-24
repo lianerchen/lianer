@@ -1,0 +1,130 @@
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:154:1: warning: narrowing conversion of '3456106496u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+ };
+ ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:154:1: warning: narrowing conversion of '3690987520u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:154:1: warning: narrowing conversion of '3825205248u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:154:1: warning: narrowing conversion of '3959422976u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:154:1: warning: narrowing conversion of '4060086272u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:154:1: warning: narrowing conversion of '4160749568u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:154:1: warning: narrowing conversion of '4227858432u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '2617245697u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+ };
+ ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '2785017857u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '2952790017u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '3120562177u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '3288334336u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '3456106496u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '3556769792u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '3657433088u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '3758096384u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '3858759680u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '3959422976u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '4026531840u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '4093640704u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '4160749568u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:161:1: warning: narrowing conversion of '4227858432u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:167:1: warning: narrowing conversion of '3030099457u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+ };
+ ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:167:1: warning: narrowing conversion of '2147483648u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+In file included from platform/android/external/aac/libSBRenc/src/sbr_def.h:91:0,
+                 from platform/android/external/aac/libSBRenc/src/ps_main.h:95,
+                 from platform/android/external/aac/libSBRenc/src/ps_encode.cpp:95:
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp: In function 'void FDKsbrEnc_initPsBandNrgScale(HANDLE_PS_ENCODE)':
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRenc/src/ps_encode.cpp:748:30: note: in expansion of macro 'fixMax'
+                           : (fixMax(hPsEncode->iidGroupWidthLd[group],hPsEncode->psBandNrgScale[bin]) + 1) ;
+                              ^

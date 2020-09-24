@@ -1,0 +1,27 @@
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:13:19: warning: unused parameter 'clazz' [-Wunused-parameter]
+  static jintArray native_getAllTuners(JNIEnv* env, jclass clazz)
+                   ^
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:34:14: warning: unused parameter 'env' [-Wunused-parameter]
+  static jint native_getDeliverySystemType(JNIEnv* env, jclass clazz, jint tunerId)
+              ^
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:34:14: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:42:14: warning: unused parameter 'env' [-Wunused-parameter]
+  static jint native_tuneStream(JNIEnv* env, jclass clazz, jint tunerId, jint originalNetworkId,
+              ^
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:42:14: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:52:14: warning: unused parameter 'env' [-Wunused-parameter]
+  static jint native_tune(JNIEnv* env, jclass clazz, jint tunerId, jint frequency,
+              ^
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:52:14: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:68:14: warning: unused parameter 'env' [-Wunused-parameter]
+  static jint native_getSignalIntensity(JNIEnv* env, jclass clazz, jint tunerId)
+              ^
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:68:14: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:80:14: warning: unused parameter 'env' [-Wunused-parameter]
+  static jint native_getSignalQuality(JNIEnv* env, jclass clazz, jint tunerId)
+              ^
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:80:14: warning: unused parameter 'clazz' [-Wunused-parameter]
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:92:14: warning: unused parameter 'env' [-Wunused-parameter]
+  static jint native_getTunerStatus(JNIEnv* env, jclass clazz, jint tunerId)
+              ^
+framework/ngb-j/jni/impl_ngb_broadcast_dvb_tuner_TuningUtils.cpp:92:14: warning: unused parameter 'clazz' [-Wunused-parameter]

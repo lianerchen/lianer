@@ -1,0 +1,6 @@
+platform/android/frameworks/base/packages/services/PacProcessor/jni/com_android_pacprocessor_PacNative.cpp:63:17: warning: unused parameter 'env' [-Wunused-parameter]
+ static jboolean com_android_pacprocessor_PacNative_createV8ParserNativeLocked(JNIEnv* env, 
+                 ^
+platform/android/frameworks/base/packages/services/PacProcessor/jni/com_android_pacprocessor_PacNative.cpp:75:17: warning: unused parameter 'env' [-Wunused-parameter]
+ static jboolean com_android_pacprocessor_PacNative_destroyV8ParserNativeLocked(JNIEnv* env, 
+                 ^

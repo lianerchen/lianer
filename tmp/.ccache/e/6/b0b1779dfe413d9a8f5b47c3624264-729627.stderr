@@ -1,0 +1,4 @@
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Context.c: In function 'bbs_Context_copy':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/Context.c:110:75: warning: unused parameter 'srcPtrA' [-Wunused-parameter]
+ void bbs_Context_copy( struct bbs_Context* cpA, const struct bbs_Context* srcPtrA )
+                                                                           ^

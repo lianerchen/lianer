@@ -1,0 +1,8 @@
+platform/android/external/neven/Embedded/common/src/b_ImageEm/UInt8Image.c: In function 'bim_UInt8Image_checkSum':
+platform/android/external/neven/Embedded/common/src/b_ImageEm/UInt8Image.c:127:53: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bim_UInt8Image_checkSum( struct bbs_Context* cpA,
+                                                     ^
+platform/android/external/neven/Embedded/common/src/b_ImageEm/UInt8Image.c: In function 'bim_UInt8Image_setAllPixels':
+platform/android/external/neven/Embedded/common/src/b_ImageEm/UInt8Image.c:259:55: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bim_UInt8Image_setAllPixels( struct bbs_Context* cpA,
+                                                       ^

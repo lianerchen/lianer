@@ -1,0 +1,3 @@
+device/hisilicon/bigfish/hardware/libhi_avsetting/VideoSetting.cpp:847:6: warning: unused parameter 'mode' [-Wunused-parameter]
+ bool TvosVideoSetting::setOutputMatchMethod(long mode)
+      ^

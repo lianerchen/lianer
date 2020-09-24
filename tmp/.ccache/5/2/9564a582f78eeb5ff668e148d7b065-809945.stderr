@@ -1,0 +1,7 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_client_app_load.c: In function 'TEEC_LoadApp':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_client_app_load.c:381:4: warning: right shift count >= width of type [enabled by default]
+    (uint32_t)(((unsigned long)file_buf_pt) >> 32);
+    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/tee/core/libteec/src/tee_client_app_load.c:422:4: warning: left shift count >= width of type [enabled by default]
+    (((unsigned long)register_buf->file_buf_h) << 32)); /*lint !e511 */
+    ^

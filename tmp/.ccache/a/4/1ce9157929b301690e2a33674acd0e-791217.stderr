@@ -1,0 +1,12 @@
+platform/android/frameworks/av/media/libeffects/lvm/lib/Bundle/src/LVM_Control.c: In function 'LVM_SetControlParameters':
+platform/android/frameworks/av/media/libeffects/lvm/lib/Bundle/src/LVM_Control.c:180:37: warning: comparison between 'LVM_PSA_DecaySpeed_en' and 'enum <anonymous>' [-Wenum-compare]
+     if( (pParams->PSA_PeakDecayRate > LVPSA_SPEED_HIGH) ||
+                                     ^
+platform/android/frameworks/av/media/libeffects/lvm/lib/Bundle/src/LVM_Control.c: In function 'LVM_SetHeadroom':
+platform/android/frameworks/av/media/libeffects/lvm/lib/Bundle/src/LVM_Control.c:449:38: warning: comparison between 'LVM_EQNB_Mode_en' and 'enum <anonymous>' [-Wenum-compare]
+     if ((pParams->EQNB_OperatingMode == LVEQNB_ON) && (pInstance->HeadroomParams.Headroom_OperatingMode == LVM_HEADROOM_ON))
+                                      ^
+platform/android/frameworks/av/media/libeffects/lvm/lib/Bundle/src/LVM_Control.c: In function 'LVM_ApplyNewSettings':
+platform/android/frameworks/av/media/libeffects/lvm/lib/Bundle/src/LVM_Control.c:754:51: warning: comparison between 'LVM_Mode_en' and 'enum <anonymous>' [-Wenum-compare]
+             (LocalParams.VirtualizerOperatingMode != LVCS_OFF))
+                                                   ^

@@ -1,0 +1,23 @@
+out/host/linux-x86/obj32/STATIC_LIBRARIES/libLLVMSupport_intermediates/Watchdog.o: \
+  platform/android/external/llvm/lib/Support/Watchdog.cpp \
+  platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h \
+  platform/android/external/llvm/include/llvm/Support/Watchdog.h \
+  platform/android/external/llvm/include/llvm/Support/Compiler.h \
+  platform/android/external/llvm/host/include/llvm/Config/llvm-config.h \
+  platform/android/external/llvm/include/llvm/Config/llvm-platform-config.h \
+  platform/android/external/llvm/host/include/llvm/Config/config.h \
+  platform/android/external/llvm/lib/Support/Unix/Watchdog.inc \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/unistd.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/features.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/predefs.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/sys/cdefs.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/wordsize.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/gnu/stubs.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/gnu/stubs-32.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/posix_opt.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/environments.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/types.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/typesizes.h \
+  platform/android/prebuilts/clang/linux-x86/host/3.5/lib/clang/3.5/include/stddef.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/bits/confname.h \
+  platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6//sysroot/usr/include/getopt.h

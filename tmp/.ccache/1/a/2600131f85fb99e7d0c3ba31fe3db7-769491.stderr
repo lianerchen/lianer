@@ -1,0 +1,44 @@
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_init':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:86:46: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bts_Cluster2D_init( struct bbs_Context* cpA,
+                                              ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_copy':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:119:46: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bts_Cluster2D_copy( struct bbs_Context* cpA,
+                                              ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_equal':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:139:47: warning: unused parameter 'cpA' [-Wunused-parameter]
+ flag bts_Cluster2D_equal( struct bbs_Context* cpA,
+                                               ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_center':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:170:65: warning: unused parameter 'cpA' [-Wunused-parameter]
+ struct bts_Flt16Vec2D bts_Cluster2D_center( struct bbs_Context* cpA,
+                                                                 ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_checkSum':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:195:52: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bts_Cluster2D_checkSum( struct bbs_Context* cpA,
+                                                    ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_boundingBox':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:214:69: warning: unused parameter 'cpA' [-Wunused-parameter]
+ struct bts_Int16Rect bts_Cluster2D_boundingBox( struct bbs_Context* cpA,
+                                                                     ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_int32X':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:241:49: warning: unused parameter 'cpA' [-Wunused-parameter]
+ int32 bts_Cluster2D_int32X( struct bbs_Context* cpA,
+                                                 ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_int32Y':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:274:49: warning: unused parameter 'cpA' [-Wunused-parameter]
+ int32 bts_Cluster2D_int32Y( struct bbs_Context* cpA,
+                                                 ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_transform':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:363:51: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bts_Cluster2D_transform( struct bbs_Context* cpA,
+                                                   ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_transformBbp':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:377:54: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bts_Cluster2D_transformBbp( struct bbs_Context* cpA,
+                                                      ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c: In function 'bts_Cluster2D_memSize':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Cluster2D.c:438:51: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bts_Cluster2D_memSize( struct bbs_Context* cpA,
+                                                   ^

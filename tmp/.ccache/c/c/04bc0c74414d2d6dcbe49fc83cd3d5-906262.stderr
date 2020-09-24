@@ -1,0 +1,4 @@
+platform/android/external/fio/iolog.c: In function 'fio_writeout_logs':
+platform/android/external/fio/iolog.c:753:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (prev_log_left == log_left)
+                     ^

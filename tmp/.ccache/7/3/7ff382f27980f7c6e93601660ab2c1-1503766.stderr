@@ -1,0 +1,14 @@
+platform/android/frameworks/av/media/libstagefright/OMXCodec.cpp: In member function 'android::status_t android::OMXCodec::allocateOutputBuffersFromNativeWindow()':
+platform/android/frameworks/av/media/libstagefright/OMXCodec.cpp:1824:11: warning: 'int native_window_set_buffers_geometry(ANativeWindow*, int, int, int)' is deprecated (declared at platform/android/system/core/include/system/window.h:734) [-Wdeprecated-declarations]
+     err = native_window_set_buffers_geometry(
+           ^
+platform/android/frameworks/av/media/libstagefright/OMXCodec.cpp:1828:42: warning: 'int native_window_set_buffers_geometry(ANativeWindow*, int, int, int)' is deprecated (declared at platform/android/system/core/include/system/window.h:734) [-Wdeprecated-declarations]
+             def.format.video.eColorFormat);
+                                          ^
+platform/android/frameworks/av/media/libstagefright/OMXCodec.cpp: In member function 'android::status_t android::OMXCodec::pushBlankBuffersToNativeWindow()':
+platform/android/frameworks/av/media/libstagefright/OMXCodec.cpp:2069:11: warning: 'int native_window_set_buffers_geometry(ANativeWindow*, int, int, int)' is deprecated (declared at platform/android/system/core/include/system/window.h:734) [-Wdeprecated-declarations]
+     err = native_window_set_buffers_geometry(mNativeWindow.get(), 1, 1,
+           ^
+platform/android/frameworks/av/media/libstagefright/OMXCodec.cpp:2070:39: warning: 'int native_window_set_buffers_geometry(ANativeWindow*, int, int, int)' is deprecated (declared at platform/android/system/core/include/system/window.h:734) [-Wdeprecated-declarations]
+             HAL_PIXEL_FORMAT_RGBX_8888);
+                                       ^

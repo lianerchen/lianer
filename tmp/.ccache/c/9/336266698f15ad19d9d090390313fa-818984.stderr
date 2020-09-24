@@ -1,0 +1,30 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/drv/include/hi_drv_struct.h:21:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ir/unf_ir.c:23:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ir/unf_ir.c:25:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/drv/include/hi_drv_ir.h:160:19: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     unsigned long long upper;
+                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/drv/include/hi_drv_ir.h:165:19: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     unsigned long long lower;
+                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ir/unf_ir.c: In function 'HI_UNF_IR_GetProtocol':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ir/unf_ir.c:183:52: warning: unused parameter 'penProtocol' [-Wunused-parameter]
+ HI_S32 HI_UNF_IR_GetProtocol(HI_UNF_IR_PROTOCOL_E *penProtocol)
+                                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ir/unf_ir.c: In function 'HI_UNF_IR_GetProtocolName':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ir/unf_ir.c:198:43: warning: unused parameter 'pProtocolName' [-Wunused-parameter]
+ HI_S32 HI_UNF_IR_GetProtocolName(HI_CHAR *pProtocolName,HI_S32 s32BufLen)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ir/unf_ir.c:198:64: warning: unused parameter 's32BufLen' [-Wunused-parameter]
+ HI_S32 HI_UNF_IR_GetProtocolName(HI_CHAR *pProtocolName,HI_S32 s32BufLen)
+                                                                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ir/unf_ir.c: In function 'HI_UNF_IR_SetCodeType':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ir/unf_ir.c:493:47: warning: unused parameter 'enIRCode' [-Wunused-parameter]
+ HI_S32 HI_UNF_IR_SetCodeType(HI_UNF_IR_CODE_E enIRCode)
+                                               ^

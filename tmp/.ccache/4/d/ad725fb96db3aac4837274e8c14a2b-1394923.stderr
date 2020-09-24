@@ -1,0 +1,97 @@
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp: In member function 'virtual int android::BpTvosVideoSettingService::getOutputStandard(long int)':
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: unknown conversion type character ')' in format [-Wformat=]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:153:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::getOutputStandard(%l)", device);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: too many arguments for format [-Wformat-extra-args]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:153:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::getOutputStandard(%l)", device);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp: In member function 'virtual bool android::BpTvosVideoSettingService::setOutputBrightness(long int)':
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: unknown conversion type character ')' in format [-Wformat=]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:219:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::getOutputMatchMethod(%l)", value);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: too many arguments for format [-Wformat-extra-args]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:219:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::getOutputMatchMethod(%l)", value);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp: In member function 'virtual bool android::BpTvosVideoSettingService::setOutputContrast(long int)':
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: unknown conversion type character ')' in format [-Wformat=]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:233:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputContrast(%l)", value);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: too many arguments for format [-Wformat-extra-args]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:233:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputContrast(%l)", value);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp: In member function 'virtual bool android::BpTvosVideoSettingService::setOutputSaturation(long int)':
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: unknown conversion type character ')' in format [-Wformat=]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:247:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputSaturation(%l)", value);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: too many arguments for format [-Wformat-extra-args]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:247:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputSaturation(%l)", value);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp: In member function 'virtual bool android::BpTvosVideoSettingService::setOutputStandard(long int, long int)':
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: unknown conversion type character ',' in format [-Wformat=]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:261:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputStandard(%l, %l)", device, standard);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: unknown conversion type character ')' in format [-Wformat=]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:261:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputStandard(%l, %l)", device, standard);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: too many arguments for format [-Wformat-extra-args]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:261:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputStandard(%l, %l)", device, standard);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp: In member function 'virtual bool android::BpTvosVideoSettingService::setOutputTransparency(long int)':
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: unknown conversion type character ')' in format [-Wformat=]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:276:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputTransparency(%l)", value);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: too many arguments for format [-Wformat-extra-args]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:276:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputTransparency(%l)", value);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp: In member function 'virtual bool android::BpTvosVideoSettingService::setOutputMatchMethod(long int)':
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: unknown conversion type character ')' in format [-Wformat=]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:290:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputMatchMethod(%l)", mode);
+   ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:30:86: warning: too many arguments for format [-Wformat-extra-args]
+ #define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, fmt, ##args)
+                                                                                      ^
+platform/android/frameworks/av/media/libmedia/ITvosVideoSettingService.cpp:290:3: note: in expansion of macro 'LOGI'
+   LOGI("BpTvosVideoSettingService::setOutputMatchMethod(%l)", mode);
+   ^

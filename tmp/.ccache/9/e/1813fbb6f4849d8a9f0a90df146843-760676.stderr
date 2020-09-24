@@ -1,0 +1,10 @@
+component/OAM/agent/disp_interface/alarmclient.c: In function 'InformEx':
+component/OAM/agent/disp_interface/alarmclient.c:83:5: warning: implicit declaration of function 'AlarmInform' [-Wimplicit-function-declaration]
+     AlarmInform(&tccMsg);
+     ^
+component/OAM/agent/disp_interface/alarmclient.c:83:5: warning: nested extern declaration of 'AlarmInform' [-Wnested-externs]
+component/OAM/agent/disp_interface/alarmclient.c: In function 'GetAlarmItemInfo':
+component/OAM/agent/disp_interface/alarmclient.c:128:5: warning: implicit declaration of function 'GetAlarmItem' [-Wimplicit-function-declaration]
+     nRet = GetAlarmItem(&tccMsg, pItem, &nReplylen);
+     ^
+component/OAM/agent/disp_interface/alarmclient.c:128:5: warning: nested extern declaration of 'GetAlarmItem' [-Wnested-externs]

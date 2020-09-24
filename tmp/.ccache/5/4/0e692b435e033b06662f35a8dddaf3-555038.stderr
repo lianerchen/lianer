@@ -1,0 +1,9 @@
+platform/android/external/e2fsprogs/lib/blkid/probe.c: In function 'probe_jfs':
+platform/android/external/e2fsprogs/lib/blkid/probe.c:878:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/e2fsprogs/lib/blkid/probe.c:881:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/e2fsprogs/lib/blkid/probe.c: In function 'probe_zfs':
+platform/android/external/e2fsprogs/lib/blkid/probe.c:895:42: warning: unused parameter 'probe' [-Wunused-parameter]
+platform/android/external/e2fsprogs/lib/blkid/probe.c:895:69: warning: unused parameter 'id' [-Wunused-parameter]
+platform/android/external/e2fsprogs/lib/blkid/probe.c:896:29: warning: unused parameter 'buf' [-Wunused-parameter]
+platform/android/external/e2fsprogs/lib/blkid/probe.c: In function 'probe_btrfs':
+platform/android/external/e2fsprogs/lib/blkid/probe.c:1396:33: warning: unused parameter 'id' [-Wunused-parameter]

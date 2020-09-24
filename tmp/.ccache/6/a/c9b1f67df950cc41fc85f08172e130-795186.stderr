@@ -1,0 +1,8 @@
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndldic.c: In function 'get_search_index_address':
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndldic.c:150:74: warning: unused parameter 'search_pattern' [-Wunused-parameter]
+ static NJ_UINT8 *get_search_index_address(NJ_DIC_HANDLE handle, NJ_UINT8 search_pattern) {
+                                                                          ^
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndldic.c: In function 'str_que_cmp':
+platform/android/packages/inputmethods/OpenWnn/libs/libwnnDictionary/engine/ndldic.c:1531:39: warning: unused parameter 'iwnn' [-Wunused-parameter]
+ static NJ_INT16 str_que_cmp(NJ_CLASS *iwnn, NJ_DIC_HANDLE handle, NJ_CHAR *yomi,
+                                       ^

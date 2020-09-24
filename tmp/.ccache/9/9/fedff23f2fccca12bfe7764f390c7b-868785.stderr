@@ -1,0 +1,7 @@
+platform/android/external/icu/icu4c/source/common/ubidi_props.c: In function '_enumPropertyStartsRange':
+platform/android/external/icu/icu4c/source/common/ubidi_props.c:54:70: warning: unused parameter 'end' [-Wunused-parameter]
+ _enumPropertyStartsRange(const void *context, UChar32 start, UChar32 end, uint32_t value) {
+                                                                      ^
+platform/android/external/icu/icu4c/source/common/ubidi_props.c:54:84: warning: unused parameter 'value' [-Wunused-parameter]
+ _enumPropertyStartsRange(const void *context, UChar32 start, UChar32 end, uint32_t value) {
+                                                                                    ^

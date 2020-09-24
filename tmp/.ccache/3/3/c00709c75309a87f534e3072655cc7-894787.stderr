@@ -1,0 +1,30 @@
+component/dtv/service/src/dtv/tuner/dtv_tuner.c:10:0: warning: "LOG_NDEBUG" redefined [enabled by default]
+ #define LOG_NDEBUG 0
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from component/dtv/service/src/drv/include/chdrv_platform.h:36,
+                 from component/dtv/service/src/drv/include/chdrv_include.h:10,
+                 from component/dtv/service/src/dtv/tuner/dtv_tuner.c:5:
+platform/android/system/core/include/log/log.h:55:0: note: this is the location of the previous definition
+ #define LOG_NDEBUG 1
+ ^
+component/dtv/service/src/dtv/tuner/dtv_tuner.c:11:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "dtv_tuner.c"
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from component/dtv/service/src/drv/include/chdrv_platform.h:36,
+                 from component/dtv/service/src/drv/include/chdrv_include.h:10,
+                 from component/dtv/service/src/dtv/tuner/dtv_tuner.c:5:
+platform/android/system/core/include/log/log.h:67:0: note: this is the location of the previous definition
+ #define LOG_TAG NULL
+ ^
+component/dtv/service/src/dtv/tuner/dtv_tuner.c: In function 'DTV_TUNER_SetCarrier':
+component/dtv/service/src/dtv/tuner/dtv_tuner.c:76:2: warning: enumeration value 'INVALID_SYSTEM_TYPE' not handled in switch [-Wswitch]
+  switch(rpstru_CarrierParams->enm_AntType)
+  ^
+component/dtv/service/src/dtv/tuner/dtv_tuner.c: In function 'DTV_TUNER_GetCarrierStatus':
+component/dtv/service/src/dtv/tuner/dtv_tuner.c:186:2: warning: enumeration value 'CH_TUNER_SPECTRUM_INVERTED' not handled in switch [-Wswitch]
+  switch (rpstru_CarrierStatus->enm_Spectrum)
+  ^

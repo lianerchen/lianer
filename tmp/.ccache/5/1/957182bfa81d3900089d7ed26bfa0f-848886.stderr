@@ -1,0 +1,8 @@
+platform/android/packages/apps/Gallery2/jni_jpegstream/src/jpeg_hook.cpp: In function 'void Mgr_skip_input_data_fcn(j_decompress_ptr, long int)':
+platform/android/packages/apps/Gallery2/jni_jpegstream/src/jpeg_hook.cpp:124:37: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (src->mgr.bytes_in_buffer >= num_bytes) {
+                                     ^
+platform/android/packages/apps/Gallery2/jni_jpegstream/src/jpeg_hook.cpp: At global scope:
+platform/android/packages/apps/Gallery2/jni_jpegstream/src/jpeg_hook.cpp:152:6: warning: unused parameter 'cinfo' [-Wunused-parameter]
+ void Mgr_term_source_fcn(j_decompress_ptr cinfo) {
+      ^

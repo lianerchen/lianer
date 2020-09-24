@@ -1,0 +1,24 @@
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c: In function 'isakmp_cfg_copy':
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c:942:20: warning: unused parameter 'iph1' [-Wunused-parameter]
+  struct ph1handle *iph1;
+                    ^
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c: In function 'isakmp_cfg_short':
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c:963:20: warning: unused parameter 'iph1' [-Wunused-parameter]
+  struct ph1handle *iph1;
+                    ^
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c: In function 'isakmp_cfg_varlen':
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c:987:20: warning: unused parameter 'iph1' [-Wunused-parameter]
+  struct ph1handle *iph1;
+                    ^
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c: In function 'isakmp_cfg_addr4':
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c:1023:20: warning: unused parameter 'iph1' [-Wunused-parameter]
+  struct ph1handle *iph1;
+                    ^
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c: In function 'isakmp_cfg_addr4_list':
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c:1048:20: warning: unused parameter 'iph1' [-Wunused-parameter]
+  struct ph1handle *iph1;
+                    ^
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c: In function 'isakmp_cfg_iplist_to_str':
+platform/android/external/ipsec-tools/src/racoon/isakmp_cfg.c:1844:8: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   addr += l;
+        ^

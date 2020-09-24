@@ -1,0 +1,12 @@
+platform/android/frameworks/av/media/libstagefright/asf/ASFExtractor.cpp:940:7: warning: unused parameter 'trackID' [-Wunused-parameter]
+ char* ASFExtractor::getDrmTrackInfo(size_t trackID, int *len) {
+       ^
+platform/android/frameworks/av/media/libstagefright/asf/ASFExtractor.cpp:1918:6: warning: unused parameter 'objectDataSize' [-Wunused-parameter]
+ void ASFExtractor::parseSimpleIndexObject(ASF_PACKET_BUFFER_S *objectData, uint32_t objectDataSize) {
+      ^
+platform/android/frameworks/av/media/libstagefright/asf/ASFExtractor.cpp:2777:10: warning: unused parameter 'params' [-Wunused-parameter]
+ status_t ASFSource::start(MetaData *params) {
+          ^
+platform/android/frameworks/av/media/libstagefright/asf/ASFExtractor.cpp:2826:6: warning: unused parameter 'meta' [-Wunused-parameter]
+ bool SniffASF(const sp<DataSource> &source, String8 *mimeType, float *confidence, sp<AMessage> *meta) {
+      ^

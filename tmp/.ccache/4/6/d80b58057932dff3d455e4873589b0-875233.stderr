@@ -1,0 +1,105 @@
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:48:28: warning: unused parameter 'jclazz' [-Wunused-parameter]
+ JNIEXPORT jboolean JNICALL nativeImOpenDecoder(JNIEnv* env, jclass jclazz,
+                            ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:65:28: warning: unused parameter 'jclazz' [-Wunused-parameter]
+ JNIEXPORT jboolean JNICALL nativeImOpenDecoderFd(JNIEnv* env, jclass jclazz,
+                            ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:86:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT void JNICALL nativeImSetMaxLens(JNIEnv* env, jclass jclazz,
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:86:24: warning: unused parameter 'jclazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:94:28: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jboolean JNICALL nativeImCloseDecoder(JNIEnv* env, jclass jclazz) {
+                            ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:94:28: warning: unused parameter 'jclazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:99:24: warning: unused parameter 'jclazz' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeImSearch(JNIEnv* env, jclass jclazz,
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:113:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeImDelSearch(JNIEnv* env, jclass jclazz, jint pos,
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:113:24: warning: unused parameter 'jclazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:119:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT void JNICALL nativeImResetSearch(JNIEnv* env, jclass jclazz) {
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:119:24: warning: unused parameter 'jclazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:124:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeImAddLetter(JNIEnv *env, jclass clazz, jbyte ch) {
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:124:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:128:27: warning: unused parameter 'jclazz' [-Wunused-parameter]
+ JNIEXPORT jstring JNICALL nativeImGetPyStr(JNIEnv* env, jclass jclazz,
+                           ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:149:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeImGetPyStrLen(JNIEnv* env, jclass jclazz,
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:149:24: warning: unused parameter 'jclazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:159:29: warning: unused parameter 'jclazz' [-Wunused-parameter]
+ JNIEXPORT jintArray JNICALL nativeImGetSplStart(JNIEnv* env, jclass jclazz) {
+                             ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:178:27: warning: unused parameter 'clazz' [-Wunused-parameter]
+ JNIEXPORT jstring JNICALL nativeImGetChoice(JNIEnv *env, jclass clazz,
+                           ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:190:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeImChoose(JNIEnv *env, jclass clazz,
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:190:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:195:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeImCancelLastChoice(JNIEnv *env, jclass clazz) {
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:195:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:199:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeImGetFixedLen(JNIEnv *env, jclass clazz) {
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:199:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:203:28: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jboolean JNICALL nativeImCancelInput(JNIEnv *env, jclass clazz) {
+                            ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:203:28: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:210:28: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jboolean JNICALL nativeImFlushCache(JNIEnv *env, jclass clazz) {
+                            ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:210:28: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp: In function 'jint nativeImGetPredictsNum(JNIEnv*, jclass, jstring)':
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:217:70: warning: converting 'false' to pointer type for argument 2 of 'const jchar* _JNIEnv::GetStringChars(jstring, jboolean*)' [-Wconversion-null]
+   char16 *fixed_ptr = (char16*)(*env).GetStringChars(fixed_str, false);
+                                                                      ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp: At global scope:
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:215:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeImGetPredictsNum(JNIEnv *env, jclass clazz,
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:236:27: warning: unused parameter 'clazz' [-Wunused-parameter]
+ JNIEXPORT jstring JNICALL nativeImGetPredictItem(JNIEnv *env, jclass clazz,
+                           ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:249:28: warning: unused parameter 'clazz' [-Wunused-parameter]
+ JNIEXPORT jboolean JNICALL nativeSyncBegin(JNIEnv *env, jclass clazz,
+                            ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:262:28: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jboolean JNICALL nativeSyncFinish(JNIEnv *env, jclass clazz) {
+                            ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:262:28: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:267:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeSyncGetCapacity(JNIEnv *env, jclass clazz) {
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:267:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:271:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeSyncPutLemmas(JNIEnv *env, jclass clazz,
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:284:27: warning: unused parameter 'clazz' [-Wunused-parameter]
+ JNIEXPORT jstring JNICALL nativeSyncGetLemmas(JNIEnv *env, jclass clazz) {
+                           ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:294:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeSyncGetLastCount(JNIEnv *env, jclass clazz) {
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:294:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:298:24: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL nativeSyncGetTotalCount(JNIEnv *env, jclass clazz) {
+                        ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:298:24: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:302:28: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT jboolean JNICALL nativeSyncClearLastGot(JNIEnv *env, jclass clazz) {
+                            ^
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:302:28: warning: unused parameter 'clazz' [-Wunused-parameter]
+device/hisilicon/bigfish/packages/apps/HiPinyinIME/jni/android/com_hisilicon_android_inputmethod_remote_PinyinDecoderService.cpp:418:24: warning: unused parameter 'reserved' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM* vm, void* reserved)
+                        ^

@@ -1,0 +1,16 @@
+platform/android/external/svox/pico/lib/picotok.c: In function 'tok_putItem':
+platform/android/external/svox/pico/lib/picotok.c:482:50: warning: unused parameter 'this' [-Wunused-parameter]
+ static void tok_putItem (picodata_ProcessingUnit this,  tok_subobj_t * tok,
+                                                  ^
+platform/android/external/svox/pico/lib/picotok.c: In function 'tok_putItem2':
+platform/android/external/svox/pico/lib/picotok.c:577:51: warning: unused parameter 'this' [-Wunused-parameter]
+ static void tok_putItem2 (picodata_ProcessingUnit this,  tok_subobj_t * tok,
+                                                   ^
+platform/android/external/svox/pico/lib/picotok.c: In function 'tokReset':
+platform/android/external/svox/pico/lib/picotok.c:1402:83: warning: unused parameter 'resetMode' [-Wunused-parameter]
+ static pico_status_t tokReset(register picodata_ProcessingUnit this, picoos_int32 resetMode)
+                                                                                   ^
+platform/android/external/svox/pico/lib/picotok.c: In function 'tokTerminate':
+platform/android/external/svox/pico/lib/picotok.c:1481:68: warning: unused parameter 'this' [-Wunused-parameter]
+ static pico_status_t tokTerminate(register picodata_ProcessingUnit this)
+                                                                    ^

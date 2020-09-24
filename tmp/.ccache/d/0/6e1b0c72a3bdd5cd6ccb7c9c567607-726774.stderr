@@ -1,0 +1,11 @@
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Vec3D.c: In function 'bts_Int16Vec3D_memSize':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Vec3D.c:74:52: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bts_Int16Vec3D_memSize( struct bbs_Context* cpA,
+                                                    ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Vec3D.c:75:40: warning: unused parameter 'ptrA' [-Wunused-parameter]
+           const struct bts_Int16Vec3D *ptrA )
+                                        ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Vec3D.c: In function 'bts_Int16Vec3D_memWrite':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Vec3D.c:82:53: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bts_Int16Vec3D_memWrite( struct bbs_Context* cpA,
+                                                     ^

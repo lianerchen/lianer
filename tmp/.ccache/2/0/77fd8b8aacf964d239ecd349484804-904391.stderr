@@ -1,0 +1,38 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/include/hi_mpi_ao.h:22:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.h:21,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c:9:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c:16:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/api_circ_buf.h: In function 'CIRC_BUF_DeInit':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/api_circ_buf.h:35:51: warning: unused parameter 'pstCb' [-Wunused-parameter]
+ static inline HI_VOID CIRC_BUF_DeInit(CIRC_BUF_S *pstCb)
+                                                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c: In function 'LOWLATENCYUnMapAip':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c:76:45: warning: unused parameter 'hTrack' [-Wunused-parameter]
+ static HI_VOID LOWLATENCYUnMapAip(HI_HANDLE hTrack)
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c: In function 'LOWLATENCYUnmapBuf':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c:119:45: warning: unused parameter 'hTrack' [-Wunused-parameter]
+ static HI_VOID LOWLATENCYUnmapBuf(HI_HANDLE hTrack)
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c: In function 'LOWLATENCY_SendData':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c:232:38: warning: unused parameter 'hTrack' [-Wunused-parameter]
+ HI_S32 LOWLATENCY_SendData(HI_HANDLE hTrack, const HI_UNF_AO_FRAMEINFO_S* pstAOFrame)
+                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c: In function 'LOWLATENCY_GetAIPDelayMs':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c:245:43: warning: unused parameter 'hTrack' [-Wunused-parameter]
+ HI_S32 LOWLATENCY_GetAIPDelayMs(HI_HANDLE hTrack, HI_U32* pDelayMs)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c: In function 'DMAUnmapPort':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c:339:41: warning: unused parameter 'enSound' [-Wunused-parameter]
+ static HI_S32 DMAUnmapPort(HI_UNF_SND_E enSound)
+                                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c: In function 'DMADisable':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/mpi_lowlatency.c:419:40: warning: unused parameter 'enSound' [-Wunused-parameter]
+ static HI_VOID DMADisable(HI_UNF_SND_E enSound)
+                                        ^

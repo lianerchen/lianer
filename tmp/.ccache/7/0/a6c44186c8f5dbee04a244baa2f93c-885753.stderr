@@ -1,0 +1,114 @@
+platform/android/external/ppp/pppd/sys-linux.c: In function 'generic_disestablish_ppp':
+platform/android/external/ppp/pppd/sys-linux.c:591:35: warning: unused parameter 'dev_fd' [-Wunused-parameter]
+ void generic_disestablish_ppp(int dev_fd)
+                                   ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'cfg_bundle':
+platform/android/external/ppp/pppd/sys-linux.c:649:31: warning: unused parameter 'mtru' [-Wunused-parameter]
+ void cfg_bundle(int mrru, int mtru, int rssn, int tssn)
+                               ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'output':
+platform/android/external/ppp/pppd/sys-linux.c:1014:18: warning: unused parameter 'unit' [-Wunused-parameter]
+ void output (int unit, unsigned char *p, int len)
+                  ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'netif_set_mtu':
+platform/android/external/ppp/pppd/sys-linux.c:1159:19: warning: unused parameter 'unit' [-Wunused-parameter]
+ netif_set_mtu(int unit, int mtu)
+                   ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'netif_get_mtu':
+platform/android/external/ppp/pppd/sys-linux.c:1175:19: warning: unused parameter 'unit' [-Wunused-parameter]
+ netif_get_mtu(int unit)
+                   ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'tty_recv_config':
+platform/android/external/ppp/pppd/sys-linux.c:1235:55: warning: unused parameter 'pcomp' [-Wunused-parameter]
+ void tty_recv_config(int mru, u_int32_t asyncmap, int pcomp, int accomp)
+                                                       ^
+platform/android/external/ppp/pppd/sys-linux.c:1235:66: warning: unused parameter 'accomp' [-Wunused-parameter]
+ void tty_recv_config(int mru, u_int32_t asyncmap, int pcomp, int accomp)
+                                                                  ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'ccp_test':
+platform/android/external/ppp/pppd/sys-linux.c:1267:14: warning: unused parameter 'unit' [-Wunused-parameter]
+ ccp_test(int unit, u_char *opt_ptr, int opt_len, int for_transmit)
+              ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'ccp_flags_set':
+platform/android/external/ppp/pppd/sys-linux.c:1287:25: warning: unused parameter 'unit' [-Wunused-parameter]
+ void ccp_flags_set (int unit, int isopen, int isup)
+                         ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'get_idle_time':
+platform/android/external/ppp/pppd/sys-linux.c:1329:9: warning: unused parameter 'u' [-Wunused-parameter]
+     int u;
+         ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'get_ppp_stats':
+platform/android/external/ppp/pppd/sys-linux.c:1341:9: warning: unused parameter 'u' [-Wunused-parameter]
+     int u;
+         ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'ccp_fatal_error':
+platform/android/external/ppp/pppd/sys-linux.c:1368:26: warning: unused parameter 'unit' [-Wunused-parameter]
+ int ccp_fatal_error (int unit)
+                          ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'sifdefaultroute':
+platform/android/external/ppp/pppd/sys-linux.c:1591:26: warning: unused parameter 'unit' [-Wunused-parameter]
+ int sifdefaultroute (int unit, u_int32_t ouraddr, u_int32_t gateway)
+                          ^
+platform/android/external/ppp/pppd/sys-linux.c:1591:42: warning: unused parameter 'ouraddr' [-Wunused-parameter]
+ int sifdefaultroute (int unit, u_int32_t ouraddr, u_int32_t gateway)
+                                          ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'cifdefaultroute':
+platform/android/external/ppp/pppd/sys-linux.c:1633:26: warning: unused parameter 'unit' [-Wunused-parameter]
+ int cifdefaultroute (int unit, u_int32_t ouraddr, u_int32_t gateway)
+                          ^
+platform/android/external/ppp/pppd/sys-linux.c:1633:42: warning: unused parameter 'ouraddr' [-Wunused-parameter]
+ int cifdefaultroute (int unit, u_int32_t ouraddr, u_int32_t gateway)
+                                          ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'sifproxyarp':
+platform/android/external/ppp/pppd/sys-linux.c:1667:22: warning: unused parameter 'unit' [-Wunused-parameter]
+ int sifproxyarp (int unit, u_int32_t his_adr)
+                      ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'cifproxyarp':
+platform/android/external/ppp/pppd/sys-linux.c:1718:22: warning: unused parameter 'unit' [-Wunused-parameter]
+ int cifproxyarp (int unit, u_int32_t his_adr)
+                      ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'logwtmp':
+platform/android/external/ppp/pppd/sys-linux.c:2194:5: warning: implicit declaration of function 'pututline' [-Wimplicit-function-declaration]
+     pututline(&ut);
+     ^
+platform/android/external/ppp/pppd/sys-linux.c:2195:5: warning: implicit declaration of function 'endutent' [-Wimplicit-function-declaration]
+     endutent();
+     ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'sifvjcomp':
+platform/android/external/ppp/pppd/sys-linux.c:2222:20: warning: unused parameter 'u' [-Wunused-parameter]
+ int sifvjcomp (int u, int vjcomp, int cidcomp, int maxcid)
+                    ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'sifup':
+platform/android/external/ppp/pppd/sys-linux.c:2243:15: warning: unused parameter 'u' [-Wunused-parameter]
+ int sifup(int u)
+               ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'sifdown':
+platform/android/external/ppp/pppd/sys-linux.c:2272:18: warning: unused parameter 'u' [-Wunused-parameter]
+ int sifdown (int u)
+                  ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'sifaddr':
+platform/android/external/ppp/pppd/sys-linux.c:2302:18: warning: unused parameter 'unit' [-Wunused-parameter]
+ int sifaddr (int unit, u_int32_t our_adr, u_int32_t his_adr,
+                  ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'cifaddr':
+platform/android/external/ppp/pppd/sys-linux.c:2403:18: warning: unused parameter 'unit' [-Wunused-parameter]
+ int cifaddr (int unit, u_int32_t our_adr, u_int32_t his_adr)
+                  ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'sifnpmode':
+platform/android/external/ppp/pppd/sys-linux.c:2675:9: warning: unused parameter 'u' [-Wunused-parameter]
+     int u;
+         ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'sipxfaddr':
+platform/android/external/ppp/pppd/sys-linux.c:2697:20: warning: unused parameter 'unit' [-Wunused-parameter]
+ int sipxfaddr (int unit, unsigned long int network, unsigned char * node )
+                    ^
+platform/android/external/ppp/pppd/sys-linux.c:2697:44: warning: unused parameter 'network' [-Wunused-parameter]
+ int sipxfaddr (int unit, unsigned long int network, unsigned char * node )
+                                            ^
+platform/android/external/ppp/pppd/sys-linux.c:2697:69: warning: unused parameter 'node' [-Wunused-parameter]
+ int sipxfaddr (int unit, unsigned long int network, unsigned char * node )
+                                                                     ^
+platform/android/external/ppp/pppd/sys-linux.c: In function 'cipxfaddr':
+platform/android/external/ppp/pppd/sys-linux.c:2748:20: warning: unused parameter 'unit' [-Wunused-parameter]
+ int cipxfaddr (int unit)
+                    ^

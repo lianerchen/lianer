@@ -1,0 +1,32 @@
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c: In function 'trace_interface_input':
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c:50:43: warning: unused parameter 'ttype' [-Wunused-parameter]
+ void trace_interface_input (trace_type_t *ttype, unsigned len, char *buf)
+                                           ^
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c: In function 'trace_interface_stop':
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c:132:42: warning: unused parameter 'ttype' [-Wunused-parameter]
+ void trace_interface_stop (trace_type_t *ttype) {
+                                          ^
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c: In function 'trace_inpacket_input':
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c:167:42: warning: unused parameter 'ttype' [-Wunused-parameter]
+ void trace_inpacket_input (trace_type_t *ttype, unsigned len, char *buf)
+                                          ^
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c: In function 'trace_inpacket_stop':
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c:203:41: warning: unused parameter 'ttype' [-Wunused-parameter]
+ void trace_inpacket_stop (trace_type_t *ttype) { }
+                                         ^
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c: In function 'trace_outpacket_input':
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c:244:43: warning: unused parameter 'ttype' [-Wunused-parameter]
+ void trace_outpacket_input (trace_type_t *ttype, unsigned len, char *buf)
+                                           ^
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c: In function 'trace_outpacket_stop':
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c:267:42: warning: unused parameter 'ttype' [-Wunused-parameter]
+ void trace_outpacket_stop (trace_type_t *ttype) { }
+                                          ^
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c: In function 'trace_seed_input':
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c:279:38: warning: unused parameter 'ttype' [-Wunused-parameter]
+ void trace_seed_input (trace_type_t *ttype, unsigned length, char *buf)
+                                      ^
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c: In function 'trace_seed_stop':
+device/hisilicon/bigfish/external/dhcp/common/ctrace.c:290:37: warning: unused parameter 'ttype' [-Wunused-parameter]
+ void trace_seed_stop (trace_type_t *ttype) { }
+                                     ^

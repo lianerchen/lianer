@@ -1,0 +1,4 @@
+platform/android/bootable/recovery/updater/install.c: In function 'PartChangeFn':
+platform/android/bootable/recovery/updater/install.c:1882:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (write(fd,partition,strlen(partition)) != strlen(partition)) {
+                                            ^

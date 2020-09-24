@@ -1,0 +1,4 @@
+platform/android/external/neven/Embedded/common/src/b_APIEm/DCR.c: In function 'bpi_DCR_confidence':
+platform/android/external/neven/Embedded/common/src/b_APIEm/DCR.c:230:47: warning: unused parameter 'cpA' [-Wunused-parameter]
+ int32 bpi_DCR_confidence( struct bbs_Context* cpA,
+                                               ^

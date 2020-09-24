@@ -1,0 +1,25 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/normal/omx_tunnel.h:16:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/normal/omx_vdec.h:26,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/normal/omx_vdec.c:17:
+device/hisilicon/bigfish/hardware/gpu/utgard/android/gralloc/gralloc_priv.h:133:3: warning: declaration does not declare anything [enabled by default]
+  };
+   ^
+device/hisilicon/bigfish/hardware/gpu/utgard/android/gralloc/gralloc_priv.h:155:3: warning: declaration does not declare anything [enabled by default]
+  };
+   ^
+device/hisilicon/bigfish/hardware/gpu/utgard/android/gralloc/gralloc_priv.h:163:3: warning: declaration does not declare anything [enabled by default]
+  };
+   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/normal/omx_vdec.c: In function 'get_buffer_phyaddr':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/normal/omx_vdec.c:590:18: warning: assignment makes integer from pointer without a cast [enabled by default]
+         *phyaddr = buffer;
+                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/normal/omx_vdec.c:606:5: warning: format '%d' expects argument of type 'int', but argument 6 has type 'OMX_U32' [-Wformat=]
+     DEBUG_PRINT_ALWS("%s:%d port:%d is_bypass:%d buffer:0x%x phyaddr:0x%x size:%d\n", \
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/normal/omx_vdec.c:606:5: warning: format '%x' expects argument of type 'unsigned int', but argument 8 has type 'OMX_U8 *' [-Wformat=]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/normal/omx_vdec.c:606:5: warning: format '%x' expects argument of type 'unsigned int', but argument 9 has type 'HI_U32 **' [-Wformat=]
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/normal/omx_vdec.c: In function 'free_buffer_internal':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/omx/omx_vdec/omx_vdec_v2.0/normal/omx_vdec.c:954:9: warning: format '%x' expects argument of type 'unsigned int', but argument 5 has type 'OMX_U32' [-Wformat=]
+         DEBUG_PRINT_ALWS("%s: flag:0x%x bypass:%d phyaddr:0x%x\n", __func__, omx_bufhdr->nFlags, pcom_priv->drv_ctx.drv_cfg.bVpssBypass, puser_buf->phyaddr);
+         ^

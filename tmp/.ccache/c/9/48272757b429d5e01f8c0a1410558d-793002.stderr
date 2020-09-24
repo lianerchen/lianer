@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_adp_data.c: In function 'DB_AddFEChan':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/common/hi_adp_data.c:134:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (i = 0; i < DVBFEChanTotalCount; i++)
+                       ^

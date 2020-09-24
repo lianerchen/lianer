@@ -1,0 +1,8 @@
+In file included from platform/android/packages/apps/Gallery2/jni/filters/contrast.c:18:0:
+platform/android/packages/apps/Gallery2/jni/filters/contrast.c: In function 'Java_com_android_gallery3d_filtershow_filters_ImageFilterContrast_nativeApplyFilter':
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:126: warning: unused parameter 'obj' [-Wunused-parameter]
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                                                                                                              ^
+platform/android/packages/apps/Gallery2/jni/filters/contrast.c:39:6: note: in expansion of macro 'JNIFUNCF'
+ void JNIFUNCF(ImageFilterContrast, nativeApplyFilter, jobject bitmap, jint width, jint height, jfloat bright)
+      ^

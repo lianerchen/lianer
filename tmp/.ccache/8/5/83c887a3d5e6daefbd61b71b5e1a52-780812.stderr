@@ -1,0 +1,8 @@
+platform/android/system/extras/ksmutils/ksminfo.c: In function 'read_pages':
+platform/android/system/extras/ksmutils/ksminfo.c:255:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             if (len != pm_kernel_pagesize(ker)) {
+                     ^
+platform/android/system/extras/ksmutils/ksminfo.c: In function 'cmp_pages':
+platform/android/system/extras/ksmutils/ksminfo.c:414:22: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     return cmp ? cmp : pg_b->count - pg_a->count;
+                      ^

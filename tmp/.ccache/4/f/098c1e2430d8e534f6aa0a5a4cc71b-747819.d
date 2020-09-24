@@ -1,0 +1,31 @@
+out/target/product/Hi3798MV200/obj/SHARED_LIBRARIES/libskia_intermediates/third_party/etc1/etc1.o: \
+ platform/android/external/skia/third_party/etc1/etc1.cpp \
+ platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h \
+ platform/android/external/skia/third_party/etc1/etc1.h \
+ platform/android/external/stlport/stlport/cstring \
+ platform/android/external/stlport/stlport/stl/_prolog.h \
+ platform/android/external/stlport/stlport/stl/_cprolog.h \
+ platform/android/external/stlport/stlport/stl/config/features.h \
+ platform/android/external/stlport/stlport/stl/_stlport_version.h \
+ platform/android/external/stlport/stlport/stl/config/user_config.h \
+ platform/android/external/stlport/stlport/stl/config/compat.h \
+ platform/android/external/stlport/stlport/stl/config/host.h \
+ platform/android/external/stlport/stlport/stl/config/_system.h \
+ platform/android/external/stlport/stlport/stl/config/_android.h \
+ platform/android/external/stlport/stlport/stl/config/_gcc.h \
+ platform/android/external/stlport/stlport/stl/config/stl_confix.h \
+ platform/android/external/stlport/stlport/stl/config/_native_headers.h \
+ platform/android/external/stlport/stlport/stl/debug/_debug.h \
+ platform/android/external/stlport/stlport/stl/_cstring.h \
+ platform/android/external/stlport/stlport/string.h \
+ platform/android/bionic/libc/include/../include/string.h \
+ platform/android/bionic/libc/include/sys/cdefs.h \
+ platform/android/bionic/libc/include/sys/cdefs_elf.h \
+ platform/android/bionic/libc/include/android/api-level.h \
+ platform/android/external/stlport/stlport/stddef.h \
+ platform/android/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/include/../include/stddef.h \
+ platform/android/bionic/libc/include/malloc.h \
+ platform/android/bionic/libc/include/xlocale.h \
+ platform/android/external/stlport/stlport/using/cstring \
+ platform/android/external/stlport/stlport/stl/_epilog.h \
+ platform/android/external/stlport/stlport/stl/_config_compat_post.h

@@ -1,0 +1,35 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c: In function 'VP9_Read_EsRawStream':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c:335:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (bytes_read < read_len)
+                        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c: In function 'EventHandler':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c:537:43: warning: unused parameter 'pAppData' [-Wunused-parameter]
+                            OMX_IN OMX_PTR pAppData,
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c:540:43: warning: unused parameter 'pEventData' [-Wunused-parameter]
+                            OMX_IN OMX_PTR pEventData)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c: In function 'EmptyBufferDone':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c:700:46: warning: unused parameter 'pAppData' [-Wunused-parameter]
+                               OMX_IN OMX_PTR pAppData,
+                                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c: In function 'FillBufferDone':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c:758:46: warning: unused parameter 'pAppData' [-Wunused-parameter]
+                              OMX_OUT OMX_PTR pAppData,
+                                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c: In function 'Use_Buffers':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c:2658:55: warning: unused parameter 'dec_handle' [-Wunused-parameter]
+ static OMX_ERRORTYPE Use_Buffers ( OMX_COMPONENTTYPE *dec_handle,
+                                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c:2659:65: warning: unused parameter 'pBufHdrs' [-Wunused-parameter]
+                                        OMX_BUFFERHEADERTYPE  ***pBufHdrs,
+                                                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c:2660:48: warning: unused parameter 'nPortIndex' [-Wunused-parameter]
+                                        OMX_U32 nPortIndex,
+                                                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c:2661:45: warning: unused parameter 'bufCntMin' [-Wunused-parameter]
+                                        long bufCntMin, long bufSize)
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/omxvdec/sample_omxvdec.c:2661:61: warning: unused parameter 'bufSize' [-Wunused-parameter]
+                                        long bufCntMin, long bufSize)
+                                                             ^

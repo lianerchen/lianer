@@ -1,0 +1,26 @@
+device/hisilicon/bigfish/frameworks/hiaudio/cmd/main_hiaoservice.cpp:16:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "AOService"
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Vector.h:24,
+                 from platform/android/frameworks/native/include/binder/Parcel.h:24,
+                 from platform/android/frameworks/native/include/binder/IPCThreadState.h:21,
+                 from device/hisilicon/bigfish/frameworks/hiaudio/cmd/main_hiaoservice.cpp:1:
+platform/android/system/core/include/log/log.h:67:0: note: this is the location of the previous definition
+ #define LOG_TAG NULL
+ ^
+device/hisilicon/bigfish/frameworks/hiaudio/cmd/main_hiaoservice.cpp:21:20: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ char* hdmi_event = "change@/devices/virtual/switch/hdmi";
+                    ^
+device/hisilicon/bigfish/frameworks/hiaudio/cmd/main_hiaoservice.cpp: In function 'void SetAudCapByHDMI()':
+device/hisilicon/bigfish/frameworks/hiaudio/cmd/main_hiaoservice.cpp:34:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0;i<st_edid.u32AudioInfoNum;i++)
+                         ^
+device/hisilicon/bigfish/frameworks/hiaudio/cmd/main_hiaoservice.cpp: At global scope:
+device/hisilicon/bigfish/frameworks/hiaudio/cmd/main_hiaoservice.cpp:81:7: warning: unused parameter 'arg' [-Wunused-parameter]
+ void *thread_loop(void* arg)
+       ^
+device/hisilicon/bigfish/frameworks/hiaudio/cmd/main_hiaoservice.cpp:96:5: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char** argv)
+     ^
+device/hisilicon/bigfish/frameworks/hiaudio/cmd/main_hiaoservice.cpp:96:5: warning: unused parameter 'argv' [-Wunused-parameter]

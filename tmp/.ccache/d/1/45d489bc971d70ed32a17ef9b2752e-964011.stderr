@@ -1,0 +1,5 @@
+In file included from device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_asym.c:9:0:
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_local.h: In function 'gettimestamp':
+device/hisilicon/bigfish/external/alsa-lib/src/pcm/pcm_local.h:952:63: warning: unused parameter 'monotonic' [-Wunused-parameter]
+ static inline void gettimestamp(snd_htimestamp_t *tstamp, int monotonic)
+                                                               ^

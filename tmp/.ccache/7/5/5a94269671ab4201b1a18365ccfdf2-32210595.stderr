@@ -1,0 +1,4 @@
+platform/android/frameworks/native/services/surfaceflinger/DisplayHardware/HWComposer.cpp:92:7: warning: field 'mDebugForceFakeVSync' will be initialized after field 'mTdeCompose' [-Wreorder]
+      mDebugForceFakeVSync(false),
+      ^
+1 warning generated.

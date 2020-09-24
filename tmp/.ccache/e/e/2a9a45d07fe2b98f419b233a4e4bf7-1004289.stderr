@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/mce/sample_mce_update.c: In function 'MCE_UpdateDVB':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/mce/sample_mce_update.c:138:31: warning: unused parameter 'pFilePath' [-Wunused-parameter]
+ HI_S32 MCE_UpdateDVB(HI_CHAR *pFilePath)
+                               ^

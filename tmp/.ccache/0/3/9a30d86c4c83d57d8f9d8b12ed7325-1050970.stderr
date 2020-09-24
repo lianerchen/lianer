@@ -1,0 +1,24 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_common.h:21:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/include/hi_unf_common.h:28,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/include/hi_unf_hdmi.h:23,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/hdmi/hdmi_2_0/unf_hdmi.c:20:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/hdmi/hdmi_2_0/unf_hdmi.c: In function 'Hdmi_PreTiming2Format':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/hdmi/hdmi_2_0/unf_hdmi.c:553:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             (pstFmtParam->u32PixlFreq >= pstPreTiming->u32PixelClk))
+                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/hdmi/hdmi_2_0/unf_hdmi.c: In function 'HI_UNF_HDMI_GetCECCommand':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/hdmi/hdmi_2_0/unf_hdmi.c:1544:51: warning: unused parameter 'enHdmi' [-Wunused-parameter]
+ HI_S32 HI_UNF_HDMI_GetCECCommand(HI_UNF_HDMI_ID_E enHdmi, HI_UNF_HDMI_CEC_CMD_S *pCECCmd, HI_U32 timeout)
+                                                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/hdmi/hdmi_2_0/unf_hdmi.c:1544:82: warning: unused parameter 'pCECCmd' [-Wunused-parameter]
+ HI_S32 HI_UNF_HDMI_GetCECCommand(HI_UNF_HDMI_ID_E enHdmi, HI_UNF_HDMI_CEC_CMD_S *pCECCmd, HI_U32 timeout)
+                                                                                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/hdmi/hdmi_2_0/unf_hdmi.c:1544:98: warning: unused parameter 'timeout' [-Wunused-parameter]
+ HI_S32 HI_UNF_HDMI_GetCECCommand(HI_UNF_HDMI_ID_E enHdmi, HI_UNF_HDMI_CEC_CMD_S *pCECCmd, HI_U32 timeout)
+                                                                                                  ^

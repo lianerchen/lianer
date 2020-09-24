@@ -1,0 +1,12 @@
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_fontmap.cpp: In member function 'virtual FT_FaceRec_* CFX_FontMapper::FindSubstFont(const CFX_ByteString&, FX_BOOL, FX_DWORD, int, int, int, CFX_SubstFont*)':
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_fontmap.cpp:1239:37: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+             checksum += ((FX_DWORD*)temp)[i];
+                                     ^
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_fontmap.cpp: In member function 'virtual void CFX_FolderFontInfo::Release()':
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_fontmap.cpp:1348:12: warning: deleting object of polymorphic class type 'CFX_FolderFontInfo' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     delete this;
+            ^
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_fontmap.cpp: In member function 'virtual FX_DWORD CFX_FolderFontInfo::GetFontData(void*, FX_DWORD, FX_LPBYTE, FX_DWORD)':
+platform/android/external/pdfium/core/src/fxge/ge/fx_ge_fontmap.cpp:1534:50: warning: 'offset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         FXSYS_fseek(pFile, offset, FXSYS_SEEK_SET);
+                                                  ^

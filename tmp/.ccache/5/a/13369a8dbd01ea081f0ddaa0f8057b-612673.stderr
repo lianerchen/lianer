@@ -1,0 +1,2 @@
+platform/android/external/e2fsprogs/e2fsck/pass2.c: In function 'salvage_directory':
+platform/android/external/e2fsprogs/e2fsck/pass2.c:672:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

@@ -1,0 +1,4 @@
+platform/android/external/neven/Embedded/common/src/b_APIEm/Functions.c: In function 'bpi_memReadCsa16':
+platform/android/external/neven/Embedded/common/src/b_APIEm/Functions.c:310:40: warning: unused parameter 'memPtrA' [-Wunused-parameter]
+ uint32 bpi_memReadCsa16( const uint16* memPtrA )
+                                        ^

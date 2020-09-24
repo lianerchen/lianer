@@ -1,0 +1,44 @@
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWMalloc':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:155:40: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ void *EAS_HWMalloc (EAS_HW_DATA_HANDLE hwInstData, EAS_I32 size)
+                                        ^
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWFree':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:173:37: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ void EAS_HWFree (EAS_HW_DATA_HANDLE hwInstData, void *p)
+                                     ^
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWReadFile':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:311:47: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ EAS_RESULT EAS_HWReadFile (EAS_HW_DATA_HANDLE hwInstData, EAS_FILE_HANDLE file, void *pBuffer, EAS_I32 n, EAS_I32 *pBytesRead)
+                                               ^
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWFilePos':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:429:46: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ EAS_RESULT EAS_HWFilePos (EAS_HW_DATA_HANDLE hwInstData, EAS_FILE_HANDLE file, EAS_I32 *pPosition)
+                                              ^
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWFileSeek':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:449:47: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ EAS_RESULT EAS_HWFileSeek (EAS_HW_DATA_HANDLE hwInstData, EAS_FILE_HANDLE file, EAS_I32 position)
+                                               ^
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWFileSeekOfs':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:474:50: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ EAS_RESULT EAS_HWFileSeekOfs (EAS_HW_DATA_HANDLE hwInstData, EAS_FILE_HANDLE file, EAS_I32 position)
+                                                  ^
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWFileLength':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:500:49: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ EAS_RESULT EAS_HWFileLength (EAS_HW_DATA_HANDLE hwInstData, EAS_FILE_HANDLE file, EAS_I32 *pLength)
+                                                 ^
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWVibrate':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:625:46: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ EAS_RESULT EAS_HWVibrate (EAS_HW_DATA_HANDLE hwInstData, EAS_BOOL state)
+                                              ^
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWLED':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:640:42: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ EAS_RESULT EAS_HWLED (EAS_HW_DATA_HANDLE hwInstData, EAS_BOOL state)
+                                          ^
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWBackLight':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:655:48: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ EAS_RESULT EAS_HWBackLight (EAS_HW_DATA_HANDLE hwInstData, EAS_BOOL state)
+                                                ^
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c: In function 'EAS_HWYield':
+platform/android/external/sonivox/arm-wt-22k/host_src/eas_hostmm.c:684:42: warning: unused parameter 'hwInstData' [-Wunused-parameter]
+ EAS_BOOL EAS_HWYield (EAS_HW_DATA_HANDLE hwInstData)
+                                          ^

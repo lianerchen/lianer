@@ -1,0 +1,3 @@
+platform/android/frameworks/base/media/jni/android_media_ResampleInputStream.cpp:76:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static void android_media_ResampleInputStream_fir21(JNIEnv *env, jclass clazz,
+             ^

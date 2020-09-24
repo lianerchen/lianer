@@ -1,0 +1,3 @@
+platform/android/frameworks/native/services/sensorservice/SensorDevice.cpp:305:10: warning: unused parameter 'ident' [-Wunused-parameter]
+ status_t SensorDevice::flush(void* ident, int handle) {
+          ^

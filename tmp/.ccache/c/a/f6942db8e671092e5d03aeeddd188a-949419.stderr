@@ -1,0 +1,28 @@
+component/dtv/service/src/mid/nvod/mid_nvod.c: In function 'CHMID_NVOD_SdtTask':
+component/dtv/service/src/mid/nvod/mid_nvod.c:143:31: warning: unused parameter 'argv' [-Wunused-parameter]
+ void CHMID_NVOD_SdtTask(void *argv)
+                               ^
+component/dtv/service/src/mid/nvod/mid_nvod.c: In function 'CHMID_NVOD_EitTask':
+component/dtv/service/src/mid/nvod/mid_nvod.c:245:31: warning: unused parameter 'argv' [-Wunused-parameter]
+ void CHMID_NVOD_EitTask(void *argv)
+                               ^
+component/dtv/service/src/mid/nvod/mid_nvod.c: In function 'CHMID_NVOD_ParseRefServicesFromSdtSection':
+component/dtv/service/src/mid/nvod/mid_nvod.c:1157:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (iLoop = 11; iLoop < us_Length - 4; iLoop += 5 + us_DescLength)
+                          ^
+component/dtv/service/src/mid/nvod/mid_nvod.c: In function 'CHMID_NVOD_EITSchActSectionCallBack':
+component/dtv/service/src/mid/nvod/mid_nvod.c:1228:57: warning: unused parameter 'sec_len' [-Wunused-parameter]
+ void CHMID_NVOD_EITSchActSectionCallBack(S32 ReqID, int sec_len)
+                                                         ^
+component/dtv/service/src/mid/nvod/mid_nvod.c: In function 'CHMID_NVOD_EITSchOthSectionCallBack':
+component/dtv/service/src/mid/nvod/mid_nvod.c:1274:57: warning: unused parameter 'sec_len' [-Wunused-parameter]
+ void CHMID_NVOD_EITSchOthSectionCallBack(S32 ReqID, int sec_len)
+                                                         ^
+component/dtv/service/src/mid/nvod/mid_nvod.c: In function 'CHMID_NVOD_EITPfSectionCallBack':
+component/dtv/service/src/mid/nvod/mid_nvod.c:1319:53: warning: unused parameter 'sec_len' [-Wunused-parameter]
+ void CHMID_NVOD_EITPfSectionCallBack(S32 ReqID, int sec_len)
+                                                     ^
+component/dtv/service/src/mid/nvod/mid_nvod.c: In function 'CHMID_NVOD_SDTSectionCallBack':
+component/dtv/service/src/mid/nvod/mid_nvod.c:1365:51: warning: unused parameter 'sec_len' [-Wunused-parameter]
+ void CHMID_NVOD_SDTSectionCallBack(S32 ReqID, int sec_len)
+                                                   ^

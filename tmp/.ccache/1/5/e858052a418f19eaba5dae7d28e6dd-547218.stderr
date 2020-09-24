@@ -1,0 +1,8 @@
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c: In function '_CompoundTextOpen':
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:267:9: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:267:9: warning: (near initialization for 'stackArgs.nestedLoads') [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c: At top level:
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:617:1: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:617:1: warning: (near initialization for '_CompoundTextImpl.toUTF8') [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:643:1: warning: missing initializer [-Wmissing-field-initializers]
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:643:1: warning: (near initialization for '_CompoundTextData_53.mbcs') [-Wmissing-field-initializers]

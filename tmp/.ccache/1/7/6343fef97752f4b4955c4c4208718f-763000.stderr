@@ -1,0 +1,81 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:29:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:8:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:8:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:87:43: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     int (*raw_read)(int fd, unsigned long long *startaddr, unsigned char *buffer,
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:88:45: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long length, unsigned long long openaddr, unsigned long long limit_leng, int read_oob, int skip_badblock);
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:88:74: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long length, unsigned long long openaddr, unsigned long long limit_leng, int read_oob, int skip_badblock);
+                                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:89:44: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     int (*raw_write)(int fd, unsigned long long *startaddr, unsigned char *buffer,
+                                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:90:45: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long length, unsigned long long openaddr, unsigned long long limit_leng, int write_oob);
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:90:74: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long length, unsigned long long openaddr, unsigned long long limit_leng, int write_oob);
+                                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:91:10: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     long long (*raw_erase)(int fd, unsigned long long startaddr,
+          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:91:50: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     long long (*raw_erase)(int fd, unsigned long long startaddr,
+                                                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:92:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long long length, unsigned long long openaddr, unsigned long long limit_leng);
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:92:50: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long long length, unsigned long long openaddr, unsigned long long limit_leng);
+                                                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:92:79: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long long length, unsigned long long openaddr, unsigned long long limit_leng);
+                                                                               ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:9:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/flash/include/nand.h:27:18: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     typedef long long   __kernel_loff_t;
+                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/flash/include/nand.h:134:33: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ char *int_to_size(unsigned long long size);
+                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/flash/include/nand.h:144:15: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ unsigned long long get_flash_total_size(HI_FLASH_TYPE_E FlashType);
+               ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:17:16: warning: ISO C90 does not support 'long long' [-Wlong-long]
+  unsigned long long from;
+                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:18:16: warning: ISO C90 does not support 'long long' [-Wlong-long]
+  unsigned long long size;
+                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:25:16: warning: ISO C90 does not support 'long long' [-Wlong-long]
+  unsigned long long StartAddr;
+                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:26:16: warning: ISO C90 does not support 'long long' [-Wlong-long]
+  unsigned long long PartSize;
+                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:31:16: warning: ISO C90 does not support 'long long' [-Wlong-long]
+  unsigned long long end_addr;
+                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:39:22: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ static unsigned long long memparse(const char *ptr, char **retptr)
+                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c: In function 'memparse':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:43:19: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     unsigned long long  ret = strtoull(ptr, &endptr, 0);
+                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c: In function 'parse_subpart':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:84:38: warning: ISO C90 does not support 'long long' [-Wlong-long]
+   new_subpart->size = (unsigned long long)(~0ULL);
+                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/../../common/api/flash/src/cmdline_parts.c:84:45: warning: use of C99 long long integer constant [-Wlong-long]
+   new_subpart->size = (unsigned long long)(~0ULL);
+                                             ^

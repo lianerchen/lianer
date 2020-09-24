@@ -1,0 +1,15 @@
+platform/android/external/libpcap/sf-pcap-ng.c: In function 'read_block':
+platform/android/external/libpcap/sf-pcap-ng.c:300:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (p->bufsize < bhdr.total_length) {
+                 ^
+platform/android/external/libpcap/sf-pcap-ng.c: In function 'pcap_ng_check_header':
+platform/android/external/libpcap/sf-pcap-ng.c:798:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (p->bufsize < total_length)
+                 ^
+platform/android/external/libpcap/sf-pcap-ng.c: In function 'pcap_ng_next_packet':
+platform/android/external/libpcap/sf-pcap-ng.c:1035:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (hdr->caplen > p->snapshot)
+                    ^
+platform/android/external/libpcap/sf-pcap-ng.c:1101:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (p->snapshot != idbp->snaplen) {
+                    ^

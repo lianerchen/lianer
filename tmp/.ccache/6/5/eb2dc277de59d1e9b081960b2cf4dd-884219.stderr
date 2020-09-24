@@ -1,0 +1,39 @@
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c: In function '_CompoundTextOpen':
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:267:9: warning: missing initializer for field 'nestedLoads' of 'UConverterLoadArgs' [-Wmissing-field-initializers]
+         UConverterLoadArgs stackArgs={ (int32_t)sizeof(UConverterLoadArgs) };
+         ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_bld.h:27:0,
+                 from platform/android/external/icu/icu4c/source/common/ucnv_imp.h:28,
+                 from platform/android/external/icu/icu4c/source/common/ucnv_ct.c:24:
+platform/android/external/icu/icu4c/source/common/ucnv_cnv.h:51:13: note: 'nestedLoads' declared here
+     int32_t nestedLoads;        /* count nested ucnv_load() calls */
+             ^
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c: In function '_CompoundTextReset':
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:321:32: warning: unused parameter 'converter' [-Wunused-parameter]
+ _CompoundTextReset(UConverter *converter, UConverterResetChoice choice) {
+                                ^
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:321:65: warning: unused parameter 'choice' [-Wunused-parameter]
+ _CompoundTextReset(UConverter *converter, UConverterResetChoice choice) {
+                                                                 ^
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c: In function '_CompoundTextgetName':
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:325:40: warning: unused parameter 'cnv' [-Wunused-parameter]
+ _CompoundTextgetName(const UConverter* cnv){
+                                        ^
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c: At top level:
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:617:1: warning: missing initializer for field 'toUTF8' of 'UConverterImpl' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_bld.h:27:0,
+                 from platform/android/external/icu/icu4c/source/common/ucnv_imp.h:28,
+                 from platform/android/external/icu/icu4c/source/common/ucnv_ct.c:24:
+platform/android/external/icu/icu4c/source/common/ucnv_cnv.h:252:23: note: 'toUTF8' declared here
+     UConverterConvert toUTF8;
+                       ^
+platform/android/external/icu/icu4c/source/common/ucnv_ct.c:643:1: warning: missing initializer for field 'mbcs' of 'UConverterSharedData' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_imp.h:28:0,
+                 from platform/android/external/icu/icu4c/source/common/ucnv_ct.c:24:
+platform/android/external/icu/icu4c/source/common/ucnv_bld.h:125:25: note: 'mbcs' declared here
+     UConverterMBCSTable mbcs;
+                         ^

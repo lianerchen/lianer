@@ -1,0 +1,27 @@
+platform/android/external/icu/icu4c/source/common/uloc_tag.c: In function '_ldmlKeyToBCP47':
+platform/android/external/icu/icu4c/source/common/uloc_tag.c:638:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (keyLen >= sizeof(keyBuf)) {
+                ^
+platform/android/external/icu/icu4c/source/common/uloc_tag.c: In function '_bcp47ToLDMLKey':
+platform/android/external/icu/icu4c/source/common/uloc_tag.c:700:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (bcpKeyLen >= sizeof(bcpKeyBuf)) {
+                   ^
+platform/android/external/icu/icu4c/source/common/uloc_tag.c: In function '_ldmlTypeToBCP47':
+platform/android/external/icu/icu4c/source/common/uloc_tag.c:778:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (keyLen >= sizeof(keyBuf)) {
+                ^
+platform/android/external/icu/icu4c/source/common/uloc_tag.c:797:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (typeLen >= sizeof(typeBuf)) {
+                 ^
+platform/android/external/icu/icu4c/source/common/uloc_tag.c: In function '_bcp47ToLDMLType':
+platform/android/external/icu/icu4c/source/common/uloc_tag.c:896:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (keyLen >= sizeof(keyBuf)) {
+                ^
+platform/android/external/icu/icu4c/source/common/uloc_tag.c: In function '_appendVariantsToLanguageTag':
+platform/android/external/icu/icu4c/source/common/uloc_tag.c:1181:66: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                         if (uprv_strcmp(pVar,POSIX_VALUE) || len != uprv_strlen(POSIX_VALUE)) {
+                                                                  ^
+platform/android/external/icu/icu4c/source/common/uloc_tag.c: In function '_appendPrivateuseToLanguageTag':
+platform/android/external/icu/icu4c/source/common/uloc_tag.c:1942:108: warning: unused parameter 'hadPosix' [-Wunused-parameter]
+ _appendPrivateuseToLanguageTag(const char* localeID, char* appendAt, int32_t capacity, UBool strict, UBool hadPosix, UErrorCode* status) {
+                                                                                                            ^

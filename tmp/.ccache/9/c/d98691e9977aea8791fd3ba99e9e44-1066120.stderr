@@ -1,0 +1,4 @@
+platform/android/frameworks/av/media/libstagefright/http/MediaHTTP.cpp: In member function 'virtual android::status_t android::MediaHTTP::getSize(off64_t*)':
+platform/android/frameworks/av/media/libstagefright/http/MediaHTTP.cpp:133:32: warning: enumeral and non-enumeral type in conditional expression [enabled by default]
+     return *size < 0 ? *size : OK;
+                                ^

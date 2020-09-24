@@ -1,0 +1,4 @@
+platform/android/frameworks/base/libs/hwui/Interpolator.cpp:17:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "Interpolator"
+ ^
+<command-line>:0:0: note: this is the location of the previous definition

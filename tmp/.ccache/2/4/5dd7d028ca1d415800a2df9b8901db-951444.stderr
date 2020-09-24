@@ -1,0 +1,8 @@
+component/dtv/service/src/mid/psi/mid_psi_Cache.c: In function 'DRV_PSI_CACHE_AllocSectionDataBlock':
+component/dtv/service/src/mid/psi/mid_psi_Cache.c:1509:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (DRV_PSI_CACHE_Status.TotalUnusedBytes < DRV_PSI_CACHE_BLOCK_HEADER_SIZE + Size)
+                                            ^
+component/dtv/service/src/mid/psi/mid_psi_Cache.c: In function 'DRV_PSI_CACHE_GetCacheStatus':
+component/dtv/service/src/mid/psi/mid_psi_Cache.c:1955:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (BlockHeader->Size > DRV_PSI_CACHE_Status.MaxUnusedBlockBytes)
+                          ^

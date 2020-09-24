@@ -1,0 +1,2 @@
+platform/android/external/fdlibm/s_ceil.c: In function 'ieee_ceil':
+platform/android/external/fdlibm/s_ceil.c:68:8: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

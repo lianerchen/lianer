@@ -1,0 +1,19 @@
+out/host/linux-x86/obj32/SHARED_LIBRARIES/libbacktrace_test_intermediates/backtrace_testlib.o: \
+ platform/android/system/core/libbacktrace/backtrace_testlib.c \
+ platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/stdio.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/features.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/predefs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/sys/cdefs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/wordsize.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/gnu/stubs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/gnu/stubs-32.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/include/stddef.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/types.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/typesizes.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/libio.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/_G_config.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/wchar.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/include/stdarg.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/stdio_lim.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/sys_errlist.h

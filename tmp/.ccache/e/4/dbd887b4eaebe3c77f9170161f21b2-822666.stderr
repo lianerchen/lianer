@@ -1,0 +1,7 @@
+In file included from platform/android/packages/apps/Gallery2/jni/filters/tinyplanet.cc:17:0:
+platform/android/packages/apps/Gallery2/jni/filters/filters.h:38:38: warning: unused parameter 'obj' [-Wunused-parameter]
+ #define JNIFUNCF(cls, name, vars...) Java_com_android_gallery3d_filtershow_filters_ ## cls ## _ ## name(JNIEnv* env, jobject obj, vars)
+                                      ^
+platform/android/packages/apps/Gallery2/jni/filters/tinyplanet.cc:132:6: note: in expansion of macro 'JNIFUNCF'
+ void JNIFUNCF(ImageFilterTinyPlanet, nativeApplyFilter, jobject bitmap_in, jint width, jint height, jobject bitmap_out, jint output_size, jfloat scale,jfloat angle)
+      ^

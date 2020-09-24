@@ -1,0 +1,2 @@
+platform/android/external/icu/icu4c/source/common/ubidi.c: In function 'ubidi_setReorderingMode_53':
+platform/android/external/icu/icu4c/source/common/ubidi.c:305:5: warning: comparison of unsigned expression >= 0 is always true [-Wtype-limits]

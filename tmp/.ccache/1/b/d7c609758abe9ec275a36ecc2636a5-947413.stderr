@@ -1,0 +1,149 @@
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:21:6: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ void NoOpDrmManagerClientImpl::remove(int uniqueId) {
+      ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:24:6: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ void NoOpDrmManagerClientImpl::addClient(int uniqueId) {
+      ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:27:6: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ void NoOpDrmManagerClientImpl::removeClient(int uniqueId) {
+      ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:30:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::setOnInfoListener(
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:30:10: warning: unused parameter 'infoListener' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:35:17: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ DrmConstraints* NoOpDrmManagerClientImpl::getConstraints(int uniqueId, const String8* path, const int action) {
+                 ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:35:17: warning: unused parameter 'path' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:35:17: warning: unused parameter 'action' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:39:14: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ DrmMetadata* NoOpDrmManagerClientImpl::getMetadata(int uniqueId, const String8* path) {
+              ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:39:14: warning: unused parameter 'path' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:43:6: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ bool NoOpDrmManagerClientImpl::canHandle(int uniqueId, const String8& path, const String8& mimeType) {
+      ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:43:6: warning: unused parameter 'path' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:43:6: warning: unused parameter 'mimeType' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:47:16: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ DrmInfoStatus* NoOpDrmManagerClientImpl::processDrmInfo(int uniqueId, const DrmInfo* drmInfo) {
+                ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:47:16: warning: unused parameter 'drmInfo' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:51:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ DrmInfo* NoOpDrmManagerClientImpl::acquireDrmInfo(int uniqueId, const DrmInfoRequest* drmInfoRequest) {
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:51:10: warning: unused parameter 'drmInfoRequest' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:55:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::saveRights(int uniqueId, const DrmRights& drmRights,
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:55:10: warning: unused parameter 'drmRights' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:55:10: warning: unused parameter 'rightsPath' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:55:10: warning: unused parameter 'contentPath' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:60:9: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ String8 NoOpDrmManagerClientImpl::getOriginalMimeType(int uniqueId, const String8& path, int fd) {
+         ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:60:9: warning: unused parameter 'path' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:60:9: warning: unused parameter 'fd' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:64:5: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ int NoOpDrmManagerClientImpl::getDrmObjectType(int uniqueId, const String8& path, const String8& mimeType) {
+     ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:64:5: warning: unused parameter 'path' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:64:5: warning: unused parameter 'mimeType' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:68:5: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ int NoOpDrmManagerClientImpl::checkRightsStatus(int uniqueId, const String8& path, int action) {
+     ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:68:5: warning: unused parameter 'path' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:68:5: warning: unused parameter 'action' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:72:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::consumeRights(int uniqueId, sp<DecryptHandle> &decryptHandle, int action, bool reserve) {
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:72:10: warning: unused parameter 'decryptHandle' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:72:10: warning: unused parameter 'action' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:72:10: warning: unused parameter 'reserve' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:76:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::setPlaybackStatus(
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:76:10: warning: unused parameter 'decryptHandle' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:76:10: warning: unused parameter 'playbackStatus' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:76:10: warning: unused parameter 'position' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:81:6: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ bool NoOpDrmManagerClientImpl::validateAction(
+      ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:81:6: warning: unused parameter 'path' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:81:6: warning: unused parameter 'action' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:81:6: warning: unused parameter 'description' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:86:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::removeRights(int uniqueId, const String8& path) {
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:86:10: warning: unused parameter 'path' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:90:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::removeAllRights(int uniqueId) {
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:94:5: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ int NoOpDrmManagerClientImpl::openConvertSession(int uniqueId, const String8& mimeType) {
+     ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:94:5: warning: unused parameter 'mimeType' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:98:21: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ DrmConvertedStatus* NoOpDrmManagerClientImpl::convertData(int uniqueId, int convertId, const DrmBuffer* inputData) {
+                     ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:98:21: warning: unused parameter 'convertId' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:98:21: warning: unused parameter 'inputData' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:102:21: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ DrmConvertedStatus* NoOpDrmManagerClientImpl::closeConvertSession(int uniqueId, int convertId) {
+                     ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:102:21: warning: unused parameter 'convertId' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:106:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::getAllSupportInfo(int uniqueId, int* length, DrmSupportInfo** drmSupportInfoArray) {
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:106:10: warning: unused parameter 'length' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:106:10: warning: unused parameter 'drmSupportInfoArray' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:110:19: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ sp<DecryptHandle> NoOpDrmManagerClientImpl::openDecryptSession(
+                   ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:110:19: warning: unused parameter 'fd' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:110:19: warning: unused parameter 'offset' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:110:19: warning: unused parameter 'length' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:110:19: warning: unused parameter 'mime' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:115:19: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ sp<DecryptHandle> NoOpDrmManagerClientImpl::openDecryptSession(
+                   ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:115:19: warning: unused parameter 'uri' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:115:19: warning: unused parameter 'mime' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:120:19: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ sp<DecryptHandle> NoOpDrmManagerClientImpl::openDecryptSession(int uniqueId, const DrmBuffer& buf,
+                   ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:120:19: warning: unused parameter 'buf' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:120:19: warning: unused parameter 'mimeType' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:125:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::closeDecryptSession(int uniqueId, sp<DecryptHandle> &decryptHandle) {
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:125:10: warning: unused parameter 'decryptHandle' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:129:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::initializeDecryptUnit(int uniqueId, sp<DecryptHandle> &decryptHandle,
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:129:10: warning: unused parameter 'decryptHandle' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:129:10: warning: unused parameter 'decryptUnitId' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:129:10: warning: unused parameter 'headerInfo' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:134:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::decrypt(int uniqueId, sp<DecryptHandle> &decryptHandle, int decryptUnitId,
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:134:10: warning: unused parameter 'decryptHandle' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:134:10: warning: unused parameter 'decryptUnitId' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:134:10: warning: unused parameter 'encBuffer' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:134:10: warning: unused parameter 'decBuffer' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:134:10: warning: unused parameter 'IV' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:139:10: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::finalizeDecryptUnit(int uniqueId, sp<DecryptHandle> &decryptHandle, int decryptUnitId) {
+          ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:139:10: warning: unused parameter 'decryptHandle' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:139:10: warning: unused parameter 'decryptUnitId' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:143:9: warning: unused parameter 'uniqueId' [-Wunused-parameter]
+ ssize_t NoOpDrmManagerClientImpl::pread(int uniqueId, sp<DecryptHandle> &decryptHandle,
+         ^
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:143:9: warning: unused parameter 'decryptHandle' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:143:9: warning: unused parameter 'buffer' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:143:9: warning: unused parameter 'numBytes' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:143:9: warning: unused parameter 'offset' [-Wunused-parameter]
+platform/android/frameworks/av/drm/libdrmframework/NoOpDrmManagerClientImpl.cpp:148:10: warning: unused parameter 'event' [-Wunused-parameter]
+ status_t NoOpDrmManagerClientImpl::notify(const DrmInfoEvent& event) {
+          ^

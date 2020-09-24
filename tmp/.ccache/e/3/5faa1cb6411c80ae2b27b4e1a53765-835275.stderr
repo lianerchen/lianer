@@ -1,0 +1,4 @@
+component/atv/til/til.c: In function 'open_til':
+component/atv/til/til.c:49:67: warning: unused parameter 'name' [-Wunused-parameter]
+ static int open_til(const struct hw_module_t* module, char const* name,
+                                                                   ^

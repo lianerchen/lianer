@@ -1,0 +1,35 @@
+platform/android/external/icu/icu4c/source/common/ucnv_u7.c: In function '_UTF7Open':
+platform/android/external/icu/icu4c/source/common/ucnv_u7.c:194:31: warning: unused parameter 'pArgs' [-Wunused-parameter]
+           UConverterLoadArgs *pArgs,
+                               ^
+platform/android/external/icu/icu4c/source/common/ucnv_u7.c: At top level:
+platform/android/external/icu/icu4c/source/common/ucnv_u7.c:763:1: warning: missing initializer for field 'toUTF8' of 'UConverterImpl' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_bld.h:27:0,
+                 from platform/android/external/icu/icu4c/source/common/ucnv_u7.c:22:
+platform/android/external/icu/icu4c/source/common/ucnv_cnv.h:252:23: note: 'toUTF8' declared here
+     UConverterConvert toUTF8;
+                       ^
+platform/android/external/icu/icu4c/source/common/ucnv_u7.c:782:1: warning: missing initializer for field 'mbcs' of 'UConverterSharedData' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_u7.c:22:0:
+platform/android/external/icu/icu4c/source/common/ucnv_bld.h:125:25: note: 'mbcs' declared here
+     UConverterMBCSTable mbcs;
+                         ^
+platform/android/external/icu/icu4c/source/common/ucnv_u7.c:1463:1: warning: missing initializer for field 'toUTF8' of 'UConverterImpl' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_bld.h:27:0,
+                 from platform/android/external/icu/icu4c/source/common/ucnv_u7.c:22:
+platform/android/external/icu/icu4c/source/common/ucnv_cnv.h:252:23: note: 'toUTF8' declared here
+     UConverterConvert toUTF8;
+                       ^
+platform/android/external/icu/icu4c/source/common/ucnv_u7.c:1482:1: warning: missing initializer for field 'mbcs' of 'UConverterSharedData' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/icu/icu4c/source/common/ucnv_u7.c:22:0:
+platform/android/external/icu/icu4c/source/common/ucnv_bld.h:125:25: note: 'mbcs' declared here
+     UConverterMBCSTable mbcs;
+                         ^

@@ -1,0 +1,6 @@
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_func.cpp:72:0: warning: ignoring #pragma optimize  [-Wunknown-pragmas]
+ #pragma optimize( "", off )
+ ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page_func.cpp:106:0: warning: ignoring #pragma optimize  [-Wunknown-pragmas]
+ #pragma optimize( "", on )
+ ^

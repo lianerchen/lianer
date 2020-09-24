@@ -1,0 +1,15 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/sci/sample_complex_sci.c: In function 'CheckSci':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/sci/sample_complex_sci.c:939:28: warning: unused parameter 'args' [-Wunused-parameter]
+ HI_VOID* CheckSci(HI_VOID* args)
+                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/sci/sample_complex_sci.c: In function 'RunSci':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/sci/sample_complex_sci.c:959:26: warning: unused parameter 'args' [-Wunused-parameter]
+ HI_VOID* RunSci(HI_VOID *args)
+                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/sci/sample_complex_sci.c: In function 'main':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/sci/sample_complex_sci.c:989:20: warning: unused parameter 'argc' [-Wunused-parameter]
+ HI_S32 main(HI_S32 argc, HI_CHAR *argv[])
+                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/sci/sample_complex_sci.c:989:35: warning: unused parameter 'argv' [-Wunused-parameter]
+ HI_S32 main(HI_S32 argc, HI_CHAR *argv[])
+                                   ^

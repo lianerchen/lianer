@@ -1,0 +1,7 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/log/sample_log.c: In function 'main':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/log/sample_log.c:25:20: warning: unused parameter 'argc' [-Wunused-parameter]
+ HI_S32 main(HI_S32 argc,HI_CHAR *argv[])
+                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/log/sample_log.c:25:34: warning: unused parameter 'argv' [-Wunused-parameter]
+ HI_S32 main(HI_S32 argc,HI_CHAR *argv[])
+                                  ^

@@ -1,0 +1,36 @@
+out/target/product/Hi3798MV200/obj/SHARED_LIBRARIES/libFFTEm_intermediates/FaceRecEm/common/src/b_FDSDK/SDK.o: \
+ platform/android/external/neven/FaceRecEm/common/src/b_FDSDK/SDK.c \
+ platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h \
+ platform/android/external/neven/FaceRecEm/common/src/b_FDSDK/SDK_Internal.h \
+ platform/android/external/neven/FaceRecEm/common/src/b_FDSDK/SDK.h \
+ platform/android/external/neven/FaceRecEm/common/src/b_FDSDK/Types.h \
+ platform/android/bionic/libc/include/sys/types.h \
+ platform/android/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ platform/android/bionic/libc/include/stdint.h \
+ platform/android/bionic/libc/include/machine/wchar_limits.h \
+ platform/android/bionic/libc/include/sys/cdefs.h \
+ platform/android/bionic/libc/include/sys/cdefs_elf.h \
+ platform/android/bionic/libc/include/android/api-level.h \
+ platform/android/bionic/libc/kernel/uapi/linux/types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/int-ll64.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/bitsperlong.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/bitsperlong.h \
+ platform/android/bionic/libc/kernel/uapi/linux/posix_types.h \
+ platform/android/bionic/libc/kernel/uapi/linux/stddef.h \
+ platform/android/bionic/libc/kernel/uapi/linux/compiler.h \
+ platform/android/bionic/libc/kernel/uapi/asm-arm/asm/posix_types.h \
+ platform/android/bionic/libc/kernel/uapi/asm-generic/posix_types.h \
+ platform/android/bionic/libc/include/sys/sysmacros.h \
+ platform/android/external/neven/Embedded/common/src/b_BasicEm/Context.h \
+ platform/android/external/neven/Embedded/common/src/b_BasicEm/Basic.h \
+ platform/android/external/neven/Embedded/common/conf/../conf/b_BasicEm/LibConfig.h \
+ platform/android/external/neven/Embedded/common/src/b_BasicEm/Config.h \
+ platform/android/external/neven/Embedded/common/src/b_BasicEm/MemTbl.h \
+ platform/android/external/neven/Embedded/common/src/b_BasicEm/MemSeg.h \
+ platform/android/external/neven/Embedded/common/src/b_BasicEm/DynMemManager.h \
+ platform/android/external/neven/Embedded/common/src/b_BasicEm/Functions.h \
+ platform/android/external/neven/Embedded/common/src/b_BasicEm/String.h \
+ platform/android/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ platform/android/external/neven/Embedded/common/src/b_BasicEm/Memory.h

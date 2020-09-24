@@ -1,0 +1,67 @@
+In file included from platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:16:0:
+platform/android/external/libvpx/armv7a-neon/vpx_config.h:13:0: warning: "ARCH_ARM" redefined [enabled by default]
+ #define ARCH_ARM 1
+ ^
+In file included from <command-line>:0:0:
+./platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h:241:0: note: this is the location of the previous definition
+ #define ARCH_ARM
+ ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c: In function 'rd_inter16x16_uv':
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:838:39: warning: unused parameter 'cpi' [-Wunused-parameter]
+ static int rd_inter16x16_uv(VP8_COMP *cpi, MACROBLOCK *x, int *rate,
+                                       ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:839:50: warning: unused parameter 'fullpixel' [-Wunused-parameter]
+                             int *distortion, int fullpixel)
+                                                  ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c: In function 'rd_inter4x4_uv':
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:855:37: warning: unused parameter 'cpi' [-Wunused-parameter]
+ static int rd_inter4x4_uv(VP8_COMP *cpi, MACROBLOCK *x, int *rate,
+                                     ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:856:48: warning: unused parameter 'fullpixel' [-Wunused-parameter]
+                           int *distortion, int fullpixel)
+                                                ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c: In function 'labels2mode':
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:990:61: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+                 this_mv->as_int = col ? d[-1].bmi.mv.as_int : left_block_mv(mic, i);
+                                                             ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:993:61: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+                 this_mv->as_int = row ? d[-4].bmi.mv.as_int : above_block_mv(mic, i, mis);
+                                                             ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:1006:60: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+                 left_mv.as_int = col ? d[-1].bmi.mv.as_int :
+                                                            ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c: In function 'rd_pick_intra16x16mby_mode':
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:776:46: warning: 'mode_selected' is used uninitialized in this function [-Wuninitialized]
+     MB_PREDICTION_MODE UNINITIALIZED_IS_SAFE(mode_selected);
+                                              ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c: In function 'rd_pick_intra_mbuv_mode':
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:876:46: warning: 'mode_selected' is used uninitialized in this function [-Wuninitialized]
+     MB_PREDICTION_MODE UNINITIALIZED_IS_SAFE(mode_selected);
+                                              ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:878:31: warning: 'd' is used uninitialized in this function [-Wuninitialized]
+     int UNINITIALIZED_IS_SAFE(d), UNINITIALIZED_IS_SAFE(r);
+                               ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:878:57: warning: 'r' is used uninitialized in this function [-Wuninitialized]
+     int UNINITIALIZED_IS_SAFE(d), UNINITIALIZED_IS_SAFE(r);
+                                                         ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c: In function 'rd_pick_intra4x4mby_modes':
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:751:20: warning: 'ry' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         tot_rate_y += ry;
+                    ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:750:20: warning: 'd' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         distortion += d;
+                    ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:698:20: warning: 'best_mode' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     b->bmi.as_mode = *best_mode;
+                    ^
+In file included from platform/android/external/libvpx/libvpx/vp8/encoder/onyx_int.h:26:0,
+                 from platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:21:
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:733:49: note: 'best_mode' was declared here
+         B_PREDICTION_MODE UNINITIALIZED_IS_SAFE(best_mode);
+                                                 ^
+platform/android/external/libvpx/libvpx/vpx_ports/mem.h:44:34: note: in definition of macro 'UNINITIALIZED_IS_SAFE'
+ #define UNINITIALIZED_IS_SAFE(x) x=x
+                                  ^
+platform/android/external/libvpx/libvpx/vp8/encoder/rdopt.c:749:14: warning: 'r' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         cost += r;
+              ^

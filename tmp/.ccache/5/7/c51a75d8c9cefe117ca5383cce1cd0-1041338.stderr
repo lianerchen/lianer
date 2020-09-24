@@ -1,0 +1,19 @@
+device/hisilicon/bigfish/frameworks/hidisplaymanager/libs/DisplayService.cpp:33:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "HiDisplayService"
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Vector.h:24,
+                 from platform/android/frameworks/native/include/binder/IBinder.h:23,
+                 from platform/android/frameworks/native/include/binder/Binder.h:22,
+                 from platform/android/frameworks/native/include/binder/IInterface.h:21,
+                 from platform/android/frameworks/native/include/binder/IServiceManager.h:21,
+                 from device/hisilicon/bigfish/frameworks/hidisplaymanager/libs/DisplayService.cpp:1:
+platform/android/system/core/include/log/log.h:67:0: note: this is the location of the previous definition
+ #define LOG_TAG NULL
+ ^
+device/hisilicon/bigfish/frameworks/hidisplaymanager/libs/DisplayService.cpp:914:10: warning: unused parameter 'who' [-Wunused-parameter]
+     void DisplayService::binderDied(const wp<IBinder>& who) {
+          ^
+device/hisilicon/bigfish/frameworks/hidisplaymanager/libs/DisplayService.cpp:920:14: warning: unused parameter 'args' [-Wunused-parameter]
+     status_t DisplayService::dump(int fd, const Vector<String16>& args)
+              ^

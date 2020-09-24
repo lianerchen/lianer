@@ -1,0 +1,61 @@
+In file included from component/OAM/agent/tr069_cut/session/project_if.h:5:0,
+                 from component/OAM/agent/tr069_cut/session/rpc_methods.h:5,
+                 from component/OAM/agent/tr069_cut/session/setgetparamvals.c:1:
+component/OAM/agent/tr069_cut/session/setgetparamvals.c: In function 'SetSelfDefineParameterValue':
+component/OAM/agent/tr069_cut/session/queue.h:20:14: warning: assignment from incompatible pointer type [enabled by default]
+  { node->next=head;    \
+              ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:382:13: note: in expansion of macro 'NODE_ENQUEUE'
+             NODE_ENQUEUE(pSetFault, pSetFaultNew);
+             ^
+component/OAM/agent/tr069_cut/session/queue.h:26:17: warning: assignment from incompatible pointer type [enabled by default]
+   if(!head) head=node;    \
+                 ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:382:13: note: in expansion of macro 'NODE_ENQUEUE'
+             NODE_ENQUEUE(pSetFault, pSetFaultNew);
+             ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:388:13: warning: implicit declaration of function 'FindAppNewObject' [-Wimplicit-function-declaration]
+             if (0 == FindAppNewObject(pTmp->name))
+             ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:388:13: warning: nested extern declaration of 'FindAppNewObject' [-Wnested-externs]
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:394:17: warning: implicit declaration of function 'InvokeNmToModel' [-Wimplicit-function-declaration]
+                 if (-1 == InvokeNmToModel("Nm_SelfDefine", &tIn, &tOut))
+                 ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:394:17: warning: nested extern declaration of 'InvokeNmToModel' [-Wnested-externs]
+In file included from component/OAM/agent/tr069_cut/session/project_if.h:5:0,
+                 from component/OAM/agent/tr069_cut/session/rpc_methods.h:5,
+                 from component/OAM/agent/tr069_cut/session/setgetparamvals.c:1:
+component/OAM/agent/tr069_cut/session/queue.h:20:14: warning: assignment from incompatible pointer type [enabled by default]
+  { node->next=head;    \
+              ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:409:21: note: in expansion of macro 'NODE_ENQUEUE'
+                     NODE_ENQUEUE(pSetFault, pSetFaultNew);
+                     ^
+component/OAM/agent/tr069_cut/session/queue.h:26:17: warning: assignment from incompatible pointer type [enabled by default]
+   if(!head) head=node;    \
+                 ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:409:21: note: in expansion of macro 'NODE_ENQUEUE'
+                     NODE_ENQUEUE(pSetFault, pSetFaultNew);
+                     ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c: In function 'rpc_GetParameterValues':
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:520:29: warning: implicit declaration of function 'GetAcsPwdStatus' [-Wimplicit-function-declaration]
+                             nRet = GetAcsPwdStatus();
+                             ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:520:29: warning: nested extern declaration of 'GetAcsPwdStatus' [-Wnested-externs]
+component/OAM/agent/tr069_cut/session/setgetparamvals.c: In function 'GetSelfDefineParameterValue':
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:610:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             for (pos = 0; pos < tOut.uiNum; pos++)
+                               ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c: At top level:
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:1014:5: warning: no previous prototype for 'getmodelANDparam' [-Wmissing-prototypes]
+ int getmodelANDparam(char *chFullPath, char *modelname, T_NM_ParamList *pData)
+     ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:1036:5: warning: no previous prototype for 'getApkServiceNameAndParam' [-Wmissing-prototypes]
+ int getApkServiceNameAndParam(char *chFullPath, char *serviceName, T_NM_ParamList *pData)
+     ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:1127:5: warning: no previous prototype for 'GetDevicexmlItemModelName' [-Wmissing-prototypes]
+ int GetDevicexmlItemModelName(char *strPath, char *pModelName)
+     ^
+component/OAM/agent/tr069_cut/session/setgetparamvals.c:1148:5: warning: no previous prototype for 'GetDevicexmlItem' [-Wmissing-prototypes]
+ int GetDevicexmlItem(char *strPath, char *pValue)
+     ^

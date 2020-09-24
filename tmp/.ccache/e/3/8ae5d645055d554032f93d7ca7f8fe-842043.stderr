@@ -1,0 +1,50 @@
+In file included from platform/android/external/aac/libAACdec/src/channel.h:97:0,
+                 from platform/android/external/aac/libAACdec/src/aacdec_drc.h:98,
+                 from platform/android/external/aac/libAACdec/src/aacdec_drc.cpp:91:
+platform/android/external/aac/libAACdec/src/channelinfo.h: In function 'UCHAR GetScaleMaxFactorBandsTransmitted(const CIcsInfo*, const CIcsInfo*)':
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+   return fMax(pIcsInfo0->MaxSfBands, pIcsInfo1->MaxSfBands);
+                                                           ^
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+platform/android/external/aac/libAACdec/src/channelinfo.h:435:59: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+In file included from platform/android/external/aac/libAACdec/src/aacdec_drc_types.h:96:0,
+                 from platform/android/external/aac/libAACdec/src/aacdec_drc.h:97,
+                 from platform/android/external/aac/libAACdec/src/aacdec_drc.cpp:91:
+platform/android/external/aac/libAACdec/src/aacdec_drc.cpp: In function 'void aacDecoder_drcApply(HANDLE_AAC_DRC, void*, CAacDecoderChannelInfo*, CDrcChannelData*, FIXP_DBL*, int, int, int)':
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'USHORT {aka short unsigned int}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libAACdec/src/aacdec_drc.cpp:900:28: note: in expansion of macro 'fixMin'
+   pDrcChData->bandTop[0] = fixMin(pDrcChData->bandTop[0], (aacFrameSize >> 2) - 1);
+                            ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libAACdec/src/aacdec_drc.cpp:900:28: note: in expansion of macro 'fixMin'
+   pDrcChData->bandTop[0] = fixMin(pDrcChData->bandTop[0], (aacFrameSize >> 2) - 1);
+                            ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'USHORT {aka short unsigned int}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libAACdec/src/aacdec_drc.cpp:900:28: note: in expansion of macro 'fixMin'
+   pDrcChData->bandTop[0] = fixMin(pDrcChData->bandTop[0], (aacFrameSize >> 2) - 1);
+                            ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libAACdec/src/aacdec_drc.cpp:900:28: note: in expansion of macro 'fixMin'
+   pDrcChData->bandTop[0] = fixMin(pDrcChData->bandTop[0], (aacFrameSize >> 2) - 1);
+                            ^

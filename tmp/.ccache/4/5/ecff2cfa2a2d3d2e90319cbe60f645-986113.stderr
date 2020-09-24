@@ -1,0 +1,11 @@
+component/dtv/service/src/mid/epg/mid_epg_eitinfo.c: In function 'CHMID_EPG_AddEPGNoticeInfo':
+component/dtv/service/src/mid/epg/mid_epg_eitinfo.c:532:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (gi_SchServiceUpdateNum < (sizeof(gstru_SchServiceUpdate) / sizeof(CHMID_EPG_SERVICEUPdataInfo_t)))
+                               ^
+component/dtv/service/src/mid/epg/mid_epg_eitinfo.c:382:107: warning: unused parameter 'renm_EnumType' [-Wunused-parameter]
+ void CHMID_EPG_AddEPGNoticeInfo(U16 rus_TsID, U16 rus_OrgNetID, U16 rus_ServiceID, CHMID_EPG_UPDATETYPE_e renm_EnumType)
+                                                                                                           ^
+component/dtv/service/src/mid/epg/mid_epg_eitinfo.c: In function 'CHMID_EPG_AddSectionToTableContainer':
+component/dtv/service/src/mid/epg/mid_epg_eitinfo.c:1044:134: warning: unused parameter 'ruc_TableNum' [-Wunused-parameter]
+ static CHMID_EPG_RESULT_e CHMID_EPG_AddSectionToTableContainer(CHMID_EPG_TABLECONTAINER_t *rpstru_TableContainer, U8 ruc_TableID, U8 ruc_TableNum, U8 ruc_VersionNum, U8 ruc_SectionNum, U8 ruc_TotalSectionNum)
+                                                                                                                                      ^

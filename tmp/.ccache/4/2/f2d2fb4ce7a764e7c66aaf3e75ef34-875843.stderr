@@ -1,0 +1,126 @@
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:220:3: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+   N_("New Subfile Type"), N_("A general indication of the kind of data "
+   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:249:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {EXIF_TAG_FILL_ORDER, "FillOrder", N_("Fill Order"), ""},
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:251:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {EXIF_TAG_DOCUMENT_NAME, "DocumentName", N_("Document Name"), ""},
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:359:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {EXIF_TAG_SUB_IFDS, "SubIFDs", "SubIFD Offsets", N_("Defined by Adobe Corporation "
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:362:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {EXIF_TAG_TRANSFER_RANGE, "TransferRange", N_("Transfer Range"), ""},
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:364:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {EXIF_TAG_JPEG_PROC, "JPEGProc", "JPEGProc", ""},
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:423:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {EXIF_TAG_XML_PACKET, "XMLPacket", N_("XML Packet"), N_("XMP Metadata")},
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:426:3: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+   "RelatedImageFileFormat", ""},
+   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:429:3: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+   "RelatedImageWidth", ""},
+   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:432:3: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+   "RelatedImageLength", ""},
+   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:435:3: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+   "CFARepeatPatternDim", ""},
+   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:439:3: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+   N_("Indicates the color filter array (CFA) geometric pattern of the "
+   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:443:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {EXIF_TAG_BATTERY_LEVEL, "BatteryLevel", N_("Battery Level"), ""},
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:473:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {EXIF_TAG_IPTC_NAA, "IPTC/NAA", "IPTC/NAA", ""},
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:475:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {EXIF_TAG_IMAGE_RESOURCES, "ImageResources", N_("Image Resources Block"), ""},
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:484:3: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+   "InterColorProfile", ""},
+   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:514:3: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+   N_("Encodes time zone of camera clock relative to GMT.")},
+   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:590:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {EXIF_TAG_TIFF_EP_STANDARD_ID, "TIFF/EPStandardID", N_("TIFF/EP Standard ID"), ""},
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:858:3: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+   N_("Indicates the value of coefficient gamma.")},
+   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:861:3: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+   N_("Related to Epson's PRINT Image Matching technology")},
+   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:871:2: warning: missing initializer for field 'esl' of 'const struct TagEntry' [-Wmissing-field-initializers]
+  {0, NULL, NULL, NULL}
+  ^
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/exif-tag.c:59:19: note: 'esl' declared here
+  ExifSupportLevel esl[EXIF_IFD_COUNT][EXIF_DATA_TYPE_COUNT];
+                   ^

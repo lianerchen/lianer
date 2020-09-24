@@ -1,0 +1,4 @@
+component/OAM/common/socket/socket_iface.c: In function 'ztestb_getsockerr':
+component/OAM/common/socket/socket_iface.c:398:27: warning: unused parameter 's' [-Wunused-parameter]
+ int ztestb_getsockerr(int s)
+                           ^

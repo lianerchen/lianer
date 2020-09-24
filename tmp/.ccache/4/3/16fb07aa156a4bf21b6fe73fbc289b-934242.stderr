@@ -1,0 +1,17 @@
+platform/android/external/fio/io_u.c: In function 'get_next_rand_offset':
+platform/android/external/fio/io_u.c:233:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < td->o.verifysort_nr; i++) {
+                ^
+platform/android/external/fio/io_u.c: In function 'small_content_scramble':
+platform/android/external/fio/io_u.c:1421:12: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   memcpy(p + offset, &boffset, sizeof(boffset));
+            ^
+platform/android/external/fio/io_u.c:1423:11: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   end = p + 512 - sizeof(io_u->start_time);
+           ^
+platform/android/external/fio/io_u.c:1423:17: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   end = p + 512 - sizeof(io_u->start_time);
+                 ^
+platform/android/external/fio/io_u.c:1425:5: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   p += 512;
+     ^

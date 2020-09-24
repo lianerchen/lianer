@@ -1,0 +1,8 @@
+platform/android/external/fio/cconv.c: In function 'convert_thread_options_to_cpu':
+platform/android/external/fio/cconv.c:100:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (j = 0; j < o->bssplit_nr[i]; j++) {
+                  ^
+platform/android/external/fio/cconv.c: In function 'convert_thread_options_to_net':
+platform/android/external/fio/cconv.c:413:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (j = 0; j < bssplit_nr; j++) {
+                  ^

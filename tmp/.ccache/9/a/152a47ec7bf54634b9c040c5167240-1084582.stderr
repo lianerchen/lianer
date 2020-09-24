@@ -1,0 +1,3 @@
+platform/android/frameworks/av/media/libstagefright/wifi-display/rtp/RTPSender.cpp:767:10: warning: unused parameter 'size' [-Wunused-parameter]
+ status_t RTPSender::parseAPP(const uint8_t *data, size_t size) {
+          ^

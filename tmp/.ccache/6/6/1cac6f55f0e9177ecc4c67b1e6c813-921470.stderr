@@ -1,0 +1,4 @@
+platform/android/external/pdfium/core/src/fxcrt/fx_basic_maps.cpp: In function 'FX_BOOL _CompactStringSame(_CompactString*, FX_LPCBYTE, int)':
+platform/android/external/pdfium/core/src/fxcrt/fx_basic_maps.cpp:402:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (len < sizeof(_CompactString)) {
+                                    ^

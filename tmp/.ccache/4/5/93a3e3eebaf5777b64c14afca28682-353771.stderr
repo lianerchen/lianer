@@ -1,0 +1,2 @@
+platform/android/external/fdlibm/e_jn.c: In function '__ieee754_yn':
+platform/android/external/fdlibm/e_jn.c:265:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

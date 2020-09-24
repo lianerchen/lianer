@@ -1,0 +1,4 @@
+platform/android/frameworks/av/media/mtp/MtpDataPacket.cpp: In member function 'int android::MtpDataPacket::read(usb_request*)':
+platform/android/frameworks/av/media/mtp/MtpDataPacket.cpp:461:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         while (totalLength > length) {
+                              ^

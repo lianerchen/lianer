@@ -1,0 +1,8 @@
+platform/android/external/icu/icu4c/source/common/ucnv.c: In function 'ucnv_safeClone_53':
+platform/android/external/icu/icu4c/source/common/ucnv.c:303:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (cnv->sharedData->referenceCounter != ~0) {
+                                           ^
+platform/android/external/icu/icu4c/source/common/ucnv.c: In function 'ucnv_close_53':
+platform/android/external/icu/icu4c/source/common/ucnv.c:393:49: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (converter->sharedData->referenceCounter != ~0) {
+                                                 ^

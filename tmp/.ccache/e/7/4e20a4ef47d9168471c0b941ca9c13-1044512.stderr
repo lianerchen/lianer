@@ -1,0 +1,13 @@
+cc1plus: warning: command line option '-Wpointer-to-int-cast' is valid for C/ObjC but not for C++ [enabled by default]
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/gfx2d/include/hi_gfx2d_type.h:14:0,
+                 from device/hisilicon/bigfish/hardware/hwc/98MV200/hwc_common_STB.cpp:37:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C++ 1998 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C++ 1998 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/hardware/hwc/98MV200/hwc_common_STB.cpp:836:6: warning: unused parameter 'fbWidth' [-Wunused-parameter]
+ void hwc_vo_set_position(HI_HANDLE hWindow, hwc_rect_t& hwcRect, int fbWidth, int fbHeight, int zorder)
+      ^
+device/hisilicon/bigfish/hardware/hwc/98MV200/hwc_common_STB.cpp:836:6: warning: unused parameter 'fbHeight' [-Wunused-parameter]

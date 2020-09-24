@@ -1,0 +1,23 @@
+platform/android/external/skia/src/opts/SkBlitMask_opts_arm_neon.cpp: In function 'void SkBlitLCD16OpaqueRow_neon(SkPMColor*, const uint16_t*, SkColor, int, SkPMColor)':
+platform/android/external/skia/src/opts/SkBlitMask_opts_arm_neon.cpp:177:75: warning: 'vcolB' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         vdst.val[NEON_B] = SkBlend32_neon8(vcolB, vdst.val[NEON_B], vmaskB);
+                                                                           ^
+platform/android/external/skia/src/opts/SkBlitMask_opts_arm_neon.cpp:176:75: warning: 'vcolG' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         vdst.val[NEON_G] = SkBlend32_neon8(vcolG, vdst.val[NEON_G], vmaskG);
+                                                                           ^
+platform/android/external/skia/src/opts/SkBlitMask_opts_arm_neon.cpp:175:75: warning: 'vcolR' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         vdst.val[NEON_R] = SkBlend32_neon8(vcolR, vdst.val[NEON_R], vmaskR);
+                                                                           ^
+platform/android/external/skia/src/opts/SkBlitMask_opts_arm_neon.cpp: In function 'void SkBlitLCD16Row_neon(SkPMColor*, const uint16_t*, SkColor, int, SkPMColor)':
+platform/android/external/skia/src/opts/SkBlitMask_opts_arm_neon.cpp:235:47: warning: 'vcolA' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         vmaskR = vshrq_n_u16(vmaskR * vcolA, 8);
+                                               ^
+platform/android/external/skia/src/opts/SkBlitMask_opts_arm_neon.cpp:242:75: warning: 'vcolB' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         vdst.val[NEON_B] = SkBlend32_neon8(vcolB, vdst.val[NEON_B], vmaskB);
+                                                                           ^
+platform/android/external/skia/src/opts/SkBlitMask_opts_arm_neon.cpp:241:75: warning: 'vcolG' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         vdst.val[NEON_G] = SkBlend32_neon8(vcolG, vdst.val[NEON_G], vmaskG);
+                                                                           ^
+platform/android/external/skia/src/opts/SkBlitMask_opts_arm_neon.cpp:240:75: warning: 'vcolR' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         vdst.val[NEON_R] = SkBlend32_neon8(vcolR, vdst.val[NEON_R], vmaskR);
+                                                                           ^

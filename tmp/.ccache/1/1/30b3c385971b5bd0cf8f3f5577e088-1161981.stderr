@@ -1,0 +1,14 @@
+device/hisilicon/bigfish/external/dhcp/common/socket.c: In function 'if_reinitialize_fallback':
+device/hisilicon/bigfish/external/dhcp/common/socket.c:95:25: warning: unused parameter 'info' [-Wunused-parameter]
+  struct interface_info *info;
+                         ^
+device/hisilicon/bigfish/external/dhcp/common/socket.c: In function 'send_fallback':
+device/hisilicon/bigfish/external/dhcp/common/socket.c:624:17: warning: unused parameter 'packet' [-Wunused-parameter]
+  struct packet *packet;
+                 ^
+device/hisilicon/bigfish/external/dhcp/common/socket.c:627:17: warning: unused parameter 'from' [-Wunused-parameter]
+  struct in_addr from;
+                 ^
+device/hisilicon/bigfish/external/dhcp/common/socket.c:629:19: warning: unused parameter 'hto' [-Wunused-parameter]
+  struct hardware *hto;
+                   ^

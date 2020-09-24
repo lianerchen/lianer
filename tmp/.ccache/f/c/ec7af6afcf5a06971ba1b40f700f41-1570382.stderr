@@ -1,0 +1,40 @@
+device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:30:0: warning: "LOG_TAG" redefined [enabled by default]
+ #define LOG_TAG "------Nfs search WARN--------"
+ ^
+In file included from device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:11:0:
+device/hisilicon/bigfish/frameworks/hinetshare/jni/Samba.h:31:0: note: this is the location of the previous definition
+ #define LOG_TAG "------Samba_Interface--------"
+ ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:36:0: warning: "SLOGE" redefined [enabled by default]
+ #define SLOGE(...)  __android_log_print(ANDROID_LOG_ERROR  , "------ Nfs search ERROR--------", __VA_ARGS__)
+ ^
+In file included from platform/android/system/core/include/cutils/log.h:1:0,
+                 from platform/android/system/core/include/utils/Vector.h:24,
+                 from platform/android/frameworks/native/include/binder/IBinder.h:23,
+                 from platform/android/frameworks/base/include/android_runtime/AndroidRuntime.h:23,
+                 from device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:21:
+platform/android/system/core/include/log/log.h:273:0: note: this is the location of the previous definition
+ #define SLOGE(...) ((void)__android_log_buf_print(LOG_ID_SYSTEM, ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__))
+ ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:94:98: warning: 'visibility' attribute ignored [-Wattributes]
+ JNIEXPORT static jint JNICALL  Java_com_hisilicon_android_nfsClient_init(JNIEnv *env, jobject obj)
+                                                                                                  ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:94:32: warning: unused parameter 'env' [-Wunused-parameter]
+ JNIEXPORT static jint JNICALL  Java_com_hisilicon_android_nfsClient_init(JNIEnv *env, jobject obj)
+                                ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:94:32: warning: unused parameter 'obj' [-Wunused-parameter]
+device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:122:27: warning: unused parameter 'obj' [-Wunused-parameter]
+ JNIEXPORT jstring JNICALL Java_com_hisilicon_android_nfsClient_getWorkgroups(JNIEnv *env, jobject obj)
+                           ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:189:27: warning: unused parameter 'obj' [-Wunused-parameter]
+ JNIEXPORT jstring JNICALL Java_com_hisilicon_android_nfsClient_getShareFolders(JNIEnv *env, jobject obj, jstring ip)
+                           ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:200:24: warning: unused parameter 'obj' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL Java_com_hisilicon_android_nfsClient_mount(JNIEnv *env, jobject obj, jstring path, jstring mPoint)
+                        ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:244:24: warning: unused parameter 'obj' [-Wunused-parameter]
+ JNIEXPORT jint JNICALL Java_com_hisilicon_android_nfsClient_unmount(JNIEnv *env, jobject obj, jstring mntpoint)
+                        ^
+device/hisilicon/bigfish/frameworks/hinetshare/jni/nfsClient.cpp:278:27: warning: unused parameter 'obj' [-Wunused-parameter]
+ JNIEXPORT jstring JNICALL Java_com_hisilicon_android_nfsClient_getMountPoint(JNIEnv *env, jobject obj, jstring path)
+                           ^

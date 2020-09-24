@@ -1,0 +1,11 @@
+platform/android/packages/apps/Gallery2/jni_jpegstream/src/jpeg_writer.cpp: In member function 'int32_t JpegWriter::setup(JNIEnv*, jobject, int32_t, int32_t, Jpeg_Config::Format, int32_t)':
+platform/android/packages/apps/Gallery2/jni_jpegstream/src/jpeg_writer.cpp:56:54: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+     SetupErrMgr(reinterpret_cast<j_common_ptr>(&mInfo), &mErrorManager);
+                                                      ^
+platform/android/packages/apps/Gallery2/jni_jpegstream/src/jpeg_writer.cpp:106:50: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+             reinterpret_cast<j_common_ptr>(&mInfo), JPOOL_PERMANENT,
+                                                  ^
+platform/android/packages/apps/Gallery2/jni_jpegstream/src/jpeg_writer.cpp: In member function 'int32_t JpegWriter::write(int8_t*, int32_t)':
+platform/android/packages/apps/Gallery2/jni_jpegstream/src/jpeg_writer.cpp:116:9: warning: argument 'bytes' might be clobbered by 'longjmp' or 'vfork' [-Wclobbered]
+ int32_t JpegWriter::write(int8_t* bytes, int32_t length) {
+         ^

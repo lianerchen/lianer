@@ -1,0 +1,20 @@
+In file included from platform/android/frameworks/wilhelm/src/sles_allinclusive.h:96:0,
+                 from platform/android/frameworks/wilhelm/src/itf/IOutputMix.c:19:
+platform/android/frameworks/wilhelm/src/android/android_sles_conversions.h:98:36: warning: unused parameter 'channelMask' [-Wunused-parameter]
+ static inline audio_channel_mask_t sles_to_android_channelMaskIn(SLuint32 nbChannels,
+                                    ^
+platform/android/frameworks/wilhelm/src/android/android_sles_conversions.h:105:36: warning: unused parameter 'channelMask' [-Wunused-parameter]
+ static inline audio_channel_mask_t sles_to_android_channelMaskOut(SLuint32 nbChannels,
+                                    ^
+In file included from platform/android/frameworks/wilhelm/src/classes.h:20:0,
+                 from platform/android/frameworks/wilhelm/src/sles_allinclusive.h:283,
+                 from platform/android/frameworks/wilhelm/src/itf/IOutputMix.c:19:
+platform/android/frameworks/wilhelm/src/android/android_GenericPlayer.h:81:18: warning: unused parameter 'bufferProducer' [-Wunused-parameter]
+     virtual void setVideoSurfaceTexture(const sp<IGraphicBufferProducer> &bufferProducer) {}
+                  ^
+platform/android/frameworks/wilhelm/src/itf/IOutputMix.c:22:17: warning: unused parameter 'self' [-Wunused-parameter]
+ static SLresult IOutputMix_GetDestinationOutputDeviceIDs(SLOutputMixItf self,
+                 ^
+platform/android/frameworks/wilhelm/src/itf/IOutputMix.c:63:17: warning: unused parameter 'self' [-Wunused-parameter]
+ static SLresult IOutputMix_ReRoute(SLOutputMixItf self, SLint32 numOutputDevices,
+                 ^

@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/pq/sample_pq.c: In function 'setDemoCoordinate':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/pq/sample_pq.c:544:40: warning: unused parameter 'enChan' [-Wunused-parameter]
+ HI_S32 setDemoCoordinate(HI_UNF_DISP_E enChan, HI_U32 val)
+                                        ^

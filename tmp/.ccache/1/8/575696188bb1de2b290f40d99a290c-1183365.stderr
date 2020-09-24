@@ -1,0 +1,46 @@
+device/hisilicon/bigfish/external/dhcp/common/discover.c: In function 'interface_initialize':
+device/hisilicon/bigfish/external/dhcp/common/discover.c:122:20: warning: unused parameter 'file' [-Wunused-parameter]
+        const char *file, int line)
+                    ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c:122:30: warning: unused parameter 'line' [-Wunused-parameter]
+        const char *file, int line)
+                              ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c: In function 'next_iface4':
+device/hisilicon/bigfish/external/dhcp/common/discover.c:545:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if (len >= sizeof(info->name)) {
+            ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c: In function 'next_iface6':
+device/hisilicon/bigfish/external/dhcp/common/discover.c:662:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (len >= sizeof(info->name)) {
+           ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c:695:17: warning: implicit declaration of function 'index' [-Wimplicit-function-declaration]
+                 byte = ((index(hex, buf[i * 2]) - hex) << 4) |
+                 ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c:695:26: warning: incompatible implicit declaration of built-in function 'index' [enabled by default]
+                 byte = ((index(hex, buf[i * 2]) - hex) << 4) |
+                          ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c: In function 'discover_interfaces':
+device/hisilicon/bigfish/external/dhcp/common/discover.c:1109:45: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ((tmp -> flags & INTERFACE_REQUESTED) != ir)
+                                             ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c: In function 'dhcp_interface_get_value':
+device/hisilicon/bigfish/external/dhcp/common/discover.c:1542:56: warning: unused parameter 'h' [-Wunused-parameter]
+ isc_result_t dhcp_interface_get_value (omapi_object_t *h,
+                                                        ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c:1543:28: warning: unused parameter 'id' [-Wunused-parameter]
+            omapi_object_t *id,
+                            ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c:1544:33: warning: unused parameter 'name' [-Wunused-parameter]
+            omapi_data_string_t *name,
+                                 ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c:1545:28: warning: unused parameter 'value' [-Wunused-parameter]
+            omapi_value_t **value)
+                            ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c: In function 'dhcp_interface_create':
+device/hisilicon/bigfish/external/dhcp/common/discover.c:1734:25: warning: unused parameter 'id' [-Wunused-parameter]
+         omapi_object_t *id)
+                         ^
+device/hisilicon/bigfish/external/dhcp/common/discover.c: In function 'dhcp_interface_remove':
+device/hisilicon/bigfish/external/dhcp/common/discover.c:1750:25: warning: unused parameter 'id' [-Wunused-parameter]
+         omapi_object_t *id)
+                         ^

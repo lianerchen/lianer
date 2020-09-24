@@ -1,0 +1,75 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/drv/include/hi_drv_video.h:17:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:31:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c: In function 'HI_MPI_WIN_GetSource':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:656:39: warning: unused parameter 'hWin' [-Wunused-parameter]
+ HI_S32 HI_MPI_WIN_GetSource(HI_HANDLE hWin, HI_DRV_WIN_SRC_HANDLE_S *pstSrc)
+                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:656:70: warning: unused parameter 'pstSrc' [-Wunused-parameter]
+ HI_S32 HI_MPI_WIN_GetSource(HI_HANDLE hWin, HI_DRV_WIN_SRC_HANDLE_S *pstSrc)
+                                                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c: In function 'HI_MPI_VO_SetMainWindowEnable':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:689:48: warning: unused parameter 'hWindow' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_SetMainWindowEnable(HI_HANDLE hWindow, HI_BOOL bEnable)
+                                                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:689:65: warning: unused parameter 'bEnable' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_SetMainWindowEnable(HI_HANDLE hWindow, HI_BOOL bEnable)
+                                                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c: In function 'HI_MPI_VO_GetMainWindowEnable':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:723:48: warning: unused parameter 'hWindow' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_GetMainWindowEnable(HI_HANDLE hWindow, HI_BOOL *pbEnable)
+                                                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:723:66: warning: unused parameter 'pbEnable' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_GetMainWindowEnable(HI_HANDLE hWindow, HI_BOOL *pbEnable)
+                                                                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c: In function 'HI_MPI_VO_GetWindowsVirtual':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:729:46: warning: unused parameter 'hWindow' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_GetWindowsVirtual(HI_HANDLE hWindow, HI_BOOL *pbVirutal)
+                                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:729:64: warning: unused parameter 'pbVirutal' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_GetWindowsVirtual(HI_HANDLE hWindow, HI_BOOL *pbVirutal)
+                                                                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c: In function 'HI_MPI_WIN_Attach':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:908:36: warning: unused parameter 'hWindow' [-Wunused-parameter]
+ HI_S32 HI_MPI_WIN_Attach(HI_HANDLE hWindow, HI_HANDLE hSrc)
+                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:908:55: warning: unused parameter 'hSrc' [-Wunused-parameter]
+ HI_S32 HI_MPI_WIN_Attach(HI_HANDLE hWindow, HI_HANDLE hSrc)
+                                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c: In function 'HI_MPI_WIN_Detach':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:914:36: warning: unused parameter 'hWindow' [-Wunused-parameter]
+ HI_S32 HI_MPI_WIN_Detach(HI_HANDLE hWindow, HI_HANDLE hSrc)
+                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:914:55: warning: unused parameter 'hSrc' [-Wunused-parameter]
+ HI_S32 HI_MPI_WIN_Detach(HI_HANDLE hWindow, HI_HANDLE hSrc)
+                                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c: In function 'HI_MPI_VO_SetWindowRatio':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:920:43: warning: unused parameter 'hWindow' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_SetWindowRatio(HI_HANDLE hWindow, HI_U32 u32WinRatio)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:920:59: warning: unused parameter 'u32WinRatio' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_SetWindowRatio(HI_HANDLE hWindow, HI_U32 u32WinRatio)
+                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c: In function 'HI_MPI_WIN_SetFieldMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:993:42: warning: unused parameter 'hWindow' [-Wunused-parameter]
+ HI_S32 HI_MPI_WIN_SetFieldMode(HI_HANDLE hWindow, HI_BOOL bEnable)
+                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:993:59: warning: unused parameter 'bEnable' [-Wunused-parameter]
+ HI_S32 HI_MPI_WIN_SetFieldMode(HI_HANDLE hWindow, HI_BOOL bEnable)
+                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c: In function 'HI_MPI_VO_DisableDieMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:1703:43: warning: unused parameter 'hWindow' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_DisableDieMode(HI_HANDLE hWindow)
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c: In function 'HI_MPI_VO_UseDNRFrame':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:1775:40: warning: unused parameter 'hWindow' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_UseDNRFrame(HI_HANDLE hWindow, HI_BOOL bEnable)
+                                        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/vo/mpi_win.c:1775:57: warning: unused parameter 'bEnable' [-Wunused-parameter]
+ HI_S32 HI_MPI_VO_UseDNRFrame(HI_HANDLE hWindow, HI_BOOL bEnable)
+                                                         ^

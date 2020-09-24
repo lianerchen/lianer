@@ -1,0 +1,40 @@
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c: In function 'bbf_Scanner_downscale':
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c:97:49: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bbf_Scanner_downscale( struct bbs_Context* cpA, struct bbf_Scanner* ptrA )
+                                                 ^
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c: In function 'bbf_Scanner_equal':
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c:546:45: warning: unused parameter 'cpA' [-Wunused-parameter]
+ flag bbf_Scanner_equal( struct bbs_Context* cpA,
+                                             ^
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c: In function 'bbf_Scanner_memSize':
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c:684:49: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bbf_Scanner_memSize( struct bbs_Context* cpA,
+                                                 ^
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c: In function 'bbf_Scanner_next':
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c:842:44: warning: unused parameter 'cpA' [-Wunused-parameter]
+ flag bbf_Scanner_next( struct bbs_Context* cpA, struct bbf_Scanner* ptrA )
+                                            ^
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c: In function 'bbf_Scanner_resetOutPos':
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c:1004:51: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bbf_Scanner_resetOutPos( struct bbs_Context* cpA, struct bbf_Scanner* ptrA ) 
+                                                   ^
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c: In function 'bbf_Scanner_resetIntPos':
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c:1012:51: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bbf_Scanner_resetIntPos( struct bbs_Context* cpA, struct bbf_Scanner* ptrA )
+                                                   ^
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c: In function 'bbf_Scanner_addIntPos':
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c:1020:49: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bbf_Scanner_addIntPos( struct bbs_Context* cpA, 
+                                                 ^
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c: In function 'bbf_Scanner_addOutPos':
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c:1060:49: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bbf_Scanner_addOutPos( struct bbs_Context* cpA, 
+                                                 ^
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c: In function 'bbf_Scanner_removeOutOverlaps':
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c:1106:59: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bbf_Scanner_removeOutOverlaps( struct bbs_Context* cpA, 
+                                                           ^
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c: In function 'bbf_Scanner_removeIntOverlaps':
+platform/android/external/neven/Embedded/common/src/b_BitFeatureEm/Scanner.c:1213:59: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bbf_Scanner_removeIntOverlaps( struct bbs_Context* cpA, 
+                                                           ^

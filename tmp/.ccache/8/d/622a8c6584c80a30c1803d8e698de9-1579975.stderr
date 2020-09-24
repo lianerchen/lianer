@@ -1,0 +1,3 @@
+out/target/product/Hi3798MV200/gen/STATIC_LIBRARIES/libwebrtc_apm_intermediates/proto/platform/android/external/webrtc/src/modules/audio_processing/test/unittest.pb.cc:118:6: warning: unused parameter 'output' [-Wunused-parameter]
+ void Test_Frame::SerializeWithCachedSizes(
+      ^

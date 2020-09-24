@@ -1,0 +1,8 @@
+platform/android/external/icu/icu4c/source/common/ucmndata.c: In function 'offsetTOCLookupFn':
+platform/android/external/icu/icu4c/source/common/ucmndata.c:221:31: warning: unused parameter 'pErrorCode' [-Wunused-parameter]
+                   UErrorCode *pErrorCode) {
+                               ^
+platform/android/external/icu/icu4c/source/common/ucmndata.c: In function 'pointerTOCLookupFn':
+platform/android/external/icu/icu4c/source/common/ucmndata.c:272:32: warning: unused parameter 'pErrorCode' [-Wunused-parameter]
+                    UErrorCode *pErrorCode) {
+                                ^

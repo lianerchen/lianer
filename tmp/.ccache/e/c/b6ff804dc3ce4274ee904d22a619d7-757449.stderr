@@ -1,0 +1,7 @@
+platform/android/external/tremolo/Tremolo/misc.c: In function '_VDBG_free':
+platform/android/external/tremolo/Tremolo/misc.c:222:40: warning: unused parameter 'file' [-Wunused-parameter]
+ extern void _VDBG_free(void *ptr,char *file,long line){
+                                        ^
+platform/android/external/tremolo/Tremolo/misc.c:222:50: warning: unused parameter 'line' [-Wunused-parameter]
+ extern void _VDBG_free(void *ptr,char *file,long line){
+                                                  ^

@@ -1,0 +1,19 @@
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Rect.c: In function 'bts_Int16Rect_init':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Rect.c:42:46: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bts_Int16Rect_init( struct bbs_Context* cpA, struct bts_Int16Rect* ptrA )
+                                              ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Rect.c: In function 'bts_Int16Rect_exit':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Rect.c:50:46: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bts_Int16Rect_exit( struct bbs_Context* cpA, struct bts_Int16Rect* ptrA )
+                                              ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Rect.c: In function 'bts_Int16Rect_memSize':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Rect.c:102:51: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bts_Int16Rect_memSize( struct bbs_Context* cpA,
+                                                   ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Rect.c:103:38: warning: unused parameter 'ptrA' [-Wunused-parameter]
+          const struct bts_Int16Rect *ptrA )
+                                      ^
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Rect.c: In function 'bts_Int16Rect_memWrite':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/Int16Rect.c:110:52: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bts_Int16Rect_memWrite( struct bbs_Context* cpA,
+                                                    ^

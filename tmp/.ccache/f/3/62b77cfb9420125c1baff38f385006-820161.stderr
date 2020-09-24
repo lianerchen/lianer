@@ -1,0 +1,79 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_osal.h:22:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:38:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c: In function 'LOGLevelChk':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:194:64: warning: unused parameter 'pUsrModeIDFlag' [-Wunused-parameter]
+ HI_BOOL LOGLevelChk(HI_S32 s32Levle, HI_U32 u32ModId, HI_BOOL* pUsrModeIDFlag)
+                                                                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c: In function 'HI_LogOut':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:306:33: warning: pointer targets in passing argument 2 of '__android_log_print' differ in signedness [-Wpointer-sign]
+                                 android_printLog(ANDROID_LOG_FATAL, g_pLogConfigInfo[enModId].ModName, PRINT_FMT);
+                                 ^
+In file included from platform/android/system/core/include/log/logd.h:23:0,
+                 from platform/android/system/core/include/log/log.h:39,
+                 from platform/android/system/core/include/cutils/log.h:1,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:44:
+platform/android/system/core/include/android/log.h:99:5: note: expected 'const char *' but argument is of type 'HI_U8 *'
+ int __android_log_print(int prio, const char *tag,  const char *fmt, ...)
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:309:33: warning: pointer targets in passing argument 2 of '__android_log_print' differ in signedness [-Wpointer-sign]
+                                 android_printLog(ANDROID_LOG_ERROR, g_pLogConfigInfo[enModId].ModName, PRINT_FMT);
+                                 ^
+In file included from platform/android/system/core/include/log/logd.h:23:0,
+                 from platform/android/system/core/include/log/log.h:39,
+                 from platform/android/system/core/include/cutils/log.h:1,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:44:
+platform/android/system/core/include/android/log.h:99:5: note: expected 'const char *' but argument is of type 'HI_U8 *'
+ int __android_log_print(int prio, const char *tag,  const char *fmt, ...)
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:312:33: warning: pointer targets in passing argument 2 of '__android_log_print' differ in signedness [-Wpointer-sign]
+                                 android_printLog(ANDROID_LOG_WARN, g_pLogConfigInfo[enModId].ModName, PRINT_FMT);
+                                 ^
+In file included from platform/android/system/core/include/log/logd.h:23:0,
+                 from platform/android/system/core/include/log/log.h:39,
+                 from platform/android/system/core/include/cutils/log.h:1,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:44:
+platform/android/system/core/include/android/log.h:99:5: note: expected 'const char *' but argument is of type 'HI_U8 *'
+ int __android_log_print(int prio, const char *tag,  const char *fmt, ...)
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:315:33: warning: pointer targets in passing argument 2 of '__android_log_print' differ in signedness [-Wpointer-sign]
+                                 android_printLog(ANDROID_LOG_INFO, g_pLogConfigInfo[enModId].ModName, PRINT_FMT);
+                                 ^
+In file included from platform/android/system/core/include/log/logd.h:23:0,
+                 from platform/android/system/core/include/log/log.h:39,
+                 from platform/android/system/core/include/cutils/log.h:1,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:44:
+platform/android/system/core/include/android/log.h:99:5: note: expected 'const char *' but argument is of type 'HI_U8 *'
+ int __android_log_print(int prio, const char *tag,  const char *fmt, ...)
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:318:33: warning: pointer targets in passing argument 2 of '__android_log_print' differ in signedness [-Wpointer-sign]
+                                 android_printLog(ANDROID_LOG_DEBUG, g_pLogConfigInfo[enModId].ModName, PRINT_FMT);
+                                 ^
+In file included from platform/android/system/core/include/log/logd.h:23:0,
+                 from platform/android/system/core/include/log/log.h:39,
+                 from platform/android/system/core/include/cutils/log.h:1,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:44:
+platform/android/system/core/include/android/log.h:99:5: note: expected 'const char *' but argument is of type 'HI_U8 *'
+ int __android_log_print(int prio, const char *tag,  const char *fmt, ...)
+     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:321:33: warning: pointer targets in passing argument 2 of '__android_log_print' differ in signedness [-Wpointer-sign]
+                                 android_printLog(ANDROID_LOG_DEBUG, g_pLogConfigInfo[enModId].ModName, PRINT_FMT);
+                                 ^
+In file included from platform/android/system/core/include/log/logd.h:23:0,
+                 from platform/android/system/core/include/log/log.h:39,
+                 from platform/android/system/core/include/cutils/log.h:1,
+                 from platform/android/system/core/include/utils/Log.h:31,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/api/./log/mpi_log.c:44:
+platform/android/system/core/include/android/log.h:99:5: note: expected 'const char *' but argument is of type 'HI_U8 *'
+ int __android_log_print(int prio, const char *tag,  const char *fmt, ...)
+     ^

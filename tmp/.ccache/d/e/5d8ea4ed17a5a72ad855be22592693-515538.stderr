@@ -1,0 +1,2 @@
+platform/android/external/e2fsprogs/lib/ext2fs/inline.c: In function 'ext2fs_get_memalign':
+platform/android/external/e2fsprogs/lib/ext2fs/inline.c:47:12: warning: unused variable 'retval' [-Wunused-variable]

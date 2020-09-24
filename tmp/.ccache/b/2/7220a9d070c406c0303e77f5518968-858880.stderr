@@ -1,0 +1,8 @@
+platform/android/external/e2fsprogs/lib/ext2fs/undo_io.c:105:1: warning: missing initializer for field 'discard' of 'struct struct_io_manager' [-Wmissing-field-initializers]
+ };
+ ^
+In file included from platform/android/external/e2fsprogs/lib/ext2fs/ext2fs.h:89:0,
+                 from platform/android/external/e2fsprogs/lib/ext2fs/undo_io.c:43:
+platform/android/external/e2fsprogs/lib/ext2fs/ext2_io.h:91:14: note: 'discard' declared here
+  errcode_t (*discard)(io_channel channel, unsigned long long block,
+              ^

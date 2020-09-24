@@ -1,0 +1,4 @@
+platform/android/external/svox/pico/lib/picokdt.c: In function 'kdtDtCheck':
+platform/android/external/svox/pico/lib/picokdt.c:398:65: warning: unused parameter 'this' [-Wunused-parameter]
+ static pico_status_t kdtDtCheck(register picoknow_KnowledgeBase this,
+                                                                 ^

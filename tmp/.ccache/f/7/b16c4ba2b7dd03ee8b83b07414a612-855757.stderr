@@ -1,0 +1,25 @@
+In file included from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:7:0,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part04.c:3:
+component/appman/downloadmanager/downloader/oc/includeExport/project/project_cfg.h:4:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+ #pragma warning(disable:4996 4819 4244 4267 4311 4312 4133)
+ ^
+In file included from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:45:0,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part04.c:3:
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../linux/ktx_error_linux.c: In function 'linux_sock_err_2_ktx_err':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../linux/ktx_error_linux.c:315:47: warning: unused parameter 'e' [-Wunused-parameter]
+ static erro32 linux_sock_err_2_ktx_err(erro32 e)
+                                               ^
+In file included from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/wrapperos_inc.h:46:0,
+                 from component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/wrapperos_part04.c:3:
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../linux/ktx_exec_linux.c: In function 'ktx_exec_abort':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../linux/ktx_exec_linux.c:21:26: warning: unused parameter 'code' [-Wunused-parameter]
+ void ktx_exec_abort(si32 code)
+                          ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../linux/ktx_exec_linux.c: In function 'ktx_exec_module_load':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../linux/ktx_exec_linux.c:47:39: warning: unused parameter 'path' [-Wunused-parameter]
+ void* ktx_exec_module_load(const char*path)
+                                       ^
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../linux/ktx_exec_linux.c: In function 'ktx_exec_module_buildName':
+component/appman/downloadmanager/downloader/oc/basesdk/workspace/src/../inc/../../linux/ktx_exec_linux.c:139:72: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (nlen + sizeof(LINUX_DLL_PREFIX) - 1 + sizeof(LINUX_DLL_SUFFIX) >= len) {
+                                                                        ^

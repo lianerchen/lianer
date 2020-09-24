@@ -1,0 +1,3 @@
+component/OAM/agent/alarm_api/OAMBinderServer/OAMBinderService.cpp:28:7: warning: unused parameter 'time' [-Wunused-parameter]
+  bool OAMBinderService::SetAlarmInfo(String8 time, int code, int action, String8 info) 
+       ^

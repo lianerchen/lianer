@@ -1,0 +1,33 @@
+out/target/product/Hi3798MV200/obj/STATIC_LIBRARIES/libwebrtc_aec_intermediates/aec_rdft.o: \
+ platform/android/external/webrtc/src/modules/audio_processing/aec/aec_rdft.c \
+ platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h \
+ platform/android/external/webrtc/src/modules/audio_processing/aec/aec_rdft.h \
+ platform/android/external/stlport/stlport/math.h \
+ platform/android/external/stlport/stlport/stl/_cprolog.h \
+ platform/android/external/stlport/stlport/stl/config/features.h \
+ platform/android/external/stlport/stlport/stl/_stlport_version.h \
+ platform/android/external/stlport/stlport/stl/config/user_config.h \
+ platform/android/external/stlport/stlport/stl/config/compat.h \
+ platform/android/external/stlport/stlport/stl/config/host.h \
+ platform/android/external/stlport/stlport/stl/config/_system.h \
+ platform/android/external/stlport/stlport/stl/config/_android.h \
+ platform/android/external/stlport/stlport/stl/config/_gcc.h \
+ platform/android/external/stlport/stlport/stl/config/stl_confix.h \
+ platform/android/external/stlport/stlport/stl/config/_native_headers.h \
+ platform/android/bionic/libm/include/../include/math.h \
+ platform/android/bionic/libc/include/sys/cdefs.h \
+ platform/android/bionic/libc/include/sys/cdefs_elf.h \
+ platform/android/bionic/libc/include/android/api-level.h \
+ platform/android/external/stlport/stlport/limits.h \
+ platform/android/bionic/libc/include/../include/limits.h \
+ platform/android/bionic/libc/include/sys/limits.h \
+ platform/android/bionic/libc/kernel/uapi/linux/limits.h \
+ platform/android/bionic/libc/include/sys/syslimits.h \
+ platform/android/external/stlport/stlport/stl/_epilog.h \
+ platform/android/external/stlport/stlport/stl/_config_compat_post.h \
+ platform/android/external/webrtc/src/modules/audio_processing/aec/../../../system_wrappers/interface/cpu_features_wrapper.h \
+ platform/android/external/webrtc/src/modules/audio_processing/aec/../../../typedefs.h \
+ platform/android/bionic/libc/include/stdint.h \
+ platform/android/external/stlport/stlport/stddef.h \
+ platform/android/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/include/../include/stddef.h \
+ platform/android/bionic/libc/include/machine/wchar_limits.h

@@ -1,0 +1,4 @@
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_parser/fpdf_parser_fdf.cpp: In member function 'FX_BOOL CFDF_Document::WriteBuf(CFX_ByteTextBuf&) const':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_parser/fpdf_parser_fdf.cpp:106:54: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         m_IndirectObjs.GetNextAssoc(pos, (FX_LPVOID&)objnum, (FX_LPVOID&)pObj);
+                                                      ^

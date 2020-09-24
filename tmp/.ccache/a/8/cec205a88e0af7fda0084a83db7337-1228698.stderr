@@ -1,0 +1,7 @@
+cc1: warning: command line option '-Wno-non-virtual-dtor' is valid for C++/ObjC++ but not for C [enabled by default]
+In file included from platform/android/external/pdfium/core/src/fxge/fx_freetype/src/../fxft2.5.01/src/cff/fxft_cff.c:36:0,
+                 from platform/android/external/pdfium/core/src/fxge/fx_freetype/src/fxft_cff.c:7:
+platform/android/external/pdfium/core/src/fxge/fx_freetype/src/../fxft2.5.01/src/cff/cf2font.c: In function 'cf2_getGlyphOutline':
+platform/android/external/pdfium/core/src/fxge/fx_freetype/src/../fxft2.5.01/src/cff/cf2font.c:366:31: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+                               (CF2_OutlineCallbacks)&font->outline,
+                               ^

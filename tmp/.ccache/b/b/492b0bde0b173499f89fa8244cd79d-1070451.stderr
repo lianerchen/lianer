@@ -1,0 +1,4 @@
+platform/android/external/pdfium/core/src/fpdftext/fpdf_text.cpp: In member function 'void CTextPage::ProcessObject(CPDF_PageObject*)':
+platform/android/external/pdfium/core/src/fpdftext/fpdf_text.cpp:69:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (space_charcode != -1) {
+                            ^

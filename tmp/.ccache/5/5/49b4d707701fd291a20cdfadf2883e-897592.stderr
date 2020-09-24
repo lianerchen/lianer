@@ -1,0 +1,13 @@
+platform/android/external/fio/engines/mmap.c: In function 'fio_mmapio_prep':
+platform/android/external/fio/engines/mmap.c:116:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (io_u->offset >= f->mmap_off &&
+                   ^
+platform/android/external/fio/engines/mmap.c:137:32: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+  io_u->mmap_data = f->mmap_ptr + io_u->offset - f->mmap_off -
+                                ^
+platform/android/external/fio/engines/mmap.c:137:47: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+  io_u->mmap_data = f->mmap_ptr + io_u->offset - f->mmap_off -
+                                               ^
+platform/android/external/fio/engines/mmap.c:137:61: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+  io_u->mmap_data = f->mmap_ptr + io_u->offset - f->mmap_off -
+                                                             ^

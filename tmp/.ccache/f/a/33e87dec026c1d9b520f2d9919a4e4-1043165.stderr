@@ -1,0 +1,245 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:27:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:31:0:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:87:43: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     int (*raw_read)(int fd, unsigned long long *startaddr, unsigned char *buffer,
+                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:88:45: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long length, unsigned long long openaddr, unsigned long long limit_leng, int read_oob, int skip_badblock);
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:88:74: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long length, unsigned long long openaddr, unsigned long long limit_leng, int read_oob, int skip_badblock);
+                                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:89:44: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     int (*raw_write)(int fd, unsigned long long *startaddr, unsigned char *buffer,
+                                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:90:45: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long length, unsigned long long openaddr, unsigned long long limit_leng, int write_oob);
+                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:90:74: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long length, unsigned long long openaddr, unsigned long long limit_leng, int write_oob);
+                                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:91:10: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     long long (*raw_erase)(int fd, unsigned long long startaddr,
+          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:91:50: warning: ISO C90 does not support 'long long' [-Wlong-long]
+     long long (*raw_erase)(int fd, unsigned long long startaddr,
+                                                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:92:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long long length, unsigned long long openaddr, unsigned long long limit_leng);
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:92:50: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long long length, unsigned long long openaddr, unsigned long long limit_leng);
+                                                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_flash.h:92:79: warning: ISO C90 does not support 'long long' [-Wlong-long]
+         unsigned long long length, unsigned long long openaddr, unsigned long long limit_leng);
+                                                                               ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetHD':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:78:28: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetHD(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:78:65: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetHD(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetHD':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:119:28: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetHD(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:119:65: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetHD(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetSD':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:161:28: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetSD(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:161:65: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetSD(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetSD':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:203:28: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetSD(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                            ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:203:65: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetSD(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetDemo':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:245:30: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetDemo(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:245:67: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetDemo(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetDemo':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:285:30: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetDemo(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:285:67: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetDemo(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_WriteACC':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:294:31: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_WriteACC(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                               ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:294:68: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_WriteACC(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_ReadACC':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:311:30: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_ReadACC(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:311:67: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_ReadACC(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_WriteDCI':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:334:31: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_WriteDCI(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                               ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:334:68: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_WriteDCI(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_ReadDCI':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:351:30: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_ReadDCI(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:351:67: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_ReadDCI(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                   ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_WriteDciBs':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:373:33: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_WriteDciBs(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                 ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:373:70: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_WriteDciBs(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_ReadDciBs':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:389:32: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_ReadDciBs(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:389:69: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_ReadDciBs(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_WriteACM':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:411:68: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_WriteACM(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_ReadACM':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:426:30: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_ReadACM(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetSourceMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:464:36: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetSourceMode(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:464:73: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetSourceMode(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetSourceMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:478:36: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetSourceMode(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:478:73: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetSourceMode(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetOutputMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:487:36: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetOutputMode(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:487:73: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetOutputMode(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetOutputMode':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:501:36: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetOutputMode(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:501:73: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetOutputMode(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetReadRegType':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:510:37: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetReadRegType(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:510:74: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetReadRegType(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetReadRegType':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:523:37: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetReadRegType(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:523:74: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetReadRegType(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                          ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetVGammaPara':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:532:36: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetVGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:532:73: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetVGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetVGammaPara':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:552:36: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetVGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                    ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:552:73: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetVGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                         ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetVDeGammaPara':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:575:38: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetVDeGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:575:75: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetVDeGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetVDeGammaPara':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:595:38: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetVDeGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:595:75: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetVDeGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetGfxGammaPara':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:619:38: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetGfxGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:619:75: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetGfxGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetGfxGammaPara':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:640:38: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetGfxGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                      ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:640:75: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetGfxGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                           ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetGfxDeGammaPara':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:664:40: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetGfxDeGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:664:77: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetGfxDeGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetGfxDeGammaPara':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:684:40: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetGfxDeGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                        ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:684:77: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetGfxDeGammaPara(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                             ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_SetHdrTmLut':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:708:34: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetHdrTmLut(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:708:71: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_SetHdrTmLut(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c: In function 'PQ_DRV_GetHdrTmLut':
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:725:34: warning: unused parameter 'u32RegAddr' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetHdrTmLut(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                  ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/rootfs/pq_debug/pq_comm.c:725:71: warning: unused parameter 'u32BufferLen' [-Wunused-parameter]
+ HI_S32 PQ_DRV_GetHdrTmLut(HI_U32 u32RegAddr, HI_U8* pu8Buffer, HI_U32 u32BufferLen)
+                                                                       ^

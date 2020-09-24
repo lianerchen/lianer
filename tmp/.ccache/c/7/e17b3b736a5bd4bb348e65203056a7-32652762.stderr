@@ -1,0 +1,17 @@
+In file included from platform/android/external/libcxxabi/src/Unwind/libunwind.cpp:28:
+platform/android/external/libcxxabi/src/Unwind/UnwindCursor.hpp:641:39: warning: field '_sects' will be initialized after field '_i' [-Wreorder]
+      : _addressSpace(&addressSpace), _sects(&sects), _i(i) {}
+                                      ^
+platform/android/external/libcxxabi/src/Unwind/UnwindCursor.hpp:634:12: note: in instantiation of member function 'libunwind::EHABISectionIterator<libunwind::LocalAddressSpace>::EHABISectionIterator' requested here
+    return _Self(addressSpace, sects, 0);
+           ^
+platform/android/external/libcxxabi/src/Unwind/UnwindCursor.hpp:684:32: note: in instantiation of member function 'libunwind::EHABISectionIterator<libunwind::LocalAddressSpace>::begin' requested here
+      EHABISectionIterator<A>::begin(_addressSpace, sects);
+                               ^
+platform/android/external/libcxxabi/src/Unwind/UnwindCursor.hpp:1193:41: note: in instantiation of member function 'libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm>::getInfoFromEHABISection' requested here
+    if (sects.arm_section != 0 && this->getInfoFromEHABISection(pc, sects))
+                                        ^
+platform/android/external/libcxxabi/src/Unwind/libunwind.cpp:59:24: note: in instantiation of member function 'libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm>::setInfoBasedOnIPRegister' requested here
+  new ((void *)cursor) UnwindCursor<LocalAddressSpace, Registers_arm>(
+                       ^
+1 warning generated.

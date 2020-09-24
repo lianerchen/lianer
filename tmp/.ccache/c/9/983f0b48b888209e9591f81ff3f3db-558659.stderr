@@ -1,0 +1,8 @@
+platform/android/external/e2fsprogs/lib/quota/mkquota.c: In function 'quota_file_exists':
+platform/android/external/e2fsprogs/lib/quota/mkquota.c:53:54: warning: unused parameter 'fmt' [-Wunused-parameter]
+platform/android/external/e2fsprogs/lib/quota/mkquota.c: In function 'quota_data_add':
+platform/android/external/e2fsprogs/lib/quota/mkquota.c:291:76: warning: unused parameter 'ino' [-Wunused-parameter]
+platform/android/external/e2fsprogs/lib/quota/mkquota.c: In function 'quota_data_sub':
+platform/android/external/e2fsprogs/lib/quota/mkquota.c:317:76: warning: unused parameter 'ino' [-Wunused-parameter]
+platform/android/external/e2fsprogs/lib/quota/mkquota.c: In function 'quota_data_inodes':
+platform/android/external/e2fsprogs/lib/quota/mkquota.c:343:21: warning: unused parameter 'ino' [-Wunused-parameter]

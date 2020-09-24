@@ -1,0 +1,14 @@
+In file included from platform/android/external/mdnsresponder/mDNSCore/DNSDigest.c:23:0:
+platform/android/external/mdnsresponder/mDNSCore/DNSDigest.c: In function 'DNSDigest_SignMessage':
+platform/android/external/mdnsresponder/mDNSCore/mDNSEmbeddedAPI.h:2285:49: warning: array subscript is above array bounds [-Warray-bounds]
+ #define AssignDomainName(DST, SRC) do { mDNSu16 len__ = DomainNameLength((SRC)); \
+                                                 ^
+platform/android/external/mdnsresponder/mDNSCore/DNSDigest.c:1364:2: note: in expansion of macro 'AssignDomainName'
+  AssignDomainName(&tsig.resrec.rdata->u.name, &HMAC_MD5_AlgName);
+  ^
+platform/android/external/mdnsresponder/mDNSCore/mDNSEmbeddedAPI.h:2307:53: warning: array subscript is above array bounds [-Warray-bounds]
+ #define DomainNameLength(name) DomainNameLengthLimit((name), (name)->c + MAX_DOMAIN_NAME)
+                                                     ^
+platform/android/external/mdnsresponder/mDNSCore/DNSDigest.c:1365:8: note: in expansion of macro 'DomainNameLength'
+  len = DomainNameLength(&HMAC_MD5_AlgName);
+        ^

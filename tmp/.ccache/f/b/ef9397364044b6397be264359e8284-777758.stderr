@@ -1,0 +1,4 @@
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/fuji/mnote-fuji-entry.c: In function 'mnote_fuji_entry_get_value':
+device/hisilicon/bigfish/hardware/camera/libexif/./libexif/fuji/mnote-fuji-entry.c:233:45: warning: comparison between 'ExifTag' and 'MnoteFujiTag' [-Wenum-compare]
+   for (i = 0; (items[i].tag && items[i].tag != entry->tag); i++);
+                                             ^

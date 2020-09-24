@@ -1,0 +1,9 @@
+platform/android/external/skia/src/pdf/SkPDFGraphicState.cpp: In member function 'void SkPDFGraphicState::populateDict()':
+platform/android/external/skia/src/pdf/SkPDFGraphicState.cpp:217:46: warning: passing 'SkPaint::Cap' chooses 'int32_t {aka int}' over 'size_t {aka unsigned int}' [-Wsign-promo]
+         insertInt("LC", fPaint.getStrokeCap());
+                                              ^
+platform/android/external/skia/src/pdf/SkPDFGraphicState.cpp:217:46: warning:   in call to 'void SkPDFDict::insertInt(const char*, int32_t)' [-Wsign-promo]
+platform/android/external/skia/src/pdf/SkPDFGraphicState.cpp:224:47: warning: passing 'SkPaint::Join' chooses 'int32_t {aka int}' over 'size_t {aka unsigned int}' [-Wsign-promo]
+         insertInt("LJ", fPaint.getStrokeJoin());
+                                               ^
+platform/android/external/skia/src/pdf/SkPDFGraphicState.cpp:224:47: warning:   in call to 'void SkPDFDict::insertInt(const char*, int32_t)' [-Wsign-promo]

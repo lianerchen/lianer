@@ -1,0 +1,7 @@
+In file included from platform/android/frameworks/base/cmds/screencap/screencap.cpp:36:0:
+platform/android/external/skia/include/core/SkStream.h:111:18: warning: unused parameter 'position' [-Wunused-parameter]
+     virtual bool seek(size_t position) { return false; }
+                  ^
+platform/android/external/skia/include/core/SkStream.h:117:18: warning: unused parameter 'offset' [-Wunused-parameter]
+     virtual bool move(long offset) { return false; }
+                  ^

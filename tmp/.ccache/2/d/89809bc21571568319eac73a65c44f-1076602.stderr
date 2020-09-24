@@ -1,0 +1,22 @@
+platform/android/external/ipsec-tools/src/racoon/handler.c: In function 'getph2bysaidx':
+platform/android/external/ipsec-tools/src/racoon/handler.c:539:19: warning: unused parameter 'src' [-Wunused-parameter]
+  struct sockaddr *src, *dst;
+                   ^
+platform/android/external/ipsec-tools/src/racoon/handler.c:539:25: warning: unused parameter 'dst' [-Wunused-parameter]
+  struct sockaddr *src, *dst;
+                         ^
+platform/android/external/ipsec-tools/src/racoon/handler.c: In function 'deleteallph2':
+platform/android/external/ipsec-tools/src/racoon/handler.c:741:19: warning: unused parameter 'src' [-Wunused-parameter]
+  struct sockaddr *src, *dst;
+                   ^
+platform/android/external/ipsec-tools/src/racoon/handler.c:741:25: warning: unused parameter 'dst' [-Wunused-parameter]
+  struct sockaddr *src, *dst;
+                         ^
+platform/android/external/ipsec-tools/src/racoon/handler.c: In function 'check_recvdpkt':
+platform/android/external/ipsec-tools/src/racoon/handler.c:854:28: warning: unused parameter 'local' [-Wunused-parameter]
+  struct sockaddr *remote, *local;
+                            ^
+platform/android/external/ipsec-tools/src/racoon/handler.c: In function 'sweep_recvdpkt':
+platform/android/external/ipsec-tools/src/racoon/handler.c:1012:8: warning: unused parameter 'dummy' [-Wunused-parameter]
+  void *dummy;
+        ^

@@ -1,0 +1,44 @@
+platform/android/external/libpcap/pcap-linux.c:118:0: warning: "_GNU_SOURCE" redefined [enabled by default]
+ #define _GNU_SOURCE
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+platform/android/external/libpcap/pcap-linux.c: In function 'pcap_read_linux':
+platform/android/external/libpcap/pcap-linux.c:1398:37: warning: unused parameter 'max_packets' [-Wunused-parameter]
+ pcap_read_linux(pcap_t *handle, int max_packets, pcap_handler callback, u_char *user)
+                                     ^
+platform/android/external/libpcap/pcap-linux.c: In function 'pcap_read_packet':
+platform/android/external/libpcap/pcap-linux.c:1653:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    len = packet_len > iov.iov_len ? iov.iov_len : packet_len;
+                     ^
+platform/android/external/libpcap/pcap-linux.c:1653:49: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+    len = packet_len > iov.iov_len ? iov.iov_len : packet_len;
+                                                 ^
+platform/android/external/libpcap/pcap-linux.c: In function 'create_ring':
+platform/android/external/libpcap/pcap-linux.c:3642:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (frame_size > mtu + 18)
+                    ^
+platform/android/external/libpcap/pcap-linux.c:3918:9: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+    base += req.tp_frame_size;
+         ^
+platform/android/external/libpcap/pcap-linux.c: In function 'pcap_getnonblock_mmap':
+platform/android/external/libpcap/pcap-linux.c:3992:40: warning: unused parameter 'errbuf' [-Wunused-parameter]
+ pcap_getnonblock_mmap(pcap_t *p, char *errbuf)
+                                        ^
+platform/android/external/libpcap/pcap-linux.c: In function 'pcap_setnonblock_mmap':
+platform/android/external/libpcap/pcap-linux.c:4001:54: warning: unused parameter 'errbuf' [-Wunused-parameter]
+ pcap_setnonblock_mmap(pcap_t *p, int nonblock, char *errbuf)
+                                                      ^
+platform/android/external/libpcap/pcap-linux.c: In function 'pcap_handle_packet_mmap':
+platform/android/external/libpcap/pcap-linux.c:4190:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (tp_mac + tp_snaplen > handle->bufsize) {
+                          ^
+platform/android/external/libpcap/pcap-linux.c:4213:22: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+  sll = (void *)frame + TPACKET_ALIGN(handlep->tp_hdrlen);
+                      ^
+platform/android/external/libpcap/pcap-linux.c:4295:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if (pcaphdr.caplen > handle->snapshot)
+                     ^
+platform/android/external/libpcap/pcap-linux.c: In function 'pcap_read_linux_mmap_v3':
+platform/android/external/libpcap/pcap-linux.c:4485:36: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+    handlep->current_packet = h.raw + h.h3->hdr.bh1.offset_to_first_pkt;
+                                    ^

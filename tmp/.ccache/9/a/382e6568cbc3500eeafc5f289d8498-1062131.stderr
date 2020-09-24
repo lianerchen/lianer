@@ -1,0 +1,4 @@
+platform/android/external/pdfium/core/src/fxcodec/codec/fx_codec_jpx_opj.cpp: In member function 'FX_BOOL CJPX_Decoder::Decode(FX_LPBYTE, int, FX_BOOL, FX_LPBYTE)':
+platform/android/external/pdfium/core/src/fxcodec/codec/fx_codec_jpx_opj.cpp:752:34: warning: 'channel_bufs' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             FX_Free(channel_bufs);
+                                  ^

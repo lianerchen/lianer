@@ -1,0 +1,16 @@
+platform/android/frameworks/base/media/mca/filterpacks/native/imageproc/to_rgba.c: In function 'gray_to_rgb_process':
+platform/android/frameworks/base/media/mca/filterpacks/native/imageproc/to_rgba.c:24:31: warning: unused parameter 'user_data' [-Wunused-parameter]
+                         void* user_data) {
+                               ^
+platform/android/frameworks/base/media/mca/filterpacks/native/imageproc/to_rgba.c: In function 'rgba_to_rgb_process':
+platform/android/frameworks/base/media/mca/filterpacks/native/imageproc/to_rgba.c:55:31: warning: unused parameter 'user_data' [-Wunused-parameter]
+                         void* user_data) {
+                               ^
+platform/android/frameworks/base/media/mca/filterpacks/native/imageproc/to_rgba.c: In function 'gray_to_rgba_process':
+platform/android/frameworks/base/media/mca/filterpacks/native/imageproc/to_rgba.c:87:32: warning: unused parameter 'user_data' [-Wunused-parameter]
+                          void* user_data) {
+                                ^
+platform/android/frameworks/base/media/mca/filterpacks/native/imageproc/to_rgba.c: In function 'rgb_to_rgba_process':
+platform/android/frameworks/base/media/mca/filterpacks/native/imageproc/to_rgba.c:119:31: warning: unused parameter 'user_data' [-Wunused-parameter]
+                         void* user_data) {
+                               ^

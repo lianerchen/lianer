@@ -1,0 +1,19 @@
+platform/android/system/vold/DiskVolume.cpp:35:0: warning: "PARTITION_DEBUG" redefined [enabled by default]
+ #define PARTITION_DEBUG 1
+ ^
+In file included from platform/android/system/vold/DiskVolume.cpp:33:0:
+platform/android/system/vold/debug.h:10:0: note: this is the location of the previous definition
+ #define PARTITION_DEBUG
+ ^
+platform/android/system/vold/DiskVolume.cpp:178:6: warning: unused parameter 'devpath' [-Wunused-parameter]
+ void DiskVolume::handleDiskAdded(const char *devpath, NetlinkEvent *evt) {
+      ^
+platform/android/system/vold/DiskVolume.cpp:287:6: warning: unused parameter 'devpath' [-Wunused-parameter]
+ void DiskVolume::handleDiskChanged(const char *devpath, NetlinkEvent *evt) {
+      ^
+platform/android/system/vold/DiskVolume.cpp:330:6: warning: unused parameter 'devpath' [-Wunused-parameter]
+ void DiskVolume::handlePartitionChanged(const char *devpath, NetlinkEvent *evt) {
+      ^
+platform/android/system/vold/DiskVolume.cpp:353:6: warning: unused parameter 'devpath' [-Wunused-parameter]
+ void DiskVolume::handlePartitionRemoved(const char *devpath, NetlinkEvent *evt) {
+      ^

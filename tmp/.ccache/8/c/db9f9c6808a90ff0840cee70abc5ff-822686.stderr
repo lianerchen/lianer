@@ -1,0 +1,4 @@
+platform/android/hardware/broadcom/wlan/bcmdhd/dhdutil/dhdu.c: In function 'dhd_hostreorder_flows':
+platform/android/hardware/broadcom/wlan/bcmdhd/dhdutil/dhdu.c:3041:53: warning: unused parameter 'argv' [-Wunused-parameter]
+ dhd_hostreorder_flows(void *dhd, cmd_t *cmd, char **argv)
+                                                     ^

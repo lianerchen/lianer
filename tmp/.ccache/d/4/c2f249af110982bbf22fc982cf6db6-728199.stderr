@@ -1,0 +1,23 @@
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c: In function 'bbs_UInt8Arr_init':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c:40:45: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bbs_UInt8Arr_init( struct bbs_Context* cpA,
+                                             ^
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c: In function 'bbs_UInt8Arr_equal':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c:89:46: warning: unused parameter 'cpA' [-Wunused-parameter]
+ flag bbs_UInt8Arr_equal( struct bbs_Context* cpA,
+                                              ^
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c: In function 'bbs_UInt8Arr_heapSize':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c:114:51: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bbs_UInt8Arr_heapSize( struct bbs_Context* cpA,
+                                                   ^
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c:115:37: warning: unused parameter 'ptrA' [-Wunused-parameter]
+          const struct bbs_UInt8Arr* ptrA, 
+                                     ^
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c: In function 'bbs_UInt8Arr_memSize':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c:183:50: warning: unused parameter 'cpA' [-Wunused-parameter]
+ uint32 bbs_UInt8Arr_memSize( struct bbs_Context* cpA,
+                                                  ^
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c: In function 'bbs_UInt8Arr_fill':
+platform/android/external/neven/Embedded/common/src/b_BasicEm/UInt8Arr.c:236:45: warning: unused parameter 'cpA' [-Wunused-parameter]
+ void bbs_UInt8Arr_fill( struct bbs_Context* cpA,
+                                             ^

@@ -1,0 +1,292 @@
+In file included from platform/android/external/aac/libSBRdec/include/sbrdecoder.h:94:0,
+                 from platform/android/external/aac/libSBRdec/src/lpp_tran.h:92,
+                 from platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:99:
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp: In function 'SBR_ERROR resetLppTransposer(HANDLE_SBR_LPP_TRANS, UCHAR, UCHAR*, UCHAR, UCHAR*, UCHAR, UCHAR, UINT)':
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:864:9: note: in expansion of macro 'fixMin'
+   usb = fixMin(usb, v_k_master[numMaster]); /* Avoid endless loops (compare with float code). */
+         ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:254:29: warning:   in call to 'INT fMin(INT, INT)' [-Wsign-promo]
+ #define fixMin(a,b) fMin(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:958:34: note: in expansion of macro 'fixMin'
+     pSettings->lbStartPatching = fixMin( pSettings->lbStartPatching, patchParam[patch].sourceStartBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'FIXP_DBL {aka long int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning: passing 'UCHAR {aka unsigned char}' chooses 'INT {aka int}' over 'UINT {aka unsigned int}' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^
+platform/android/external/aac/libFDK/include/common_fix.h:255:29: warning:   in call to 'INT fMax(INT, INT)' [-Wsign-promo]
+ #define fixMax(a,b) fMax(a,b)
+                             ^
+platform/android/external/aac/libSBRdec/src/lpp_tran.cpp:959:34: note: in expansion of macro 'fixMax'
+     pSettings->lbStopPatching  = fixMax( pSettings->lbStopPatching, patchParam[patch].sourceStopBand );
+                                  ^

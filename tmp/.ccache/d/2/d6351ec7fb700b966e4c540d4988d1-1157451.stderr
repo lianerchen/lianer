@@ -1,0 +1,18 @@
+device/hisilicon/bigfish/external/dhcp/omapip/listener.c: In function 'trace_listener_accept_input':
+device/hisilicon/bigfish/external/dhcp/omapip/listener.c:350:56: warning: unused parameter 'ttype' [-Wunused-parameter]
+ static void trace_listener_accept_input (trace_type_t *ttype,
+                                                        ^
+device/hisilicon/bigfish/external/dhcp/omapip/listener.c:351:16: warning: unused parameter 'length' [-Wunused-parameter]
+       unsigned length, char *buf)
+                ^
+device/hisilicon/bigfish/external/dhcp/omapip/listener.c: In function 'trace_listener_accept_stop':
+device/hisilicon/bigfish/external/dhcp/omapip/listener.c:388:55: warning: unused parameter 'ttype' [-Wunused-parameter]
+ static void trace_listener_accept_stop (trace_type_t *ttype) { }
+                                                       ^
+device/hisilicon/bigfish/external/dhcp/omapip/listener.c: In function 'omapi_listener_destroy':
+device/hisilicon/bigfish/external/dhcp/omapip/listener.c:438:22: warning: unused parameter 'file' [-Wunused-parameter]
+          const char *file, int line)
+                      ^
+device/hisilicon/bigfish/external/dhcp/omapip/listener.c:438:32: warning: unused parameter 'line' [-Wunused-parameter]
+          const char *file, int line)
+                                ^

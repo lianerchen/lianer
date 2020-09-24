@@ -1,0 +1,4 @@
+platform/android/external/webrtc/src/modules/audio_processing/aecm/aecm_core.c: In function 'TimeToFrequencyDomain':
+platform/android/external/webrtc/src/modules/audio_processing/aecm/aecm_core.c:1483:12: warning: 'tmp32no2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+            __asm__("smlabb %0, %1, %2, %3" :: "r"(tmp32no2), "r"(freq_signal[i].imag), 
+            ^

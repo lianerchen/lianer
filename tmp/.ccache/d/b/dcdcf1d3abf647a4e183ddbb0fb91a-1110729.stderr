@@ -1,0 +1,31 @@
+In file included from platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/fpdf_edit_create.cpp:8:0:
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/editint.h: In constructor 'CPDF_XRefStream::CPDF_XRefStream()':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/editint.h:55:16: warning: 'CPDF_XRefStream::m_iSeg' will be initialized after [-Wreorder]
+     FX_INT32   m_iSeg;
+                ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/editint.h:50:16: warning:   'FX_DWORD CPDF_XRefStream::m_dwTempObjNum' [-Wreorder]
+     FX_DWORD   m_dwTempObjNum;
+                ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/fpdf_edit_create.cpp:545:1: warning:   when initialized here [-Wreorder]
+ CPDF_XRefStream::CPDF_XRefStream()
+ ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/fpdf_edit_create.cpp: In member function 'void CPDF_Creator::InitNewObjNumOffsets()':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/fpdf_edit_create.cpp:1396:67: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+         m_pDocument->m_IndirectObjs.GetNextAssoc(pos, (FX_LPVOID&)key, (FX_LPVOID&)pObj);
+                                                                   ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/fpdf_edit_create.cpp:1398:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (pObj->GetObjNum() == -1) {
+                                   ^
+In file included from platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/../../../include/fpdfapi/../fxcrt/fx_ext.h:10:0,
+                 from platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/../../../include/fpdfapi/fpdf_parser.h:10,
+                 from platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/../../../include/fpdfapi/fpdf_page.h:10,
+                 from platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/../../../include/fpdfapi/fpdf_serial.h:10,
+                 from platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/fpdf_edit_create.cpp:7:
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/../../../include/fpdfapi/../fxcrt/fx_basic.h: In member function 'FX_BOOL CPDF_XRefStream::AddObjectNumberToIndexArray(FX_DWORD)':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/../../../include/fpdfapi/../fxcrt/fx_basic.h:453:9: warning: assuming signed overflow does not occur when assuming that (X - c) > X is always false [-Wstrict-overflow]
+         if (nIndex < 0 || nIndex >= m_nSize) {
+         ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/fpdf_edit_create.cpp: In member function 'FX_INT32 CPDF_Creator::Continue(IFX_Pause*)':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_edit/fpdf_edit_create.cpp:2104:53: warning: 'iRet' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         return iRet > 99 ? 0 : (iRet < 1 ? -1 : iRet);
+                                                     ^

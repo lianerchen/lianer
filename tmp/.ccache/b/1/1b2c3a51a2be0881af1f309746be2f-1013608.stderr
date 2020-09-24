@@ -1,0 +1,23 @@
+device/hisilicon/bigfish/frameworks/hisysmanager/jni/com_hisilicon_android_hisysmanagerservice_stb.cpp:31:16: warning: unused parameter 'obj' [-Wunused-parameter]
+ static jstring com_hisilicon_android_hisysmanager_hisysmanager_otpGetLotID(JNIEnv *env, jobject obj)
+                ^
+device/hisilicon/bigfish/frameworks/hisysmanager/jni/com_hisilicon_android_hisysmanagerservice_stb.cpp:37:13: warning: unused parameter 'obj' [-Wunused-parameter]
+ static void com_hisilicon_android_hisysmanager_hisysmanager_otpSetLotID(JNIEnv *env, jobject obj,jstring chipid)
+             ^
+device/hisilicon/bigfish/frameworks/hisysmanager/jni/com_hisilicon_android_hisysmanagerservice_stb.cpp:51:13: warning: unused parameter 'env' [-Wunused-parameter]
+ static jint com_hisilicon_android_hisysmanager_hisysmanager_otpGetLock(JNIEnv *env, jobject obj)
+             ^
+device/hisilicon/bigfish/frameworks/hisysmanager/jni/com_hisilicon_android_hisysmanagerservice_stb.cpp:51:13: warning: unused parameter 'obj' [-Wunused-parameter]
+device/hisilicon/bigfish/frameworks/hisysmanager/jni/com_hisilicon_android_hisysmanagerservice_stb.cpp:56:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static jint com_hisilicon_android_hisysmanager_HiSysManager_setDynamicPolicy(JNIEnv *env, jobject clazz, jstring state, jstring activity, jstring process)
+             ^
+device/hisilicon/bigfish/frameworks/hisysmanager/jni/com_hisilicon_android_hisysmanagerservice_stb.cpp:70:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static jint com_hisilicon_android_hisysmanager_HiSysManager_updateLogo(JNIEnv *env, jobject clazz, jstring path)
+             ^
+device/hisilicon/bigfish/frameworks/hisysmanager/jni/com_hisilicon_android_hisysmanagerservice_stb.cpp:81:13: warning: unused parameter 'clazz' [-Wunused-parameter]
+ static jint com_hisilicon_android_hisysmanager_HiSysManager_snapshot(JNIEnv *env, jobject clazz, jstring path){
+             ^
+device/hisilicon/bigfish/frameworks/hisysmanager/jni/com_hisilicon_android_hisysmanagerservice_stb.cpp:88:13: warning: unused parameter 'env' [-Wunused-parameter]
+ static jint com_hisilicon_android_hisysmanager_HiSysManager_emergencyRecovery(JNIEnv *env, jobject clazz, jint flag){
+             ^
+device/hisilicon/bigfish/frameworks/hisysmanager/jni/com_hisilicon_android_hisysmanagerservice_stb.cpp:88:13: warning: unused parameter 'clazz' [-Wunused-parameter]

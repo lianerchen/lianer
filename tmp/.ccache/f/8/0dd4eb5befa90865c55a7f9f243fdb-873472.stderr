@@ -1,0 +1,8 @@
+In file included from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/drv/include/hi_drv_ao.h:24:0,
+                 from device/hisilicon/bigfish/HiSTBSDKV6R2/source/msp/api/ao/render/engine_codec.c:20:
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:44:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long      HI_U64;
+                       ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/source/common/include/hi_type.h:45:14: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef long long               HI_S64;
+              ^

@@ -1,0 +1,8 @@
+device/hisilicon/bigfish/hardware/camera/camera_common/yuvutils.cpp: In function 'int android::TDE_ConvertYUYVtoRGB565(unsigned char*, unsigned char**, unsigned int, unsigned int, unsigned int, unsigned int)':
+device/hisilicon/bigfish/hardware/camera/camera_common/yuvutils.cpp:1093:28: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     TDE_HANDLE s32Handle = NULL;
+                            ^
+device/hisilicon/bigfish/hardware/camera/camera_common/yuvutils.cpp: In function 'int android::ConvertYUV420SPtoRGB565(uint64_t, unsigned char**, unsigned int, unsigned int, unsigned int, unsigned int, int)':
+device/hisilicon/bigfish/hardware/camera/camera_common/yuvutils.cpp:1247:28: warning: converting to non-pointer type 'int' from NULL [-Wconversion-null]
+     TDE_HANDLE s32Handle = NULL;
+                            ^

@@ -1,0 +1,12 @@
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/dvbplay/sample_dvbplay_ir.c: In function 'LED_DisplayTask':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/dvbplay/sample_dvbplay_ir.c:91:30: warning: unused parameter 'args' [-Wunused-parameter]
+ void * LED_DisplayTask(void *args)
+                              ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/dvbplay/sample_dvbplay_ir.c: In function 'KEY_ReceiveTask':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/dvbplay/sample_dvbplay_ir.c:162:37: warning: unused parameter 'args' [-Wunused-parameter]
+ static void * KEY_ReceiveTask(void *args)
+                                     ^
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/dvbplay/sample_dvbplay_ir.c: In function 'IR_ReceiveTask':
+device/hisilicon/bigfish/HiSTBSDKV6R2/sample/dvbplay/sample_dvbplay_ir.c:209:36: warning: unused parameter 'args' [-Wunused-parameter]
+ static void * IR_ReceiveTask(void *args)
+                                    ^

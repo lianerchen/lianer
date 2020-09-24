@@ -1,0 +1,2 @@
+platform/android/external/icu/icu4c/source/common/uresdata.c: In function 'ures_swap_53':
+platform/android/external/icu/icu4c/source/common/uresdata.c:1073:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

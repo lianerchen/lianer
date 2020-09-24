@@ -1,0 +1,4 @@
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_parser/fpdf_parser_encrypt.cpp: In member function 'FX_BOOL CPDF_StandardSecurityHandler::AES256_CheckPassword(FX_LPCBYTE, FX_DWORD, FX_BOOL, FX_LPBYTE)':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_parser/fpdf_parser_encrypt.cpp:363:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (FXDWORD_GET_LSBFIRST(buf) != m_Permissions) {
+                                      ^

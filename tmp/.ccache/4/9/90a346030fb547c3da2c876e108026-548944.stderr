@@ -1,0 +1,8 @@
+platform/android/external/e2fsprogs/lib/quota/quotaio_tree.c: In function 'qtree_entry_unused':
+platform/android/external/e2fsprogs/lib/quota/quotaio_tree.c:38:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/e2fsprogs/lib/quota/quotaio_tree.c: In function 'qtree_write_dquot':
+platform/android/external/e2fsprogs/lib/quota/quotaio_tree.c:338:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/e2fsprogs/lib/quota/quotaio_tree.c: In function 'qtree_read_dquot':
+platform/android/external/e2fsprogs/lib/quota/quotaio_tree.c:524:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+platform/android/external/e2fsprogs/lib/quota/quotaio_tree.c: In function 'find_set_bits':
+platform/android/external/e2fsprogs/lib/quota/quotaio_tree.c:626:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

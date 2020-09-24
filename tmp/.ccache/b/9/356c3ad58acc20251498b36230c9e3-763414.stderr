@@ -1,0 +1,18 @@
+In file included from platform/linux_h5/external/curl/lib/setup.h:40:0,
+                 from platform/linux_h5/external/curl/lib/md5.c:23:
+platform/linux_h5/external/curl/lib/curl_config.h:323:0: warning: "HAVE_IOCTL" redefined [enabled by default]
+ #define HAVE_IOCTL 1
+ ^
+In file included from <command-line>:0:0:
+./platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h:122:0: note: this is the location of the previous definition
+ #define HAVE_IOCTL
+ ^
+In file included from platform/linux_h5/external/curl/lib/setup.h:40:0,
+                 from platform/linux_h5/external/curl/lib/md5.c:23:
+platform/linux_h5/external/curl/lib/curl_config.h:438:0: warning: "HAVE_MALLOC_H" redefined [enabled by default]
+ #define HAVE_MALLOC_H 1
+ ^
+In file included from <command-line>:0:0:
+./platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h:195:0: note: this is the location of the previous definition
+ #define HAVE_MALLOC_H
+ ^

@@ -1,0 +1,25 @@
+In file included from platform/android/frameworks/wilhelm/src/sles_allinclusive.h:96:0,
+                 from platform/android/frameworks/wilhelm/src/android/AudioPlayer_to_android.cpp:17:
+platform/android/frameworks/wilhelm/src/android/android_sles_conversions.h:98:36: warning: unused parameter 'channelMask' [-Wunused-parameter]
+ static inline audio_channel_mask_t sles_to_android_channelMaskIn(SLuint32 nbChannels,
+                                    ^
+platform/android/frameworks/wilhelm/src/android/android_sles_conversions.h:105:36: warning: unused parameter 'channelMask' [-Wunused-parameter]
+ static inline audio_channel_mask_t sles_to_android_channelMaskOut(SLuint32 nbChannels,
+                                    ^
+In file included from platform/android/frameworks/wilhelm/src/classes.h:20:0,
+                 from platform/android/frameworks/wilhelm/src/sles_allinclusive.h:283,
+                 from platform/android/frameworks/wilhelm/src/android/AudioPlayer_to_android.cpp:17:
+platform/android/frameworks/wilhelm/src/android/android_GenericPlayer.h:81:18: warning: unused parameter 'bufferProducer' [-Wunused-parameter]
+     virtual void setVideoSurfaceTexture(const sp<IGraphicBufferProducer> &bufferProducer) {}
+                  ^
+platform/android/frameworks/wilhelm/src/android/AudioPlayer_to_android.cpp:652:13: warning: unused parameter 'data2' [-Wunused-parameter]
+ static void sfplayer_handlePrefetchEvent(int event, int data1, int data2, void* user) {
+             ^
+platform/android/frameworks/wilhelm/src/android/AudioPlayer_to_android.cpp: In function 'SLresult android_audioPlayer_validateChannelMask(uint32_t, int)':
+platform/android/frameworks/wilhelm/src/android/AudioPlayer_to_android.cpp:877:52: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (audio_channel_count_from_out_mask(mask) != numChans) {
+                                                    ^
+platform/android/frameworks/wilhelm/src/android/AudioPlayer_to_android.cpp: At global scope:
+platform/android/frameworks/wilhelm/src/android/AudioPlayer_to_android.cpp:1491:10: warning: unused parameter 'async' [-Wunused-parameter]
+ SLresult android_audioPlayer_realize(CAudioPlayer *pAudioPlayer, SLboolean async) {
+          ^

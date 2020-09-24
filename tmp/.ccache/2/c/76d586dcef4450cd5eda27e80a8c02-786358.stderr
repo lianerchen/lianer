@@ -1,0 +1,6 @@
+component/OAM/agent/libneon/ne_session.c:379:6: warning: no previous prototype for 'set_ssl_attr' [-Wmissing-prototypes]
+ void set_ssl_attr(ne_session *sess, char *ca_cert_path, char *client_cert_path, char *client_cert_passwd)
+      ^
+component/OAM/agent/libneon/ne_session.c:413:6: warning: no previous prototype for 'set_sec_tunnle_mode' [-Wmissing-prototypes]
+ void set_sec_tunnle_mode(ne_session *sess)
+      ^

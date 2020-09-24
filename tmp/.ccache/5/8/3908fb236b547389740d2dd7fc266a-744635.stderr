@@ -1,0 +1,4 @@
+platform/android/external/neven/Embedded/common/src/b_TensorEm/CompactMat.c: In function 'bts_CompactMat_fltDotPrdRow':
+platform/android/external/neven/Embedded/common/src/b_TensorEm/CompactMat.c:40:56: warning: unused parameter 'cpA' [-Wunused-parameter]
+ int32 bts_CompactMat_fltDotPrdRow( struct bbs_Context* cpA, 
+                                                        ^

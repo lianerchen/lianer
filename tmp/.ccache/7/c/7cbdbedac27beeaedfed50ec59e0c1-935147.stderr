@@ -1,0 +1,12 @@
+device/hisilicon/bigfish/external/alsa-lib/src/rawmidi/rawmidi.c: In function 'snd_rawmidi_params_default':
+device/hisilicon/bigfish/external/alsa-lib/src/rawmidi/rawmidi.c:150:54: warning: unused parameter 'rawmidi' [-Wunused-parameter]
+ static int snd_rawmidi_params_default(snd_rawmidi_t *rawmidi, snd_rawmidi_params_t *params)
+                                                      ^
+device/hisilicon/bigfish/external/alsa-lib/src/rawmidi/rawmidi.c: In function 'snd_rawmidi_poll_descriptors_count':
+device/hisilicon/bigfish/external/alsa-lib/src/rawmidi/rawmidi.c:396:55: warning: unused parameter 'rawmidi' [-Wunused-parameter]
+ int snd_rawmidi_poll_descriptors_count(snd_rawmidi_t *rawmidi)
+                                                       ^
+device/hisilicon/bigfish/external/alsa-lib/src/rawmidi/rawmidi.c: In function 'snd_rawmidi_poll_descriptors_revents':
+device/hisilicon/bigfish/external/alsa-lib/src/rawmidi/rawmidi.c:428:57: warning: unused parameter 'rawmidi' [-Wunused-parameter]
+ int snd_rawmidi_poll_descriptors_revents(snd_rawmidi_t *rawmidi, struct pollfd *pfds, unsigned int nfds, unsigned short *revents)
+                                                         ^

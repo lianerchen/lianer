@@ -1,0 +1,7 @@
+component/OAM/agent/tr069_cut/session/getparamnames.c: In function 'GetSelfDefineParameter':
+component/OAM/agent/tr069_cut/session/getparamnames.c:391:13: warning: assignment makes pointer from integer without a cast [enabled by default]
+         err = 1;
+             ^
+component/OAM/agent/tr069_cut/session/getparamnames.c:410:21: warning: assignment makes pointer from integer without a cast [enabled by default]
+                 err = 1;
+                     ^

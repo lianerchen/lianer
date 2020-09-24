@@ -1,0 +1,2 @@
+platform/android/external/fdlibm/s_scalbn.c: In function 'ieee_scalbn':
+platform/android/external/fdlibm/s_scalbn.c:56:12: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]

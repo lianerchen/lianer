@@ -1,0 +1,8 @@
+component/OAM/common/timer/delayqueue.c: In function 'DelayQueueEntry_handleTimeout':
+component/OAM/common/timer/delayqueue.c:313:55: warning: unused parameter 'pEntry' [-Wunused-parameter]
+ void DelayQueueEntry_handleTimeout(T_DelayQueueEntry *pEntry)
+                                                       ^
+component/OAM/common/timer/delayqueue.c: In function 'DelayQueue_removeEntry':
+component/OAM/common/timer/delayqueue.c:457:50: warning: unused parameter 'pDelayQueue' [-Wunused-parameter]
+ static void DelayQueue_removeEntry(T_DelayQueue *pDelayQueue, T_DelayQueueEntry *entry) /* but doesn't delete it */
+                                                  ^

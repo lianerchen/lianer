@@ -1,0 +1,65 @@
+In file included from platform/android/external/libvpx/libvpx/vp9/common/vp9_enums.h:14:0,
+                 from platform/android/external/libvpx/armv7a-neon/./vp9_rtcd.h:19,
+                 from platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:16:
+platform/android/external/libvpx/armv7a-neon/./vpx_config.h:13:0: warning: "ARCH_ARM" redefined [enabled by default]
+ #define ARCH_ARM 1
+ ^
+In file included from <command-line>:0:0:
+./platform/android/build/core/combo/include/arch/linux-arm/AndroidConfig.h:241:0: note: this is the location of the previous definition
+ #define ARCH_ARM
+ ^
+In file included from platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:20:0:
+platform/android/external/libvpx/libvpx/vp9/common/vp9_common.h: In function 'clip_pixel':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_common.h:52:46: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   return (val > 255) ? 255u : (val < 0) ? 0u : val;
+                                              ^
+In file included from platform/android/external/libvpx/libvpx/vp9/common/vp9_seg_common.h:14:0,
+                 from platform/android/external/libvpx/libvpx/vp9/common/vp9_blockd.h:26,
+                 from platform/android/external/libvpx/libvpx/vp9/common/vp9_entropy.h:16,
+                 from platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:21:
+platform/android/external/libvpx/libvpx/vp9/common/vp9_prob.h: In function 'clip_prob':
+platform/android/external/libvpx/libvpx/vp9/common/vp9_prob.h:47:42: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+   return (p > 255) ? 255u : (p < 1) ? 1u : p;
+                                          ^
+In file included from platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:21:0:
+platform/android/external/libvpx/libvpx/vp9/common/vp9_entropy.h: At top level:
+platform/android/external/libvpx/libvpx/vp9/common/vp9_entropy.h:176:1: warning: '__inline__' is not at beginning of declaration [-Wold-style-declaration]
+ static const INLINE scan_order *get_scan(const MACROBLOCKD *xd, TX_SIZE tx_size,
+ ^
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c: In function 'vp9_model_rd_from_var_lapndz':
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:418:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     const int xsq_q10 = xsq_q10_64 > MAX_XSQ_Q10 ?
+                                    ^
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c: In function 'choose_txfm_size_from_rd':
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:818:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (n = TX_4X4; n <= max_tx_size; n++) {
+                      ^
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:821:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       for (m = 0; m <= n - (n == max_tx_size); m++) {
+                               ^
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c: In function 'choose_txfm_size_from_modelrd':
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:902:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (n = TX_4X4; n <= max_tx_size; n++) {
+                      ^
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:905:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (m = 0; m <= n - (n == max_tx_size); m++) {
+                             ^
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c: In function 'rd_check_segment_txsize':
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:1940:54: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+           if (cpi->sf.comp_inter_joint_search_thresh <= bsize) {
+                                                      ^
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c: In function 'single_motion_search':
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:2370:56: warning: unused parameter 'tile' [-Wunused-parameter]
+                                  const TileInfo *const tile,
+                                                        ^
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c: In function 'handle_inter_mode':
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:2736:50: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if (cpi->sf.comp_inter_joint_search_thresh <= bsize) {
+                                                  ^
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c: In function 'handle_inter_mode.isra.17':
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:510:22: warning: 'bs' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       cpi->fn_ptr[bs].vf(&p->src.buf[j * p->src.stride + k], p->src.stride,
+                      ^
+platform/android/external/libvpx/libvpx/vp9/encoder/vp9_rdopt.c:483:14: note: 'bs' was declared here
+   BLOCK_SIZE bs;
+              ^

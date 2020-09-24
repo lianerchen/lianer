@@ -1,0 +1,7 @@
+platform/android/frameworks/native/cmds/bugreport/bugreport.c: In function 'main':
+platform/android/frameworks/native/cmds/bugreport/bugreport.c:24:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char *argv[]) {
+              ^
+platform/android/frameworks/native/cmds/bugreport/bugreport.c:24:26: warning: unused parameter 'argv' [-Wunused-parameter]
+ int main(int argc, char *argv[]) {
+                          ^

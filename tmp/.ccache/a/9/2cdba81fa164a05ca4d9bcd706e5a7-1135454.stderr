@@ -1,0 +1,13 @@
+In file included from component/EventManager/server/./main.cpp:3:0:
+component/EventManager/server/src/IEventManagerServer.h:39:18: warning: unused parameter 'listener' [-Wunused-parameter]
+     virtual void addListener(sp<IEventManagerListener> listener) {};
+                  ^
+component/EventManager/server/src/IEventManagerServer.h:40:18: warning: unused parameter 'eventId' [-Wunused-parameter]
+     virtual void notify(int32_t eventId, char* msg, int32_t msgLength) {};
+                  ^
+component/EventManager/server/src/IEventManagerServer.h:40:18: warning: unused parameter 'msg' [-Wunused-parameter]
+component/EventManager/server/src/IEventManagerServer.h:40:18: warning: unused parameter 'msgLength' [-Wunused-parameter]
+component/EventManager/server/./main.cpp:5:5: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc,char** argv ) {
+     ^
+component/EventManager/server/./main.cpp:5:5: warning: unused parameter 'argv' [-Wunused-parameter]

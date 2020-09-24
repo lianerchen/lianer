@@ -1,0 +1,23 @@
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page.cpp: In member function 'void CPDF_TextObject::GetItemInfo(int, CPDF_TextObjectItem*) const':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page.cpp:120:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (pInfo->m_CharCode == -1) {
+                               ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page.cpp: In member function 'void CPDF_Page::GetDisplayMatrix(CFX_Matrix&, int, int, int, int, int) const':
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page.cpp:997:25: warning: 'x2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int x0, y0, x1, y1, x2, y2;
+                         ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page.cpp:997:9: warning: 'x0' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int x0, y0, x1, y1, x2, y2;
+         ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page.cpp:997:29: warning: 'y2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int x0, y0, x1, y1, x2, y2;
+                             ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page.cpp:997:13: warning: 'y0' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int x0, y0, x1, y1, x2, y2;
+             ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page.cpp:997:17: warning: 'x1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int x0, y0, x1, y1, x2, y2;
+                 ^
+platform/android/external/pdfium/core/src/fpdfapi/fpdf_page/fpdf_page.cpp:997:21: warning: 'y1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int x0, y0, x1, y1, x2, y2;
+                     ^

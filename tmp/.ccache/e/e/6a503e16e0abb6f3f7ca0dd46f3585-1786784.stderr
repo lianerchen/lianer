@@ -1,0 +1,34 @@
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:661:1: warning: narrowing conversion of '2180108801u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+ };
+ ^
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:661:1: warning: narrowing conversion of '2435191937u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:661:1: warning: narrowing conversion of '2914591489u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:661:1: warning: narrowing conversion of '3560484608u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:665:1: warning: narrowing conversion of '2147483649u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+ };
+ ^
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:665:1: warning: narrowing conversion of '2276992735u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:665:1: warning: narrowing conversion of '2649899348u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:665:1: warning: narrowing conversion of '3221225445u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:665:1: warning: narrowing conversion of '3922060664u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:674:1: warning: narrowing conversion of '2156644481u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+ };
+ ^
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:674:1: warning: narrowing conversion of '2229462401u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:674:1: warning: narrowing conversion of '2372618753u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:674:1: warning: narrowing conversion of '2581238273u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:674:1: warning: narrowing conversion of '2848216833u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:674:1: warning: narrowing conversion of '3164462721u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:674:1: warning: narrowing conversion of '3519206656u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:674:1: warning: narrowing conversion of '3900368192u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:681:1: warning: narrowing conversion of '2147483649u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+ };
+ ^
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:681:1: warning: narrowing conversion of '2184048624u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:681:1: warning: narrowing conversion of '2292498406u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:681:1: warning: narrowing conversion of '2469139869u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:681:1: warning: narrowing conversion of '2707957698u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:681:1: warning: narrowing conversion of '3000819239u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:681:1: warning: narrowing conversion of '3337751441u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:681:1: warning: narrowing conversion of '3707280484u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]
+platform/android/external/aac/libAACenc/src/aacEnc_rom.cpp:681:1: warning: narrowing conversion of '4096822497u' from 'unsigned int' to 'const FIXP_DBL {aka const long int}' inside { } is ill-formed in C++11 [-Wnarrowing]

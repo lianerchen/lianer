@@ -1,0 +1,7 @@
+platform/android/external/ltrace/value.c: In function 'value_init_element':
+platform/android/external/ltrace/value.c:268:39: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   ret_val->u.address = val->u.address + off;
+                                       ^
+platform/android/external/ltrace/value.c:278:47: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   ret_val->u.inf_address = val->u.inf_address + off;
+                                               ^

@@ -1,0 +1,12 @@
+platform/android/external/bzip2/bzlib.c: In function 'default_bzalloc':
+platform/android/external/bzip2/bzlib.c:102:31: warning: unused parameter 'opaque' [-Wunused-parameter]
+ void* default_bzalloc ( void* opaque, Int32 items, Int32 size )
+                               ^
+platform/android/external/bzip2/bzlib.c: In function 'default_bzfree':
+platform/android/external/bzip2/bzlib.c:109:29: warning: unused parameter 'opaque' [-Wunused-parameter]
+ void default_bzfree ( void* opaque, void* addr )
+                             ^
+platform/android/external/bzip2/bzlib.c: In function 'BZ2_bzflush':
+platform/android/external/bzip2/bzlib.c:1506:34: warning: unused parameter 'b' [-Wunused-parameter]
+ int BZ_API(BZ2_bzflush) (BZFILE *b)
+                                  ^

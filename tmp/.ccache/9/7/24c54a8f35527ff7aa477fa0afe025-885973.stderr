@@ -1,0 +1,11 @@
+platform/android/external/libnl/lib/genl/ctrl.c: In function 'ctrl_request_update':
+platform/android/external/libnl/lib/genl/ctrl.c:34:49: warning: unused parameter 'c' [-Wunused-parameter]
+ static int ctrl_request_update(struct nl_cache *c, struct nl_sock *h)
+                                                 ^
+platform/android/external/libnl/lib/genl/ctrl.c: In function 'ctrl_msg_parser':
+platform/android/external/libnl/lib/genl/ctrl.c:55:49: warning: unused parameter 'ops' [-Wunused-parameter]
+ static int ctrl_msg_parser(struct nl_cache_ops *ops, struct genl_cmd *cmd,
+                                                 ^
+platform/android/external/libnl/lib/genl/ctrl.c:55:71: warning: unused parameter 'cmd' [-Wunused-parameter]
+ static int ctrl_msg_parser(struct nl_cache_ops *ops, struct genl_cmd *cmd,
+                                                                       ^

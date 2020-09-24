@@ -1,0 +1,21 @@
+out/host/linux-x86/obj/SHARED_LIBRARIES/libbacktrace_libc++_intermediates/thread_utils.o: \
+ platform/android/system/core/libbacktrace/thread_utils.c \
+ platform/android/build/core/combo/include/arch/linux-x86/AndroidConfig.h \
+ platform/android/system/core/libbacktrace/thread_utils.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/unistd.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/features.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/predefs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/sys/cdefs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/wordsize.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/gnu/stubs.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/gnu/stubs-64.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/posix_opt.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/types.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/typesizes.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../lib/gcc/x86_64-linux/4.6/include/stddef.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/confname.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/getopt.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/sys/syscall.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/asm/unistd.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/asm/unistd_64.h \
+ platform/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/bin/../sysroot/usr/include/bits/syscall.h

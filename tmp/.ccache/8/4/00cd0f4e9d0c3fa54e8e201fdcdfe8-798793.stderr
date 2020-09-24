@@ -1,0 +1,4 @@
+platform/android/external/tremolo/Tremolo/vorbisfile.c: In function 'ov_raw_seek':
+platform/android/external/tremolo/Tremolo/vorbisfile.c:1057:10: warning: 'eosflag' may be used uninitialized in this function [-Wmaybe-uninitialized]
+        if(eosflag)
+          ^

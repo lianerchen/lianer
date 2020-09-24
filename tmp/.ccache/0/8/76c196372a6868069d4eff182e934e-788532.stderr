@@ -1,0 +1,57 @@
+In file included from component/DAS/eventmaster/event_master.h:26:0,
+                 from component/DAS/eventmaster/event_master.c:51:
+component/DAS/eventmaster/master.h:87:0: warning: "NFDBITS" redefined [enabled by default]
+ #define NFDBITS (sizeof(int) * NBBY) /* bits per mask (power of 2!)*/
+ ^
+In file included from platform/android/bionic/libc/include/unistd.h:34:0,
+                 from platform/android/bionic/libc/include/fcntl.h:37,
+                 from component/DAS/eventmaster/event_master.c:40:
+platform/android/bionic/libc/include/sys/select.h:41:0: note: this is the location of the previous definition
+ #define NFDBITS (8 * sizeof(unsigned long))
+ ^
+In file included from component/DAS/eventmaster/event_master.h:26:0,
+                 from component/DAS/eventmaster/event_master.c:51:
+component/DAS/eventmaster/master.h:88:0: warning: "FD_CLR" redefined [enabled by default]
+ #define FD_CLR(n, p) (*(p) &= ~(1 << ((n) % NFDBITS)))
+ ^
+In file included from platform/android/bionic/libc/include/unistd.h:34:0,
+                 from platform/android/bionic/libc/include/fcntl.h:37,
+                 from component/DAS/eventmaster/event_master.c:40:
+platform/android/bionic/libc/include/sys/select.h:59:0: note: this is the location of the previous definition
+ #define FD_CLR(fd, set) __FD_CLR_chk(fd, set, __bos(set))
+ ^
+In file included from component/DAS/eventmaster/event_master.h:26:0,
+                 from component/DAS/eventmaster/event_master.c:51:
+component/DAS/eventmaster/master.h:89:0: warning: "FD_ISSET" redefined [enabled by default]
+ #define FD_ISSET(n, p) (*(p) & (1 << ((n) % NFDBITS)))
+ ^
+In file included from platform/android/bionic/libc/include/unistd.h:34:0,
+                 from platform/android/bionic/libc/include/fcntl.h:37,
+                 from component/DAS/eventmaster/event_master.c:40:
+platform/android/bionic/libc/include/sys/select.h:61:0: note: this is the location of the previous definition
+ #define FD_ISSET(fd, set) __FD_ISSET_chk(fd, set, __bos(set))
+ ^
+In file included from component/DAS/eventmaster/event_master.h:26:0,
+                 from component/DAS/eventmaster/event_master.c:51:
+component/DAS/eventmaster/master.h:90:0: warning: "FD_SET" redefined [enabled by default]
+ #define FD_SET(n, p) (*(p) |= (1 << ((n) % NFDBITS)))
+ ^
+In file included from platform/android/bionic/libc/include/unistd.h:34:0,
+                 from platform/android/bionic/libc/include/fcntl.h:37,
+                 from component/DAS/eventmaster/event_master.c:40:
+platform/android/bionic/libc/include/sys/select.h:60:0: note: this is the location of the previous definition
+ #define FD_SET(fd, set) __FD_SET_chk(fd, set, __bos(set))
+ ^
+component/DAS/eventmaster/event_master.c: In function 'TimeNow':
+component/DAS/eventmaster/event_master.c:104:3: warning: implicit declaration of function 'times' [-Wimplicit-function-declaration]
+   nTickCount = times(NULL);
+   ^
+component/DAS/eventmaster/event_master.c:104:3: warning: nested extern declaration of 'times' [-Wnested-externs]
+component/DAS/eventmaster/event_master.c:106:3: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'clock_t' [-Wformat=]
+   DebugOutString(TR069_DEBUG_OUT, "times read first value : 0x%x , HZ : %u\n", nTickCount, nTickPerSec); 
+   ^
+component/DAS/eventmaster/event_master.c:106:3: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'long int' [-Wformat=]
+component/DAS/eventmaster/event_master.c:112:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t' [-Wformat=]
+   DebugOutString(TR069_ERROR_OUT, "times error: %d, errno:%d, lastTick:0x%x\n", nTickCount, errno, lastTick);
+   ^
+component/DAS/eventmaster/event_master.c:112:3: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'long int' [-Wformat=]

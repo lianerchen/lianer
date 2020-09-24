@@ -1,0 +1,8 @@
+platform/android/external/fio/fifo.c: In function 'fifo_put':
+platform/android/external/fio/fifo.c:60:30: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+  memcpy(fifo->buffer, buffer + l, len - l);
+                              ^
+platform/android/external/fio/fifo.c: In function 'fifo_get':
+platform/android/external/fio/fifo.c:88:14: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   memcpy(buf + l, fifo->buffer, len - l);
+              ^

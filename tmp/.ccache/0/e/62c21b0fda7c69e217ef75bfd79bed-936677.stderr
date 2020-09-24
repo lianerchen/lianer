@@ -1,0 +1,4 @@
+platform/android/frameworks/native/services/sensorservice/BatteryService.cpp: In member function 'void android::BatteryService::cleanupImpl(uid_t)':
+platform/android/frameworks/native/services/sensorservice/BatteryService.cpp:86:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for (ssize_t i=0 ; i<mActivations.size() ; i++) {
+                                                ^

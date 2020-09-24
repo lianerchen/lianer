@@ -1,0 +1,4 @@
+platform/android/system/vold/logwrapper.c: In function 'logwrap':
+platform/android/system/vold/logwrapper.c:122:55: warning: call to 'ptsname' declared with attribute warning: ptsname is not thread-safe; use ptsname_r instead [enabled by default]
+     if (grantpt(parent_ptty) || unlockpt(parent_ptty) ||
+                                                       ^

@@ -1,0 +1,3 @@
+platform/android/frameworks/base/media/mca/filterfw/jni/jni_init.cpp:30:6: warning: unused parameter 'reserved' [-Wunused-parameter]
+ jint JNI_OnLoad(JavaVM* vm, void* reserved) {
+      ^
